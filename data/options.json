@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        }
+    },
+    "user": {
+        "lootsanity":{
+            "description": [
+                "Set this to true if you want a bunch of individual lootable crates/barrels/chests added to the pool as location checks.",
+                "This will also add a bunch of filler potions and scrolls to the item pool to compensate for check count.",
+                "When lootsanity is false, scrolls and potions are not in the item pool at all (just use them as you find them), and there are still some loot checks, but they are by room rather than individual lootable object.",
+                "Note that your Lockpicking ability is NOT accounted for at this time. Progression may be locked behind a locked chest and it's up to you to get past it."
+            ],
+            "type": "Toggle",
+            "default": false
+        }
+    }
+}

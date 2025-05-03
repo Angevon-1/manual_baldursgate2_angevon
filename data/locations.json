@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Meet Imoen",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Free Minsc from the cell in Irenicus's Dungeon",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Free Jaheira from the cell in Irenicus's Dungeon",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": "|Jail Cell Key (MISC4B)|"
+  },
+  {
+    "name": "Loot the barrel near Rielev",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Rielev",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near the Sewer Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Decide the Cambion's Fate",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Defeat the Otyiugh",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Hit the Switch to Stop the Lightning Mephits",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Find Khalid.",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Meet Yoshimo",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the clone and/or assassin in the clone room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Complete the Throne Room puzzle",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Defeat vampire Ulvaryl",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Defeat the assassins after Ulvaryl",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Decide Frennedan's fate",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Defeat the Duergar after Ulvaryl",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Decide the Genie's fate",
+    "region": "Elemental Plane of Air",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|The Genie's Flask (MISC4D)|"
+  },
+  {
+    "name": "Escape Irenicus's Dungeon",
+    "victory": true,
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|Portal Key (MISC4G)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
+  },
+
+  {
+    "name": "Loot the locked crate at the end of the room Imoen knows",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": [],
+    "region": "Irenicus's Dungeon (Level 1)"
+  },
+  {
+    "name": "Loot the library",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": [],
+    "region": "Irenicus's Dungeon (Level 1)"
+  },
+  {
+    "name": "Loot the Otyugh room",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"],
+    "region": "Irenicus's Dungeon (Level 1)"
+  },
+  {
+    "name": "Deal with Genie Aataqah",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Talk to (or deal with) the Dryads on behalf of the Genie",
+    "region": "Elemental Plane of Air",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Defeat the Lesser Clay Golems",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the room Ilyich was in",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": []
+  },
+  {
+    "name": "Loot the room Khalid was in",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": []
+  },
+  {
+    "name": "Loot the throne",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
+  }
+]

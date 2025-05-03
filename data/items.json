@@ -1,0 +1,222 @@
+[
+  {
+    "count": 1,
+    "name": "Jail Cell Key (MISC4B)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Energy Cells (MISC4E)",
+    "category": [
+      "Irenicus's Dungeon - Misc."
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Activation Stone (MISC4A)",
+    "category": [
+      "Irenicus's Dungeon - Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "category": [
+      "Irenicus's Dungeon - Misc."
+    ],
+    "name": "The Genie's Flask (MISC4D)",
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sewage Golem Key (MISC4O)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Acorns (MISC4N)",
+    "category": [
+      "Irenicus's Dungeon - Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Frost Key (MISC4I)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+
+  {
+    "count": 1,
+    "name": "Wand of Lightning Key (MISC4K)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Air Elemental Statue (MISC4C)",
+    "category": [
+      "Irenicus's Dungeon - Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Portal Key (MISC4G)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Cloudkill Key (MISC4L)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Fire Key (MISC4H)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Summoning Key (MISC4J)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Missiles Key (MISC4M)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Key to Frennedan's Room (MISC4P)",
+    "category": [
+      "Irenicus's Dungeon - Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Girdle of Bluntness (BELT03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sword of Chaos +2 (SW2H16)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Helm of Balduran (HELM07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+
+  {
+    "count": 1,
+    "name": "Pommel Jewel of the Equalizer (SW1H54C)",
+    "category": [
+      "Equipment Parts"
+    ],
+    "useful": true
+  },
+
+  {
+    "count": 1,
+    "name": "Mail of the Dead +2 (CHAN03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Metaspell Influence Amulet (AMUL16)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Longsword +1 (SW1H05)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Bastard Sword +1 (SW1H02)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Quarterstaff +1 (STAF02)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  },
+
+  {
+    "count": 1,
+    "name": "Helm of Infravision (HELM05)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of Protection +1 (RING06)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Dagger +1 (DAGG02)",
+    "category": [
+      "Equipment"
+    ],
+    "filler": true
+  }
+]

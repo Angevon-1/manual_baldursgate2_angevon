@@ -1,0 +1,18 @@
+{
+  "Irenicus's Dungeon (Level 1)": {
+    "connects_to": [
+      "Irenicus's Dungeon (Level 2)",
+      "Elemental Plane of Air"
+    ],
+    "starting": true,
+    "requires": []
+  },
+  "Irenicus's Dungeon (Level 2)": {
+    "connects_to": [],
+    "requires": "|Portal Key (MISC4G)|"
+  },
+  "Elemental Plane of Air": {
+    "connects_to": [],
+    "requires": "|Air Elemental Statue (MISC4C)|"
+  }
+}
