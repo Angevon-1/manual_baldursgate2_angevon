@@ -1,9 +1,7 @@
-# Manual
-
 ## What is a video game randomizer?
 Let’s say you’re playing an adventure video game. You’re exploring the world, and find a cave. You explore the cave and find a treasure chest. You open the chest and find a sword. You can now use the sword to clear the vines that were blocking an earlier part of the cave.
 
-And that’s how this particular game is. If you were to start a new file in the game and start all over, you’ll have to go to that same cave and find your sword. Your sword will always be in that chest in that cave, and you’d be expected to use it to clear the vines.
+And that’s how this particular game is intended to be played. If you were to start a new file in the game and start all over, you’ll have to go to that same cave and find your sword. Your sword will always be in that chest in that cave, and you’d be expected to use it to clear the vines.
 
 A randomizer (usually) tries to change things up by changing what’s expected. So, instead of your sword, that chest might have a bow. Maybe instead of using a sword to clear the vines, you’ll be expected to use fire arrows from the bow to burn them away.
 
@@ -19,8 +17,10 @@ Each 'game' in Archipelago is called a 'world', and when there are multiple game
 There's a lot more that Archipelago can do, but that's the basic idea.
 
 ## What is a manual?
-Obviously, not all games are on the supported games list. Manual is a system that can be used to create a simple implementation for games not on the list. Generally, when someone is making a manual, they create a list of items in the game (sword, bow, money, arrows, etc.), and a list of locations to find items in (treasure chests, quest rewards, etc.). Then, when the game is included in a multiworld, Archipelago will randomize the manual game's items across all the worlds in the multiworld. Then, when playing the manual, the tasks of marking which locations you've checked, and limiting your item use based on what items you've received, is all performed by you (the player) via the honor system. You manually track both of these via the Manual client which can be accessed from the Archipelago Launcher.
+Obviously, not all games are on the supported games list. Manual is a system that can be used to create a simple implementation for games not on the list. Generally, when someone is making a manual, they create a list of items in the game (sword, bow, money, arrows, etc.), and a list of locations to find items in (treasure chests, quest rewards, etc.). Then, when the manual game is included in a multiworld, Archipelago will randomize the manual game's items across all the worlds in the multiworld. Then, when playing the manual, the tasks of marking which locations you've checked, and limiting your item use based on what items you've received, are all performed by you (the player) via the honor system. You [i]manually[/i] track both of these via the Manual client which can be accessed from the Archipelago Launcher. 
+
+For example, after you open a specific treasure chest, you press the button in the manual client that says "I opened X chest", and the multiworld system will figure out what item was there and send it out to whoever it belongs to.
 
 ## How does this particular manual work?
 
-Please see the [BG2 Readme](\BG2_readme.md) instead!
+Please see the [BG2 Readme](\BG2_readme.md) for details!

@@ -20,7 +20,7 @@ Save and close the file.
 
 After loading your game save, press ctrl + spacebar at the same time to open the cheat console window at the bottom. It looks like a chat box. That's where cheat console commands will go.
 
-Say you've received "Boots of Speed (boot01)" from the multiworld. The (boot01) is the item code. To receive it in game, you'll type the following into the cheat console. Again, the command will change based on version.
+Say you've received "Boots of Speed (boot01)" from the multiworld. The (boot01) is the item code. All items in this manual will have the item code in parenthesis like this. To receive it in game, you'll type the following into the cheat console. Again, the command will change based on version.
 
 For classic, type the following command into the cheat console chat area:
 CLUAConsole:CreateItem("boot01")
