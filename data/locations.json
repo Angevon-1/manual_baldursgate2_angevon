@@ -18,6 +18,96 @@
     "requires": "|Jail Cell Key (MISC4B)|"
   },
   {
+    "name": "Loot the table near the Jailkeep Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near the Jailkeep Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the picture on the wall near the Jailkeep Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Jailkeep Golem's room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)}"]
+  },
+  {
+    "name": "Hit the Switch to stop the Lightning Mephits",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Answer (or not) the Genie's question",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the unlocked crate in the tank room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the locked crate in the tank room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the tank room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the tank room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)}"]
+  },
+  {
+    "name": "Loot the large table near the Sewage Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the small table near the Sewage Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the cabinet near the Sewage Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near the Sewage Golem",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Sewage Golem's room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)}"]
+  },
+  {
     "name": "Loot the barrel near Rielev",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
@@ -30,10 +120,10 @@
     "requires": []
   },
   {
-    "name": "Loot the table near the Sewer Golem",
-    "region": "Irenicus's Dungeon (Level 1)",
+    "name": "Loot the library",
     "category": ["Irenicus's Dungeon - Looting"],
-    "requires": []
+    "requires": [],
+    "region": "Irenicus's Dungeon (Level 1)"
   },
   {
     "name": "Defeat Ilyich",
@@ -42,69 +132,153 @@
     "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
+    "name": "Loot the barrel near Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first table near Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second table near Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near Ilyich",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the room Ilyich was in",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)}"]
+  },
+  {
     "name": "Decide the Cambion's Fate",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Enemies"],
-    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+    "requires": []
   },
   {
-    "name": "Defeat the Otyiugh",
+    "name": "Defeat the Otyugh",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Enemies"],
     "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Hit the Switch to Stop the Lightning Mephits",
+    "name": "Loot the large locked chest in the Otyugh room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Misc."],
-    "requires": []
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Find Khalid.",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Characters"],
-    "requires": []
+    "name": "Loot the small locked chest in the Otyugh room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Meet Yoshimo",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Characters"],
-    "requires": []
+    "name": "Loot the small unlocked chest in the Otyugh room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Defeat the clone and/or assassin in the clone room",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
-    "requires": []
+    "name": "Loot the Otyugh room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)}"]
   },
   {
-    "name": "Complete the Throne Room puzzle",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "name": "Loot the first bookshelf in the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Defeat vampire Ulvaryl",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "name": "Loot the second bookshelf in the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Defeat the assassins after Ulvaryl",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "name": "Loot the chest in the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Decide Frennedan's fate",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "name": "Loot the nightstand in the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
   },
   {
-    "name": "Defeat the Duergar after Ulvaryl",
-    "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "name": "Loot the first vase to the left of Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Loot the second vase to the left of Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Loot the Master's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND {YamlDisabled(lootsanity)}"]
+  },
+  {
+    "name": "Loot the nightstand in the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Loot the chest in the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },  
+  {
+    "name": "Loot the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND {YamlDisabled(lootsanity)}"]
+  },
+  {
+    "name": "Loot the bookshelf in the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Loot the table in the Mistress's Room",
+    "region": "Irenicus's Dungeon (Level 1)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+  },
+  {
+    "name": "Loot the location on the left side of Elemental Plane of Air",
+    "region": "Elemental Plane of Air",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
     "requires": []
   },
   {
@@ -114,42 +288,202 @@
     "requires": "|The Genie's Flask (MISC4D)|"
   },
   {
-    "name": "Escape Irenicus's Dungeon",
-    "victory": true,
+    "name": "Meet Yoshimo",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],
-    "requires": "|Portal Key (MISC4G)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
-  },
-
-  {
-    "name": "Loot the locked crate at the end of the room Imoen knows",
-    "category": ["Irenicus's Dungeon - Looting"],
-    "requires": [],
-    "region": "Irenicus's Dungeon (Level 1)"
-  },
-  {
-    "name": "Loot the library",
-    "category": ["Irenicus's Dungeon - Looting"],
-    "requires": [],
-    "region": "Irenicus's Dungeon (Level 1)"
-  },
-  {
-    "name": "Loot the Otyugh room",
-    "category": ["Irenicus's Dungeon - Looting"],
-    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"],
-    "region": "Irenicus's Dungeon (Level 1)"
-  },
-  {
-    "name": "Deal with Genie Aataqah",
-    "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Characters"],
     "requires": []
   },
   {
-    "name": "Loot the Master's Room",
-    "region": "Irenicus's Dungeon (Level 1)",
+    "name": "Find Khalid.",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near Yoshimo",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
     "category": ["Irenicus's Dungeon - Looting"],
-    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
+    "requires": ["{YamlDisabled(lootsanity)}"]
+  },
+  {
+    "name": "Loot the bookshelf in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near the bookshelf in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Khalid in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first chest in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second chest in the Mephit Portal Room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the clone and/or assassin in the clone room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first barrel in the clone room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second barrel in the clone room",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Duergar Room (behind the smithy)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": ["{YamlDisabled(lootsanity)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"]
+  },
+  {
+    "name": "Loot the crate in the Duergar Room (behind the smithy)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"]
+  },
+  {
+    "name": "Loot the first chest in the Duergar Room (behind the smithy)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"]
+  },
+  {
+    "name": "Loot the second chest in the Duergar Room (behind the smithy)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"]
+  },
+  {
+    "name": "Loot the table in the Duergar Room (behind the smithy)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": ["|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"]
+  },
+  {
+    "name": "Complete the Throne Room puzzle",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the throne",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Defeat vampire Ulvaryl and/or the assassins",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the bookshelf in the room before Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the unlocked chest in the room before Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the locked chest in the room before Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the room before Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "{YamlDisabled(lootsanity)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the left bookshelf in Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the right bookshelf in Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the first table in Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],    
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the second table in Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],    
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the chest in Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot Frennedan's cell",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Decide Frennedan's fate",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Misc."],    
+    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Defeat the Duergar (after the throne room)",
+    "region": "Irenicus's Dungeon (Level 2)",
+    "category": ["Irenicus's Dungeon - Enemies"],
+    "requires": []
   },
   {
     "name": "Talk to (or deal with) the Dryads on behalf of the Genie",
@@ -157,22 +491,11 @@
     "category": ["Irenicus's Dungeon - Misc."],
     "requires": []
   },
-  {
-    "name": "Loot the Mistress's Room",
-    "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting"],
-    "requires": ["|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"]
-  },
+
   {
     "name": "Defeat the Lesser Clay Golems",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Enemies"],
-    "requires": []
-  },
-  {
-    "name": "Loot the room Ilyich was in",
-    "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting"],
     "requires": []
   },
   {
@@ -182,9 +505,10 @@
     "requires": []
   },
   {
-    "name": "Loot the throne",
+    "name": "Escape Irenicus's Dungeon",
+    "victory": true,
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
+    "category": ["Irenicus's Dungeon - Misc."],
+    "requires": "|Wand of Missiles Key (MISC4M)|"
   }
 ]

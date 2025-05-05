@@ -1,12 +1,10 @@
 [b]This readme expects you to have knowledge of both Archipelago and Manual. If you don't, please see [the Archipelago readme](\Archipelago_README.md) first![/b]
 
-Baldur's Gate 2: Shadows of Amn is a classic isometric-style RPG with a cast of memorable characters in the Forgotten Realms setting. It is among the handful of BioWare games that started the genre of “real-time with pause” combat mechanics later seen in Dragon Age. Since I'm no programmer, I decided to try my hand at making a manual fo it to be used with Archipelago.
+Baldur's Gate 2: Shadows of Amn is a classic isometric-style RPG with a cast of memorable characters in the Forgotten Realms setting. It is among the handful of BioWare games that started the genre of “real-time with pause” combat mechanics later seen in Dragon Age. Since I'm no programmer, I decided to try my hand at making a manual for it to be used with Archipelago.
 
 Conveniently, BG2 has randomizers available, and an extensive, easy to use cheat console. This manual will require use of the cheat console and/or save editing, but the randomizers are optional.
 
-There are two versions of the game: classic and Enhanced Edition. Classic has been discontinued for sale on digital storefronts, but some may still have the CDs (like me). Enhanced Edition is available on many digital storefronts. 
-
-The steps to enable the cheat console depend on the version.
+There are two versions of the game: classic and Enhanced Edition. The steps to enable the cheat console depend on the version. Classic has been discontinued for sale on digital storefronts, but some may still have the CDs, so I'll include the instructions for completion's sake. Enhanced Edition is available on many digital storefronts. 
 
 [u]For classic:[/u]
 Open the Baldur.ini file (located in the BG2 installation directory).
@@ -14,7 +12,7 @@ Find the line [Program Options] and add the text Debug Mode=1 underneath.
 Save and close the file.
 
 [u]For Enhanced Edition:[/u]
-Locate the folder at Documents > Baldur's Gate - Enhanced Edition. This is usually in  C:\users\(username)\Documents but may be somewhere in your OneDrive. In a text editor, open the file Baldur.lua.
+Locate the folder at Documents > Baldur's Gate - Enhanced Edition. This is usually in  C:\users\ (username)\Documents but may be somewhere in your OneDrive. In a text editor, open the file Baldur.lua.
 Add the line SetPrivateProfileString('Program Options','Debug Mode','1') to the file.
 Save and close the file.
 
@@ -29,6 +27,8 @@ And then press enter to submit the command.
 For enhanced, they've shortened the command to:
 C:CreateItem("boot01")
 And then press enter to submit the command.
+
+The item will appear in the top character's inventory.
 
 Alternatively, a save editor like <a href="https://sorcerers.net/Games/BG2/index_editors.php">Shadowkeeper</a> (classic) or <a href="https://sourceforge.net/projects/eekeeper/">EEKeeper</a> (enhanced) can be used to edit received items directly into your inventory.
 

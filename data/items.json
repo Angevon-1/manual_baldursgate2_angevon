@@ -122,7 +122,7 @@
   },
   {
     "count": 1,
-    "name": "Girdle of Bluntness (BELT03)",
+    "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
     "category": [
       "Equipment"
     ],
@@ -164,7 +164,7 @@
   },
   {
     "count": 1,
-    "name": "Metaspell Influence Amulet (AMUL16)",
+    "name": "Metaspell Influence Amulet, The Amplifier (AMUL16)",
     "category": [
       "Equipment"
     ],
@@ -172,7 +172,7 @@
   },
   {
     "count": 1,
-    "name": "Longsword +1 (SW1H05)",
+    "name": "Long Sword +1 (SW1H05)",
     "category": [
       "Equipment"
     ],
@@ -194,14 +194,21 @@
     ],
     "filler": true
   },
-
   {
     "count": 1,
-    "name": "Helm of Infravision (HELM05)",
+    "name": "The Grave Binder +2 (DAGG04)",
     "category": [
       "Equipment"
     ],
-    "filler": true
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Helm of Infravision, The Eyes of Truth (HELM05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
   },
   {
     "count": 1,
@@ -216,6 +223,222 @@
     "name": "Dagger +1 (DAGG02)",
     "category": [
       "Equipment"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Potion of Healing x5",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 3,
+    "name": "Potion of Healing x3",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Potion of Healing x2",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Healing x1",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Master Theivery x1",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Flame Arrow",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Larloch's Minor Drain",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 3,
+    "name": "Oil of Speed",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Potion of Extra Healing",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 5,
+    "name": "Potion of Extra Healing x2",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Elixer of Health x4",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Know Alignment",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Grease",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Vocalize",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Clairvoyance",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Chromatic Orb",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Burning Hands",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Scroll of Fireball",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Armor",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Dire Charm",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Monster Summoning I",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Air Elemental",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Hold Person",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Charm Person",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Knock",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Invisibility",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Blur",
+    "category": [
+      "Consumables", "Lootsanity"
     ],
     "filler": true
   }
