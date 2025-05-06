@@ -1,5 +1,9 @@
 {   "Lootsanity": {
     "hidden": true,
     "yaml_option": ["lootsanity"]
+},
+    "LootsanityLite": {
+    "hidden": true,
+    "yaml_option": ["lootsanity_lite"]
 }
 }
