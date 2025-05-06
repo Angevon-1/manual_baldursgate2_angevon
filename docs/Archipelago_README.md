@@ -21,6 +21,8 @@ Obviously, not all games are on the supported games list. Manual is a system tha
 
 For example, after you open a specific treasure chest, you press the button in the manual client that says "I opened X chest", and the multiworld system will figure out what item was there and send it out to whoever it belongs to.
 
+As with Archipelago, there's a lot more that Manual can do, but that's the basic idea.
+
 ## How does this particular manual work?
 
 Please see the [BG2 Readme](\BG2_readme.md) for details!

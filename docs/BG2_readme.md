@@ -1,6 +1,6 @@
 [b]This readme expects you to have knowledge of both Archipelago and Manual. If you don't, please see [the Archipelago readme](\Archipelago_README.md) first![/b]
 
-Baldur's Gate 2: Shadows of Amn is a classic isometric-style RPG with a cast of memorable characters in the Forgotten Realms setting. It is among the handful of BioWare games that started the genre of “real-time with pause” combat mechanics later seen in Dragon Age. Since I'm no programmer, I decided to try my hand at making a manual for it to be used with Archipelago.
+Baldur's Gate 2: Shadows of Amn is a classic isometric-style RPG with a cast of memorable characters in the Forgotten Realms setting. It is among the handful of BioWare games that started the genre of “real-time with pause” combat mechanics later seen in Dragon Age. 
 
 Conveniently, BG2 has randomizers available, and an extensive, easy to use cheat console. This manual will require use of the cheat console and/or save editing, but the randomizers are optional.
 
@@ -33,17 +33,17 @@ The item will appear in the top character's inventory.
 Alternatively, a save editor like <a href="https://sorcerers.net/Games/BG2/index_editors.php">Shadowkeeper</a> (classic) or <a href="https://sourceforge.net/projects/eekeeper/">EEKeeper</a> (enhanced) can be used to edit received items directly into your inventory.
 
 Items include:
-Characters (e.g. Minsc)
-Equipment (e.g. Helm of Balduran, Mail of the Dead +2)
-Key items (e.g. keys, activation stones, the dryads’ acorns)
+Magical Equipment (e.g. Dagger +1, Helm of Balduran, Mail of the Dead +2)
+Key items (e.g. keys, letters, the dryads’ acorns)
+Forgeable equipment pieces
 Location unlocks (e.g. Bridge District, Windspear Hills)
 Gold (filler item)
 
 Location checks are:
 Defeating quest and location-specific enemies (e.g. defeating the Otyugh in Irenicus’s Dungeon)
-Completing quest objectives
-Meeting NPCs (e.g. meeting Anomen in the Copper Coronet, regardless of whether or not you recruit him)
-Looting specific crates/tables that would normally have an important item in vanilla (e.g. the chest with the Metaspell Influence amulet in the mistress’s room in Irenicus’s Dungeon)
+Completing objectives
+Meeting NPCs (e.g. meeting Yoshimo on floor 2 of Irenicus's Dungeon. Don't have to recruit, just meet)
+Looting entire rooms, and/or crates/barrels/tables/etc (optional)
 
 It’s up to you whether to wait until you receive an equipment before you can use it, or just go ahead and pick up everything and use it regardless. Key items should definitely be locked until you receive them, however, since that’s how the logic is intended to work.
 
