@@ -30,7 +30,7 @@ If everything is right, press Connect and you'll be connected.
 Open the Manual tab of the Manual Client. On the left is a list of items you've received, and on the right are all the game's location checks.
 Checks that are logically available are highlighted green.
 When you've completed a check, click it to send it to the server as complete.
-When you've achieved the victory condition, click the Victory!! button to mark the world as complete.
+When you've achieved the goal condition, click the GOAL button to mark the world as complete.
 
 ## Game Troubleshooting
 
