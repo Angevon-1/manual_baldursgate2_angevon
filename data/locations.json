@@ -506,9 +506,128 @@
   },
   {
     "name": "Escape Irenicus's Dungeon",
-    "victory": true,
     "region": "Irenicus's Dungeon (Level 2)",
     "category": ["Irenicus's Dungeon - Misc."],
     "requires": "|Wand of Missiles Key (MISC4M)|"
+  },
+  {
+    "name": "Loot the chest near Mira",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near Mira",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the square table near the Ophals",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the round table near the Ophals",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near the Ophals",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the thing near Murtlen",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack near Murtlen",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Murtlen",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 4 stalls near Jerlia",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near the chickens",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the wall decoration near the armorer/fletcherer",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the stall near Enge's shop",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Talk to the Amnian soldier outside the circus tent",
+    "region": "Waukeen's Promenade",
+    "category": ["Waukeen's Promenade - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Answer the Genie's riddle",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left vase in the 2nd room of the circus tent",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right vase in the 2nd room of the circus tent",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the peasants in the circus tent",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the werewolves in the circus tent",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the werewolves in the circus tent",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Kalah",
+    "region": "Circus Tent",
+    "category": ["Waukeen's Promenade - Enemies"],
+    "requires": []
   }
 ]

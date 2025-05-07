@@ -122,6 +122,14 @@
   },
   {
     "count": 1,
+    "name": "The Ogre's Sword",
+    "category": [
+      "Waukeen's Promenade - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
     "category": [
       "Equipment"
@@ -221,6 +229,22 @@
   {
     "count": 1,
     "name": "Dagger +1 (DAGG02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Girdle of Piercing, Elves' Bane (BELT04)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of Human Influence (RING30)",
     "category": [
       "Equipment"
     ],
@@ -437,6 +461,70 @@
   {
     "count": 1,
     "name": "Scroll of Blur (SCRL85)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Dispel Magic (SCRL1E)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection from Petrification (arcane) (SCRL73)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Web (SCRL99)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Infravision (SCRL76)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Magic Missile (SCRL77)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Stoneskin (MISCA5)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Stinking Cloud (SCRL97)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
     ],
