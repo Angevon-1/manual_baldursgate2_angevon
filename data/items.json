@@ -228,7 +228,7 @@
   },
   {
     "count": 2,
-    "name": "Potion of Healing x5",
+    "name": "Potion of Healing x5 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -236,7 +236,7 @@
   },
   {
     "count": 3,
-    "name": "Potion of Healing x3",
+    "name": "Potion of Healing x3 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -244,7 +244,7 @@
   },
   {
     "count": 2,
-    "name": "Potion of Healing x2",
+    "name": "Potion of Healing x2 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -252,7 +252,7 @@
   },
   {
     "count": 1,
-    "name": "Potion of Healing x1",
+    "name": "Potion of Healing x1 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -260,7 +260,7 @@
   },
   {
     "count": 1,
-    "name": "Potion of Master Theivery x1",
+    "name": "Potion of Master Theivery x1 (POTN36)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -268,7 +268,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Flame Arrow",
+    "name": "Scroll of Flame Arrow (SCRL1F)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -276,7 +276,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Larloch's Minor Drain",
+    "name": "Scroll of Larloch's Minor Drain (SCRL84)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -284,7 +284,7 @@
   },
   {
     "count": 3,
-    "name": "Oil of Speed",
+    "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -292,7 +292,7 @@
   },
   {
     "count": 2,
-    "name": "Potion of Extra Healing",
+    "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -300,7 +300,7 @@
   },
   {
     "count": 5,
-    "name": "Potion of Extra Healing x2",
+    "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -308,7 +308,7 @@
   },
   {
     "count": 1,
-    "name": "Elixer of Health x4",
+    "name": "Elixer of Health x4 (POTN17)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -316,7 +316,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Know Alignment",
+    "name": "Scroll of Know Alignment (SCRL92)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -324,7 +324,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Grease",
+    "name": "Scroll of Grease (SCRL66)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -332,7 +332,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Vocalize",
+    "name": "Scroll of Vocalize (SCRL3G)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -340,7 +340,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Clairvoyance",
+    "name": "Scroll of Clairvoyance (SCRL1D)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -348,7 +348,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Chromatic Orb",
+    "name": "Scroll of Chromatic Orb (SCRL83)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -356,7 +356,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Burning Hands",
+    "name": "Scroll of Burning Hands (SCRL68)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -364,7 +364,7 @@
   },
   {
     "count": 2,
-    "name": "Scroll of Fireball",
+    "name": "Scroll of Fireball (SCRL1G)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -372,7 +372,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Armor",
+    "name": "Scroll of Armor (SCRL67)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -380,7 +380,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Dire Charm",
+    "name": "Scroll of Dire Charm (SCRL1S)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -388,7 +388,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Monster Summoning I",
+    "name": "Scroll of Monster Summoning I (SCRL1L)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -398,13 +398,13 @@
     "count": 1,
     "name": "Scroll of Conjure Air Elemental",
     "category": [
-      "Consumables", "Lootsanity"
+      "Consumables", "Lootsanity", "EE"
     ],
     "filler": true
   },
   {
     "count": 1,
-    "name": "Scroll of Hold Person",
+    "name": "Scroll of Hold Person (SCRLHI)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -412,7 +412,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Charm Person",
+    "name": "Scroll of Charm Person (SCRL69)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -420,7 +420,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Knock",
+    "name": "Scroll of Knock (SCRL91)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -428,7 +428,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Invisibility",
+    "name": "Scroll of Invisibility (SCRL90)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -436,7 +436,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Blur",
+    "name": "Scroll of Blur (SCRL85)",
     "category": [
       "Consumables", "Lootsanity"
     ],
