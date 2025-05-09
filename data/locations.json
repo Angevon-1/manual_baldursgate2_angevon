@@ -629,5 +629,113 @@
     "region": "Circus Tent",
     "category": ["Waukeen's Promenade - Enemies"],
     "requires": []
+  },
+  {
+    "name": "Loot the table in Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the vanity in Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the dresser in Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the room above Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the room above Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the dresser in the room above Gaelan Bayle's room",
+    "region": "Slums",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Meet Gaelan Bayle",
+    "region": "Slums",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Cohrvale and Bregg",
+    "region": "Slums",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Meet Korgan",
+    "region": "Copper Coronet",
+    "category": ["Slums - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Meet Anomen",
+    "region": "Copper Coronet",
+    "category": ["Slums - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Meet Nalia",
+    "region": "Copper Coronet",
+    "category": ["Slums - Characters"],
+    "requires": []
+  },
+  {
+    "name": "Meet Firkrag",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Meet Hexxat",
+    "region": "Copper Coronet",
+    "category": ["Slums - Characters", "EE"],
+    "requires": []
+  },
+  {
+    "name": "Deal with Amalas",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Deal with Tiana",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Convince Lehtinan to let you in the back",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Meet Hendak",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Meet the Beastmaster",
+    "region": "Copper Coronet",
+    "category": ["Slums - Misc"],
+    "requires": []
   }
 ]

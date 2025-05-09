@@ -529,5 +529,13 @@
       "Consumables", "Lootsanity"
     ],
     "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Magic Missiles (WAND03)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
   }
 ]

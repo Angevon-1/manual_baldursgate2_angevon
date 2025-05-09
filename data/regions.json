@@ -8,11 +8,59 @@
     "requires": []
   },
   "Irenicus's Dungeon (Level 2)": {
-    "connects_to": [],
+    "connects_to": ["Waukeen's Promenade"],
     "requires": "|Portal Key (MISC4G)|"
   },
   "Elemental Plane of Air": {
     "connects_to": [],
     "requires": "|Air Elemental Statue (MISC4C)|"
+  },
+  "Waukeen's Promenade": {
+    "connects_to": ["Slums"],
+    "requires": ""
+  },
+  "Slums": {
+    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Slums Sewers"],
+    "requires": ""
+  },
+  "Planar Sphere": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Copper Coronet": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Slaver Stockade": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Government District": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Temple District": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Graveyard": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Bridge": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Docks": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "City Gates": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Slums Sewers": {
+    "connects_to": [],
+    "requires": ""
   }
 }
