@@ -130,6 +130,54 @@
   },
   {
     "count": 1,
+    "name": "Beastmaster Key (MISC4Z)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hand (MISC5S)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "The Lover's Ring (MISC5R)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shaman's Staff (MISC5T)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blood of Quallo's Friend (MISC5Q)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Haegan's Key (MISC4R)",
+    "category": [
+      "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
     "category": [
       "Equipment"
@@ -251,6 +299,62 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Tuigan Bow +1 (BOW14)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Circlet of Lost Souls (???)",
+    "category": [
+      "Equipment", "EE"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Lilarcor (SW2H14)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Short Sword +1 (SW1H98)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Studded Leather Armor +2 (LEAT07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cloak of Protection (CLCK01)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Winter Wolf Pelt (MISC01)",
+    "category": [
+      "Misc."
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Potion of Healing x5 (POTN25)",
     "category": [
@@ -267,7 +371,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Potion of Healing x2 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
@@ -307,7 +411,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
@@ -315,7 +419,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -323,7 +427,7 @@
     "filler": true
   },
   {
-    "count": 5,
+    "count": 6,
     "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -333,6 +437,30 @@
   {
     "count": 1,
     "name": "Elixer of Health x4 (POTN17)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Frost Giant Strength (POTN04)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Magic Missiles (WAND03)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Fear (WAND02)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -403,7 +531,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Dire Charm (SCRL1S)",
     "category": [
       "Consumables", "Lootsanity"
@@ -532,7 +660,95 @@
   },
   {
     "count": 1,
-    "name": "Wand of Magic Missiles (WAND03)",
+    "name": "Scroll of Resist Fear (SCRL94)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Luck (SCRL93)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Melf's Acid Arrow (SCRL95)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Stone to Flesh (SCRLPET)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Summon Nishru (???)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Death Fog (???)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Lightning Bolt (SCRL1K)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Sleep (SCRL81)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Chill Touch (SCRL82)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Shield (SCRL79)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection from Evil (SCRL78)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Shocking Grasp (SCRL80)",
     "category": [
       "Consumables", "Lootsanity"
     ],

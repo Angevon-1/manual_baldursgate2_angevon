@@ -667,6 +667,12 @@
     "requires": []
   },
   {
+    "name": "Loot Gaelan Bayle's base",
+    "region": "Slums",
+    "category": ["Slums - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
     "name": "Meet Gaelan Bayle",
     "region": "Slums",
     "category": ["Slums - Misc"],
@@ -675,7 +681,7 @@
   {
     "name": "Defeat Cohrvale and Bregg",
     "region": "Slums",
-    "category": ["Slums - Misc"],
+    "category": ["Slums - Enemies"],
     "requires": []
   },
   {
@@ -727,6 +733,12 @@
     "requires": []
   },
   {
+    "name": "Defeat the guards in the very back of the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
     "name": "Meet Hendak",
     "region": "Copper Coronet",
     "category": ["Slums - Misc"],
@@ -736,6 +748,258 @@
     "name": "Meet the Beastmaster",
     "region": "Copper Coronet",
     "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Winter Wolf in the back of the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack in the Copper Coronet kitchen",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the Copper Coronet kitchen",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Unger Hilldark's table in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Tiana in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near Anomen in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel near Rumar and Priss in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Yarin in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Llynis in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate behind Madame Nin in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the drawer near Zaviera in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the empty pleasure room in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel before entering the back area in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the back of the slave cells in the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Copper Coronet",
+    "region": "Copper Coronet",
+    "category": ["Slums - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconid King",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconid King",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel near Quallo",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near Quallo",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table near Quallo",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Inspect the grate in the Slums Sewer",
+    "region": "Slums Sewer",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Inspect the skeletons in the Slums Sewer",
+    "region": "Slums Sewer",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+    {
+    "name": "Deal with Quallo and his friend",
+    "region": "Slums Sewer",
+    "category": ["Slums - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Solve the mysterious voice's puzzle in the sewers",
+    "region": "Slums Sewer",
+    "category": ["Slums - Misc"],
+    "requires": "|Hand (MISC5S)| AND |The Lover's Ring (MISC5R)| AND |Shaman's Staff (MISC5T)| AND |Blood of Quallo's Friend (MISC5Q)|"  
+  },
+  {
+    "name": "Loot the Slums Sewers",
+    "region": "Slums Sewer",
+    "category": ["Slums - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Haegan in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Slaver Wizard in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Yuan-Ti in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the trolls in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  }, 
+  {
+    "name": "Loot the barrel near the food shelf in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the food shelf in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the round table near the slaver wizard in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the rectangular table near the slaver wizard in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the trapped room in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the weapon barrel in the trapped room in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the trapped room in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the Yuan-Ti room in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the Yuan-Ti room in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate near the sewers entrance in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel near the sewers entrance in the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Slaver Stockade",
+    "region": "Slaver Stockade",
+    "category": ["Slums - Looting", "LootsanityLite"],
     "requires": []
   }
 ]
