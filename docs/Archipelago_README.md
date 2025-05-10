@@ -17,7 +17,7 @@ Each 'game' in Archipelago is called a 'world', and when there are multiple game
 There's a lot more that Archipelago can do, but that's the basic idea.
 
 ## What is a manual?
-Obviously, not all games are on the supported games list. Manual is a system that can be used to create a simple implementation for games not on the list. Generally, when someone is making a manual, they create a list of items in the game (sword, bow, money, arrows, etc.), and a list of locations to find items in (treasure chests, quest rewards, etc.). Then, when the manual game is included in a multiworld, Archipelago will randomize the manual game's items across all the worlds in the multiworld. Then, when playing the manual, the tasks of marking which locations you've checked, and limiting your item use based on what items you've received, are all performed by you (the player) via the honor system. You [i]manually[/i] track both of these via the Manual client which can be accessed from the Archipelago Launcher. 
+Obviously, not all games are on the supported games list. Manual is a system that can be used to create a simple implementation for games not on the list. Generally, when someone is making a manual, they create a list of items in the game (sword, bow, money, arrows, etc.), and a list of locations to find items in (treasure chests, quest rewards, etc.). Then, when the manual game is included in a multiworld, Archipelago will randomize the manual game's items across all the worlds in the multiworld. Then, when playing the manual, the tasks of marking which locations you've checked, and limiting your item use based on what items you've received, are all performed by you (the player) via the honor system. You <i>manually</i> track both of these via the Manual client which can be accessed from the Archipelago Launcher. 
 
 For example, after you open a specific treasure chest, you press the button in the manual client that says "I opened X chest", and the multiworld system will figure out what item was there and send it out to whoever it belongs to.
 
@@ -25,4 +25,4 @@ As with Archipelago, there's a lot more that Manual can do, but that's the basic
 
 ## How does this particular manual work?
 
-Please see the [BG2 Readme](\BG2_readme.md) for details!
+Please see the [BG2 Readme](BG2_readme.md) for details!

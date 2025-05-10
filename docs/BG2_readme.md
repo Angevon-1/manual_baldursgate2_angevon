@@ -1,4 +1,4 @@
-[b]This readme expects you to have knowledge of both Archipelago and Manual. If you don't, please see [the Archipelago readme](\Archipelago_README.md) first![/b]
+<b>This readme expects you to have knowledge of both Archipelago and Manual. If you don't, please see [the Archipelago readme](Archipelago_README.md) first!</b>
 
 Baldur's Gate 2: Shadows of Amn is a classic isometric-style RPG with a cast of memorable characters in the Forgotten Realms setting. It is among the handful of BioWare games that started the genre of “real-time with pause” combat mechanics later seen in Dragon Age. 
 
@@ -6,12 +6,12 @@ Conveniently, BG2 has randomizers available, and an extensive, easy to use cheat
 
 There are two versions of the game: classic and Enhanced Edition. The steps to enable the cheat console depend on the version. Classic has been discontinued for sale on digital storefronts, but some may still have the CDs, so I'll include the instructions for completion's sake. Enhanced Edition is available on many digital storefronts. 
 
-[u]For classic:[/u]
+<u>For classic:</u>
 Open the Baldur.ini file (located in the BG2 installation directory).
 Find the line [Program Options] and add the text Debug Mode=1 underneath.
 Save and close the file.
 
-[u]For Enhanced Edition:[/u]
+<u>For Enhanced Edition:</u>
 Locate the folder at Documents > Baldur's Gate - Enhanced Edition. This is usually in  C:\users\ (username)\Documents but may be somewhere in your OneDrive. In a text editor, open the file Baldur.lua.
 Add the line SetPrivateProfileString('Program Options','Debug Mode','1') to the file.
 Save and close the file.
