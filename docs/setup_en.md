@@ -24,7 +24,7 @@ Upload the zip to [Archipelago](https://archipelago.gg/uploads) for hosting, or 
 
 In the Archipelago launcher, launch the Manual Client.<br/>
 Use the dropdown next to Manual Game ID to choose what manual you are using.<br/>
-Use the Server box to input your connection info. The format is Slotname:password@archipelago.gg:#####<br/>
+Use the Server box to input your connection info. The format is Slotname:<span>password</span>@archipelago.gg:#####<br/>
 where Slotname is the Player name you put in the yaml, password is the server password ("None" if the server doesn't have one), and ##### is the port. <br/>
 If everything is right, press Connect and you'll be connected.
 
