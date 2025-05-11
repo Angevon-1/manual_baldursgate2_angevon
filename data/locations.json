@@ -1413,13 +1413,109 @@
     "name": "Defeat Vellin Dahn's minion",
     "region": "Bridge",
     "category": ["Bridge District - Enemies"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)| AND |Government District Unlock|"
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
-    "name": "Loot the murderer's house",
+    "name": "Loot the table in the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the basket in the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the bed in the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the bookshelf in the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the oven in the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the large crate on the lower level of the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the small crate on the lower level of the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the barrel on the lower level of the tanner's house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the tanner's house",
     "region": "Bridge",
     "category": ["Bridge District - Looting", "LootsanityLite"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)| AND |Government District Unlock|"
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Loot the table in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left bookshelf in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right bookshelf in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left barrel in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right barrel in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the unmarked house behind the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
   },
   {
     "name": "Witness the attempted kidnapping of Mereth",
@@ -1461,6 +1557,30 @@
     "name": "Speak with Stivan with Aerie in the party",
     "region": "Bridge",
     "category": ["Bridge District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Elemental Lich",
+    "region": "Bridge",
+    "category": ["Bridge District - Enemies"],
+    "requires": "|@Region Unlocks:ALL|"
+  },
+  {
+    "name": "Loot the smaller table in the lich house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the larger table in the lich house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the basket in the lich house",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
     "requires": []
   },
   {

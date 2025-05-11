@@ -260,11 +260,27 @@
     ],
     "progression": true
   },
-    {
+  {
     "count": 1,
     "name": "Oak Bark (MISC6E)",
     "category": [
       "Bridge - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Golden Torso (MISCAY)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Tanner's Letter (MISC6A)",
+    "category": [
+      "Misc."
     ],
     "progression": true
   },
@@ -297,11 +313,26 @@
     "count": 1,
     "name": "Pommel Jewel of the Equalizer (SW1H54C)",
     "category": [
-      "Equipment Parts"
+      "Forgeable Equipment"
     ],
     "useful": true
   },
-
+  {
+    "count": 1,
+    "name": "Gesen Bow Shaft (BOW19A)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ankheg Shell (MISC12)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
   {
     "count": 1,
     "name": "Mail of the Dead +2 (CHAN03)",
@@ -519,7 +550,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Potion of Healing x3 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
@@ -617,6 +648,22 @@
   {
     "count": 1,
     "name": "Potion of Insight (POTN43)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Regeneration (POTN42)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Fire Resistance (POTN02)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -993,6 +1040,30 @@
   {
     "count": 1,
     "name": "Scroll of Domination (SCRL5N)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Protection From Electricity (SCRL05)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Improved Invisibility (SCRL1Y)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Monster Summoning II (SCRL2A)",
     "category": [
       "Consumables", "Lootsanity"
     ],
