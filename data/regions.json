@@ -56,11 +56,27 @@
     "requires": "|Docks District Unlock|"
   },
   "City Gates": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": ["de'Arnise Keep", "Windspear Hills", "Umar Hills", "Trademeet"],
+    "requires": "|City Gates Unlock|"
   },
   "Slums Sewers": {
     "connects_to": [],
     "requires": ""
+  },
+  "de'Arnise Keep": {
+    "connects_to": [],
+    "requires": "|de'Arnise Keep Unlock|"
+  },
+  "Windspear Hills": {
+    "connects_to": [],
+    "requires": "|Windspear Hills Unlock|"
+  },
+  "Umar Hills": {
+    "connects_to": [],
+    "requires": "|Umar Hills Unlock|"
+  },
+  "Trademeet": {
+    "connects_to": [],
+    "requires": "|Trademeet Unlock|"
   }
 }

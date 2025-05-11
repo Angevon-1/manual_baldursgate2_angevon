@@ -7,6 +7,12 @@
   },
   {
     "count": 1,
+    "name": "City Gates Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Docks District Unlock",
     "category": ["Region Unlocks"],
     "progression": true
@@ -409,8 +415,48 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Short Sword +1 (SW1H98)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Daystar (SW1H31)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Rod of Terror (RODS05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sandthief's Ring (RING05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "War Hammer +1 (HAMM02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mace +1 (BLUN05)",
     "category": [
       "Equipment"
     ],
@@ -427,6 +473,22 @@
   {
     "count": 1,
     "name": "Cloak of Protection (CLCK01)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Arbane's Sword +2 (SW1H27)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Plate Mail +1 (PLAT02)",
     "category": [
       "Equipment"
     ],
@@ -489,7 +551,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Flame Arrow (SCRL1F)",
     "category": [
       "Consumables", "Lootsanity"
@@ -513,7 +575,7 @@
     "filler": true
   },
   {
-    "count": 4,
+    "count": 5,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -529,6 +591,46 @@
     "filler": true
   },
   {
+    "count": 2,
+    "name": "Potion of Frost Giant Strength (POTN04)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Potion of Stone Giant Strength (POTN12)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Freedom (POTN45)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Insight (POTN43)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Elixer of Health x1 (POTN17)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
     "count": 1,
     "name": "Elixer of Health x4 (POTN17)",
     "category": [
@@ -538,7 +640,7 @@
   },
   {
     "count": 1,
-    "name": "Potion of Frost Giant Strength (POTN04)",
+    "name": "Antidote (POTN32)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -547,6 +649,30 @@
   {
     "count": 1,
     "name": "Wand of Magic Missiles (WAND03)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Cloudkill (WAND13)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Fire (WAND05)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wand of Lightning (WAND07)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -721,7 +847,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Magic Missile (SCRL77)",
     "category": [
       "Consumables", "Lootsanity"
@@ -841,8 +967,32 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Shocking Grasp (SCRL80)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Minor Globe of Invulnerability (SCRL1Z)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Vampiric Touch (SCRL1Q)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Domination (SCRL5N)",
     "category": [
       "Consumables", "Lootsanity"
     ],
