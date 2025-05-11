@@ -37,23 +37,23 @@
   },
   "Government District": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Government District Unlock|"
   },
   "Temple District": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Temple District Unlock|"
   },
   "Graveyard": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Graveyard District Unlock|"
   },
   "Bridge": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Bridge District Unlock|"
   },
   "Docks": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|Docks District Unlock|"
   },
   "City Gates": {
     "connects_to": [],

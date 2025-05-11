@@ -1,6 +1,60 @@
 [
   {
     "count": 1,
+    "name": "Government District Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Docks District Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Temple District Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Graveyard District Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bridge District Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Umar Hills Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Trademeet Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "de'Arnise Keep Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Windspear Hills Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Jail Cell Key (MISC4B)",
     "category": [
       "Irenicus's Dungeon - Keys"
@@ -173,6 +227,38 @@
     "name": "Haegan's Key (MISC4R)",
     "category": [
       "Slums - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Exotic Hide (MISC5G)",
+    "category": [
+      "Bridge - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Guril Berries (MISC6C)",
+    "category": [
+      "Bridge - Misc"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Solik Berries (MISC6D)",
+    "category": [
+      "Bridge - Misc"
+    ],
+    "progression": true
+  },
+    {
+    "count": 1,
+    "name": "Oak Bark (MISC6E)",
+    "category": [
+      "Bridge - Misc"
     ],
     "progression": true
   },
@@ -351,6 +437,14 @@
     "name": "Winter Wolf Pelt (MISC01)",
     "category": [
       "Misc."
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Human Flesh (LEAT22)",
+    "category": [
+      "Equipment Parts"
     ],
     "useful": true
   },

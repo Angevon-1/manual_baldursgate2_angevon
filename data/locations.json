@@ -121,7 +121,7 @@
   },
   {
     "name": "Loot the library",
-    "category": ["Irenicus's Dungeon - Looting"],
+    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
     "requires": [],
     "region": "Irenicus's Dungeon (Level 1)"
   },
@@ -243,7 +243,7 @@
     "name": "Loot the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
-    "requires": "(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND {YamlDisabled(lootsanity)}"
+    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the nightstand in the Mistress's Room",
@@ -261,7 +261,7 @@
     "name": "Loot the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
-    "requires": "(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND {YamlDisabled(lootsanity)}"
+    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the bookshelf in the Mistress's Room",
@@ -404,7 +404,7 @@
   {
     "name": "Loot the throne",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting"],
+    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
   },
   {
@@ -470,7 +470,7 @@
   {
     "name": "Loot Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
@@ -491,7 +491,6 @@
     "category": ["Irenicus's Dungeon - Misc."],
     "requires": []
   },
-
   {
     "name": "Defeat the Lesser Clay Golems",
     "region": "Irenicus's Dungeon (Level 1)",
@@ -501,7 +500,7 @@
   {
     "name": "Loot the room Khalid was in",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting"],
+    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
     "requires": []
   },
   {
@@ -608,12 +607,6 @@
   },
   {
     "name": "Defeat the peasants in the circus tent",
-    "region": "Circus Tent",
-    "category": ["Waukeen's Promenade - Enemies"],
-    "requires": []
-  },
-  {
-    "name": "Defeat the werewolves in the circus tent",
     "region": "Circus Tent",
     "category": ["Waukeen's Promenade - Enemies"],
     "requires": []
@@ -847,13 +840,13 @@
     "requires": []
   },
   {
-    "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconid King",
+    "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids",
     "region": "Slums Sewer",
     "category": ["Slums - Looting", "Lootsanity"],
     "requires": []
   },
   {
-    "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconid King",
+    "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids",
     "region": "Slums Sewer",
     "category": ["Slums - Looting", "Lootsanity"],
     "requires": []
@@ -877,13 +870,13 @@
     "requires": []
   },
   {
-    "name": "Inspect the grate in the Slums Sewer",
+    "name": "Inspect the grate in circular room in the Slums Sewer",
     "region": "Slums Sewer",
     "category": ["Slums - Misc"],
     "requires": []
   },
   {
-    "name": "Inspect the skeletons in the Slums Sewer",
+    "name": "Inspect the skeletons on the wall in the Slums Sewer",
     "region": "Slums Sewer",
     "category": ["Slums - Misc"],
     "requires": []
@@ -904,6 +897,24 @@
     "name": "Loot the Slums Sewers",
     "region": "Slums Sewer",
     "category": ["Slums - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Kobolds in the Slums Sewers",
+    "region": "Slums Sewer",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room in the Slums Sewers",
+    "region": "Slums Sewer",
+    "category": ["Slums - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Myconids in the Slums Sewers",
+    "region": "Slums Sewer",
+    "category": ["Slums - Enemies"],
     "requires": []
   },
   {
@@ -1001,5 +1012,53 @@
     "region": "Slaver Stockade",
     "category": ["Slums - Looting", "LootsanityLite"],
     "requires": []
+  },
+  {
+    "name": "Interrogate Rumpah about the skinner murders",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Interrogate Rose Bouquet about the skinner murders",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Interrogate Bel Dalemark about the skinner murders",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Interrogate Faraji and or Mrs. Cragmoon about the skinner murders",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Have Bel Dalemark identify the Exotic Hide",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": "|Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Have Rose Bouquet identify the smell",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)|"
+  },
+  {
+    "name": "Confront the murder suspect",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Inform the authorities that the murderer escaped",
+    "region": "Bridge",
+    "category": ["Bridge - Misc"],
+    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)| AND |Government District Unlock|"
   }
 ]
