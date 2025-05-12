@@ -1290,6 +1290,12 @@
     "requires": []
   },
   {
+    "name": "Meet Neera",
+    "region": "",
+    "category": ["Athkatla - Misc", "EE"],
+    "requires": "|Bridge District Unlock|"
+  },
+  {
     "name": "Speak with Flydian",
     "region": "City Gates",
     "category": ["City Gates - Misc"],
@@ -1584,9 +1590,315 @@
     "requires": []
   },
   {
+    "name": "Loot the first table in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second table in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third table in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fourth table in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the kitchen in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the vanity upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first crate upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second crate upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest way in the back upstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest downstairs behind the receptionist in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the actors' tables downstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the props room downstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the props room downstairs in the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Five Flagons Inn",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the side table in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs table in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs shelf in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs chest of drawers in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs bookshelf in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs chest in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs side table in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the upstairs desk in the house by Reedle",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
     "name": "Loot the house by Reedle",
     "region": "Bridge",
     "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Dracandros, Falahar, Pitre, and Valeria",
+    "region": "Bridge",
+    "category": ["Bridge District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the house Dracandros, Falahar, Pitre, and Valeria were in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the basket in the house Dracandros, Falahar, Pitre, and Valeria were in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the cabinet in the house Dracandros, Falahar, Pitre, and Valeria were in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the house Dracandros, Falahar, Pitre, and Valeria were in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Aawill the bounty hunter",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Aawill the bounty hunter",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Wyvern",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Master of Thralls",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Warden",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Find Haer'dalis in the Planar Prison",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Destroy (or don't) the Mastery Orb",
+    "region": "Planar Prison",
+    "category": ["Planar Prison - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Deal with the mad cleric",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Deal with the mad cleric",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the pirates under The Seas Bounty",
+    "region": "Docks",
+    "category": ["Docks - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Listen to Crazy Cevlan",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Deliver Renfeld to Rylock",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Meet Xzar",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Deal with the Spectral Harpists",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Deliver the bird to Xzar",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the sarcophagus behind Arenthis",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Deal with Nester and Uncle Lester",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Rescue Tirdir from the grave",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
     "requires": []
   }
 ]

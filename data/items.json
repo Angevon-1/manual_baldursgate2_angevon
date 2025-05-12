@@ -286,6 +286,30 @@
   },
   {
     "count": 1,
+    "name": "Renfeld's Body (MISC5F)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Harper Amulet (MISC5E)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Piece of Red Cloth (MISC5N)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
     "category": [
       "Equipment"
@@ -527,6 +551,14 @@
   },
   {
     "count": 1,
+    "name": "Bracers of Defense AC 7 (BRAC02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Winter Wolf Pelt (MISC01)",
     "category": [
       "Misc."
@@ -536,6 +568,14 @@
   {
     "count": 1,
     "name": "Human Flesh (LEAT22)",
+    "category": [
+      "Equipment Parts"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Silver Horn of Valhalla (MISC3I)",
     "category": [
       "Equipment Parts"
     ],
@@ -639,6 +679,22 @@
   },
   {
     "count": 1,
+    "name": "Potion of Stone Hill Strength (POTN03)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Insulation (POTN31)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
     "name": "Potion of Freedom (POTN45)",
     "category": [
       "Consumables", "Lootsanity"
@@ -694,7 +750,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Wand of Magic Missiles (WAND03)",
     "category": [
       "Consumables", "Lootsanity"
@@ -902,7 +958,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Stoneskin (MISCA5)",
     "category": [
       "Consumables", "Lootsanity"
@@ -918,7 +974,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
@@ -974,7 +1030,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Lightning Bolt (SCRL1K)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1046,7 +1102,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Protection From Electricity (SCRL05)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1064,6 +1120,46 @@
   {
     "count": 1,
     "name": "Scroll of Monster Summoning II (SCRL2A)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection from Normal Weapons (???)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Confusion (SCRL1U)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Ghost Armor (SCRL1T)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spirit Armor (SCRL5K)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Breach (???)",
     "category": [
       "Consumables", "Lootsanity"
     ],

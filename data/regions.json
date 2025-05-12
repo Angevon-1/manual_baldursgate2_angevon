@@ -48,7 +48,7 @@
     "requires": "|Graveyard District Unlock|"
   },
   "Bridge": {
-    "connects_to": [],
+    "connects_to": ["Planar Prison"],
     "requires": "|Bridge District Unlock|"
   },
   "Docks": {
@@ -78,5 +78,9 @@
   "Trademeet": {
     "connects_to": [],
     "requires": "|Trademeet Unlock|"
+  },
+  "Planar Prison": {
+    "connects_to": [],
+    "requires": []
   }
 }
