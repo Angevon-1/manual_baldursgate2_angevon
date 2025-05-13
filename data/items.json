@@ -310,29 +310,44 @@
   },
   {
     "count": 1,
-    "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
+    "name": "Littleman The Stuffed Bear (MISC5L)",
     "category": [
-      "Equipment"
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Iron Rod (OHHROD)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cloak of Dragomir (OHHCLOAK)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Human Flesh (LEAT22)",
+    "category": [
+      "Forgeable Equipment"
     ],
     "useful": true
   },
   {
     "count": 1,
-    "name": "Sword of Chaos +2 (SW2H16)",
+    "name": "Silver Horn of Valhalla (MISC3I)",
     "category": [
-      "Equipment"
+      "Forgeable Equipment"
     ],
     "useful": true
   },
-  {
-    "count": 1,
-    "name": "Helm of Balduran (HELM07)",
-    "category": [
-      "Equipment"
-    ],
-    "useful": true
-  },
-
   {
     "count": 1,
     "name": "Pommel Jewel of the Equalizer (SW1H54C)",
@@ -354,6 +369,38 @@
     "name": "Ankheg Shell (MISC12)",
     "category": [
       "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Winter Wolf Pelt (MISC01)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Girdle of Bluntness, Destroyer of Hills (BELT03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sword of Chaos +2 (SW2H16)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Helm of Balduran (HELM07)",
+    "category": [
+      "Equipment"
     ],
     "useful": true
   },
@@ -431,6 +478,14 @@
   },
   {
     "count": 1,
+    "name": "Dagger +2 (DAGG03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Girdle of Piercing, Elves' Bane (BELT04)",
     "category": [
       "Equipment"
@@ -455,7 +510,7 @@
   },
   {
     "count": 1,
-    "name": "Circlet of Lost Souls (???)",
+    "name": "Circlet of Lost Souls (BDHELM16)",
     "category": [
       "Equipment", "EE"
     ],
@@ -559,25 +614,9 @@
   },
   {
     "count": 1,
-    "name": "Winter Wolf Pelt (MISC01)",
+    "name": "Staff of Curing (STAF10)",
     "category": [
-      "Misc."
-    ],
-    "useful": true
-  },
-  {
-    "count": 1,
-    "name": "Human Flesh (LEAT22)",
-    "category": [
-      "Equipment Parts"
-    ],
-    "useful": true
-  },
-  {
-    "count": 1,
-    "name": "Silver Horn of Valhalla (MISC3I)",
-    "category": [
-      "Equipment Parts"
+      "Equipment"
     ],
     "useful": true
   },
@@ -750,6 +789,14 @@
     "filler": true
   },
   {
+    "count": 1,
+    "name": "Antidote x2 (POTN32)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
     "count": 2,
     "name": "Wand of Magic Missiles (WAND03)",
     "category": [
@@ -798,7 +845,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Grease (SCRL66)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1015,7 +1062,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Summon Nishru (???)",
+    "name": "Scroll of Summon Nishru (SCRL8B)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1023,7 +1070,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Death Fog (???)",
+    "name": "Scroll of Death Fog (SCRL7R)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1127,7 +1174,7 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Protection from Normal Weapons (???)",
+    "name": "Scroll of Protection from Normal Weapons (SCRL6T)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1159,7 +1206,15 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Breach (???)",
+    "name": "Scroll of Breach (SCRL6U)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection from Undead (SCRL09)",
     "category": [
       "Consumables", "Lootsanity"
     ],

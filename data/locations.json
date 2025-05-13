@@ -1900,5 +1900,125 @@
     "region": "Graveyard",
     "category": ["Graveyard District - Misc"],
     "requires": []
+  },
+  {
+    "name": "Meet Wellyn's ghost",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Deliver Littleman to Wellyn",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": "|Littleman The Stuffed Bear (MISC5L)|"
+  },
+  {
+    "name": "Decide Llynis's fate (Copper Coronet)",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Decide Stein's fate (night time)",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Interrogate Sethle on behalf of Tirdir",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": "|Piece of Red Cloth (MISC5N)|"
+  },
+  {
+    "name": "Direct Kamir to Risa",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Crypt King",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the theives in front of Dragomir's tomb",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Enemies", "EE"],
+    "requires": []
+  },
+  {
+    "name": "Loot the antechamber to Dragomir's tomb",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Enter the tomb-within-a-tomb in Dragomir's tomb",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Misc", "EE"],
+    "requires": []
+  },
+  {
+    "name": "Unlock the lower area in Dragomir's tomb",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Misc", "EE"],
+    "requires": "|Iron Rod (OHHROD)|"
+  },
+  {
+    "name": "Deal with Burich the Unyielding",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Enemies", "EE"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Dragomir",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Enemies", "EE"],
+    "requires": "|Iron Rod (OHHROD)|"
+  },
+  {
+    "name": "Discover the truth behind Hexxat and the Sleeper",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Misc", "EE"],
+    "requires": "|Iron Rod (OHHROD)|"
+  },
+  {
+    "name": "Loot sarcophagus 1",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot sarcophagus 2",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot sarcophagus 3",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot sarcophagus 4",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot sarcophagus 5",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Dragomir's Tomb",
+    "region": "Dragomir's Tomb",
+    "category": ["Graveyard District - Looting", "EE", "LootsanityLite"],
+    "requires": []
   }
 ]
