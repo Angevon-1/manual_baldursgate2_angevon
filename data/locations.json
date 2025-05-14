@@ -1944,6 +1944,18 @@
     "requires": []
   },
   {
+    "name": "Loot the sarcophagus in the Crypt King's tomb",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the Crypt King's tomb",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
     "name": "Defeat the theives in front of Dragomir's tomb",
     "region": "Dragomir's Tomb",
     "category": ["Graveyard District - Enemies", "EE"],
@@ -2020,5 +2032,209 @@
     "region": "Dragomir's Tomb",
     "category": ["Graveyard District - Looting", "EE", "LootsanityLite"],
     "requires": []
+  },
+  {
+    "name": "Loot the tomb directly southwest of the right entrance to the Lower Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies in the tomb behind Sethle",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the tomb behind Sethle",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies in the central tomb",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sarcophagus in the central tomb",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the central tomb",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies in the tomb by Stein",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the tomb by Stein",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the the overall Graveyard District",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the urn near the pyramidal entrance to the Lower Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the hallway near the pyramidal entrance in the Lower Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest near the pyramidal entrance in the Lower Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the web in Pai'Na's room",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Pai'Na",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the undead ambush in the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the urn in the entryway of the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first urn in the southernmost area of the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second urn in the southernmost area of the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the urn at the T intersection in the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the urn by the sealed sarcophagus in the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate by the sealed sarcophagus in the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Bring Korgan to the southernmost part of the Southern Tombs",
+    "region": "Graveyard",
+    "category": ["Graveyard District - Misc", "Companion Quests"],
+    "requires": "|Korgan|"
+  },
+  {
+    "name": "Confront Am-Si on behalf of Tirdir",
+    "region": "Bridge",
+    "category": ["Bridge District - Misc"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Defeat Reti and Camitis",
+    "region": "Bridge",
+    "category": ["Bridge District - Enemies"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the sack in Reti and Camitis's base",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the table in Reti and Camitis's base",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the chest in Reti and Camitis's base",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Deal with Lady Elgea",
+    "region": "Bridge",
+    "category": ["Bridge District - Enemies"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the left chest in the room Lady Elgea is held in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the right chest in the room Lady Elgea is held in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the dresser in the room Lady Elgea is held in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the table in the room Lady Elgea is held in",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "Lootsanity"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot Reti and Camitis's base",
+    "region": "Bridge",
+    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   }
 ]

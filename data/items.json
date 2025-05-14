@@ -334,6 +334,22 @@
   },
   {
     "count": 1,
+    "name": "Black Spider Figurine (MISC3E)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Silver Pantaloons (MISC5O)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Human Flesh (LEAT22)",
     "category": [
       "Forgeable Equipment"
@@ -469,7 +485,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Dagger +1 (DAGG02)",
     "category": [
       "Equipment"
@@ -621,6 +637,38 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Battle Axe +2 (AX1H03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Namarra +2 (SW1H36)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pale Green Ioun Stone (HELM20)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Boots of Avoidance (BOOT04)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Potion of Healing x5 (POTN25)",
     "category": [
@@ -727,6 +775,14 @@
   {
     "count": 1,
     "name": "Potion of Insulation (POTN31)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Defense (POTN24)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -845,7 +901,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Grease (SCRL66)",
     "category": [
       "Consumables", "Lootsanity"
@@ -877,7 +933,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Burning Hands (SCRL68)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1149,7 +1205,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Protection From Electricity (SCRL05)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1215,6 +1271,38 @@
   {
     "count": 1,
     "name": "Scroll of Protection from Undead (SCRL09)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Fire (SCRL06)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spider Spawn (SCRL6R)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spell Immunity (SCRL6S)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Reflected Image (SCRL5U)",
     "category": [
       "Consumables", "Lootsanity"
     ],

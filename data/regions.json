@@ -44,7 +44,7 @@
     "requires": "|Temple District Unlock|"
   },
   "Graveyard": {
-    "connects_to": [],
+    "connects_to": ["Dragomir's Tomb"],
     "requires": "|Graveyard District Unlock|"
   },
   "Bridge": {
@@ -80,6 +80,10 @@
     "requires": "|Trademeet Unlock|"
   },
   "Planar Prison": {
+    "connects_to": [],
+    "requires": []
+  },
+  "Dragomir's Tomb": {
     "connects_to": [],
     "requires": []
   }
