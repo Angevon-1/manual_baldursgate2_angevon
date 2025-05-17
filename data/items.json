@@ -334,7 +334,15 @@
   },
   {
     "count": 1,
-    "name": "Black Spider Figurine (MISC3E)",
+    "name": "Lock of Jaheira's Hair (MISC5V)",
+    "category": [
+      "Misc.", "Companion Quest Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Harper Bird (MISC5D)",
     "category": [
       "Misc."
     ],
@@ -342,11 +350,19 @@
   },
   {
     "count": 1,
+    "name": "Black Spider Figurine (MISC3E)",
+    "category": [
+      "Misc."
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Silver Pantaloons (MISC5O)",
     "category": [
       "Forgeable Equipment"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": 1,
@@ -437,7 +453,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Long Sword +1 (SW1H05)",
     "category": [
       "Equipment"
@@ -453,7 +469,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Quarterstaff +1 (STAF02)",
     "category": [
       "Equipment"
@@ -471,6 +487,14 @@
   {
     "count": 1,
     "name": "Helm of Infravision, The Eyes of Truth (HELM05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Helm of Charm Protection (HELM06)",
     "category": [
       "Equipment"
     ],
@@ -573,7 +597,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "War Hammer +1 (HAMM02)",
     "category": [
       "Equipment"
@@ -597,7 +621,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Cloak of Protection (CLCK01)",
     "category": [
       "Equipment"
@@ -655,6 +679,14 @@
   {
     "count": 1,
     "name": "Pale Green Ioun Stone (HELM20)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Bracers of Defense AC 6 (BRAC03)",
     "category": [
       "Equipment"
     ],
@@ -733,6 +765,14 @@
     "filler": true
   },
   {
+    "count": 1,
+    "name": "Potion of Invisibility (POTN10)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
     "count": 5,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
@@ -741,8 +781,16 @@
     "filler": true
   },
   {
-    "count": 6,
+    "count": 7,
     "name": "Potion of Extra Healing x2 (POTN52)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Extra Healing x5 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -790,7 +838,7 @@
   },
   {
     "count": 1,
-    "name": "Potion of Freedom (POTN45)",
+    "name": "Potion of Mind Focusing (POTN37)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -798,6 +846,14 @@
   },
   {
     "count": 1,
+    "name": "Potion of Freedom (POTN45)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 3,
     "name": "Potion of Insight (POTN43)",
     "category": [
       "Consumables", "Lootsanity"
@@ -853,7 +909,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Wand of Magic Missiles (WAND03)",
     "category": [
       "Consumables", "Lootsanity"
@@ -941,7 +997,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Fireball (SCRL1G)",
     "category": [
       "Consumables", "Lootsanity"
@@ -974,9 +1030,17 @@
   },
   {
     "count": 1,
-    "name": "Scroll of Conjure Air Elemental",
+    "name": "Scroll of Conjure Air Elemental (SCRL7Y)",
     "category": [
-      "Consumables", "Lootsanity", "EE"
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Lesser Air Elemental (SCRL7B)",
+    "category": [
+      "Consumables", "Lootsanity"
     ],
     "filler": true
   },
@@ -997,7 +1061,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Knock (SCRL91)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1021,7 +1085,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Dispel Magic (SCRL1E)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1085,7 +1149,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Resist Fear (SCRL94)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1117,8 +1181,8 @@
     "filler": true
   },
   {
-    "count": 1,
-    "name": "Scroll of Summon Nishru (SCRL8B)",
+    "count": 2,
+    "name": "Scroll of Summon Nishruu (SCRL8B)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1141,7 +1205,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Sleep (SCRL81)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1189,7 +1253,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Vampiric Touch (SCRL1Q)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1303,6 +1367,102 @@
   {
     "count": 1,
     "name": "Scroll of Reflected Image (SCRL5U)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Cone of Cold (SCRL2F)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Color Spray (SCRL70)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Detect Invisibility (SCRL87)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Invisible Stalker (SCRL7E)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Fire Elemental (SCRL7X)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Horror (SCRL89)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of True Sight (SCRL7M)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Mirror Image (SCRL96)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Detect Evil (SCRL86)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Phantom Blade (SCRL6Z)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Slow (SCRL1O)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Friends (SCRL72)",
     "category": [
       "Consumables", "Lootsanity"
     ],

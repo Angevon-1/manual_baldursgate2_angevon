@@ -1296,6 +1296,12 @@
     "requires": "|Bridge District Unlock|"
   },
   {
+    "name": "Meet Habib",
+    "region": "",
+    "category": ["Athkatla - Misc"],
+    "requires": []
+  },
+  {
     "name": "Speak with Flydian",
     "region": "City Gates",
     "category": ["City Gates - Misc"],
@@ -1854,6 +1860,12 @@
     "requires": []
   },
   {
+    "name": "Loot the pool behind the pirates under The Seas Bounty",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
     "name": "Listen to Crazy Cevlan",
     "region": "Docks",
     "category": ["Docks - Misc"],
@@ -1881,7 +1893,7 @@
     "name": "Deliver the bird to Xzar",
     "region": "Docks",
     "category": ["Docks - Misc"],
-    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
   },
   {
     "name": "Loot the sarcophagus behind Arenthis",
@@ -2236,5 +2248,341 @@
     "region": "Bridge",
     "category": ["Bridge District - Looting", "LootsanityLite"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Loot the first bookshelf in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second bookshelf in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third bookshelf in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fourth bookshelf in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fifth bookshelf in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first stall by the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second stall by the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the big table in Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the small table in Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the bedroom in Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the bedroom in Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Valygar's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the Sea's Bounty",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the Sea's Bounty",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the Sea's Bounty",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Sea's Bounty",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Temple of Oghma",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the locked chest by the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first stall by Ikent",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second stall by Ikent",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third stall by Ikent",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the lone crate south of Xzar",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the basket near Xzar",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the stall next to Mae'Var's guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first barrel by Cromwell's smithy",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second barrel by Cromwell's smithy",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel near the left entrance to the area",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel on the roof of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the table on the roof of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Deal with Prebek and Sanasha",
+    "region": "Docks",
+    "category": ["Docks - Enemies"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the table on the roof of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the small table on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the sack near the small table on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the first chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the second chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the third chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the fourth chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the fifth chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the sixth chest in the communal bedroom on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the table in the dining room on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the barrel near the aviary on the second floor of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Find the bird in the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
+  },
+  {
+    "name": "Loot the table in the first room of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the pile of books in the first room of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the table in the second room of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the eye picture on the wall in the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the table in the third room of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the table in the fourth room of the Harper Hold",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  {
+    "name": "Loot the overall Docks area",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Meet Baron Ployer with Jaheira in your party",
+    "region": "Docks",
+    "category": ["Companion Quests"],
+    "requires": "|Jaheira|"
+  },
+  {
+    "name": "Find and defeat Baron Ployer on behalf of Jaheira",
+    "region": "Slums",
+    "category": ["Companion Quests"],
+    "requires": "|Jaheira|"
+  },
+  {
+    "name": "Learn Belgrade's Fate from Bernard",
+    "region": "Slums",
+    "category": ["Companion Quests"],
+    "requires": "|Jaheira|"
+  },
+  {
+    "name": "Deal with Terrence",
+    "region": "Government District",
+    "category": ["Companion Quests"],
+    "requires": "|Jaheira|"
   }
 ]
