@@ -40,7 +40,7 @@
     "requires": "|Government District Unlock|"
   },
   "Temple District": {
-    "connects_to": [],
+    "connects_to": ["Temple District Sewers"],
     "requires": "|Temple District Unlock|"
   },
   "Graveyard": {
@@ -84,6 +84,10 @@
     "requires": []
   },
   "Dragomir's Tomb": {
+    "connects_to": [],
+    "requires": []
+  },
+  "Temple District Sewers": {
     "connects_to": [],
     "requires": []
   }

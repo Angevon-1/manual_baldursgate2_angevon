@@ -2584,5 +2584,209 @@
     "region": "Government District",
     "category": ["Companion Quests"],
     "requires": "|Jaheira|"
+  },
+  {
+    "name": "Meet Viconia",
+    "region": "Government District",
+    "category": ["Government District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Meet Jan",
+    "region": "Government District",
+    "category": ["Government District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Madeen's request",
+    "region": "Government District",
+    "category": ["Government District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Tolgerias's request",
+    "region": "Government District",
+    "category": ["Government District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Delon's request",
+    "region": "Government District",
+    "category": ["Government District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the Firecam estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the Firecam estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack in the Firecam estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Firecam estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fountain in the Voluva estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the Voluva estate",
+    "region": "Government District",
+    "category": ["Government District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Listen to Gaal's speech",
+    "region": "Temple District",
+    "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Miranda's accusation",
+    "region": "Temple District",
+    "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Ask Roger the Fence why he's in the sewers",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Sea Troll",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Meet Keldorn",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with Tarnor the Hatchetman",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Kobolds at the center of the Temple District Sewers",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pipe near the kobolds at the center of the Temple District Sewers",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Mekrath",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the salamander in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first bookshelf in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second bookshelf in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third bookshelf in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the oven in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel next to the oven in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the altar in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the room left of the altar in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the bedroom in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the skeleton room in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in the skeleton room in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the room before the bedroom in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the room before the bedroom in Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Mekrath's lair",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "requires": []
   }
 ]

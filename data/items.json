@@ -350,6 +350,22 @@
   },
   {
     "count": 1,
+    "name": "Portal Gem (MISC6X)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Harp of Discord (MISC3M)",
+    "category": [
+      "Misc."
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Black Spider Figurine (MISC3E)",
     "category": [
       "Misc."
@@ -453,6 +469,14 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Necklace of Form Stability (AMUL24)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Long Sword +1 (SW1H05)",
     "category": [
@@ -469,7 +493,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Quarterstaff +1 (STAF02)",
     "category": [
       "Equipment"
@@ -493,7 +517,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Helm of Charm Protection (HELM06)",
     "category": [
       "Equipment"
@@ -503,6 +527,14 @@
   {
     "count": 1,
     "name": "Ring of Protection +1 (RING06)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mage Robe of Fire Resistance (CLCK10)",
     "category": [
       "Equipment"
     ],
@@ -637,8 +669,40 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Plate Mail +1 (PLAT02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Full Plate Mail +1 (PLAT05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Hangard's Axe +2 (???)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Wyvern's Tail +2 (BLUN17)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 2,
+    "name": "Small Shield +2 (SHLD28)",
     "category": [
       "Equipment"
     ],
@@ -701,6 +765,30 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Staff Spear +2 (STAF07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cloak of the Sewers (CLCK27)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Rod of Resurrection (RODS03)",
+    "category": [
+      "Wands"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Potion of Healing x5 (POTN25)",
     "category": [
@@ -757,7 +845,7 @@
     "filler": true
   },
   {
-    "count": 4,
+    "count": 5,
     "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
@@ -773,7 +861,23 @@
     "filler": true
   },
   {
-    "count": 5,
+    "count": 1,
+    "name": "Potion of Invulnerability (POTN11)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Stone Form (POTN46)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 6,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -781,7 +885,7 @@
     "filler": true
   },
   {
-    "count": 7,
+    "count": 10,
     "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -837,8 +941,16 @@
     "filler": true
   },
   {
+    "count": 3,
+    "name": "Potion of Genius (POTN29)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
     "count": 1,
-    "name": "Potion of Mind Focusing (POTN37)",
+    "name": "Potion of Freedom (POTN45)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -917,7 +1029,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Wand of Cloudkill (WAND13)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1181,7 +1293,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Summon Nishruu (SCRL8B)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1463,6 +1575,78 @@
   {
     "count": 1,
     "name": "Scroll of Friends (SCRL72)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Project Image (SCRL8F)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Summon Efreeti (SCRL8S)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Earth Elemental (SCRL7Z)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Contingency (SCRL7U)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spell Deflection (SCRL7V)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spell Shield (SCRL8X)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Agannazar's Scorcher (SCRL1B)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Ghoul Touch (SCRL1C)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Carrion Summons (SCRL8A)",
     "category": [
       "Consumables", "Lootsanity"
     ],
