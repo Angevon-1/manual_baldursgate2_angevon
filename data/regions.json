@@ -88,7 +88,19 @@
     "requires": []
   },
   "Temple District Sewers": {
-    "connects_to": [],
+    "connects_to": ["Cult Compound"],
     "requires": []
+  },
+  "Cult Compound": {
+    "connects_to": ["Lower Reaches", "Pit of the Faithless"],
+    "requires": []
+  },
+  "Lower Reaches": {
+    "connects_to": [],
+    "requires": "Gaal's Key (KEY02)"
+  },
+  "Pit of the Faithless": {
+    "connects_to": [],
+    "requires": "|Gaal's Key (KEY02)| AND |Rift Device Part (MISC5A)|"
   }
 }

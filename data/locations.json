@@ -2788,5 +2788,341 @@
     "region": "Temple District Sewers",
     "category": ["Temple District Sewers - Looting", "LootsanityLite"],
     "requires": []
+  },
+  {
+    "name": "Loot the chest in the rightmost cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the rightmost cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the middle cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the middle cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the left cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the left cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the bottom left cultist room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in Gaal's room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in Gaal's room",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Cult of the Eyeless",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Ettercap ambush",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Survive the Cloudkill chamber",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Accept Gaal's quest to retreive the rod",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Sassar's request",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the room with Zaelus and Garuk",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the room with Zaelus and Garuk",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the screaming statue",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Learn the cult's passphrase",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": "Rift Device Part (MISC5A)"
+  },
+  {
+    "name": "Solve the puzzle to fix the rift bridge",
+    "region": "Temple District Sewers",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the decoration on the rift bridge",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies past the rift bridge",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Empathic Manifestation",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Listen to the Avatar's request",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Tell Tad the cult's passphrase",
+    "region": "Lower Reaches",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": "Rift Device Part (MISC5A)"
+  },
+  {
+    "name": "Meet Theshel, the mayor of the undead in Ghoul Town",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Defeat Theshel, the mayor of the undead in Ghoul Town",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pile of bodies in Ghoul Town",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel behind the mayor in Ghoul Town",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pulsating mass at the entrance to the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pulsating mass at the south area of the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pulsating mass at the north area of the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the tiny spot left of the pulsating mass at the north area of the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the tiny spot below of the pulsating mass at the north area of the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Ghoul Town",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the charmed adventuring party at the center of the Pit of the Faithless",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Unseeing Eye",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Enemies"],
+    "requires": "Rift Device Part (MISC5B)"
+  },
+  {
+    "name": "Return the Rift Device to the Avatar",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": "Rift Device Part (MISC5B)"
+  },
+  {
+    "name": "Report the end of the Cult to your temple leader",
+    "region": "Pit of the Faithless",
+    "category": ["Temple District Sewers - Misc."],
+    "requires": "Rift Device Part (MISC5B)"
+  },
+  {
+    "name": "Loot the chest in the left room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the left room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the back room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the cabinet in the back room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelves in the right room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the desk in the right room of the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Temple of Helm",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelves in the left area of the Temple of Lathander",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the back area of the Temple of Lathander",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the Pimlico Estate bedroom",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the Pimlico Estate bedroom",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the dresser in the Pimlico Estate bedroom",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left table in the Pimlico Estate kitchen",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right table in the Pimlico Estate kitchen",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the Pimlico Estate kitchen",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Take Korgan to the Pimlico Estate",
+    "region": "Temple District",
+    "category": ["Companion Quests"],
+    "requires": "|Korgan| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Take Korgan to the roof of the Copper Coronet to confront Shagbag",
+    "region": "Slums",
+    "category": ["Companion Quests"],
+    "requires": "|Korgan| AND |Temple District Access| AND |Graveyard District Access|"
   }
 ]

@@ -358,6 +358,30 @@
   },
   {
     "count": 1,
+    "name": "Gaal's Key (KEY02)",
+    "category": [
+      "Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rift Device Part (MISC5A)",
+    "category": [
+      "Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rift Device Part (MISC5B)",
+    "category": [
+      "Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Harp of Discord (MISC3M)",
     "category": [
       "Misc."
@@ -638,6 +662,38 @@
   },
   {
     "count": 1,
+    "name": "Warhammer +2 Ashideena (HAMM03)",
+    "category": [
+      "Equipment", "EE"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Amulet of 5% Magic Resistance (AMUL19)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dragon's Bane +3 (HALB04)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Saving Grace +3 (SHLD27)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Mace +1 (BLUN05)",
     "category": [
       "Equipment"
@@ -709,8 +765,32 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Bracers of Defense AC 7 (BRAC02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ardulia's Fall +1 (BLUN20)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Heavy Crossbow of Accuracy, The Guide (XBOW03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Girdle of Fortitude (BELT09)",
     "category": [
       "Equipment"
     ],
@@ -735,6 +815,22 @@
   {
     "count": 1,
     "name": "Namarra +2 (SW1H36)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Gauntlets of Dexterity, The Brawling Hands (BRAC07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Skin of the Ghoul +4 (LEAT13)",
     "category": [
       "Equipment"
     ],
@@ -789,6 +885,14 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "The Book of Kaza (BOOK89)",
+    "category": [
+      "Misc."
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Potion of Healing x5 (POTN25)",
     "category": [
@@ -813,7 +917,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Potion of Healing x1 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
@@ -845,7 +949,7 @@
     "filler": true
   },
   {
-    "count": 5,
+    "count": 6,
     "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
@@ -885,7 +989,7 @@
     "filler": true
   },
   {
-    "count": 10,
+    "count": 13,
     "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1125,7 +1229,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Dire Charm (SCRL1S)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1253,7 +1357,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1365,7 +1469,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Scroll of Vampiric Touch (SCRL1Q)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1485,7 +1589,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Cone of Cold (SCRL2F)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1565,7 +1669,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Slow (SCRL1O)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1647,6 +1751,118 @@
   {
     "count": 1,
     "name": "Scroll of Carrion Summons (SCRL8A)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Non-Detection (SCRL1M)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Cloudkill (SCRL2E)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Animate Dead (SCRL2D)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Normal Missiles (SCRL1N)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Lower Resistance (SCRL6V)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Hold Undead (SCRL6L)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Enchanted Weapon (SCRL6M)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Tenser's Transformation (SCRL7G)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Lesser Fire Elemental (SCRL6X)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Secret Word (ASCRL6O)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Acid (SCRL03)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Cacofiend (SCRL8I)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Magic Energy (SCRL7J)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Control Undead (SCRL8V)",
     "category": [
       "Consumables", "Lootsanity"
     ],
