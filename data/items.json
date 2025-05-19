@@ -404,6 +404,78 @@
   },
   {
     "count": 1,
+    "name": "A note from Mazzy Fentan (SCRLMZ)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Merella's Journal (BOOK92)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Amuana's Bones (MISC6Q)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shadow Prison Key (KEY22)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dawn's Light Symbol (KEY05)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shadow Dragon Wardstone (MISC6P)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sun Ray Symbol (KEY04)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lightstone Symbol (KEY06)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 2,
+    "name": "Sun Gem (MISC6O, MISC6N)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Trademeet Tomb Key (MISC8M)",
     "category": [
       "Misc."
@@ -781,6 +853,62 @@
   {
     "count": 1,
     "name": "Tansheron's Bow +3 (BOW15)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pearly White Ioun Stone (HELM18)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sling +3, Arla's Dragonbane (SLNG03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cloak of the Stars (CLCK25)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ilbratha +1 (SW1H26)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Darkmail +3 (CHAN09)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "The Night's Gift +5 (LEAT14)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Duskblade +2 (HALB08)",
     "category": [
       "Equipment"
     ],
@@ -1259,7 +1387,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Potion of Genius (POTN29)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1300,6 +1428,14 @@
   },
   {
     "count": 1,
+    "name": "Potion of Clarity (POTN21)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
     "name": "Potion of Fire Resistance (POTN02)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1371,7 +1507,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Wand of Lightning (WAND07)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1379,7 +1515,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Wand of Fear (WAND02)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1579,7 +1715,7 @@
     "filler": true
   },
   {
-    "count": 4,
+    "count": 6,
     "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1731,7 +1867,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Protection from Normal Weapons (SCRL6T)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1827,7 +1963,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Color Spray (SCRL70)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1939,7 +2075,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Contingency (SCRL7U)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2115,8 +2251,48 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Pierce Magic (SCRL7L)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Mass Invisibility (SCRL8W)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Wyvern Call (SCRL7W)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Disintegrate (SCRL7T)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Magical Weapons (SCRL7O)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Power Word  Sleep (SCRL6E)",
     "category": [
       "Consumables", "Lootsanity"
     ],

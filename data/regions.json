@@ -72,7 +72,7 @@
     "requires": "|Windspear Hills Unlock|"
   },
   "Umar Hills": {
-    "connects_to": [],
+    "connects_to": ["Temple Ruins"],
     "requires": "|Umar Hills Unlock|"
   },
   "Trademeet": {
@@ -106,5 +106,17 @@
   "Pit of the Faithless": {
     "connects_to": [],
     "requires": "|Gaal's Key (KEY02)| AND |Rift Device Part (MISC5A)|"
+  },
+  "Temple Ruins": {
+    "connects_to": ["Temple Ruins Past 1st Barrier"],
+    "requires": "|Temple Ruins Unlock| AND |Merella's Journal (BOOK92)| AND |A note from Mazzy Fentan (SCRLMZ)|"
+  },
+  "Temple Ruins Past 1st Barrier": {
+    "connects_to": ["Temple Ruins Past 2nd Barrier"],
+    "requires": "|Sun Gem (MISC6O, MISC6N)|"
+  },
+  "Temple Ruins Past 2nd Barrier": {
+    "connects_to": [],
+    "requires": "|Sun Gem (MISC6O, MISC6N):2| AND |Lightstone Symbol (KEY06)| AND |Sun Ray Symbol (KEY04)|"
   }
 }

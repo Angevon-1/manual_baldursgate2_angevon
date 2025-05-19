@@ -1302,7 +1302,37 @@
     "requires": []
   },
   {
+    "name": "Listen to Igarol's conversation with Cernd",
+    "region": "",
+    "category": ["Companion Quests"],
+    "requires": "|Cernd|"
+  },
+  {
+    "name": "Visit Cernd's former home in search of Galia",
+    "region": "",
+    "category": ["Companion Quests"],
+    "requires": "|Cernd|"
+  },
+  {
+    "name": "Visit Fennecia's home in search of Galia",
+    "region": "",
+    "category": ["Companion Quests"],
+    "requires": "|Cernd|"
+  },
+  {
+    "name": "Decide Deril's fate on behalf of Cernd",
+    "region": "Government District",
+    "category": ["Companion Quests"],
+    "requires": "|Cernd|"
+  },
+  {
     "name": "Speak with Flydian",
+    "region": "City Gates",
+    "category": ["City Gates - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Decide Hanj and the merchant's fate",
     "region": "City Gates",
     "category": ["City Gates - Misc"],
     "requires": []
@@ -3547,6 +3577,270 @@
   },
   {
     "name": "Loot the pool in the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right barrel in the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left barrel in the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the large table in the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the small table in the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in the bedroom of the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Ranger Cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Deal with Anath",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the tree in Anath's cave",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pond in Anath's cave",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Turn the polished glass mirror outside entrance to the temple",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the sarcophagus in the room north of the temple entrance",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Meet Mazzy",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Misc."],
+    "requires": "|Shadow Prison Key (KEY22)|"
+  },
+  {
+    "name": "Satisfy the statue with your knowledge of the rituals",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the pile of stones in the jail",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pillar near the jail",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 1st broken pillar in the lava",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 2nd broken pillar in the lava",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the wall decoration in the lava room",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot obelisk behind the lava room",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Give Amuana's Bones to the ghosts",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Misc."],
+    "requires": "Amuana's Bones (MISC6Q)"
+  },
+  {
+    "name": "Defeat the Shadow Jailer",
+    "region": "Temple Ruins",
+    "category": ["Temple Ruins - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Bone Golem",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Shadow Dragon",
+    "region": "Temple Ruins Past 2nd Barrier",
+    "category": ["Temple Ruins - Enemies"],
+    "requires": "|@Region Unlocks:ALL|"
+  },
+  {
+    "name": "Defeat the Shade Lord",
+    "region": "Temple Ruins Past 2nd Barrier",
+    "category": ["Temple Ruins - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Sneak past the Shadow Dragon",
+    "region": "Temple Ruins Past 2nd Barrier",
+    "category": ["Temple Ruins - Misc."],
+    "requires": "|Amuana's Bones (MISC6Q)| AND |Shadow Dragon Wardstone (MISC6P)|"
+  },
+  {
+    "name": "Loot the statue with her arms outstretched",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Help (or don't) the Shadow across the word puzzle floor",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the wall behind the Shadow that asks for help",
+    "region": "Temple Ruins Past 1st Barrier",
+    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Report the victory over the Shade Lord to Minister Lloyd",
+    "region": "Temple Ruins Past 2nd Barrier",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deliver mimic blood to Jermien",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": "|Mimic's Blood (MISC6Y)|"
+  },
+  {
+    "name": "Save (or don't) Jermien from the Golem",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": "|Mimic's Blood (MISC6Y)|"
+  },
+  {
+    "name": "Loot the shelf in Jermien's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in Jermien's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in Jermien's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in Jermien's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Jermien's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in Minister Lloyd's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in Minister Lloyd's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the dresser in Minister Lloyd's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Minister Lloyd's home",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in the left room of the Umar Inn",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in the right room of the Umar Inn",
     "region": "Umar Hills",
     "category": ["Umar Hills - Looting", "Lootsanity"],
     "requires": []
