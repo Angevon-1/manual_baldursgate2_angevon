@@ -7,6 +7,12 @@
   },
   {
     "count": 1,
+    "name": "Druid Grove Unlock",
+    "category": ["Region Unlocks"],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "City Gates Unlock",
     "category": ["Region Unlocks"],
     "progression": true
@@ -374,9 +380,33 @@
   },
   {
     "count": 1,
-    "name": "Rift Device Part (MISC5B)",
+    "name": "Ihtafeer's Head (MISC8K)",
     "category": [
-      "Keys"
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mimic's Blood (MISC6Y)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mantle of Waukeen (MISC8L)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Trademeet Tomb Key (MISC8M)",
+    "category": [
+      "Misc."
     ],
     "progression": true
   },
@@ -517,8 +547,16 @@
     "useful": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Quarterstaff +1 (STAF02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of Wizardry, Reaching Ring (RING08)",
     "category": [
       "Equipment"
     ],
@@ -621,8 +659,152 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Short Sword +1 (SW1H98)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Katana +1 (NPSW02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Scimitar of Speed +2, Belm (SW1H30)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Longsword +1, Flame Tongue, The Burning Earth (SW1H24)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Staff of Thunder and Lightning (STAF13)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Club +2, Gnasher (BLUN24)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cleric's Staff +3 (STAF19)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Periapt of Proof Against Poison (AMUL22)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Rashad's Talon (SW1H23)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shield of Harmony +2 (SHLD25)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Necklace of Missiles (AMUL01)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Efreeti Bottle (MISC3C)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Belt of Inertial Barrier (BELT10)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Club +3, Blackblood (BLUN22)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cloak of Displacement (CLCK03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Tansheron's Bow +3 (BOW15)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Elven Chain Mail (CHAN12)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Robe of the Good Archmagi (CLCK15)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shield of the Lost +2 (SHLD26)",
     "category": [
       "Equipment"
     ],
@@ -709,7 +891,15 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 1,
+    "name": "Leather Armor +1 (LEAT02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
     "name": "Cloak of Protection (CLCK01)",
     "category": [
       "Equipment"
@@ -725,7 +915,15 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
+    "name": "Two Handed Sword +1 (SW2H02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
     "name": "Plate Mail +1 (PLAT02)",
     "category": [
       "Equipment"
@@ -838,7 +1036,7 @@
   },
   {
     "count": 1,
-    "name": "Pale Green Ioun Stone (HELM20)",
+    "name": "Bracers of Archery, the Dale's Protector (BRAC04)",
     "category": [
       "Equipment"
     ],
@@ -846,6 +1044,22 @@
   },
   {
     "count": 1,
+    "name": "Spear of the Unicorn +2 (SPER07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Pale Green Ioun Stone (HELM20)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 3,
     "name": "Bracers of Defense AC 6 (BRAC03)",
     "category": [
       "Equipment"
@@ -949,7 +1163,7 @@
     "filler": true
   },
   {
-    "count": 6,
+    "count": 7,
     "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
@@ -957,7 +1171,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 4,
     "name": "Potion of Invisibility (POTN10)",
     "category": [
       "Consumables", "Lootsanity"
@@ -981,7 +1195,7 @@
     "filler": true
   },
   {
-    "count": 6,
+    "count": 7,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -989,7 +1203,7 @@
     "filler": true
   },
   {
-    "count": 13,
+    "count": 16,
     "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1087,6 +1301,14 @@
   {
     "count": 1,
     "name": "Potion of Fire Resistance (POTN02)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Fire Giant Strength (POTN05)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1309,8 +1531,8 @@
     "filler": true
   },
   {
-    "count": 1,
-    "name": "Scroll of Protection from Petrification (arcane) (SCRL73)",
+    "count": 2,
+    "name": "Scroll of Protection from Petrification (SCRL73)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1357,7 +1579,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1559,6 +1781,14 @@
   {
     "count": 1,
     "name": "Scroll of Protection From Fire (SCRL06)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection From Cold (SCRL04)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1863,6 +2093,30 @@
   {
     "count": 1,
     "name": "Scroll of Control Undead (SCRL8V)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Summon Djinni (SCRL8T)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Protection from Poison (SCRL08)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Pierce Magic (SCRL7L)",
     "category": [
       "Consumables", "Lootsanity"
     ],

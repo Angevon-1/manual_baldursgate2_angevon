@@ -76,8 +76,12 @@
     "requires": "|Umar Hills Unlock|"
   },
   "Trademeet": {
-    "connects_to": [],
+    "connects_to": ["Druid Grove"],
     "requires": "|Trademeet Unlock|"
+  },
+  "Druid Grove": {
+    "connects_to": [],
+    "requires": "|Druid Grove Unlock|"
   },
   "Planar Prison": {
     "connects_to": [],

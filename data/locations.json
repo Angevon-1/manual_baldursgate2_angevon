@@ -1806,12 +1806,6 @@
     "requires": []
   },
   {
-    "name": "Defeat Aawill the bounty hunter",
-    "region": "Planar Prison",
-    "category": ["Planar Prison - Enemies"],
-    "requires": []
-  },
-  {
     "name": "Defeat the Wyvern",
     "region": "Planar Prison",
     "category": ["Planar Prison - Enemies"],
@@ -3114,6 +3108,12 @@
     "requires": []
   },
   {
+    "name": "Loot the Pimlico Estate kitchen",
+    "region": "Temple District",
+    "category": ["Temple District - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
     "name": "Take Korgan to the Pimlico Estate",
     "region": "Temple District",
     "category": ["Companion Quests"],
@@ -3124,5 +3124,431 @@
     "region": "Slums",
     "category": ["Companion Quests"],
     "requires": "|Korgan| AND |Temple District Access| AND |Graveyard District Access|"
+  },
+  {
+    "name": "Let Jaheira go with Meronia",
+    "region": "Docks",
+    "category": ["Companion Quests"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
+  },
+  {
+    "name": "Return to the Harper Hold at Jaheira's request",
+    "region": "Docks",
+    "category": ["Companion Quests"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
+  },
+  {
+    "name": "Defeat Galvarey & co. at the Harper Hold",
+    "region": "Docks",
+    "category": ["Companion Quests"],
+    "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
+  },
+  {
+    "name": "Meet Rasaad",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc.", "EE"],
+    "requires": []
+  },
+  {
+    "name": "Listen to High Merchant Logan Coprith's request",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Meet Cernd",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Pauden's warning",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Defeat the trolls in the Troll Mound",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first pile of skulls in the Troll Mound",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second pile of skulls in the Troll Mound",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the druids and trolls fighting each other",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Kyland Lind",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the witch's house",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Ogre's Tower",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Dalok",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Faldorn",
+    "region": "Druid Grove",
+    "category": ["Druid Grove - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Return to Logan Coprith for your reward after defeating Faldorn",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Listen to Khan Zahraa's request",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with Khan Zahraa",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)|"
+  },
+  {
+    "name": "Become the heroes of Trademeet",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)|"
+  },
+  {
+    "name": "Listen to Tiris's Request",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Meet with Darsidian Moor",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Decide Raissa's fate",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+  },
+  {
+    "name": "Meet Viekang in Vyatri's pub",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the left bookshelf in the red tent",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right bookshelf in the red tent",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the small crate to the right of Keroslava",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the large crate to the right of Keroslava",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Have a fortune told by Keroslava",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with Neeber",
+    "region": "Trademeet",
+    "category": ["Trademeet - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate by the cows",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the stall by the cows",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack north of Keroslava",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the stall by Wallace",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the overall Trademeet area",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf by Guildmistress Busya",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left bookshelf by Logan Coprith",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the middle bookshelf by Logan Coprith",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right bookshelf by Logan Coprith",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left nightstand in the mayor's bedroom",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right nightstand in the mayor's bedroom",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the mayor's house",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the jail",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in Tiris's house",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the desk in Tiris's house",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf in Tiris's house",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Tiris's house",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the blacksmith's shop",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the blacksmith's shop",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the smaller table in the blacksmith's shop",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the larger table in the blacksmith's shop",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the blacksmith's shop",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the Fentan home",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the Fentan home",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in the Fentan home",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Fentan home",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Accept the quest from Luraxxol or Alibakkar",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)|"
+  },
+  {
+    "name": "Defeat the enemies in the crypt",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Trademeet Tomb Key (MISC8M)|"
+  },
+  {
+    "name": "Decide what to do with the Mantle of Waukeen",
+    "region": "Druid Grove",
+    "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Trademeet Tomb Key (MISC8M)| AND |Mantle of Waukeen (MISC8L)|"
+  },
+  {
+    "name": "Loot the chest in the Alibakkar estate",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack in the Alibakkar estate",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the Alibakkar estate",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Alibakkar estate",
+    "region": "Trademeet",
+    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Listen to Minister Lloyd's request",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with Madulf",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with the young adventurers",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Deal with Derrick",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Defeat the mimic in the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the umber hulks in the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the mimic in the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pool in the Umar Cave",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
   }
 ]
