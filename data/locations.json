@@ -3844,5 +3844,191 @@
     "region": "Umar Hills",
     "category": ["Umar Hills - Looting", "Lootsanity"],
     "requires": []
+  },
+  {
+    "name": "Loot the chest in Valygar's cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in Valygar's cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot Valygar's cabin",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Meet Valygar",
+    "region": "Umar Hills",
+    "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest of the left chamber in the start of the Planar Sphere",
+    "region": "Planar Sphere",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the middle chest of the left chamber in the start of the Planar Sphere",
+    "region": "Planar Sphere",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest of the left chamber in the start of the Planar Sphere",
+    "region": "Planar Sphere",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the corner container of the left chamber in the start of the Planar Sphere",
+    "region": "Planar Sphere",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Meet the Knights of Solamnia",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Misc."],
+    "requires": []
+  },
+  {
+    "name": "Loot table by the Knights of Solamnia",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the halflings",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the sahaguins",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Activate the three ovens with coal",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": "|Coal:3|"
+  },
+  {
+    "name": "Activate the Guardian Golem",
+    "region": "Planar Zone",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+  },
+  {
+    "name": "Defeat the trapped Elder Orb",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the skeleton by the Elder Orb",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Lavok",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the pipe by Lavok",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the myconids",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the myconid tree",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Lizard Men",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Lizard Men room",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat a demon in the Abyss",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Tolgerias",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies in the ice room",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the central device in the ice room",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the enemies in the fire room",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the central device in the fire room",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the top right of the room where you put the demon heart in",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Put the demon heart in the device",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": "Demon Heart (MISC6M)"
+  },
+  {
+    "name": "Decide whether to let Lavok die inside or outside the Sphere",
+    "region": "Planar Zone Past Golem",
+    "category": ["Planar Sphere - Enemies"],
+    "requires": "Demon Heart (MISC6M)"
   }
 ]

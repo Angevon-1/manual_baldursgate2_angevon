@@ -24,9 +24,17 @@
     "requires": ""
   },
   "Planar Sphere": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": ["Planar Zone"],
+    "requires": "|OptOne(Valygar)| OR |Valygar's Body (MISC7L)|"
   },
+  "Planar Zone": {
+    "connects_to": ["Planar Zone Past Golem"],
+    "requires": "|Planar Key (KEY03)|"
+  },
+  "Planar Zone Past Golem": {
+    "connects_to": [],
+    "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    },
   "Copper Coronet": {
     "connects_to": [],
     "requires": ""

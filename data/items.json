@@ -388,6 +388,54 @@
   },
   {
     "count": 1,
+    "name": "Golem Arm (MISC6K)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Golem Head (MISC6J)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Demon Heart (MISC6M)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Valygar's Body (MISC7L)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Planar Key (KEY03)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "Coal (MISC7Z)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Mimic's Blood (MISC6Y)",
     "category": [
       "Misc."
@@ -619,6 +667,62 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Sling +2 (SLNG04)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Protector of the Second +2 (LEAT03)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ninja-To +1 (SW1H49)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Helm of Defense, Gift of Peace (HELM04)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of the Ram (RING33)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of Acuity (RING40)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Battle Axe of Mauletar +2 (AX1H03)",
+    "category": [
+      "Equipment", "EE"
+    ],
+    "useful": true
+  },
+  {
     "count": 4,
     "name": "Quarterstaff +1 (STAF02)",
     "category": [
@@ -773,6 +877,54 @@
   {
     "count": 1,
     "name": "Club +2, Gnasher (BLUN24)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Spear +1 (SPER02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Bala's Axe, Wizard Slayer (AX1H07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Large Shield +1, Shield of the Falling Stars (SHLD07)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ripper +2 (BOW09)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Stiletto of Demarchess +2 (DAGG17)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Gauntlets of Ogre Power (BRAC06)",
     "category": [
       "Equipment"
     ],
@@ -963,6 +1115,14 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Ring of Danger Sense (RING36)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "War Hammer +1 (HAMM02)",
     "category": [
@@ -1027,7 +1187,7 @@
     "useful": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Cloak of Protection (CLCK01)",
     "category": [
       "Equipment"
@@ -1125,6 +1285,14 @@
   {
     "count": 1,
     "name": "Staff of Curing (STAF10)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Staff of Fire +2 (STAF17)",
     "category": [
       "Equipment"
     ],
@@ -1339,7 +1507,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 3,
     "name": "Potion of Extra Healing x5 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1611,7 +1779,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Conjure Lesser Air Elemental (SCRL7B)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1827,6 +1995,14 @@
     "filler": true
   },
   {
+    "count": 1,
+    "name": "Scroll of Globe of Invulnerability (SCRL7F)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
     "count": 3,
     "name": "Scroll of Vampiric Touch (SCRL1Q)",
     "category": [
@@ -1891,7 +2067,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Spirit Armor (SCRL5K)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1899,7 +2075,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 3,
     "name": "Scroll of Breach (SCRL6U)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2293,6 +2469,70 @@
   {
     "count": 1,
     "name": "Scroll of Power Word  Sleep (SCRL6E)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Haste (SCRL1H)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Polymorph Other (SCRL5L)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Polymorph Self (SCRL5M)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Minor Spell Turning (SCRL7D)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Khelben's Warding Whip (SCRL8H)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Spell Thrust (SCRL6J)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Emotion (SCRL5H)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Otiluke's Resilient Sphere (SCRL5J)",
     "category": [
       "Consumables", "Lootsanity"
     ],
