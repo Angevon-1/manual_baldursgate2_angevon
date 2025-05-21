@@ -1866,6 +1866,12 @@
     "requires": []
   },
   {
+    "name": "Deal with the beggar",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
     "name": "Deal with the mad cleric",
     "region": "Docks",
     "category": ["Docks - Misc"],
@@ -1894,6 +1900,300 @@
     "region": "Docks",
     "category": ["Docks - Misc"],
     "requires": []
+  },
+  {
+    "name": "Listen to Renal Bloodscalp's request",
+    "region": "Docks",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left table of goods in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the center table of goods in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right table of goods in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first chest in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second chest in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third chest in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the back Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the back Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelves in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest by the bedroom door in the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the dresser in the bedroom of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest in the bedroom of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest in the bedroom of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the bedroom of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the larger table on the 2nd floor of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the smaller table on the 2nd floor of the Shadow Thief Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest by Renal Bloodscalp",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest by Renal Bloodscalp",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the hidden cache by Renal Bloodscalp",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Gain access to Mae'Var's Guildhall",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest by Gorch in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left table by Gorvin in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right table by Gorvin in Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Pick some locks on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate on the basement floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Deliver the necklace or statuette to Mae'Var",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+  },
+  {
+    "name": "Meet Edwin",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+  },
+  {
+    "name": "Deal with Edwin",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
   },
   {
     "name": "Deliver Renfeld to Rylock",

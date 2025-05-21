@@ -436,6 +436,30 @@
   },
   {
     "count": 1,
+    "name": "Statuette of Lathander (MISC4X)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Necklace of Talos (MISC4Y)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Letter of Transfer (MISC4T)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Mimic's Blood (MISC6Y)",
     "category": [
       "Misc."
@@ -659,7 +683,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Bastard Sword +1 (SW1H02)",
     "category": [
       "Equipment"
@@ -883,7 +907,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Spear +1 (SPER02)",
     "category": [
       "Equipment"
@@ -1427,7 +1451,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Potion of Healing x1 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1459,7 +1483,7 @@
     "filler": true
   },
   {
-    "count": 7,
+    "count": 8,
     "name": "Oil of Speed (POTN23)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1507,7 +1531,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 5,
     "name": "Potion of Extra Healing x5 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1541,6 +1565,14 @@
   {
     "count": 1,
     "name": "Potion of Insulation (POTN31)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Potion of Agility (POTN19)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1612,6 +1644,14 @@
   },
   {
     "count": 1,
+    "name": "Potion of Fire Resistance x2 (POTN02)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
     "name": "Potion of Fire Giant Strength (POTN05)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1635,7 +1675,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Antidote (POTN32)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2533,6 +2573,22 @@
   {
     "count": 1,
     "name": "Scroll of Otiluke's Resilient Sphere (SCRL5J)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Fireshield Red (SCRL6N)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Strength (SCRL98)",
     "category": [
       "Consumables", "Lootsanity"
     ],

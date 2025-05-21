@@ -60,8 +60,12 @@
     "requires": "|Bridge District Unlock|"
   },
   "Docks": {
-    "connects_to": [],
+    "connects_to": ["Maevar Guildhall"],
     "requires": "|Docks District Unlock|"
+  },
+  "Maevar Guildhall": {
+    "connects_to": [],
+    "requires": "|Letter of Transfer (MISC4T)|"
   },
   "City Gates": {
     "connects_to": ["de'Arnise Keep", "Windspear Hills", "Umar Hills", "Trademeet"],
