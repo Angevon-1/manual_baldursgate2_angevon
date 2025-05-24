@@ -68,20 +68,32 @@
     "requires": "|Letter of Transfer (MISC4T)|"
   },
   "City Gates": {
-    "connects_to": ["de'Arnise Keep", "Windspear Hills", "Umar Hills", "Trademeet"],
+    "connects_to": ["deArnise Keep", "Windspear Hills", "Umar Hills", "Trademeet"],
     "requires": "|City Gates Unlock|"
   },
   "Slums Sewers": {
     "connects_to": [],
     "requires": ""
   },
-  "de'Arnise Keep": {
-    "connects_to": [],
+  "deArnise Keep": {
+    "connects_to": ["Keep Key"],
     "requires": "|de'Arnise Keep Unlock|"
   },
-  "Windspear Hills": {
+  "Keep Key": {
     "connects_to": [],
+    "requires": "|Keep Key (KEY10)|"
+  },
+  "Windspear Hills": {
+    "connects_to": ["Chapel Key"],
     "requires": "|Windspear Hills Unlock|"
+  },
+  "Chapel Key": {
+    "connects_to": ["Samia's Key"],
+    "requires": "|Chapel Key (KEY07)|"
+  },
+  "Samia's Key": {
+    "connects_to": [],
+    "requires": "|Samia's Key (KEY21)|"
   },
   "Umar Hills": {
     "connects_to": ["Temple Ruins"],

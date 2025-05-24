@@ -340,6 +340,70 @@
   },
   {
     "count": 1,
+    "name": "Edwin's Documents (MISC4W)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Keep Key (KEY10)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mae'Var's Letter (MISC4V)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Embarl's Dagger (MISC4U)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+ {
+    "count": 1,
+    "name": "Chapel Key (KEY07)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+ {
+    "count": 1,
+    "name": "Firkraag Prison Key (KEY09)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+ {
+    "count": 1,
+    "name": "Samia's Key (KEY21)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mae'Var's Strongbox Key (EDWINKEY)",
+    "category": [
+      "Misc."
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Lock of Jaheira's Hair (MISC5V)",
     "category": [
       "Misc.", "Companion Quest Items"
@@ -572,6 +636,46 @@
   },
   {
     "count": 1,
+    "name": "Flail Head Acid (BLUN14C)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Flail Head Poison (BLUN30A)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Flail Head Fire (BLUN14B)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Flail Head Electric (BLUN30B)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Flail Head Cold (BLUN14A)",
+    "category": [
+      "Forgeable Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Silver Pantaloons (MISC5O)",
     "category": [
       "Forgeable Equipment"
@@ -755,6 +859,46 @@
     "useful": true
   },
   {
+    "count": 4,
+    "name": "Quarterstaff +2 (STAF18)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Boots of Stealth, Worn Whispers (BOOT02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Heartseeker +3 (BOW10)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shadow Armor +3 (LEAT08)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+ {
+    "count": 1,
+    "name": "Short Sword of Backstabbing +3, The Shadow's Blade (SW1H10)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 1,
     "name": "Ring of Wizardry, Reaching Ring (RING08)",
     "category": [
@@ -773,6 +917,14 @@
   {
     "count": 1,
     "name": "Helm of Infravision, The Eyes of Truth (HELM05)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Delver's Plate +2 (PLAT11)",
     "category": [
       "Equipment"
     ],
@@ -803,7 +955,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Dagger +1 (DAGG02)",
     "category": [
       "Equipment"
@@ -811,7 +963,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Dagger +2 (DAGG03)",
     "category": [
       "Equipment"
@@ -1147,8 +1299,32 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Elven Court Bow +3 (BOW12)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Frostreaver (AX1H13)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "War Hammer +1 (HAMM02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Warhammer +1, The Knee-Capper (HAMM04)",
     "category": [
       "Equipment"
     ],
@@ -1204,6 +1380,14 @@
   },
   {
     "count": 1,
+    "name": "Ring of Earth Control (RING29)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Leather Armor +1 (LEAT02)",
     "category": [
       "Equipment"
@@ -1235,6 +1419,14 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Two Handed Sword +2 (SW2H11)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 3,
     "name": "Plate Mail +1 (PLAT02)",
     "category": [
@@ -1243,7 +1435,7 @@
     "useful": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Full Plate Mail +1 (PLAT05)",
     "category": [
       "Equipment"
@@ -1267,6 +1459,14 @@
     "useful": true
   },
   {
+    "count": 1,
+    "name": "Shield Amulet (AMUL15)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
     "count": 2,
     "name": "Small Shield +2 (SHLD28)",
     "category": [
@@ -1275,7 +1475,7 @@
     "useful": true
   },
   {
-    "count": 2,
+    "count": 3,
     "name": "Bracers of Defense AC 7 (BRAC02)",
     "category": [
       "Equipment"
@@ -1285,6 +1485,22 @@
   {
     "count": 1,
     "name": "Ardulia's Fall +1 (BLUN20)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Amulet of Protection +1 (AMUL14)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Ring of Fire Resistance (RING02)",
     "category": [
       "Equipment"
     ],
@@ -1324,6 +1540,14 @@
   },
   {
     "count": 1,
+    "name": "Battle Axe +1 (AX1H02)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
     "name": "Battle Axe +2 (AX1H03)",
     "category": [
       "Equipment"
@@ -1349,6 +1573,14 @@
   {
     "count": 1,
     "name": "Skin of the Ghoul +4 (LEAT13)",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Orc Leather +3 (LEAT16)",
     "category": [
       "Equipment"
     ],
@@ -1451,7 +1683,7 @@
     "filler": true
   },
   {
-    "count": 4,
+    "count": 5,
     "name": "Potion of Healing x1 (POTN25)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1515,7 +1747,7 @@
     "filler": true
   },
   {
-    "count": 7,
+    "count": 8,
     "name": "Potion of Extra Healing (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1523,7 +1755,7 @@
     "filler": true
   },
   {
-    "count": 16,
+    "count": 17,
     "name": "Potion of Extra Healing x2 (POTN52)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1707,8 +1939,16 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Wand of Fire (WAND05)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 2,
+    "name": "Wand of Frost (WAND06)",
     "category": [
       "Consumables", "Lootsanity"
     ],
@@ -1755,7 +1995,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Clairvoyance (SCRL1D)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1787,7 +2027,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Armor (SCRL67)",
     "category": [
       "Consumables", "Lootsanity"
@@ -1923,7 +2163,7 @@
     "filler": true
   },
   {
-    "count": 6,
+    "count": 7,
     "name": "Scroll of Identify (SCRL75)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2083,7 +2323,7 @@
     "filler": true
   },
   {
-    "count": 2,
+    "count": 4,
     "name": "Scroll of Protection from Normal Weapons (SCRL6T)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2115,7 +2355,7 @@
     "filler": true
   },
   {
-    "count": 3,
+    "count": 4,
     "name": "Scroll of Breach (SCRL6U)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2427,7 +2667,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Cacofiend (SCRL8I)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2435,7 +2675,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Protection From Magic Energy (SCRL7J)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2523,7 +2763,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Polymorph Other (SCRL5L)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2539,7 +2779,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Minor Spell Turning (SCRL7D)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2579,7 +2819,7 @@
     "filler": true
   },
   {
-    "count": 1,
+    "count": 2,
     "name": "Scroll of Fireshield Red (SCRL6N)",
     "category": [
       "Consumables", "Lootsanity"
@@ -2589,6 +2829,78 @@
   {
     "count": 1,
     "name": "Scroll of Strength (SCRL98)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Mislead (SCRL7K)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Oracle (SCRL6W)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Find Familiar (SCRL6D)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Blindness (SCRL71)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Detect Illusion (SCRL6K)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Conjure Lesser Earth Elemental (SCRL7C)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Feeblemind (SCRL5Q)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Minor Sequencer (SCRL6P)",
+    "category": [
+      "Consumables", "Lootsanity"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Scroll of Teleport Field (SCRL6Q)",
     "category": [
       "Consumables", "Lootsanity"
     ],

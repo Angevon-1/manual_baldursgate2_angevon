@@ -2029,37 +2029,37 @@
   },
   {
     "name": "Loot the chest by Gorch in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the left table by Gorvin in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the right table by Gorvin in Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
@@ -2071,109 +2071,109 @@
   },
   {
     "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the crate on the basement floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
   {
     "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall",
-    "region": "Docks",
+    "region": "Maevar Guildhall",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
   },
@@ -2190,10 +2190,22 @@
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
   },
   {
-    "name": "Deal with Edwin",
+    "name": "Deal with Edwin's first request",
     "region": "Maevar Guildhall",
     "category": ["Docks - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+  },
+  {
+    "name": "Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  {
+    "name": "Defeat Mae'Var on behalf of Renal Bloodscalp",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Enemies"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   {
     "name": "Deliver Renfeld to Rylock",
@@ -2746,6 +2758,66 @@
     "region": "Docks",
     "category": ["Docks - Looting", "Lootsanity"],
     "requires": []
+  },
+  {
+    "name": "Loot the round table on the first floor in Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf on the first floor in Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bed on the 2nd floor in Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the round table on the top floor in Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the brazier on the top floor in Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the Rayic Gethras's home",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": []
+  },
+  {
+    "name": "Give Edwin the documents from Marcus",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  {
+    "name": "Decide Embarl's Fate",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  {
+    "name": "Bring Embarl's dagger to Mae'Var",
+    "region": "Maevar Guildhall",
+    "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  {
+    "name": "Loot Mae'Var's Strongbox",
+    "region": "Docks",
+    "category": ["Docks - Looting", "LootsanityLite"],
+    "requires": "|Mae'Var's Strongbox Key (EDWINKEY)|"
   },
   {
     "name": "Loot the barrel on the roof of the Harper Hold",
@@ -4330,5 +4402,419 @@
     "region": "Planar Zone Past Golem",
     "category": ["Planar Sphere - Enemies"],
     "requires": "Demon Heart (MISC6M)"
+  },
+  {
+    "name": "Meet with Captain Arat at the de'Arnise Keep",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Find the side entrance at the de'Arnise Keep",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate by the side extrance of the de'Arnise Keep",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel by the side extrance of the de'Arnise Keep",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Meet Daleson in the de'Arnise Keep",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left weapon rack in the room Daleson is found in",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right weapon rack in the room Daleson is found in",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the servants' quarters (South)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first chest in the servants' quarters (South)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second chest in the servants' quarters (South)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third chest in the servants' quarters (South)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the forge room",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the lion statue near the forge room",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the hallway outside the great hall",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Otyugh by the dogs",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Lower the drawbridge",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Retake the great hall after lowering the drawbridge",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the first chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the second chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the third chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fourth chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fifth chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sixth chest in the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the privvy by the servants' quarters (North)",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the sack in the kitchen",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the bookshelf in the 2nd floor stairs room",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the vanity in the south corner bedroom of the 2nd floor",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Yuan-ti mage",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the left bookshelf in the library",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the right bookshelf in the library",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the small back bookshelf in the library",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the vanity in the northeast corner bedroom of the 2nd floor",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the fireplace in the 4 poster bedroom",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot one or more of the caches in the golem room",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest before the room with Glaicus",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Deal with Glaicus",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the basement by the stairs",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the barrel in the basement by the stairs",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the basement by the stairs",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Deal with the Umber Hulks",
+    "region": "deArnise Keep",
+    "category": ["de'Arnise Keep - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the crate in the umber hulk room",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 1st chest in the umber hulk room",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 2nd chest in the umber hulk room",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the 3rd chest in the umber hulk room",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat TorGal",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the statue behind TorGal",
+    "region": "Keep Key",
+    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the 'Ogre' & crew",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Plath Rededge & crew",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Deliver the acorns to the dryads",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Misc"],
+    "requires": "|Acorns (MISC4N)|"
+  },
+  {
+    "name": "Defeat the werewolves & gnolls",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the hobgobins just inside the ruins",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the vampiric mist pool in the ruins",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the stalagmite vampiric mist pool in the ruins",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the transmuter",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Survive the orc ambush in the ruins",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Decide Derg the Orc's fate",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Decide Flaylan the Orc's fate",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the troll cook",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in the troll cook room",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the Otyugh in the circular room",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the wood plank in the shadow room, past the vampires",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the chest in the the vampires room",
+    "region": "Windspear Hills",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Decide whether or not to help Gerg and the little troll",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Misc"],
+    "requires": []
+  },
+  {
+    "name": "Defeat the master's precious golems",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the cache behind the master's precious golems",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Defeat Tazok",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": []
+  },
+  {
+    "name": "Loot the table in Tazok's room",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Loot the closet in Tazok's room",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "requires": []
+  },
+  {
+    "name": "Save (or don't) the child",
+    "region": "Chapel Key",
+    "category": ["Windspear Hills - Enemies"],
+    "requires": "|Firkraag Prison Key (KEY09)|"
   }
 ]
