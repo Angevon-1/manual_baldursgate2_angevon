@@ -6,8 +6,8 @@
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
-            "display_name": "The End Objective",
-            "description": "How to End your Randomized playthrough.",
+            "display_name": "Goal options",
+            "description": "Escape Irenicus's Dungeon. This is intended for very short playthroughs (1-2 hours). Reach Spellhold. This is intended for medium length playthroughs; depends on how long it takes to get enough money to pay off Gaelan Bayle or the vampires. Defeat Firkraag. This is intended for longer playthroughs (hypothetically) since it depends how long it takes to get enough gear and levels to be able to defeat him.",
             "aliases": {"easiest": 0},
             "hidden": false
         },
