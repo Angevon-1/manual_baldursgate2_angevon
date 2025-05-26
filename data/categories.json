@@ -11,7 +11,7 @@
     "hidden": false,
     "yaml_option": ["enable_companion_quests"]
     },
-    "NPCS": {
+    "Characters": {
     "hidden": false,
     "yaml_option": ["include_npcs"]
     },
