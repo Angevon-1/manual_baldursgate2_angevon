@@ -2,583 +2,583 @@
   {
     "name": "Meet Imoen",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Characters"],
+    "category": ["Irenicus's Dungeon - Characters", "ID" ],
     "requires": []
   },
   {
     "name": "Free Minsc from the cell in Irenicus's Dungeon",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Characters"],
+    "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": []
   },
   {
     "name": "Free Jaheira from the cell in Irenicus's Dungeon",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Characters"],
+    "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": "|Jail Cell Key (MISC4B)|"
   },
   {
     "name": "Loot the table near the Jailkeep Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near the Jailkeep Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the picture on the wall near the Jailkeep Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Jailkeep Golem's room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Hit the Switch to stop the Lightning Mephits",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
   {
     "name": "Answer (or not) the Genie's question",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
   {
     "name": "Loot the unlocked crate in the tank room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the locked crate in the tank room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the tank room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the tank room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the large table near the Sewage Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the small table near the Sewage Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the cabinet near the Sewage Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near the Sewage Golem",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Sewage Golem's room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the barrel near Rielev",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Rielev",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the library",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": [],
     "region": "Irenicus's Dungeon (Level 1)"
   },
   {
     "name": "Defeat Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the barrel near Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first table near Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second table near Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near Ilyich",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the room Ilyich was in",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Decide the Cambion's Fate",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
   {
     "name": "Defeat the Otyugh",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the large locked chest in the Otyugh room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the small locked chest in the Otyugh room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the small unlocked chest in the Otyugh room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the Otyugh room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the first bookshelf in the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the second bookshelf in the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the chest in the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the nightstand in the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the first vase to the left of Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the second vase to the left of Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the Master's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the nightstand in the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the chest in the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },  
   {
     "name": "Loot the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the bookshelf in the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the table in the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
   {
     "name": "Loot the location on the left side of Elemental Plane of Air",
     "region": "Elemental Plane of Air",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Decide the Genie's fate",
     "region": "Elemental Plane of Air",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": "|The Genie's Flask (MISC4D)|"
   },
   {
     "name": "Meet Yoshimo",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Characters"],
+    "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": []
   },
   {
     "name": "Find Khalid.",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Characters"],
+    "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": []
   },
   {
     "name": "Loot the crate near Yoshimo",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near the bookshelf in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Khalid in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first chest in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second chest in the Mephit Portal Room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Defeat the clone and/or assassin in the clone room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
   {
     "name": "Loot the first barrel in the clone room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second barrel in the clone room",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
-    "requires": "{YamlDisabled(lootsanity)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+    "requires": "{YamlDisabled(Loot)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the crate in the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the first chest in the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the second chest in the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the table in the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Complete the Throne Room puzzle",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the throne",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Defeat vampire Ulvaryl and/or the assassins",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the bookshelf in the room before Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the unlocked chest in the room before Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the locked chest in the room before Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the room before Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
-    "requires": "{YamlDisabled(lootsanity)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": "{YamlDisabled(Loot)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the left bookshelf in Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the right bookshelf in Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the first table in Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],    
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the second table in Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],    
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the chest in Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "Lootsanity"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot Frennedan's cell",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Decide Frennedan's fate",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],    
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Defeat the Duergar (after the throne room)",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
   {
     "name": "Talk to (or deal with) the Dryads on behalf of the Genie",
     "region": "Elemental Plane of Air",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
   {
     "name": "Defeat the Lesser Clay Golems",
     "region": "Irenicus's Dungeon (Level 1)",
-    "category": ["Irenicus's Dungeon - Enemies"],
+    "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
   {
     "name": "Loot the room Khalid was in",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Looting", "LootsanityLite"],
+    "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   {
     "name": "Escape Irenicus's Dungeon",
     "region": "Irenicus's Dungeon (Level 2)",
-    "category": ["Irenicus's Dungeon - Misc."],
+    "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": "|Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the chest near Mira",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near Mira",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the square table near the Ophals",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the round table near the Ophals",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near the Ophals",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the thing near Murtlen",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack near Murtlen",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Murtlen",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 4 stalls near Jerlia",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near the chickens",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the wall decoration near the armorer/fletcherer",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stall near Enge's shop",
     "region": "Waukeen's Promenade",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
@@ -596,13 +596,13 @@
   {
     "name": "Loot the left vase in the 2nd room of the circus tent",
     "region": "Circus Tent",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right vase in the 2nd room of the circus tent",
     "region": "Circus Tent",
-    "category": ["Waukeen's Promenade - Looting", "Lootsanity"],
+    "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   {
@@ -626,313 +626,313 @@
   {
     "name": "Loot the stall near the Slaver Stockade",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the wall stash near the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the leftmost stall in front of the Copper Coronet",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the middle stall in front of the Copper Coronet",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the rightmost stall in front of the Copper Coronet",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first barrel by Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second barrel by Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first crate by Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second crate by Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third crate by Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left barrel by the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right barrel by the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the other barrel by the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left stall by the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right stall by the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel by the left entrance to the Copper Coronet",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sacks on the left side of the slums",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel to the left of the Planar Sphere",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left stall by the Planar Sphere",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right stall by the Planar Sphere",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel by the north exit to the slums",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the overall Slums area",
     "region": "Slums",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the vanity in the derelict home",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in the derelict home",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the upper shelf in the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the lower shelf in the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the rightmost shelf in the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the lower level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the lower level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the lower level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the upper level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the upper level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in the upper level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the upper level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the upper level of the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Jansen residence",
     "region": "Slums",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the table in Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest by the entrance in Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the back of Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Borinall's house",
     "region": "Slums",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the first barrel in the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second barrel in the Temple of Ilmater",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the vanity in Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the room above Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the room above Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in the room above Gaelan Bayle's room",
     "region": "Slums",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Gaelan Bayle's base",
     "region": "Slums",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1022,121 +1022,121 @@
   {
     "name": "Loot the sack in the Copper Coronet kitchen",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the Copper Coronet kitchen",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Unger Hilldark's table in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Tiana in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near Anomen in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel near Rumar and Priss in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Yarin in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Llynis in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate behind Madame Nin in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the drawer near Zaviera in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the empty pleasure room in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel before entering the back area in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the back of the slave cells in the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Copper Coronet",
     "region": "Copper Coronet",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel near Quallo",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near Quallo",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table near Quallo",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
@@ -1166,7 +1166,7 @@
   {
     "name": "Loot the Slums Sewers",
     "region": "Slums Sewer",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1214,73 +1214,73 @@
   {
     "name": "Loot the barrel near the food shelf in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the food shelf in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the round table near the slaver wizard in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the rectangular table near the slaver wizard in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the trapped room in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the weapon barrel in the trapped room in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the trapped room in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the Yuan-Ti room in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Yuan-Ti room in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near the sewers entrance in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel near the sewers entrance in the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "Lootsanity"],
+    "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Slaver Stockade",
     "region": "Slaver Stockade",
-    "category": ["Slums - Looting", "LootsanityLite"],
+    "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1358,43 +1358,43 @@
   {
     "name": "Loot the left stall near Bel Dalemark",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right stall near Bel Dalemark",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stall behind Bel Dalemark",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel near Aegisfield",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate near Aegisfield",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel behind the Five Flagons inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the overall Bridge District area",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1460,103 +1460,103 @@
   {
     "name": "Loot the table in the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the basket in the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the bed in the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the bookshelf in the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the oven in the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the large crate on the lower level of the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the small crate on the lower level of the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the barrel on the lower level of the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the tanner's house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   {
     "name": "Loot the table in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left bookshelf in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right bookshelf in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left barrel in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right barrel in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the unmarked house behind the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1610,193 +1610,193 @@
   {
     "name": "Loot the smaller table in the lich house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the larger table in the lich house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the basket in the lich house",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first table in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second table in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third table in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fourth table in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the kitchen in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the vanity upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first crate upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second crate upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest way in the back upstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest downstairs behind the receptionist in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the actors' tables downstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the props room downstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the props room downstairs in the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Five Flagons Inn",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the table in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the side table in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs table in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs shelf in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs chest of drawers in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs bookshelf in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs chest in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs side table in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the upstairs desk in the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the house by Reedle",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1808,25 +1808,25 @@
   {
     "name": "Loot the chest in the house Dracandros, Falahar, Pitre, and Valeria were in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the basket in the house Dracandros, Falahar, Pitre, and Valeria were in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the cabinet in the house Dracandros, Falahar, Pitre, and Valeria were in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the house Dracandros, Falahar, Pitre, and Valeria were in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -1892,7 +1892,7 @@
   {
     "name": "Loot the pool behind the pirates under The Seas Bounty",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
@@ -1910,115 +1910,115 @@
   {
     "name": "Loot the left table of goods in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the center table of goods in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right table of goods in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first chest in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second chest in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third chest in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the back Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the back Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelves in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest by the bedroom door in the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in the bedroom of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the bedroom of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the bedroom of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the bedroom of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the larger table on the 2nd floor of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the smaller table on the 2nd floor of the Shadow Thief Guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest by Renal Bloodscalp",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest by Renal Bloodscalp",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the hidden cache by Renal Bloodscalp",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2030,37 +2030,37 @@
   {
     "name": "Loot the chest by Gorch in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left table by Gorvin in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right table by Gorvin in Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2072,109 +2072,109 @@
   {
     "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate on the basement floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall",
     "region": "Maevar Guildhall",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2234,7 +2234,7 @@
   {
     "name": "Loot the sarcophagus behind Arenthis",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2294,13 +2294,13 @@
   {
     "name": "Loot the sarcophagus in the Crypt King's tomb",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the Crypt King's tomb",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2312,7 +2312,7 @@
   {
     "name": "Loot the antechamber to Dragomir's tomb",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
@@ -2348,43 +2348,43 @@
   {
     "name": "Loot sarcophagus 1",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
     "name": "Loot sarcophagus 2",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
     "name": "Loot sarcophagus 3",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
     "name": "Loot sarcophagus 4",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
     "name": "Loot sarcophagus 5",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "EE", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Dragomir's Tomb",
     "region": "Dragomir's Tomb",
-    "category": ["Graveyard District - Looting", "EE", "LootsanityLite"],
+    "category": ["Graveyard District - Looting", "EE", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the tomb directly southwest of the right entrance to the Lower Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2396,7 +2396,7 @@
   {
     "name": "Loot the tomb behind Sethle",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2408,13 +2408,13 @@
   {
     "name": "Loot the sarcophagus in the central tomb",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the central tomb",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2426,37 +2426,37 @@
   {
     "name": "Loot the tomb by Stein",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the the overall Graveyard District",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "LootsanityLite"],
+    "category": ["Graveyard District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the urn near the pyramidal entrance to the Lower Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the hallway near the pyramidal entrance in the Lower Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest near the pyramidal entrance in the Lower Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the web in Pai'Na's room",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -2474,43 +2474,43 @@
   {
     "name": "Loot the urn in the entryway of the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first urn in the southernmost area of the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second urn in the southernmost area of the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the urn at the T intersection in the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the urn by the sealed sarcophagus in the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate by the sealed sarcophagus in the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "Lootsanity"],
+    "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Southern Tombs",
     "region": "Graveyard",
-    "category": ["Graveyard District - Looting", "LootsanityLite"],
+    "category": ["Graveyard District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -2534,19 +2534,19 @@
   {
     "name": "Loot the sack in Reti and Camitis's base",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the table in Reti and Camitis's base",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the chest in Reti and Camitis's base",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
@@ -2558,241 +2558,241 @@
   {
     "name": "Loot the left chest in the room Lady Elgea is held in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the right chest in the room Lady Elgea is held in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the dresser in the room Lady Elgea is held in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the table in the room Lady Elgea is held in",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "Lootsanity"],
+    "category": ["Bridge District - Looting", "Loot"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot Reti and Camitis's base",
     "region": "Bridge",
-    "category": ["Bridge District - Looting", "LootsanityLite"],
+    "category": ["Bridge District - Looting", "LootLite"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
   },
   {
     "name": "Loot the first bookshelf in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second bookshelf in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third bookshelf in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fourth bookshelf in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fifth bookshelf in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first stall by the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second stall by the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the big table in Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the small table in Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the bedroom in Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the bedroom in Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Valygar's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the Sea's Bounty",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the Sea's Bounty",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Sea's Bounty",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Sea's Bounty",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the Temple of Oghma",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the locked chest by the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first stall by Ikent",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second stall by Ikent",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third stall by Ikent",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the lone crate south of Xzar",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the basket near Xzar",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stall next to Mae'Var's guildhall",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first barrel by Cromwell's smithy",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second barrel by Cromwell's smithy",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel near the left entrance to the area",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the round table on the first floor in Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf on the first floor in Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bed on the 2nd floor in Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the round table on the top floor in Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the brazier on the top floor in Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Rayic Gethras's home",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -2816,19 +2816,19 @@
   {
     "name": "Loot Mae'Var's Strongbox",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": "|Mae'Var's Strongbox Key (EDWINKEY)|"
   },
   {
     "name": "Loot the barrel on the roof of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the table on the roof of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
@@ -2840,73 +2840,73 @@
   {
     "name": "Loot the table on the roof of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the small table on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the sack near the small table on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the first chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the second chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the third chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the fourth chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the fifth chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the sixth chest in the communal bedroom on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the table in the dining room on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the barrel near the aviary on the second floor of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
     "name": "Loot the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": "|Renfeld's Body (MISC5F)| AND |Harper Amulet (MISC5E)|"
   },
   {
@@ -2918,43 +2918,43 @@
   {
     "name": "Loot the table in the first room of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the pile of books in the first room of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the table in the second room of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the eye picture on the wall in the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the table in the third room of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the table in the fourth room of the Harper Hold",
     "region": "Docks",
-    "category": ["Docks - Looting", "Lootsanity"],
+    "category": ["Docks - Looting", "Loot"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
   {
     "name": "Loot the overall Docks area",
     "region": "Docks",
-    "category": ["Docks - Looting", "LootsanityLite"],
+    "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3014,37 +3014,37 @@
   {
     "name": "Loot the chest in the Firecam estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "Lootsanity"],
+    "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Firecam estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "Lootsanity"],
+    "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack in the Firecam estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "Lootsanity"],
+    "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Firecam estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "LootsanityLite"],
+    "category": ["Government District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the fountain in the Voluva estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "Lootsanity"],
+    "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the Voluva estate",
     "region": "Government District",
-    "category": ["Government District - Looting", "Lootsanity"],
+    "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3092,7 +3092,7 @@
   {
     "name": "Loot the pipe near the kobolds at the center of the Temple District Sewers",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3110,139 +3110,139 @@
   {
     "name": "Loot the first bookshelf in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second bookshelf in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third bookshelf in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the oven in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel next to the oven in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the altar in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the room left of the altar in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the bedroom in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the skeleton room in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in the skeleton room in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the room before the bedroom in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the room before the bedroom in Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Mekrath's lair",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "category": ["Temple District Sewers - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the chest in the rightmost cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the rightmost cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the middle cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the middle cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the left cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the left cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the bottom left cultist room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in Gaal's room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in Gaal's room",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Cult of the Eyeless",
     "region": "Temple District Sewers",
-    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "category": ["Temple District Sewers - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3272,19 +3272,19 @@
   {
     "name": "Loot the left chest in the room with Zaelus and Garuk",
     "region": "Lower Reaches",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the room with Zaelus and Garuk",
     "region": "Lower Reaches",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the screaming statue",
     "region": "Lower Reaches",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3302,7 +3302,7 @@
   {
     "name": "Loot the decoration on the rift bridge",
     "region": "Lower Reaches",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3344,55 +3344,55 @@
   {
     "name": "Loot the pile of bodies in Ghoul Town",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel behind the mayor in Ghoul Town",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pulsating mass at the entrance to the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pulsating mass at the south area of the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pulsating mass at the north area of the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the tiny spot left of the pulsating mass at the north area of the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the tiny spot below of the pulsating mass at the north area of the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "Lootsanity"],
+    "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Ghoul Town",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "category": ["Temple District Sewers - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the Pit of the Faithless",
     "region": "Pit of the Faithless",
-    "category": ["Temple District Sewers - Looting", "LootsanityLite"],
+    "category": ["Temple District Sewers - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3405,114 +3405,114 @@
     "name": "Defeat the Unseeing Eye",
     "region": "Pit of the Faithless",
     "category": ["Temple District Sewers - Enemies"],
-    "requires": "Rift Device Part (MISC5B)"
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   {
     "name": "Return the Rift Device to the Avatar",
     "region": "Pit of the Faithless",
     "category": ["Temple District Sewers - Misc."],
-    "requires": "Rift Device Part (MISC5B)"
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   {
     "name": "Report the end of the Cult to your temple leader",
     "region": "Pit of the Faithless",
     "category": ["Temple District Sewers - Misc."],
-    "requires": "Rift Device Part (MISC5B)"
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   {
     "name": "Loot the chest in the left room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the left room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the back room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the cabinet in the back room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelves in the right room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the desk in the right room of the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Temple of Helm",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "LootsanityLite"],
+    "category": ["Temple District - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the bookshelves in the left area of the Temple of Lathander",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the back area of the Temple of Lathander",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the Pimlico Estate bedroom",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the Pimlico Estate bedroom",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in the Pimlico Estate bedroom",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left table in the Pimlico Estate kitchen",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right table in the Pimlico Estate kitchen",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the Pimlico Estate kitchen",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "Lootsanity"],
+    "category": ["Temple District - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Pimlico Estate kitchen",
     "region": "Temple District",
-    "category": ["Temple District - Looting", "LootsanityLite"],
+    "category": ["Temple District - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3578,13 +3578,13 @@
   {
     "name": "Loot the first pile of skulls in the Troll Mound",
     "region": "Druid Grove",
-    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "category": ["Druid Grove - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second pile of skulls in the Troll Mound",
     "region": "Druid Grove",
-    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "category": ["Druid Grove - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3602,13 +3602,13 @@
   {
     "name": "Loot the chest in the witch's house",
     "region": "Druid Grove",
-    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "category": ["Druid Grove - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Ogre's Tower",
     "region": "Druid Grove",
-    "category": ["Druid Grove - Looting", "Lootsanity"],
+    "category": ["Druid Grove - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3674,25 +3674,25 @@
   {
     "name": "Loot the left bookshelf in the red tent",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right bookshelf in the red tent",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the small crate to the right of Keroslava",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the large crate to the right of Keroslava",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
@@ -3710,157 +3710,157 @@
   {
     "name": "Loot the crate by the cows",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stall by the cows",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack north of Keroslava",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stall by Wallace",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the overall Trademeet area",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the shelf by Guildmistress Busya",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left bookshelf by Logan Coprith",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the middle bookshelf by Logan Coprith",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right bookshelf by Logan Coprith",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left nightstand in the mayor's bedroom",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right nightstand in the mayor's bedroom",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the mayor's house",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the table in the jail",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in Tiris's house",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the desk in Tiris's house",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in Tiris's house",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Tiris's house",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the blacksmith's shop",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the blacksmith's shop",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the smaller table in the blacksmith's shop",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the larger table in the blacksmith's shop",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the blacksmith's shop",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the left chest in the Fentan home",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in the Fentan home",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in the Fentan home",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Fentan home",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3884,25 +3884,25 @@
   {
     "name": "Loot the chest in the Alibakkar estate",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack in the Alibakkar estate",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the Alibakkar estate",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "Lootsanity"],
+    "category": ["Trademeet - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Alibakkar estate",
     "region": "Trademeet",
-    "category": ["Trademeet - Looting", "LootsanityLite"],
+    "category": ["Trademeet - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -3944,61 +3944,61 @@
   {
     "name": "Loot the mimic in the Umar Cave",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pool in the Umar Cave",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Umar Cave",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the right barrel in the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left barrel in the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the large table in the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the small table in the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the shelf in the bedroom of the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the Ranger Cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -4010,13 +4010,13 @@
   {
     "name": "Loot the tree in Anath's cave",
     "region": "Temple Ruins",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pond in Anath's cave",
     "region": "Temple Ruins",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4028,7 +4028,7 @@
   {
     "name": "Loot the sarcophagus in the room north of the temple entrance",
     "region": "Temple Ruins",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4046,37 +4046,37 @@
   {
     "name": "Loot the pile of stones in the jail",
     "region": "Temple Ruins",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the pillar near the jail",
     "region": "Temple Ruins",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 1st broken pillar in the lava",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 2nd broken pillar in the lava",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the wall decoration in the lava room",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot obelisk behind the lava room",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4118,7 +4118,7 @@
   {
     "name": "Loot the statue with her arms outstretched",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4130,7 +4130,7 @@
   {
     "name": "Loot the wall behind the Shadow that asks for help",
     "region": "Temple Ruins Past 1st Barrier",
-    "category": ["Temple Ruins - Looting", "Lootsanity"],
+    "category": ["Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4154,85 +4154,85 @@
   {
     "name": "Loot the shelf in Jermien's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in Jermien's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the left chest in Jermien's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest in Jermien's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Jermien's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the crate in Minister Lloyd's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in Minister Lloyd's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the dresser in Minister Lloyd's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Minister Lloyd's home",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   {
     "name": "Loot the closet in the left room of the Umar Inn",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in the right room of the Umar Inn",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in Valygar's cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in Valygar's cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "Lootsanity"],
+    "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot Valygar's cabin",
     "region": "Umar Hills",
-    "category": ["Umar Hills - Looting", "LootsanityLite"],
+    "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   {
@@ -4244,25 +4244,25 @@
   {
     "name": "Loot the left chest of the left chamber in the start of the Planar Sphere",
     "region": "Planar Sphere",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the middle chest of the left chamber in the start of the Planar Sphere",
     "region": "Planar Sphere",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right chest of the left chamber in the start of the Planar Sphere",
     "region": "Planar Sphere",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the corner container of the left chamber in the start of the Planar Sphere",
     "region": "Planar Sphere",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4274,7 +4274,7 @@
   {
     "name": "Loot table by the Knights of Solamnia",
     "region": "Planar Zone",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4310,7 +4310,7 @@
   {
     "name": "Loot the skeleton by the Elder Orb",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4322,7 +4322,7 @@
   {
     "name": "Loot the pipe by Lavok",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4334,7 +4334,7 @@
   {
     "name": "Loot the myconid tree",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4346,7 +4346,7 @@
   {
     "name": "Loot the Lizard Men room",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4370,7 +4370,7 @@
   {
     "name": "Loot the central device in the ice room",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4382,13 +4382,13 @@
   {
     "name": "Loot the central device in the fire room",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the top right of the room where you put the demon heart in",
     "region": "Planar Zone Past Golem",
-    "category": ["Planar Sphere - Looting", "Lootsanity"],
+    "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4418,13 +4418,13 @@
   {
     "name": "Loot the crate by the side extrance of the de'Arnise Keep",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel by the side extrance of the de'Arnise Keep",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4436,55 +4436,55 @@
   {
     "name": "Loot the left weapon rack in the room Daleson is found in",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right weapon rack in the room Daleson is found in",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the table in the servants' quarters (South)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the first chest in the servants' quarters (South)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second chest in the servants' quarters (South)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third chest in the servants' quarters (South)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the forge room",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the lion statue near the forge room",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the hallway outside the great hall",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4508,61 +4508,61 @@
   {
     "name": "Loot the first chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the second chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the third chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fourth chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fifth chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sixth chest in the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the privvy by the servants' quarters (North)",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the sack in the kitchen",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the bookshelf in the 2nd floor stairs room",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the vanity in the south corner bedroom of the 2nd floor",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4574,43 +4574,43 @@
   {
     "name": "Loot the left bookshelf in the library",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the right bookshelf in the library",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the small back bookshelf in the library",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the vanity in the northeast corner bedroom of the 2nd floor",
     "region": "deArnise Keep",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the fireplace in the 4 poster bedroom",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot one or more of the caches in the golem room",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest before the room with Glaicus",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4622,19 +4622,19 @@
   {
     "name": "Loot the chest in the basement by the stairs",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the barrel in the basement by the stairs",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the crate in the basement by the stairs",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4646,25 +4646,25 @@
   {
     "name": "Loot the crate in the umber hulk room",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 1st chest in the umber hulk room",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 2nd chest in the umber hulk room",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the 3rd chest in the umber hulk room",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4676,7 +4676,7 @@
   {
     "name": "Loot the statue behind TorGal",
     "region": "Keep Key",
-    "category": ["de'Arnise Keep - Looting", "Lootsanity"],
+    "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4712,13 +4712,13 @@
   {
     "name": "Loot the vampiric mist pool in the ruins",
     "region": "Windspear Hills",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the stalagmite vampiric mist pool in the ruins",
     "region": "Windspear Hills",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4754,7 +4754,7 @@
   {
     "name": "Loot the table in the troll cook room",
     "region": "Windspear Hills",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4766,13 +4766,13 @@
   {
     "name": "Loot the wood plank in the shadow room, past the vampires",
     "region": "Windspear Hills",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the chest in the the vampires room",
     "region": "Windspear Hills",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4790,7 +4790,7 @@
   {
     "name": "Loot the cache behind the master's precious golems",
     "region": "Chapel Key",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
@@ -4802,13 +4802,13 @@
   {
     "name": "Loot the table in Tazok's room",
     "region": "Chapel Key",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {
     "name": "Loot the closet in Tazok's room",
     "region": "Chapel Key",
-    "category": ["Windspear Hills - Looting", "Lootsanity"],
+    "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   {

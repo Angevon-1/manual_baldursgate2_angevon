@@ -16,7 +16,42 @@
         }
     },
     "user": {
-        "lootsanity":{
+        "enhanced_edition":{
+            "description": [
+                "Set this to true if you're playing the enhanced edition. This will include enhanced edition items and locations.",
+                "To compensate for check count, this will also add a bunch of filler potions and scrolls to the item pool.",
+                "Note that your Lockpicking ability is NOT accounted for at this time. Progression may be locked behind a locked chest and it's up to you to get past it."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "skip_irenicus_dungeon":{
+            "description": [
+                "Enable this if you want to skip all of Irenicus's Dungeon. It will remove all Irenicus Dungeon-specific items and locations from the multiworld.",
+                "(Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not affected).",
+                "It is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "enable_companion_quests":{
+            "description": [
+                "When this is true, items & locations related to all the NPC companions's quests are added to the multiworld.",
+                "You must not kill any potential party members! Don't let any die before you've done their checks!"
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_npcs":{
+            "description": [
+                "This adds the recruitable party member NPCs as unlockables in the item list. You will automatically be given 3 NPCs at random in the starting inventory.",
+                "When used in conjunction with enable_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.",
+                "Without this option, companion quests are instead locked by the region unlocks where the companion exists and where the quests take place."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "loot_checks":{
             "description": [
                 "Set this to true if you want a bunch of individual lootable crates/barrels/chests added to the pool as location checks.",
                 "To compensate for check count, this will also add a bunch of filler potions and scrolls to the item pool.",
@@ -25,14 +60,26 @@
             "type": "Toggle",
             "default": false
         },
-        "lootsanity_lite":{
+        "loot_checks_lite":{
             "description": [
                 "Set this to true if instead of EVERY lootable as a check, you'd rather have 'loot x room' as checks.",
                 "This is more balanced than full lootsanity and easier to track. Lockpicking ability is not required.",
-                "This is the recommended setting."
+                "This is the recommended loot setting."
             ],
             "type": "Toggle",
             "default": true
+        },
+        "progressive_equipment":{
+            "description": [
+                "When this is true, most magical equipment is removed from the multiworld item pool and replaced by a progressive system.",
+                "You'll need to find the equipment in the game (cheat console or save editing is NOT to be used).",
+                "With the progression system, you can't use +x weapons until you've received the same number of progressives for that weapon type.",
+                "For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.",
+                "This option works well with Item Randomizer and is best for those who'd prefer not to use the cheat console or save editor."
+            ],
+            "type": "Toggle",
+            "default": false
         }
+
     }
 }

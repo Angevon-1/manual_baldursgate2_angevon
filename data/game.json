@@ -3,5 +3,10 @@
   "game": "BaldursGate2",
   "creator": "Angevon",
   "filler_item_name": "100 Gold",
-  "starting_items": []
+  "starting_items": [
+    {
+      "item_categories": ["Characters"],
+      "random": 3
+    }
+  ]
 }

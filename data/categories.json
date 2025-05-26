@@ -1,9 +1,30 @@
-{   "Lootsanity": {
+{   
+    "EE": {
     "hidden": true,
-    "yaml_option": ["lootsanity"]
-},
-    "LootsanityLite": {
+    "yaml_option": ["enhanced_edition"]
+    },
+    "ID": {
     "hidden": true,
-    "yaml_option": ["lootsanity_lite"]
-}
+    "yaml_option": ["skip_irenicus_dungeon"]
+    },
+    "Companion Quests": {
+    "hidden": false,
+    "yaml_option": ["enable_companion_quests"]
+    },
+    "NPCS": {
+    "hidden": false,
+    "yaml_option": ["include_npcs"]
+    },
+    "Progressive Equipment": {
+    "hidden": false,
+    "yaml_option": ["progressive_equipment"]
+    },
+    "Loot": {
+    "hidden": true,
+    "yaml_option": ["loot_checks"]
+    },
+    "LootLite": {
+    "hidden": true,
+    "yaml_option": ["loot_checks_lite"]
+    }
 }

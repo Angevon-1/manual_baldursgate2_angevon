@@ -67,6 +67,12 @@
   },
   {
     "count": 1,
+    "name": "Wild Forest Unlock",
+    "category": ["Region Unlocks", "EE"],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Jail Cell Key (MISC4B)",
     "category": [
       "Irenicus's Dungeon - Keys"
@@ -437,6 +443,14 @@
   {
     "count": 1,
     "name": "Rift Device Part (MISC5A)",
+    "category": [
+      "Keys"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rift Device Part (MISC5B)",
     "category": [
       "Keys"
     ],
