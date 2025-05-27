@@ -1,6 +1,5 @@
 [
-  {
-    "name": "Meet Imoen",
+  { "name": "Meet Imoen",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Characters", "ID" ],
     "requires": []
@@ -294,7 +293,7 @@
     "requires": []
   },
   {
-    "name": "Find Khalid.",
+    "name": "Find Khalid",
     "region": "Irenicus's Dungeon (Level 2)",
     "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": []
@@ -369,7 +368,7 @@
     "name": "Loot the Duergar Room (behind the smithy)",
     "region": "Irenicus's Dungeon (Level 2)",
     "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "{YamlDisabled(Loot)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
   },
   {
     "name": "Loot the crate in the Duergar Room (behind the smithy)",
@@ -492,7 +491,7 @@
     "requires": []
   },
   {
-    "name": "Defeat the Lesser Clay Golems",
+    "name": "Defeat the Lesser Clay Golems that guard the Mistress's Room",
     "region": "Irenicus's Dungeon (Level 1)",
     "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
@@ -507,7 +506,8 @@
     "name": "Escape Irenicus's Dungeon",
     "region": "Irenicus's Dungeon (Level 2)",
     "category": ["Irenicus's Dungeon - Misc.", "ID"],
-    "requires": "|Wand of Missiles Key (MISC4M)|"
+    "requires": "|Wand of Missiles Key (MISC4M)|",
+    "victory": true
   },
   {
     "name": "Loot the chest near Mira",
