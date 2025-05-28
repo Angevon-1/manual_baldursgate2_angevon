@@ -11,6 +11,10 @@
     "hidden": false,
     "yaml_option": ["enable_companion_quests"]
     },
+    "Companion Quest Items": {
+    "hidden": false,
+    "yaml_option": ["enable_companion_quests"]
+    },
     "Characters": {
     "hidden": false,
     "yaml_option": ["include_npcs"]
@@ -26,5 +30,13 @@
     "LootLite": {
     "hidden": true,
     "yaml_option": ["loot_checks_lite"]
+    },
+    "Forging Items": {
+    "hidden": false,
+    "yaml_option": ["forging_checks"]
+    },
+    "Equipment": {
+    "hidden": true,
+    "yaml_option": ["equipment"]
     }
 }
