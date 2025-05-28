@@ -52,16 +52,28 @@
     "requires": "|Temple District Unlock|"
   },
   "Graveyard": {
-    "connects_to": ["Dragomir's Tomb"],
+    "connects_to": ["Dragomir's Tomb", "Korgan's Companion Quest"],
     "requires": "|Graveyard District Unlock|"
+  },
+  "Korgan's Companion Quest": {
+    "connects_to": [],
+    "requires": "|OptOne(Korgan)|"
   },
   "Bridge": {
     "connects_to": ["Planar Prison"],
     "requires": "|Bridge District Unlock|"
   },
   "Docks": {
-    "connects_to": ["Maevar Guildhall"],
+    "connects_to": ["Maevar Guildhall", "Harper Hold"],
     "requires": "|Docks District Unlock|"
+  },
+  "Harper Hold": {
+    "connects_to": ["Jaheira's Companion Quest"],
+    "requires": "|Renfeld's Body (MISC5F)|"
+  },
+  "Jaheira's Companion Quest": {
+    "connects_to": [],
+    "requires": "|OptOne(Jaheira)| AND |Government District Unlock| AND |Harper Bird (MISC5D)| AND |Harper Amulet (MISC5E)|"
   },
   "Maevar Guildhall": {
     "connects_to": [],
@@ -80,8 +92,12 @@
     "requires": "|de'Arnise Keep Unlock|"
   },
   "Keep Key": {
-    "connects_to": [],
+    "connects_to": ["Nalia's Companion Quest"],
     "requires": "|Keep Key (KEY10)|"
+  },
+  "Nalia's Companion Quest": {
+    "connects_to": [],
+    "requires": "|Docks District Unlock| AND |Government District Unlock| AND |OptOne(Nalia)|"
   },
   "Windspear Hills": {
     "connects_to": ["Chapel Key"],
@@ -100,8 +116,20 @@
     "requires": "|Umar Hills Unlock|"
   },
   "Trademeet": {
-    "connects_to": ["Druid Grove"],
+    "connects_to": ["Druid Grove", "Rasaad's Companion Quest", "Cernd's Companion Quest"],
     "requires": "|Trademeet Unlock|"
+  },
+  "Cernd's Companion Quest": {
+    "connects_to": [],
+    "requires": "|OptOne(Cernd)| AND |Government District Unlock|"
+  },
+  "Rasaad's Companion Quest": {
+    "connects_to": ["Abandoned Amphitheater"],
+    "requires": []
+  },
+  "Abandoned Amphitheater": {
+    "connects_to": [],
+    "requires": "|Abandoned Amphitheater Unlock|"
   },
   "Druid Grove": {
     "connects_to": [],
