@@ -7,7 +7,7 @@
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "Goal options",
-            "description": "Escape Irenicus's Dungeon. This is intended for very short playthroughs (1-2 hours). Reach Spellhold. This is intended for medium length playthroughs; depends on how long it takes to get enough money to pay off Gaelan Bayle or the vampires. Defeat Firkraag. This is intended for longer playthroughs (hypothetically) since it depends how long it takes to get enough gear and levels to be able to defeat him.",
+            "description": "Pay off Gaelen Bayle or the vampires. This is intended for short or medium length playthroughs; depends on how long it takes to get enough money to pay off Gaelan Bayle or the vampires. Defeat Firkraag. This is intended for longer playthroughs (hypothetically) since it depends on how long it takes to get enough gear and levels to be able to defeat him.",
             "aliases": {"easiest": 0},
             "hidden": false
         },
@@ -18,18 +18,16 @@
     "user": {
         "enhanced_edition":{
             "description": [
-                "Set this to true if you're playing the enhanced edition. This will include enhanced edition items and locations.",
-                "To compensate for check count, this will also add a bunch of filler potions and scrolls to the item pool.",
-                "Note that your Lockpicking ability is NOT accounted for at this time. Progression may be locked behind a locked chest and it's up to you to get past it."
+                "Set this to true if you're playing the enhanced edition. This will include enhanced edition items, characters, and locations."
             ],
             "type": "Toggle",
-            "default": false
+            "default": true
         },
         "skip_irenicus_dungeon":{
             "description": [
                 "Enable this if you want to skip all of Irenicus's Dungeon. It will remove all Irenicus Dungeon-specific items and locations from the multiworld.",
-                "(Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not affected).",
-                "It is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving."
+                "(Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
+                "It is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual."
             ],
             "type": "Toggle",
             "default": false
@@ -40,21 +38,23 @@
                 "You must not kill any potential party members! Don't let any die before you've done their checks!"
             ],
             "type": "Toggle",
-            "default": true
+            "default": false
         },
         "include_npcs":{
             "description": [
-                "This adds the recruitable party member NPCs as unlockables in the item list. You will automatically be given 3 NPCs at random in the starting inventory.",
+                "When true, this adds the recruitable party member NPCs as unlockable items to be found in the multiworld. You will automatically be given 3 NPCs at random at the start of the game.",
+                "See the 'Characters' section of the left side of the Manual tab in the Manual Client to see who's available.",
                 "When used in conjunction with enable_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.",
-                "Without this option, companion quests are instead locked by the region unlocks where the companion exists and where the quests take place."
+                "Without this option, companion quests are instead locked by the region where the companion exists and where the quests take place.",
+                "When true this adds 17 items (22 if enhanced edition is enable)."
             ],
             "type": "Toggle",
             "default": false
         },
         "loot_checks":{
             "description": [
-                "Set this to true if you want a bunch of individual lootable crates/barrels/chests added to the pool as location checks.",
-                "To compensate for check count, this will also add a bunch of filler potions and scrolls to the item pool.",
+                "Set this to true if you want INDIVIDUAL lootable crates/barrels/chests added to the pool as location checks.",
+                "To compensate for check count, this will also add a bunch of filler potions and scrolls to the multiworld.",
                 "Note that your Lockpicking ability is NOT accounted for at this time. Progression may be locked behind a locked chest and it's up to you to get past it."
             ],
             "type": "Toggle",
@@ -62,9 +62,16 @@
         },
         "loot_checks_lite":{
             "description": [
-                "Set this to true if instead of EVERY lootable as a check, you'd rather have 'loot x room' as checks.",
-                "This is more balanced than full lootsanity and easier to track. Lockpicking ability is not required.",
+                "Set this to true to have general 'loot x room' as checks instead of every individual lootable as a check.",
+                "This is more balanced than the full loot checks option and easier to track. Lockpicking ability is not required.",
                 "This is the recommended loot setting."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "forging_checks":{
+            "description": [
+                "Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 17 items."
             ],
             "type": "Toggle",
             "default": true
@@ -79,7 +86,15 @@
             ],
             "type": "Toggle",
             "default": false
+        },
+        "equipment":{
+            "description": [
+                "This adds each magical equipment item to the multiworld. It generally should always be set to true.",
+                "However, you may need to set this to false if progressive equipment is on and loot checks are off, or else there may be generation failures due to too many items.",
+                "This can also be set to false if you don't plan to use the cheat console or save editing and prefer to use items you find directly in the game rather than from the multiworld."
+            ],
+            "type": "Toggle",
+            "default": true
         }
-
     }
 }
