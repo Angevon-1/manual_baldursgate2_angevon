@@ -6,7 +6,8 @@
   "starting_items": [
     {
       "item_categories": ["Characters"],
-      "random": 3
+      "random": 3,
+      "yaml_option": ["include_npcs"]
     }
   ]
 }
