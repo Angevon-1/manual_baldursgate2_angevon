@@ -12,6 +12,7 @@
   { "count": 1, "name": "Windspear Hills Unlock", "category": ["Region Unlocks"], "progression": true},
   { "count": 1, "name": "Wild Forest Unlock", "category": ["Region Unlocks", "EE"], "progression": true},
   { "count": 1, "name": "Abandoned Amphitheater Unlock", "category": ["Region Unlocks", "EE"], "progression": true},
+  { "count": 1, "name": "Heretic Temple Unlock", "category": ["Region Unlocks", "EE"], "progression": true},
 
   { "count": 1, "name": "Jaheira", "category": ["Characters"], "progression": true},
   { "count": 1, "name": "Imoen", "category": ["Characters"], "progression": true},
@@ -676,6 +677,7 @@
   { "count": 2, "name": "Oil of Fiery Burning (POTN13)", "category": ["Consumables", "Loot"], "filler": true},
   { "count": 2, "name": "Potion of Explosions (POTN26)", "category": ["Consumables", "Loot"], "filler": true},
   { "count": 2, "name": "Potion of Fire Breath (POTN27)", "category": ["Consumables", "Loot"], "filler": true},
+  { "count": 1, "name": "Potion of Magic Shielding (POTN35)", "category": ["Consumables", "Loot"], "filler": true},
 
   { "count": 2, "name": "Potion of Healing x5 (POTN25)", "category": ["Consumables", "Loot"], "filler": true},
   { "count": 4, "name": "Potion of Healing x3 (POTN25)", "category": ["Consumables", "Loot"], "filler": true},
