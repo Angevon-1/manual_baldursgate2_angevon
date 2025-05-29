@@ -128,8 +128,12 @@
     "requires": []
   },
   "Abandoned Amphitheater": {
-    "connects_to": [],
+    "connects_to": ["Heretic Temple"],
     "requires": "|Abandoned Amphitheater Unlock|"
+  },
+  "Heretic Temple": {
+    "connects_to": [],
+    "requires": "|Heretic Temple Unlock|"
   },
   "Druid Grove": {
     "connects_to": [],

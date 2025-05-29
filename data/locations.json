@@ -1491,22 +1491,22 @@
     "requires": "|Harper Amulet (MISC5E)|"
   },
   { "name": "Loot the table in the first room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the pile of books in the first room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the table in the second room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the eye picture on the wall in the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the table in the third room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the table in the fourth room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": []
   },
   { "name": "Loot the overall Docks area", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
     "requires": []
@@ -1666,7 +1666,7 @@
     "requires": []
   },
   { "name": "Learn the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
-    "requires": "Rift Device Part (MISC5A)"
+    "requires": "|Rift Device Part (MISC5A)|"
   },
   { "name": "Solve the puzzle to fix the rift bridge", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
@@ -1684,7 +1684,7 @@
     "requires": []
   },
   { "name": "Tell Tad the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
-    "requires": "Rift Device Part (MISC5A)"
+    "requires": "|Rift Device Part (MISC5A)|"
   },
   { "name": "Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": []
@@ -2452,6 +2452,54 @@
     "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
   },  
   { "name": "Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc"],
+    "requires": []
+  },
+  { "name": "Defeat the Dangerous Moose", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+    "requires": []
+  },
+  { "name": "Discover the location of the Twofold Temple", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+    "requires": []
+  },
+  { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+    "requires": []
+  },
+  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Undertake the Penance test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+    "requires": []
+  },
+  { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies"],
     "requires": []
   },
   { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot"],
