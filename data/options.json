@@ -7,7 +7,7 @@
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "Goal options",
-            "description": "Pay off Gaelen Bayle or the vampires. This is intended for short or medium length playthroughs; depends on how long it takes to get enough money to pay off Gaelan Bayle or the vampires. Defeat Firkraag. This is intended for longer playthroughs (hypothetically) since it depends on how long it takes to get enough gear and levels to be able to defeat him.",
+            "description": "The goal is to complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) to receive tokens. Collect enough tokens (and gold along the way) to pay off Gaelen Bayle or Bodhi. More required tokens makes for a longer game.",
             "aliases": {"easiest": 0},
             "hidden": false
         },

@@ -285,8 +285,7 @@
     "requires": []
   },
   { "name": "Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
-    "requires": "|Wand of Missiles Key (MISC4M)|",
-    "victory": true
+    "requires": "|Wand of Missiles Key (MISC4M)|"
   },
   { "name": "Loot the chest near Mira", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
@@ -1725,6 +1724,9 @@
   { "name": "Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
+  { "name": "Defeat the Unseeing Eye (Quest Token)", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": "|Quest Complete Token|"
+  },
   { "name": "Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
@@ -1827,8 +1829,11 @@
   { "name": "Deal with Khan Zahraa", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)|"
   },
-  { "name": "Become the heroes of Trademeet", "region": "Druid Grove", "category": ["Trademeet - Misc."],
+  { "name": "Become the heroes of Trademeet (or don't if you poisoned the druids)", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)|"
+  },
+  { "name": "Become the heroes of Trademeet (or don't if you poisoned the druids) (Quest token)", "region": "Druid Grove", "category": ["Trademeet - Misc."],
+    "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": "|Quest Complete Token|"
   },
   { "name": "Listen to Tiris's Request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
@@ -2076,6 +2081,9 @@
   { "name": "Report the victory over the Shade Lord to Minister Lloyd", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Misc."],
     "requires": []
   },
+ { "name": "Report the victory over the Shade Lord to Minister Lloyd (Quest Token)", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Misc."],
+    "requires": []
+  },
   { "name": "Deliver mimic blood to Jermien", "region": "Umar Hills", "category": ["Umar Hills - Misc."],
     "requires": "|Mimic's Blood (MISC6Y)|"
   },
@@ -2207,6 +2215,9 @@
   },
   { "name": "Decide whether to let Lavok die inside or outside the Sphere", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
     "requires": "Demon Heart (MISC6M)"
+  },
+  { "name": "Decide whether to let Lavok die inside or outside the Sphere (Quest Token)", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
+    "requires": "Demon Heart (MISC6M)", "place_item": "|Quest Complete Token|"
   },
   { "name": "Meet with Captain Arat at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
@@ -2343,6 +2354,9 @@
   { "name": "Defeat TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Enemies"],
     "requires": []
   },
+  { "name": "Defeat TorGal (Quest token)", "region": "Keep Key", "category": ["de'Arnise Keep - Enemies"],
+    "requires": [], "place_item": "|Quest Complete Token|"
+  },
   { "name": "Loot the statue behind TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
@@ -2415,6 +2429,9 @@
   { "name": "Save (or don't) Garren's child", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
     "requires": "|Firkraag Prison Key (KEY09)|"
   },
+  { "name": "Save (or don't) Garren's child (Quest Token)", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
+    "requires": "|Firkraag Prison Key (KEY09)|", "place_item": "|Quest Complete Token|"
+  },
   { "name": "Use the well's winch", "region": "Chapel Key", "category": ["Windspear Hills - Misc"],
     "requires": []
   },
@@ -2451,55 +2468,55 @@
   { "name": "Defeat Samia and co.", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
     "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
   },  
-  { "name": "Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc"],
+  { "name": "Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE"],
     "requires": []
   },
-  { "name": "Defeat the Dangerous Moose", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+  { "name": "Defeat the Dangerous Moose", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
     "requires": []
   },
-  { "name": "Discover the location of the Twofold Temple", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+  { "name": "Discover the location of the Twofold Temple", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
     "requires": []
   },
-  { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies"],
+  { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
     "requires": []
   },
-  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE"],
     "requires": []
   },
-  { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+  { "name": "Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+  { "name": "Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "EE", "Loot"],
     "requires": []
   },
-  { "name": "Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+  { "name": "Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
     "requires": []
   },
-  { "name": "Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+  { "name": "Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
     "requires": []
   },
-  { "name": "Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot"],
+  { "name": "Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
     "requires": []
   },
-  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Undertake the Penance test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Undertake the Penance test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc"],
+  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies"],
+  { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies", "EE"],
     "requires": []
   },
   { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot"],
@@ -2588,5 +2605,14 @@
   },
   { "name": "Korgan 3 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
     "requires": "|Temple District Access|"
+  },
+  { "name": "Earn at least one token by completing a major sidequest and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
+    "requires": "|Quest Complete Token:3|", "victory": true
+  },
+  { "name": "Earn 3 tokens by completing major sidequests and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
+    "requires": "|Quest Complete Token:3|", "victory": true
+  },
+  { "name": "Earn 5 tokens by completing major sidequests and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
+    "requires": "|Quest Complete Token:5|", "victory": true
   }
 ]
