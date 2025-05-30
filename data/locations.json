@@ -584,46 +584,46 @@
   { "name": "Loot the Copper Coronet", "region": "Copper Coronet", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the barrel near Quallo", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate near Quallo", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the crate near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the table near Quallo", "region": "Slums Sewer", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the table near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Inspect the grate in circular room in the Slums Sewer", "region": "Slums Sewer", "category": ["Slums - Misc"],
+  { "name": "Inspect the grate in circular room in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums - Misc"],
     "requires": []
   },
-  { "name": "Inspect the skeletons on the wall in the Slums Sewer", "region": "Slums Sewer", "category": ["Slums - Misc"],
+  { "name": "Inspect the skeletons on the wall in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums - Misc"],
     "requires": []
   },
-    { "name": "Deal with Quallo and his friend", "region": "Slums Sewer", "category": ["Slums - Misc"],
+    { "name": "Deal with Quallo and his friend", "region": "Slums Sewers", "category": ["Slums - Misc"],
     "requires": []
   },
-  { "name": "Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewer", "category": ["Slums - Misc"],
+  { "name": "Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Slums - Misc"],
     "requires": "|Hand (MISC5S)| AND |The Lover's Ring (MISC5R)| AND |Shaman's Staff (MISC5T)| AND |Blood of Quallo's Friend (MISC5Q)|"  
   },
-  { "name": "Loot the Slums Sewers", "region": "Slums Sewer", "category": ["Slums - Looting", "LootLite"],
+  { "name": "Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the Kobolds in the Slums Sewers", "region": "Slums Sewer", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Kobolds in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room in the Slums Sewers", "region": "Slums Sewer", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Myconids in the Slums Sewers", "region": "Slums Sewer", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Myconids in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
     "requires": []
   },
   { "name": "Defeat Haegan in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Enemies"],
@@ -674,13 +674,13 @@
   { "name": "Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the first bandit ambush when traveling the city", "region": "", "category": ["Athkatla - Misc"],
+  { "name": "Defeat the first bandit ambush when traveling the city", "category": ["Athkatla - Misc"],
     "requires": []
   },
-  { "name": "Meet Neera", "region": "", "category": ["Athkatla - Misc", "EE"],
+  { "name": "Meet Neera", "category": ["Athkatla - Misc", "EE"],
     "requires": "|Bridge District Unlock|"
   },
-  { "name": "Meet Habib", "region": "", "category": ["Athkatla - Misc"],
+  { "name": "Meet Habib", "category": ["Athkatla - Misc"],
     "requires": []
   },
 
@@ -949,7 +949,7 @@
     "requires": []
   },
   { "name": "Defeat the Warden", "region": "Planar Prison", "category": ["Planar Prison - Enemies"],
-    "requires": [], "place_item": "|Planar Prison Cell Key (KEY11)|"
+    "requires": [], "place_item": ["Planar Prison Cell Key (KEY11)"]
   },
   { "name": "Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Planar Prison - Misc"],
     "requires": "|Planar Prison Cell Key (KEY11)|"
@@ -967,9 +967,6 @@
     "requires": []
   },
   { "name": "Deal with the beggar", "region": "Docks", "category": ["Docks - Misc"],
-    "requires": []
-  },
-  { "name": "Deal with the mad cleric", "region": "Docks", "category": ["Docks - Misc"],
     "requires": []
   },
   { "name": "Deal with the mad cleric", "region": "Docks", "category": ["Docks - Misc"],
@@ -1292,37 +1289,37 @@
   },
 
   { "name": "Confront Am-Si on behalf of Tirdir", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Defeat Reti and Camitis", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the sack in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the table in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the chest in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Deal with Lady Elgea", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the left chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the right chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the dresser in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the table in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Access|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
   },
   { "name": "Loot the first bookshelf in the Temple of Oghma", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
@@ -1449,9 +1446,6 @@
   },
   { "name": "Deal with Prebek and Sanasha", "region": "Harper Hold", "category": ["Docks - Enemies"],
     "requires": []
-  },
-  { "name": "Loot the table on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
   },
   { "name": "Loot the small table on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
@@ -1725,7 +1719,7 @@
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   { "name": "Defeat the Unseeing Eye (Quest Token)", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": "|Quest Complete Token|"
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
@@ -1833,16 +1827,16 @@
     "requires": "|Ihtafeer's Head (MISC8K)|"
   },
   { "name": "Become the heroes of Trademeet (or don't if you poisoned the druids) (Quest token)", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": "|Quest Complete Token|"
+    "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Listen to Tiris's Request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   { "name": "Meet with Darsidian Moor", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   { "name": "Decide Raissa's fate", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Access| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
   },
   { "name": "Meet Viekang in Vyatri's pub", "region": "Trademeet", "category": ["Trademeet - Misc."],
     "requires": []
@@ -2160,7 +2154,7 @@
     "requires": []
   },
   { "name": "Activate the three ovens with coal", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
-    "requires": "|Coal:3|"
+    "requires": "|Coal (MISC7Z):3|"
   },
   { "name": "Activate the Guardian Golem", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
     "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
@@ -2217,7 +2211,7 @@
     "requires": "Demon Heart (MISC6M)"
   },
   { "name": "Decide whether to let Lavok die inside or outside the Sphere (Quest Token)", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
-    "requires": "Demon Heart (MISC6M)", "place_item": "|Quest Complete Token|"
+    "requires": "Demon Heart (MISC6M)", "place_item": ["Quest Complete Token"]
   },
   { "name": "Meet with Captain Arat at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
@@ -2355,7 +2349,7 @@
     "requires": []
   },
   { "name": "Defeat TorGal (Quest token)", "region": "Keep Key", "category": ["de'Arnise Keep - Enemies"],
-    "requires": [], "place_item": "|Quest Complete Token|"
+    "requires": [], "place_item": ["Quest Complete Token"]
   },
   { "name": "Loot the statue behind TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
@@ -2430,7 +2424,7 @@
     "requires": "|Firkraag Prison Key (KEY09)|"
   },
   { "name": "Save (or don't) Garren's child (Quest Token)", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
-    "requires": "|Firkraag Prison Key (KEY09)|", "place_item": "|Quest Complete Token|"
+    "requires": "|Firkraag Prison Key (KEY09)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Use the well's winch", "region": "Chapel Key", "category": ["Windspear Hills - Misc"],
     "requires": []
@@ -2513,7 +2507,7 @@
   { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
-  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Undertake the Pain test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
   { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies", "EE"],
@@ -2523,19 +2517,19 @@
     "requires": []
   },
   { "name": "Edwin 1 - Enter the Graveyard District with Edwin in the party", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "|OptOne(Edwin)|"
+    "requires": "OptOne(Edwin)"
   },
   { "name": "Edwin 2 - Defeat Nevaziah", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "|OptOne(Edwin)|"
+    "requires": "OptOne(Edwin)"
   },
   { "name": "Edwin 3 - Let Edwin translate the Nether Scroll and unleash its magic", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "|OptOne(Edwin)|"
+    "requires": "OptOne(Edwin)"
   },
   { "name": "Edwin 4 - Decide whether or not to identify Edwin to Degarden", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "|OptOne(Edwin)|"
+    "requires": "OptOne(Edwin)"
   },
   { "name": "Edwin 5 - Defeat (or don't if you identified Edwin in the previous part) Degarden", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "|OptOne(Edwin)|"
+    "requires": "OptOne(Edwin)"
   },
   { "name": "Nalia 1 - Attend the funeral with Nalia", "region": "Nalia's Companion Quest", "category": ["Companion Quests"],
     "requires": []
@@ -2601,18 +2595,18 @@
     "requires": []
   },
   { "name": "Korgan 2 - Take Korgan to the Pimlico Estate", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Access|"
+    "requires": "|Temple District Unlock|"
   },
   { "name": "Korgan 3 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Access|"
+    "requires": "|Temple District Unlock|"
   },
-  { "name": "Earn at least one token by completing a major sidequest and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
-    "requires": "|Quest Complete Token:3|", "victory": true
+  { "name": "Earn 5 tokens", "category": [],
+    "requires": "|Quest Complete Token: 5|", "victory": true
   },
-  { "name": "Earn 3 tokens by completing major sidequests and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
-    "requires": "|Quest Complete Token:3|", "victory": true
+  { "name": "Earn 3 tokens", "category": [],
+    "requires": "|Quest Complete Token: 3|", "victory": true
   },
-  { "name": "Earn 5 tokens by completing major sidequests and then pay off Gaelen Bayle or Bodhi to complete chapter 2", "region": "", "category": [],
-    "requires": "|Quest Complete Token:5|", "victory": true
+  { "name": "Earn at least one token", "category": [],
+    "requires": "|Quest Complete Token: 3|", "victory": true
   }
 ]

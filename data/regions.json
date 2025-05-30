@@ -16,16 +16,20 @@
     "requires": "|Air Elemental Statue (MISC4C)|"
   },
   "Waukeen's Promenade": {
-    "connects_to": ["Slums"],
+    "connects_to": ["Slums", "Circus Tent"],
+    "requires": ""
+  },
+  "Circus Tent": {
+    "connects_to": [],
     "requires": ""
   },
   "Slums": {
-    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Slums Sewers"],
+    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates"],
     "requires": ""
   },
   "Planar Sphere": {
     "connects_to": ["Planar Zone"],
-    "requires": "|OptOne(Valygar)| OR |Valygar's Body (MISC7L)|"
+    "requires": "{OptAll(|Valygar| OR |Valygar's Body (MISC7L)|)}"
   },
   "Planar Zone": {
     "connects_to": ["Planar Zone Past Golem"],
@@ -36,7 +40,7 @@
     "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
     },
   "Copper Coronet": {
-    "connects_to": [],
+    "connects_to": ["Slums Sewers"],
     "requires": ""
   },
   "Slaver Stockade": {
@@ -57,7 +61,7 @@
   },
   "Korgan's Companion Quest": {
     "connects_to": [],
-    "requires": "|OptOne(Korgan)|"
+    "requires": "OptOne(Korgan)"
   },
   "Bridge": {
     "connects_to": ["Planar Prison"],
@@ -73,7 +77,7 @@
   },
   "Jaheira's Companion Quest": {
     "connects_to": [],
-    "requires": "|OptOne(Jaheira)| AND |Government District Unlock| AND |Harper Bird (MISC5D)| AND |Harper Amulet (MISC5E)|"
+    "requires": "{OptAll(|Jaheira| AND |Government District Unlock| AND |Harper Bird (MISC5D)| AND |Harper Amulet (MISC5E)|)}"
   },
   "Maevar Guildhall": {
     "connects_to": [],
@@ -97,7 +101,7 @@
   },
   "Nalia's Companion Quest": {
     "connects_to": [],
-    "requires": "|Docks District Unlock| AND |Government District Unlock| AND |OptOne(Nalia)|"
+    "requires": "{OptAll(|Docks District Unlock| AND |Government District Unlock| AND |Nalia|)}"
   },
   "Windspear Hills": {
     "connects_to": ["Chapel Key"],
@@ -121,7 +125,7 @@
   },
   "Cernd's Companion Quest": {
     "connects_to": [],
-    "requires": "|OptOne(Cernd)| AND |Government District Unlock|"
+    "requires": "OptAll(|Cernd| AND |Government District Unlock|)}"
   },
   "Rasaad's Companion Quest": {
     "connects_to": ["Abandoned Amphitheater"],
