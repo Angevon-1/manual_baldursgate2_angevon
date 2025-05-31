@@ -5,7 +5,7 @@
     },
     "ID": {
     "hidden": true,
-    "yaml_option": ["skip_irenicus_dungeon"]
+    "yaml_option": ["enable_irenicus_dungeon"]
     },
     "Companion Quests": {
     "hidden": false,
@@ -35,8 +35,20 @@
     "hidden": false,
     "yaml_option": ["forging_checks"]
     },
+    "Forging": {
+    "hidden": false,
+    "yaml_option": ["forging_checks"]
+    },
     "Equipment": {
     "hidden": true,
     "yaml_option": ["equipment"]
+    },
+    "Consumables": {
+    "hidden": true,
+    "yaml_option": ["consumables"]
+    },
+    "Watcher's Keep": {
+    "hidden": true,
+    "yaml_option": ["include_watchers_keep_items"]
     }
 }
