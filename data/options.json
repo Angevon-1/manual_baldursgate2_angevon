@@ -23,14 +23,14 @@
             "type": "Toggle",
             "default": true
         },
-        "skip_irenicus_dungeon":{
+        "enable_irenicus_dungeon":{
             "description": [
-                "Enable this if you want to skip all of Irenicus's Dungeon. It will remove all Irenicus Dungeon-specific items and locations from the multiworld.",
-                "(Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
-                "It is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual."
+                "When this option is true, items and locations related to the Irenicus's Dungeon tutorial will be included in the multiworld.",
+                "When this is false, these items and locations will be removed instead. (Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
+                "When false, it is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual."
             ],
             "type": "Toggle",
-            "default": false
+            "default": true
         },
         "enable_companion_quests":{
             "description": [
@@ -74,7 +74,7 @@
                 "Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 17 items."
             ],
             "type": "Toggle",
-            "default": true
+            "default": false
         },
         "progressive_equipment":{
             "description": [
@@ -95,6 +95,23 @@
             ],
             "type": "Toggle",
             "default": true
+        },
+        "include_watchers_keep_items":{
+            "description": [
+                "When this is true, it adds equipment from the BG2 Collector's Edition and Watcher's Keep to the multiworld. When false, they aren't added.",
+                "These items might be considered overpowered; as such this option exists to exclude them.",
+                "Note: watcher's keep location checks are NOT affected, they are not implemented at all at this time, this is purely about the item rewards"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "consumables":{
+            "description": [
+                "When true, this adds scrolls and potions to the multiworld.",
+                "This should only be on when full loot checks are on, to add filler."
+            ],
+            "type": "Toggle",
+            "default": false
         }
     }
 }
