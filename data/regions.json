@@ -1,10 +1,11 @@
 {
-  "Irenicus's Dungeon (Level 1)": {
-    "connects_to": [
-      "Irenicus's Dungeon (Level 2)",
-      "Elemental Plane of Air"
-    ],
+  "Main Menu": {
+    "connects_to": ["Waukeen's Promenade", "Irenicus's Dungeon (Level 1)"],
     "starting": true,
+    "requires": []
+  },  
+  "Irenicus's Dungeon (Level 1)": {
+    "connects_to": ["Irenicus's Dungeon (Level 2)", "Elemental Plane of Air"],
     "requires": []
   },
   "Irenicus's Dungeon (Level 2)": {
@@ -17,19 +18,20 @@
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
-    "requires": ""
+    "requires": [],
+    "starting": true
   },
   "Circus Tent": {
     "connects_to": [],
-    "requires": ""
+    "requires": []
   },
   "Slums": {
     "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates"],
-    "requires": ""
+    "requires": []
   },
   "Planar Sphere": {
     "connects_to": ["Planar Zone"],
-    "requires": "{OptAll(|Valygar| OR |Valygar's Body (MISC7L)|)}"
+    "requires": "{OptAll((|Valygar| OR |Valygar's Body (MISC7L)|) AND |Umar Hills Unlock|)}"
   },
   "Planar Zone": {
     "connects_to": ["Planar Zone Past Golem"],
@@ -37,15 +39,15 @@
   },
   "Planar Zone Past Golem": {
     "connects_to": [],
-    "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
     },
   "Copper Coronet": {
     "connects_to": ["Slums Sewers"],
-    "requires": ""
+    "requires": []
   },
   "Slaver Stockade": {
     "connects_to": [],
-    "requires": ""
+    "requires": []
   },
   "Government District": {
     "connects_to": [],
@@ -61,14 +63,18 @@
   },
   "Korgan's Companion Quest": {
     "connects_to": [],
-    "requires": "OptOne(Korgan)"
+    "requires": "{OptOne(Korgan)}"
+  },
+  "Edwin's Companion Quest": {
+    "connects_to": [],
+    "requires": "{OptAll(|Edwin| AND |Graveyard District Unlock| AND |Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|)}"
   },
   "Bridge": {
     "connects_to": ["Planar Prison"],
     "requires": "|Bridge District Unlock|"
   },
   "Docks": {
-    "connects_to": ["Maevar Guildhall", "Harper Hold"],
+    "connects_to": ["Maevar Guildhall", "Harper Hold", "Edwin's Companion Quest"],
     "requires": "|Docks District Unlock|"
   },
   "Harper Hold": {
@@ -89,7 +95,7 @@
   },
   "Slums Sewers": {
     "connects_to": [],
-    "requires": ""
+    "requires": []
   },
   "deArnise Keep": {
     "connects_to": ["Keep Key"],
@@ -125,7 +131,7 @@
   },
   "Cernd's Companion Quest": {
     "connects_to": [],
-    "requires": "OptAll(|Cernd| AND |Government District Unlock|)}"
+    "requires": "{OptAll(|Cernd| AND |Government District Unlock|)}"
   },
   "Rasaad's Companion Quest": {
     "connects_to": ["Abandoned Amphitheater"],
@@ -161,7 +167,7 @@
   },
   "Lower Reaches": {
     "connects_to": [],
-    "requires": "Gaal's Key (KEY02)"
+    "requires": "|Gaal's Key (KEY02)|"
   },
   "Pit of the Faithless": {
     "connects_to": [],
@@ -169,14 +175,14 @@
   },
   "Temple Ruins": {
     "connects_to": ["Temple Ruins Past 1st Barrier"],
-    "requires": "|Temple Ruins Unlock| AND |Merella's Journal (BOOK92)| AND |A note from Mazzy Fentan (SCRLMZ)|"
+    "requires": "|Temple Ruins Unlock|"
   },
   "Temple Ruins Past 1st Barrier": {
     "connects_to": ["Temple Ruins Past 2nd Barrier"],
-    "requires": "|Sun Gem (MISC6O, MISC6N)|"
+    "requires": []
   },
   "Temple Ruins Past 2nd Barrier": {
     "connects_to": [],
-    "requires": "|Sun Gem (MISC6O, MISC6N):2| AND |Lightstone Symbol (KEY06)| AND |Sun Ray Symbol (KEY04)|"
+    "requires": "|Symbol of Amaunator (Key23)|"
   }
 }
