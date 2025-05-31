@@ -216,61 +216,61 @@
     "requires": []
   },
   { "name": "Loot the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the crate in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the first chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the second chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the table in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Complete the Throne Room puzzle", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the throne", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Lightning Key (MISC4K)| AND |Wand of Cloudkill Key (MISC4L)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Summoning Key (MISC4J)| AND \n|Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the bookshelf in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the unlocked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the locked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "{YamlDisabled(Loot)} AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the left bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Loot the right bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Loot the first table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Loot the second table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Loot the chest in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Loot Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Decide Frennedan's fate", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Wand of Frost Key (MISC4I)| AND |Wand of Fire Key (MISC4H)| AND |Wand of Missiles Key (MISC4M)|"
+    "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
   { "name": "Defeat the Duergar (after the throne room)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
@@ -285,7 +285,7 @@
     "requires": []
   },
   { "name": "Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
-    "requires": "|Wand of Missiles Key (MISC4M)|"
+    "requires": []
   },
   { "name": "Loot the chest near Mira", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
@@ -674,16 +674,15 @@
   { "name": "Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the first bandit ambush when traveling the city", "category": ["Athkatla - Misc"],
+  { "name": "Defeat the first bandit ambush when traveling the city", "region": "City Gates", "category": ["Athkatla - Misc"],
     "requires": []
   },
-  { "name": "Meet Neera", "category": ["Athkatla - Misc", "EE"],
+  { "name": "Meet Neera", "region": "Bridge", "category": ["Athkatla - Misc", "EE"],
     "requires": "|Bridge District Unlock|"
   },
-  { "name": "Meet Habib", "category": ["Athkatla - Misc"],
+  { "name": "Meet Habib", "region": "Slums", "category": ["Athkatla - Misc"],
     "requires": []
   },
-
   { "name": "Speak with Flydian", "region": "City Gates", "category": ["City Gates - Misc"],
     "requires": []
   },
@@ -736,46 +735,46 @@
     "requires": []
   },
   { "name": "Have Bel Dalemark identify the Exotic Hide", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Have Rose Bouquet identify the smell", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)|"
+    "requires": []
   },
   { "name": "Confront the murder suspect", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Inform the authorities that the murderer escaped", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)| AND |Government District Unlock|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Defeat Vellin Dahn's minion", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the table in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the basket in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the bed in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the bookshelf in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the oven in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the large crate on the lower level of the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the small crate on the lower level of the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the barrel on the lower level of the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
-    "requires": "|Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": []
   },
   { "name": "Loot the table in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
@@ -888,34 +887,34 @@
   { "name": "Loot the Five Flagons Inn", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Loot the table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the bookshelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the side table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the side table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs shelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs shelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs chest of drawers in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs chest of drawers in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs bookshelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs bookshelf in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs chest in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs chest in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs side table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs side table in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the upstairs desk in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
+  { "name": "Loot the upstairs desk in the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
   { "name": "Loot the house by Reedle", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
@@ -1120,19 +1119,19 @@
     "requires": []
   },
   { "name": "Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
   },
   { "name": "Meet Edwin", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
   },
   { "name": "Deal with Edwin's first request", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
   },
   { "name": "Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Enemies"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Deliver Renfeld to Rylock", "region": "Docks", "category": ["Docks - Misc"],
     "requires": "|Renfeld's Body (MISC5F)|"
@@ -1182,43 +1181,43 @@
   { "name": "Loot the chest in the Crypt King's tomb", "region": "Graveyard", "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE"],
+  { "name": "Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
     "requires": []
   },
-  { "name": "Enter the tomb-within-a-tomb in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE"],
+  { "name": "Enter the tomb-within-a-tomb in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Unlock the lower area in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE"],
-    "requires": "|Iron Rod (OHHROD)|"
-  },
-  { "name": "Deal with Burich the Unyielding", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE"],
+  { "name": "Unlock the lower area in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE"],
-    "requires": "|Iron Rod (OHHROD)|"
-  },
-  { "name": "Discover the truth behind Hexxat and the Sleeper", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE"],
-    "requires": "|Iron Rod (OHHROD)|"
-  },
-  { "name": "Loot sarcophagus 1", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Deal with Burich the Unyielding", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 2", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 3", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Discover the truth behind Hexxat and the Sleeper", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 4", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Loot sarcophagus 1", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 5", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot"],
+  { "name": "Loot sarcophagus 2", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
     "requires": []
   },
-  { "name": "Loot Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "LootLite"],
+  { "name": "Loot sarcophagus 3", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Loot sarcophagus 4", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Loot sarcophagus 5", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Loot Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "LootLite", "Companion Quests"],
     "requires": []
   },
   { "name": "Loot the tomb directly southwest of the right entrance to the Lower Tombs", "region": "Graveyard", "category": ["Graveyard District - Looting", "Loot"],
@@ -1423,20 +1422,20 @@
   { "name": "Loot the brazier on the top floor in Rayic Gethras's home", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the Rayic Gethras's home", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
+  { "name": "Loot Rayic Gethras's home", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Give Edwin the documents from Marcus", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Decide Embarl's Fate", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Loot Mae'Var's Strongbox", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
-    "requires": "|Mae'Var's Strongbox Key (EDWINKEY)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)| AND |Mae'Var's Strongbox Key (EDWINKEY)|"
   },
   { "name": "Loot the barrel on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
@@ -1830,13 +1829,13 @@
     "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Listen to Tiris's Request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
   },
   { "name": "Meet with Darsidian Moor", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
   },
   { "name": "Decide Raissa's fate", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock| AND |Guril Berries (MISC6C)| AND |Solik Berries (MISC6D)| AND |Oak Bark (MISC6E)| AND |Exotic Hide (MISC5G)|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
   },
   { "name": "Meet Viekang in Vyatri's pub", "region": "Trademeet", "category": ["Trademeet - Misc."],
     "requires": []
@@ -2046,7 +2045,7 @@
     "requires": []
   },
   { "name": "Give Amuana's Bones to the ghosts", "region": "Temple Ruins Past 1st Barrier", "category": ["Temple Ruins - Misc."],
-    "requires": "Amuana's Bones (MISC6Q)"
+    "requires": "|Amuana's Bones (MISC6Q)|"
   },
   { "name": "Defeat the Shadow Jailer", "region": "Temple Ruins", "category": ["Temple Ruins - Enemies"],
     "requires": []
@@ -2154,10 +2153,10 @@
     "requires": []
   },
   { "name": "Activate the three ovens with coal", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
-    "requires": "|Coal (MISC7Z):3|"
+    "requires": []
   },
   { "name": "Activate the Guardian Golem", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
-    "requires": "|Coal (MISC7Z):3| AND |Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
   },
   { "name": "Defeat the trapped Elder Orb", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
     "requires": []
@@ -2205,13 +2204,13 @@
     "requires": []
   },
   { "name": "Put the demon heart in the device", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
-    "requires": "Demon Heart (MISC6M)"
+    "requires": "|Demon Heart (MISC6M)|"
   },
   { "name": "Decide whether to let Lavok die inside or outside the Sphere", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
-    "requires": "Demon Heart (MISC6M)"
+    "requires": "|Demon Heart (MISC6M)|"
   },
   { "name": "Decide whether to let Lavok die inside or outside the Sphere (Quest Token)", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
-    "requires": "Demon Heart (MISC6M)", "place_item": ["Quest Complete Token"]
+    "requires": "|Demon Heart (MISC6M)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Meet with Captain Arat at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
@@ -2513,23 +2512,23 @@
   { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies", "EE"],
     "requires": []
   },
-  { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot"],
+  { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot", "EE"],
     "requires": []
   },
-  { "name": "Edwin 1 - Enter the Graveyard District with Edwin in the party", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "OptOne(Edwin)"
+  { "name": "Edwin 1 - Enter the Graveyard District with Edwin in the party", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
   },
-  { "name": "Edwin 2 - Defeat Nevaziah", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "OptOne(Edwin)"
+  { "name": "Edwin 2 - Defeat Nevaziah", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
   },
-  { "name": "Edwin 3 - Let Edwin translate the Nether Scroll and unleash its magic", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "OptOne(Edwin)"
+  { "name": "Edwin 3 - Let Edwin translate the Nether Scroll and unleash its magic", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
   },
-  { "name": "Edwin 4 - Decide whether or not to identify Edwin to Degarden", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "OptOne(Edwin)"
+  { "name": "Edwin 4 - Decide whether or not to identify Edwin to Degarden", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
   },
-  { "name": "Edwin 5 - Defeat (or don't if you identified Edwin in the previous part) Degarden", "region": "Graveyard", "category": ["Companion Quests"],
-    "requires": "OptOne(Edwin)"
+  { "name": "Edwin 5 - Defeat (or don't if you identified Edwin in the previous part) Degarden", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
   },
   { "name": "Nalia 1 - Attend the funeral with Nalia", "region": "Nalia's Companion Quest", "category": ["Companion Quests"],
     "requires": []
@@ -2607,6 +2606,6 @@
     "requires": "|Quest Complete Token: 3|", "victory": true
   },
   { "name": "Earn at least one token", "category": [],
-    "requires": "|Quest Complete Token: 3|", "victory": true
+    "requires": "|Quest Complete Token: 1|", "victory": true
   }
 ]
