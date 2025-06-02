@@ -41,14 +41,18 @@
     },
     "Equipment": {
     "hidden": true,
-    "yaml_option": ["equipment"]
+    "yaml_option": ["include_equipment"]
     },
     "Consumables": {
     "hidden": true,
-    "yaml_option": ["consumables"]
+    "yaml_option": ["include_consumables"]
     },
     "Watcher's Keep": {
     "hidden": true,
     "yaml_option": ["include_watchers_keep_items"]
+    },
+    "Cheat Console": {
+    "hidden": true,
+    "yaml_option": ["include_cheat_console"]
     }
 }
