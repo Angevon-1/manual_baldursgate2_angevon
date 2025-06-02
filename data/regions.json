@@ -1,6 +1,6 @@
 {
   "Main Menu": {
-    "connects_to": ["Waukeen's Promenade", "Irenicus's Dungeon (Level 1)"],
+    "connects_to": ["Irenicus's Dungeon (Level 1)"],
     "starting": true,
     "requires": []
   },  
@@ -10,11 +10,11 @@
   },
   "Irenicus's Dungeon (Level 2)": {
     "connects_to": ["Waukeen's Promenade"],
-    "requires": "|Portal Key (MISC4G)|"
+    "requires": "{OptAll(|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|))}"
   },
   "Elemental Plane of Air": {
     "connects_to": [],
-    "requires": "|Air Elemental Statue (MISC4C)|"
+    "requires": "{OptOne(Air Elemental Statue (MISC4C)}"
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
