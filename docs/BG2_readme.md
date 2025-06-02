@@ -7,8 +7,9 @@ Conveniently, BG2 has randomizers available, and an extensive, easy to use cheat
 
 ## Ways to play this manual
 <ul><li><u>Cheat console or save editing method.</u> Items in the multiworld are actual items. Use the cheat console or save editing to give yourself the item in game when you’ve received it. In this mode, you’re not supposed to pick up any magical or key items you find in the game. You’re supposed to receive them from the multiworld only. As a result, Item Randomizer has no effect and shouldn't be used. This is the mode the manual is intended to be played with; the multiworld does the randomizing for you.</li>
-<li><u>No cheat console or save editing method.</u> Items in the multiworld are simply unlocks. When you receive an item from the multiworld, it’s actually the unlock to be allowed to use the item. For example, when playing the game, you find the Namarra sword +2 from the random bandit encounter, as usual, but you can’t equip it until you’ve received the Namarra item from the multiworld. This method works well with Item Randomizer. This method should be used if you are not interested in using the cheat console or save editors.</li>
+<li><u>No cheat console or save editing method.</u> Items in the multiworld are simply unlocks. When you receive an item from the multiworld, it’s actually the unlock to be allowed to use the item. For example, when playing the game, you find the Namarra sword +2 from the Crypt King, as usual, but you can’t equip it until you’ve received the Namarra item from the multiworld. This method works well with Item Randomizer. This method should be used if you are playing the console version of BG2 and cannot use the cheat console or save editors, or are simply not interested in using them.</li>
 <li><u>Free for all method.</u> Same as the cheat console/save editing method, except you can pick up whatever magical equipment you find too! This allows for duplicate items. Your mom lets you have two Carsomyr +5s??? This mode works well with Item Randomizer.</li>
+<li><u>Any method you like.</u> Take a look at the game's options in the yaml file and decide from there how you'd like to play yourself. Maybe it's a comination of the ideas above. There's no wrong answer!</li>
 </ul>
 
 ## Cheat console information:
@@ -44,10 +45,11 @@ Alternatively, a save editor like <a href="https://sorcerers.net/Games/BG2/index
 
 ## About this manual
 Items distributed in the multiworld include:<br/>
-Magical Equipment (e.g. Dagger +1, Helm of Balduran, Mail of the Dead +2)<br/>
-Key items (e.g. keys, letters, the dryads’ acorns)<br/>
-Forgeable equipment pieces<br/>
+Magical Equipment (e.g. Dagger +1, Helm of Balduran, Mail of the Dead +2) (optional)<br/>
+Key items (e.g. keys, quest items like the dryads’ acorns)<br/>
+Forgeable equipment pieces (optional)<br/>
 Location unlocks (e.g. Bridge District, Windspear Hills)<br/>
+Potions and scrolls (optional)<br/>
 Gold (filler item)
 
 Locations to check off in the Manual Client include:<br/>
@@ -65,9 +67,9 @@ C:AddGold("100")<br/>
 If you're not using the cheat console, you can just ignore this item.
 
 ## The randomizers
-There are two optional randomizers that may be used with the manual:<br/>
+There are two optional randomizers that may be used with the manual. These will only work with the PC version of BG2.<br/>
 <a href="https://www.gibberlings3.net/mods/items/item_rand/">Item Randomizer</a> - randomizes monster drops, items in crates, etc. Does not affect quest items.<br/>
-<a href="https://www.gibberlings3.net/mods/tweaks/enemy_randomizer/">Enemy randomizer</a> - as the name implies. Does not affect quest enemies. Enemy randomizer may make some check names for the manual more confusing, for example “Clear the Mephit room” may refer to a room that no longer contains Mephits. AS a result, this is not recommended unless you have extensive knowledge of the original game.
+<a href="https://www.gibberlings3.net/mods/tweaks/enemy_randomizer/">Enemy randomizer</a> - as the name implies. Does not affect quest enemies. Enemy randomizer may make some check names for the manual more confusing, for example “Clear the Mephit room” may refer to a room that no longer contains Mephits. As a result, this is not recommended unless you have extensive knowledge of the original game.
 
 ## Options
 Please see [the options list](optionslist.md) for information on the manual's different options. These are also described in the yaml file.
