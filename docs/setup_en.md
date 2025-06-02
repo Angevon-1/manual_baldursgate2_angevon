@@ -3,7 +3,7 @@
 ## Required Software
 
 - The latest [version of Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases) (not pre-release)
-- Baldur's Gate 2: Shadows of Amn, classic or Enhanced Edition
+- Baldur's Gate 2: Shadows of Amn, classic or Enhanced Edition. The PC version is recommended, but there is support for console releases as well.
 - The latest BG2 apworld from this github's releases page. (NONE YET)
 - (optional) The latest version of the [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) apworld.
 
@@ -28,7 +28,7 @@
 where Slotname is the Player name you put in the yaml, password is the server password ("None" if the server doesn't have one), and ##### is the port. If you're using a localhost, use "localhost" instead of archipelago.gg. In this case, ##### is your localhost port.
 4. If everything is right, press Connect and you'll be connected.
 
-## Multiplayer Manual
+## Tracking your items and locations
 
 1. Open the Manual tab of the Manual Client. On the left is a list of items you've received, and on the right are all the game's location checks.
 2. Checks that are logically available are highlighted green if Universal Tracker is installed.
