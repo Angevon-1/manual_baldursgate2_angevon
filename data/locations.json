@@ -323,6 +323,9 @@
   { "name": "Loot the stall near Enge's shop", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the overall Waukeen's Promenade area", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Talk to the Amnian soldier outside the circus tent", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Misc"],
     "requires": []
   },
@@ -333,6 +336,9 @@
     "requires": []
   },
   { "name": "Loot the right vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the overall circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Defeat the peasants in the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Enemies"],
@@ -387,6 +393,9 @@
     "requires": []
   },
   { "name": "Loot the right stall by the Temple of Ilmater", "region": "Slums", "category": ["Slums - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Temple of Ilmater", "region": "Slums", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the barrel by the left entrance to the Copper Coronet", "region": "Slums", "category": ["Slums - Looting", "Loot"],
@@ -678,7 +687,7 @@
     "requires": []
   },
   { "name": "Meet Neera", "region": "Bridge", "category": ["Athkatla - Misc", "EE"],
-    "requires": "|Bridge District Unlock|"
+    "requires": []
   },
   { "name": "Meet Habib", "region": "Slums", "category": ["Athkatla - Misc"],
     "requires": []
@@ -831,6 +840,9 @@
     "requires": []
   },
   { "name": "Loot the basket in the lich house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the lich house", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the first table in the Five Flagons Inn", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
@@ -1031,6 +1043,9 @@
   { "name": "Loot the smaller table on the 2nd floor of the Shadow Thief Guildhall", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the Shadow Thief Guildhall", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Loot the left chest by Renal Bloodscalp", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
@@ -1116,6 +1131,9 @@
     "requires": []
   },
   { "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
@@ -2140,6 +2158,9 @@
   { "name": "Loot the corner container of the left chamber in the start of the Planar Sphere", "region": "Planar Sphere", "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the left chamber near the start of the Planar Sphere", "region": "Planar Sphere", "category": ["Planar Sphere - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Meet the Knights of Solamnia", "region": "Planar Zone", "category": ["Planar Sphere - Misc."],
     "requires": []
   },
@@ -2156,7 +2177,7 @@
     "requires": []
   },
   { "name": "Activate the Guardian Golem", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
-    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    "requires": "{OptAll(|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|)}"
   },
   { "name": "Defeat the trapped Elder Orb", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
     "requires": []
@@ -2212,6 +2233,9 @@
   { "name": "Decide whether to let Lavok die inside or outside the Sphere (Quest Token)", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
     "requires": "|Demon Heart (MISC6M)|", "place_item": ["Quest Complete Token"]
   },
+  { "name": "Loot the overall Planar Sphere", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Meet with Captain Arat at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
   },
@@ -2243,6 +2267,9 @@
     "requires": []
   },
   { "name": "Loot the third chest in the servants' quarters (South)", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the servants' quarters (South)", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the chest in the forge room", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
@@ -2284,6 +2311,9 @@
   { "name": "Loot the privvy by the servants' quarters (North)", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the servants' quarters (North)", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Loot the sack in the kitchen", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
@@ -2303,6 +2333,9 @@
     "requires": []
   },
   { "name": "Loot the small back bookshelf in the library", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the library", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the vanity in the northeast corner bedroom of the 2nd floor", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
@@ -2329,6 +2362,9 @@
   { "name": "Loot the crate in the basement by the stairs", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the basement room with the staircase", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Deal with the Umber Hulks", "region": "deArnise Keep", "category": ["de'Arnise Keep - Enemies"],
     "requires": []
   },
@@ -2344,6 +2380,9 @@
   { "name": "Loot the 3rd chest in the umber hulk room", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot the umber hulk room", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Defeat TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Enemies"],
     "requires": []
   },
@@ -2353,7 +2392,7 @@
   { "name": "Loot the statue behind TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Defeat the 'Ogre' & crew", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
+  { "name": "Defeat the 'Ogre' & crew upon entering the area", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
     "requires": []
   },
   { "name": "Defeat Plath Rededge & crew", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
@@ -2362,7 +2401,7 @@
   { "name": "Deliver the acorns to the dryads", "region": "Windspear Hills", "category": ["Windspear Hills - Misc"],
     "requires": "|Acorns (MISC4N)|"
   },
-  { "name": "Defeat the werewolves & gnolls", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
+  { "name": "Defeat the werewolves & gnolls in the center of the map", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
     "requires": []
   },
   { "name": "Defeat the hobgobins just inside the ruins", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
@@ -2371,7 +2410,7 @@
   { "name": "Loot the vampiric mist pool in the ruins", "region": "Windspear Hills", "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the stalagmite vampiric mist pool in the ruins", "region": "Windspear Hills", "category": ["Windspear Hills - Looting", "Loot"],
+  { "name": "Loot the stalagmite by the vampiric mist pool in the ruins", "region": "Windspear Hills", "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
   { "name": "Defeat the transmuter", "region": "Windspear Hills", "category": ["Windspear Hills - Enemies"],
@@ -2419,6 +2458,9 @@
   { "name": "Loot the closet in Tazok's room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
+  { "name": "Loot Tazok's room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "LootLite"],
+    "requires": []
+  },
   { "name": "Save (or don't) Garren's child", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
     "requires": "|Firkraag Prison Key (KEY09)|"
   },
@@ -2444,6 +2486,9 @@
     "requires": []
   },
   { "name": "Loot the barrel right before the werewolf ambush room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the werewolf ambush room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the book pile in the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
@@ -2473,7 +2518,7 @@
   { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
     "requires": []
   },
-  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE"],
+  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
     "requires": []
   },
   { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
@@ -2590,20 +2635,29 @@
   { "name": "Cernd 4 - Decide Deril's fate on behalf of Cernd", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },  
-  { "name": "Korgan 1 - Bring Korgan to the southernmost part of the Southern Tombs", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Korgan 1 - Bring Korgan to the Graveyard District", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Korgan 2 - Take Korgan to the Pimlico Estate", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Korgan 2 - Bring Korgan to the southernmost part of the Southern Tombs", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Korgan 3 - Take Korgan to the Pimlico Estate", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
     "requires": "|Temple District Unlock|"
   },
-  { "name": "Korgan 3 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Korgan 4 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
     "requires": "|Temple District Unlock|"
   },
   { "name": "Earn 5 tokens", "category": [],
     "requires": "|Quest Complete Token: 5|", "victory": true
   },
+  { "name": "Earn 4 tokens", "category": [],
+    "requires": "|Quest Complete Token: 4|", "victory": true
+  },
   { "name": "Earn 3 tokens", "category": [],
     "requires": "|Quest Complete Token: 3|", "victory": true
+  },
+  { "name": "Earn 2 tokens", "category": [],
+    "requires": "|Quest Complete Token: 2|", "victory": true
   },
   { "name": "Earn at least one token", "category": [],
     "requires": "|Quest Complete Token: 1|", "victory": true
