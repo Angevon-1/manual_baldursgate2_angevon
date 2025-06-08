@@ -32,14 +32,20 @@
   { "name": "Forge the complete Flail of the Ages +3", "region": "deArnise Keep", "category": ["Forging"],
     "requires": "|Flail Head Cold (BLUN14A)| AND |Flail Head Fire (BLUN14B)| AND |Flail Head Acid (BLUN14C)|"
   },
+  { "name": "Survive Irenicus's 'experiments' (opening cutscene)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID" ],
+    "requires": []
+  },
   { "name": "Meet Imoen", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID" ],
     "requires": []
   },
-  { "name": "Free Minsc from the cell in Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID"],
+  { "name": "Free Minsc from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID"],
     "requires": []
   },
-  { "name": "Free Jaheira from the cell in Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID"],
-    "requires": "|Jail Cell Key (MISC4B)|"
+  { "name": "Meet Jaheira", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID" ],
+    "requires": []
+  },
+  { "name": "Free Jaheira from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Characters", "ID"],
+    "requires": "{OptOne(|Jail Cell Key (MISC4B)|)}"
   },
   { "name": "Loot the table near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
@@ -53,10 +59,10 @@
   { "name": "Loot the Jailkeep Golem's room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "Hit the Switch to stop the Lightning Mephits", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+  { "name": "Hit the switch to stop the Lightning Mephits", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
-  { "name": "Answer (or not) the Genie's question", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+  { "name": "Answer (or not) Genie Aataqah's question in the crystal room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
   { "name": "Loot the unlocked crate in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
@@ -92,11 +98,17 @@
   { "name": "Loot the table near Rielev", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
+  { "name": "Decide Rielev's fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+    "requires": []
+  },
   { "name": "Loot the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
+  { "name": "Defeat the enemies in the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
+    "requires": []
+  },
   { "name": "Defeat Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": []
   },
   { "name": "Loot the barrel near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
@@ -119,61 +131,67 @@
   { "name": "Decide the Cambion's Fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
-  { "name": "Defeat the Otyugh", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
-  },
-  { "name": "Loot the large locked chest in the Otyugh room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
-  },
-  { "name": "Loot the small locked chest in the Otyugh room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
-  },
-  { "name": "Loot the small unlocked chest in the Otyugh room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
-  },
-  { "name": "Loot the Otyugh room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "Defeat the Otyugh in the Sewage Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
-  { "name": "Loot the first bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the large locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the second bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the small locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the chest in the Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the small unlocked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the nightstand in the Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+    "requires": []
   },
-  { "name": "Loot the first vase to the left of Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the first bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the second vase to the left of Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the second bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the Master's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the chest in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the nightstand in the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the nightstand in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the chest in the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the first vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the second vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the nightstand in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the chest in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },  
-  { "name": "Loot the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+    "requires": []
   },
-  { "name": "Loot the bookshelf in the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the bookshelf in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
   },
-  { "name": "Loot the table in the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+  { "name": "Loot the table in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+    "requires": []
+  },
+  { "name": "Meet the Dryads", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+    "requires": []
+  },
+  { "name": "Bring the Dryads their acorns", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+    "requires": "|Acorns (MISC4N)|"
   },
   { "name": "Loot the location on the left side of Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "Decide the Genie's fate", "region": "Elemental Plane of Air", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+  { "name": "Decide the Genie Malaaq's fate in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": "|The Genie's Flask (MISC4D)|"
   },
   { "name": "Meet Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Characters", "ID"],
@@ -233,6 +251,9 @@
   { "name": "Complete the Throne Room puzzle", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
+  { "name": "Defeat the Duergar in the throne room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
+    "requires": []
+  },
   { "name": "Loot the throne", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
@@ -248,7 +269,7 @@
   { "name": "Loot the locked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   { "name": "Loot the left bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "Loot"],
@@ -272,16 +293,16 @@
   { "name": "Decide Frennedan's fate", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],    
     "requires": "|Key to Frennedan's Room (MISC4P)|"
   },
-  { "name": "Defeat the Duergar (after the throne room)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
+  { "name": "Defeat the Duergar in the room behind the smithy", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
-  { "name": "Talk to (or deal with) the Dryads on behalf of the Genie", "region": "Elemental Plane of Air", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+  { "name": "Listen to Genie Malaaq's request", "region": "Elemental Plane of Air", "category": ["Irenicus's Dungeon - Misc.", "ID"],
     "requires": []
   },
-  { "name": "Defeat the Lesser Clay Golems that guard the Mistress's Room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
-    "requires": []
+  { "name": "Talk to (or deal with) the Dryads on behalf of the Genie Malaaq", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
+    "requires": "{OptOne(|Air Elemental Statue (MISC4C)|)}"
   },
-  { "name": "Loot the room Khalid was in", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "Defeat the Lesser Clay Golems that guard the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Irenicus's Dungeon - Enemies", "ID"],
     "requires": []
   },
   { "name": "Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Irenicus's Dungeon - Misc.", "ID"],
@@ -326,29 +347,38 @@
   { "name": "Loot the overall Waukeen's Promenade area", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Talk to the Amnian soldier outside the circus tent", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Misc"],
+  { "name": "Circus 1 - Talk to the Amnian soldier outside the circus tent", "region": "Waukeen's Promenade", "category": ["Circus Tent"],
     "requires": []
   },
-  { "name": "Answer the Genie's riddle", "region": "Circus Tent", "category": ["Waukeen's Promenade - Misc"],
+  { "name": "Circus 2 - Answer the Genie's riddle", "region": "Circus Tent", "category": ["Circus Tent"],
     "requires": []
   },
-  { "name": "Loot the left vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Looting", "Loot"],
+  { "name": "Loot the left vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Circus Tent", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Looting", "Loot"],
+  { "name": "Loot the right vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Circus Tent", "Loot"],
     "requires": []
   },
-  { "name": "Loot the overall circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Looting", "LootLite"],
+  { "name": "Loot the overall circus tent", "region": "Circus Tent", "category": ["Circus Tent", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the peasants in the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Enemies"],
+  { "name": "Circus 4 - Meet Aerie", "region": "Circus Tent", "category": ["Circus Tent"],
     "requires": []
   },
-  { "name": "Defeat the werewolves in the circus tent", "region": "Circus Tent", "category": ["Waukeen's Promenade - Enemies"],
+  { "name": "Circus 5 - Defeat the peasants in the circus tent", "region": "Circus Tent", "category": ["Circus Tent"],
     "requires": []
   },
-  { "name": "Defeat Kalah", "region": "Circus Tent", "category": ["Waukeen's Promenade - Enemies"],
+  { "name": "Circus 6 - Defeat the werewolves in the circus tent", "region": "Circus Tent", "category": ["Circus Tent"],
     "requires": []
+  },
+  { "name": "Circus 7 - Defeat Kalah", "region": "Circus Tent", "category": ["Circus Tent"],
+    "requires": []
+  },
+  { "name": "Defeat Mencar Pebblecrusher in the Den of the Seven Vales", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Enemies"],
+    "requires": []
+  },
+  { "name": "Speak to Radeel with Minsc in the party", "region": "Waukeen's Promenade", "category": ["Waukeen's Promenade - Misc"],
+    "requires": "{OptOne(Minsc)}"
   },
   { "name": "Loot the stall near the Slaver Stockade", "region": "Slums", "category": ["Slums - Looting", "Loot"],
     "requires": []
@@ -704,9 +734,6 @@
   { "name": "Witness the breakup between Aulava and Tiiro", "region": "City Gates", "category": ["City Gates - Misc"],
     "requires": []
   },
-  { "name": "Defeat the Lich", "region": "City Gates", "category": ["City Gates - Misc"],
-    "requires": "|@Region Unlocks:ALL|"
-  },
   { "name": "Loot the left stall near Bel Dalemark", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
   },
@@ -728,34 +755,37 @@
   { "name": "Loot the overall Bridge District area", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Deal with the mugger", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 1 - Meet Lieutenant Aegisfield and learn of the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Interrogate Rumpah about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Deal with the muggers (night)", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Interrogate Rose Bouquet about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 2 - Interrogate Rumpah about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Interrogate Bel Dalemark about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 3 - Interrogate Rose Bouquet about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Interrogate Faraji and or Mrs. Cragmoon about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 4 - Interrogate Bel Dalemark about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Have Bel Dalemark identify the Exotic Hide", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 5 - Interrogate Faraji and or Mrs. Cragmoon about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Have Rose Bouquet identify the smell", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 6 - Have Bel Dalemark identify the Exotic Hide", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Confront the murder suspect", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Murders 7 - Have Rose Bouquet identify the smell", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Inform the authorities that the murderer escaped", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Government District Unlock|"
+  { "name": "Murders 8 - Confront the murder suspect", "region": "Bridge", "category": ["Bridge District - Misc"],
+    "requires": []
   },
-  { "name": "Defeat Vellin Dahn's minion", "region": "Bridge", "category": ["Bridge District - Enemies"],
+  { "name": "Murders 10 - Inform the authorities that the murderer escaped", "region": "Bridge", "category": ["Bridge District - Misc"],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Murders 9 - Defeat Vellin Dahn's minion", "region": "Bridge", "category": ["Bridge District - Enemies"],
     "requires": []
   },
   { "name": "Loot the table in the tanner's house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
@@ -821,6 +851,9 @@
   { "name": "Decide Captain Dennis's fate", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
+  { "name": "Watch the play at the Five Flagons Inn", "region": "Bridge", "category": ["Bridge District - Misc"],
+    "requires": []
+  },
   { "name": "Meet Raelis Shai and hear her out", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
@@ -829,9 +862,6 @@
   },
   { "name": "Speak with Stivan with Aerie in the party", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
-  },
-  { "name": "Defeat the Elemental Lich", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|@Region Unlocks:ALL|"
   },
   { "name": "Loot the smaller table in the lich house", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
     "requires": []
@@ -948,7 +978,10 @@
     "requires": []
   },  
   { "name": "Deliver the gem to Raelis Shai", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock|"
+    "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|"
+  },
+  { "name": "Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Bridge District - Misc"],
+    "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Defeat Aawill the bounty hunter", "region": "Planar Prison", "category": ["Planar Prison - Enemies"],
     "requires": []
@@ -960,10 +993,10 @@
     "requires": []
   },
   { "name": "Defeat the Warden", "region": "Planar Prison", "category": ["Planar Prison - Enemies"],
-    "requires": [], "place_item": ["Planar Prison Cell Key (KEY11)"]
+    "requires": []
   },
   { "name": "Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Planar Prison - Misc"],
-    "requires": "|Planar Prison Cell Key (KEY11)|"
+    "requires": "{OptOne(|Planar Prison Cell Key (KEY11)|)}"
   },
   { "name": "Destroy (or don't) the Mastery Orb", "region": "Planar Prison", "category": ["Planar Prison - Misc"],
     "requires": []
@@ -1055,9 +1088,6 @@
   { "name": "Loot the hidden cache by Renal Bloodscalp", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": []
-  },
   { "name": "Loot the chest by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
@@ -1136,31 +1166,22 @@
   { "name": "Loot Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
-  },
-  { "name": "Meet Edwin", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
-  },
-  { "name": "Deal with Edwin's first request", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock|"
-  },
-  { "name": "Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
-  },
-  { "name": "Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Enemies"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
-  },
-  { "name": "Deliver Renfeld to Rylock", "region": "Docks", "category": ["Docks - Misc"],
+  { "name": "Harpers 1 - Deliver Renfeld to Rylock", "region": "Docks", "category": ["Docks - Misc"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
-  { "name": "Meet Xzar", "region": "Docks", "category": ["Docks - Misc"],
+  { "name": "Harpers 2 - Meet Xzar", "region": "Docks", "category": ["Docks - Misc"],
     "requires": "|Renfeld's Body (MISC5F)|"
   },
-  { "name": "Deal with the Spectral Harpists", "region": "Harper Hold", "category": ["Docks - Misc"],
+  { "name": "Harpers 3 - Deal with Prebek and Sanasha", "region": "Harper Hold", "category": ["Docks - Enemies"],
+    "requires": []
+  },
+  { "name": "Harpers 4 - Deal with the Spectral Harpists", "region": "Harper Hold", "category": ["Docks - Misc"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Deliver the bird to Xzar", "region": "Harper Hold", "category": ["Docks - Misc"],
+  { "name": "Harpers 5 - Find the bird in the Harper Hold", "region": "Harper Hold", "category": ["Docks - Misc"],
+    "requires": "|Harper Amulet (MISC5E)|"
+  },
+  { "name": "Harpers 6 - Deliver the bird to Xzar", "region": "Harper Hold", "category": ["Docks - Misc"],
     "requires": "|Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
   },
   { "name": "Loot the sarcophagus behind Arenthis", "region": "Graveyard", "category": ["Graveyard District - Looting", "Loot"],
@@ -1169,22 +1190,22 @@
   { "name": "Deal with Nester and Uncle Lester", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": []
   },
-  { "name": "Rescue Tirdir from the grave", "region": "Graveyard", "category": ["Graveyard District - Misc"],
+  { "name": "Buried Alive 1 - Rescue Tirdir from the grave", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": []
   },
-  { "name": "Meet Wellyn's ghost", "region": "Graveyard", "category": ["Graveyard District - Misc"],
+  { "name": "Wellyn 1 - Meet Wellyn's ghost", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": []
   },
-  { "name": "Deliver Littleman to Wellyn", "region": "Graveyard", "category": ["Graveyard District - Misc"],
+  { "name": "Wellyn 3 - Deliver Littleman to Wellyn", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": "|Littleman The Stuffed Bear (MISC5L)|"
   },
-  { "name": "Decide Llynis's fate (Copper Coronet)", "region": "Graveyard", "category": ["Graveyard District - Misc"],
+  { "name": "Wellyn 2 - Decide Llynis's fate (Copper Coronet)", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": []
   },
   { "name": "Decide Stein's fate (night time)", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": []
   },
-  { "name": "Interrogate Sethle on behalf of Tirdir", "region": "Graveyard", "category": ["Graveyard District - Misc"],
+  { "name": "Buried Alive 2 - Interrogate Sethle on behalf of Tirdir", "region": "Graveyard", "category": ["Graveyard District - Misc"],
     "requires": "|Piece of Red Cloth (MISC5N)|"
   },
   { "name": "Direct Kamir to Risa", "region": "Graveyard", "category": ["Graveyard District - Misc"],
@@ -1199,43 +1220,40 @@
   { "name": "Loot the chest in the Crypt King's tomb", "region": "Graveyard", "category": ["Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
+  { "name": "Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+  { "name": "Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Enter the tomb-within-a-tomb in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
+  { "name": "Enter the tomb-within-a-tomb in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Unlock the lower area in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
+  { "name": "Unlock the lower area in Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Deal with Burich the Unyielding", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
+  { "name": "Deal with Burich the Unyielding", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests"],
+  { "name": "Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Graveyard District - Enemies", "EE", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Discover the truth behind Hexxat and the Sleeper", "region": "Dragomir's Tomb", "category": ["Graveyard District - Misc", "EE", "Companion Quests"],
+  { "name": "Loot sarcophagus 1", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 1", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+  { "name": "Loot sarcophagus 2", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 2", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+  { "name": "Loot sarcophagus 3", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 3", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+  { "name": "Loot sarcophagus 4", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 4", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
+  { "name": "Loot sarcophagus 5", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot sarcophagus 5", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "Loot", "Companion Quests"],
-    "requires": []
-  },
-  { "name": "Loot Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "LootLite", "Companion Quests"],
+  { "name": "Loot Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Graveyard District - Looting", "EE", "LootLite", "Companion Quests", "EE Companion Quests"],
     "requires": []
   },
   { "name": "Loot the tomb directly southwest of the right entrance to the Lower Tombs", "region": "Graveyard", "category": ["Graveyard District - Looting", "Loot"],
@@ -1304,39 +1322,38 @@
   { "name": "Loot the Southern Tombs", "region": "Graveyard", "category": ["Graveyard District - Looting", "LootLite"],
     "requires": []
   },
-
-  { "name": "Confront Am-Si on behalf of Tirdir", "region": "Bridge", "category": ["Bridge District - Misc"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+  { "name": "Buried Alive 3 - Confront Am-Si on behalf of Tirdir", "region": "Bridge", "category": ["Graveyard District - Misc"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
-  { "name": "Defeat Reti and Camitis", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+  { "name": "Buried Alive 4 - Defeat Reti and Camitis", "region": "Bridge", "category": ["Graveyard District - Misc"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the sack in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the table in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the chest in Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
-  { "name": "Deal with Lady Elgea", "region": "Bridge", "category": ["Bridge District - Enemies"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+  { "name": "Buried Alive 5 - Deal with Lady Elgea", "region": "Bridge", "category": ["Graveyard District - Misc"],
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the left chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the right chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the dresser in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the table in the room Lady Elgea is held in", "region": "Bridge", "category": ["Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot Reti and Camitis's base", "region": "Bridge", "category": ["Bridge District - Looting", "LootLite"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock|"
+    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Loot the first bookshelf in the Temple of Oghma", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
@@ -1442,27 +1459,48 @@
   },
   { "name": "Loot Rayic Gethras's home", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
     "requires": []
+  },  
+  { "name": "Mae'var 1 - Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": []
   },
-  { "name": "Give Edwin the documents from Marcus", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  { "name": "Mae'var 2 - Meet Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": []
   },
-  { "name": "Decide Embarl's Fate", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  { "name": "Mae'var 3 - Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  { "name": "Mae'var 4 - Meet Edwin", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+  },
+  { "name": "Mae'var 5 - Defeat Rayic Gethras (or Edwin)", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+  },
+  { "name": "Mae'var 6 - Give Edwin the documents from Marcus (or don't if you chose violence)", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Edwin's Documents (MISC4W)|"
+  },
+  { "name": "Mae'var 7 - Decide Embarl's fate", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  { "name": "Mae'var 8 - Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Loot Mae'Var's Strongbox", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)| AND |Mae'Var's Strongbox Key (EDWINKEY)|"
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)| AND |Mae'Var's Strongbox Key (EDWINKEY)|"
+  },
+  { "name": "Mae'var 9 - Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  { "name": "Mae'var 10 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Enemies"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+  },
+  { "name": "Mae'var 11 - Free Kamuzu from the cell in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Loot the barrel on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
   { "name": "Loot the table on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
-  },
-  { "name": "Deal with Prebek and Sanasha", "region": "Harper Hold", "category": ["Docks - Enemies"],
-    "requires": []
   },
   { "name": "Loot the small table on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
@@ -1497,9 +1535,6 @@
   { "name": "Loot the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "LootLite"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Find the bird in the Harper Hold", "region": "Harper Hold", "category": ["Docks - Misc"],
-    "requires": "|Harper Amulet (MISC5E)|"
-  },
   { "name": "Loot the table in the first room of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
@@ -1521,11 +1556,13 @@
   { "name": "Loot the overall Docks area", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },
-
   { "name": "Meet Viconia", "region": "Government District", "category": ["Government District - Misc."],
     "requires": []
   },
   { "name": "Meet Jan", "region": "Government District", "category": ["Government District - Misc."],
+    "requires": []
+  },
+  { "name": "Lie for Jan (or don't)", "region": "Government District", "category": ["Government District - Misc."],
     "requires": []
   },
   { "name": "Listen to Madeen's request", "region": "Government District", "category": ["Government District - Misc."],
@@ -1555,16 +1592,79 @@
   { "name": "Loot the chest in the Voluva estate", "region": "Government District", "category": ["Government District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Listen to Gaal's speech", "region": "Temple District", "category": ["Temple District - Misc."],
+  { "name": "Sarles 1 - Speak with the relevant leader priest to start the Sir Sarles quest", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Sarles 2 - Visit the Jysstev estate and ask for Sir Sarles", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Sarles 3 - Speak with Jerlia at Waukeen's Promenade about illithium", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Sarles 4 - Speak with Jerlia the ore merchant about illithium", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Sarles 5 - Speak with Unger Hilldark in the Copper Coronet about illithium", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Sarles 6 - Confront Neb in his home in the Bridge District", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Sarles 7 - Turn Neb's head in to Inspector Brega", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)| AND |Neb's Head (MISC9H)|"
+  },
+  { "name": "Sarles 8 - Deliver Illithium Ore or the alloy to Sir Sarles", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Sarles 9 - Report on the success or failure of the Sir Sarles quest to the leader priest", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Dawn Ring 1 - Learn that the Lathandrite's Dawn Ring has been stolen", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Dawn Ring 2 - Confront Travin about the Dawn Ring", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Dawn Ring 3 - Confront Borinall about the Dawn Ring", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Dawn Ring 4 - Deliver the Dawn Ring to the leader priest", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)| AND |Dawn Ring (RING38)|"
+  },
+  { "name": "Cult 1 - Listen to Gaal's speech", "region": "Temple District", "category": ["Temple District - Misc."],
     "requires": []
   },
   { "name": "Listen to Miranda's accusation", "region": "Temple District", "category": ["Temple District - Misc."],
     "requires": []
   },
+  { "name": "Listen to Garrick's ode", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Enter the Guarded Compound", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Fallen Paladins 1 - Learn about Anarg and the fallen paladins from Ryan Trawl", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Fallen Paladins 2 - Meet Reynald de Chatillon", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Fallen Paladins 3 - Retrieve Anarg's Cup from the High Hall", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": []
+  },
+  { "name": "Fallen Paladins 4 - Return to Reynald with Anarg's Cup", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Anarg's Cup (MISC6I)|"
+  },
+  { "name": "Fallen Paladins 5 - Return to Ryan Trawl", "region": "Temple District", "category": ["Temple District - Misc."],
+    "requires": "|Anarg's Cup (MISC6I)|"
+  },
   { "name": "Ask Roger the Fence why he's in the sewers", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
   { "name": "Defeat the Sea Troll", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  { "name": "Return to the Fence and report that you've defeated the Sea Troll", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
   { "name": "Meet Keldorn", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
@@ -1579,10 +1679,19 @@
   { "name": "Loot the pipe near the kobolds at the center of the Temple District Sewers", "region": "Temple District Sewers", "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Defeat Mekrath", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Find the hidden door to Mekrath's lair", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  { "name": "Defeat the Yuan-Ti in Mekrath's lair", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
   { "name": "Defeat the salamander in Mekrath's lair", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
+    "requires": []
+  },
+  { "name": "Meet Mekrath and decide his fate", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
+    "requires": []
+  },
+  { "name": "Free Haer'Dalis from Mekrath", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
   { "name": "Loot the first bookshelf in Mekrath's lair", "region": "Temple District Sewers", "category": ["Temple District Sewers - Looting", "Loot"],
@@ -1654,16 +1763,16 @@
   { "name": "Loot the Cult of the Eyeless", "region": "Temple District Sewers", "category": ["Temple District Sewers - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the Ettercap ambush", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 2 - Defeat the Ettercap ambush", "region": "Temple District Sewers", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Survive the Cloudkill chamber", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 3 - Survive the Cloudkill chamber", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
-  { "name": "Accept Gaal's quest to retreive the rod", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 4 - Accept Gaal's quest to retreive the rod", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
-  { "name": "Listen to Sassar's request", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 5 - Listen to Sassar's request", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
   { "name": "Loot the left chest in the room with Zaelus and Garuk", "region": "Lower Reaches", "category": ["Temple District Sewers - Looting", "Loot"],
@@ -1675,9 +1784,6 @@
   { "name": "Loot the screaming statue", "region": "Lower Reaches", "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Learn the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
-    "requires": "|Rift Device Part (MISC5A)|"
-  },
   { "name": "Solve the puzzle to fix the rift bridge", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
@@ -1687,13 +1793,16 @@
   { "name": "Defeat the enemies past the rift bridge", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 6 - Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Listen to the Avatar's request", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 7 - Listen to the Avatar's request", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Tell Tad the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 8 - Learn the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
+    "requires": "|Rift Device Part (MISC5A)|"
+  },
+  { "name": "Cult 9 - Tell Tad the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5A)|"
   },
   { "name": "Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
@@ -1732,16 +1841,19 @@
   { "name": "Defeat the charmed adventuring party at the center of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   { "name": "Defeat the Unseeing Eye (Quest Token)", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
   },
-  { "name": "Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 11 - Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
-  { "name": "Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
+  { "name": "Cult 12 - Defeat Gaal", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
+  },
+  { "name": "Cult 13 - Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   { "name": "Loot the chest in the left room of the Temple of Helm", "region": "Temple District", "category": ["Temple District - Looting", "Loot"],
@@ -1834,10 +1946,10 @@
   { "name": "Return to Logan Coprith for your reward after defeating Faldorn", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": []
   },
-  { "name": "Listen to Khan Zahraa's request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
+  { "name": "Listen to Genie Khan Zahraa's request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": []
   },
-  { "name": "Deal with Khan Zahraa", "region": "Druid Grove", "category": ["Trademeet - Misc."],
+  { "name": "Deal with Genie Khan Zahraa", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)|"
   },
   { "name": "Become the heroes of Trademeet (or don't if you poisoned the druids)", "region": "Druid Grove", "category": ["Trademeet - Misc."],
@@ -1847,13 +1959,13 @@
     "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Listen to Tiris's Request", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Meet with Darsidian Moor", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Decide Raissa's fate", "region": "Druid Grove", "category": ["Trademeet - Misc."],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock|"
+    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Meet Viekang in Vyatri's pub", "region": "Trademeet", "category": ["Trademeet - Misc."],
     "requires": []
@@ -1957,7 +2069,7 @@
   { "name": "Accept the quest from Luraxxol or Alibakkar", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)|"
   },
-  { "name": "Defeat the enemies in the crypt", "region": "Druid Grove", "category": ["Trademeet - Misc."],
+  { "name": "Defeat the enemies in the Trademeet crypt", "region": "Druid Grove", "category": ["Trademeet - Misc."],
     "requires": "|Ihtafeer's Head (MISC8K)| AND |Trademeet Tomb Key (MISC8M)|"
   },
   { "name": "Decide what to do with the Mantle of Waukeen", "region": "Druid Grove", "category": ["Trademeet - Misc."],
@@ -2071,13 +2183,10 @@
   { "name": "Defeat the Bone Golem", "region": "Temple Ruins Past 1st Barrier", "category": ["Temple Ruins - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Temple Ruins - Enemies"],
-    "requires": "|@Region Unlocks:ALL|"
-  },
   { "name": "Defeat the Shade Lord", "region": "Temple Ruins Past 2nd Barrier", "category": ["Temple Ruins - Enemies"],
     "requires": []
   },
-  { "name": "Sneak past the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Temple Ruins - Misc."],
+  { "name": "Sneak past (or defeat) the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Temple Ruins - Misc."],
     "requires": "|Amuana's Bones (MISC6Q)| AND |Shadow Dragon Wardstone (MISC6P)|"
   },
   { "name": "Loot the statue with her arms outstretched", "region": "Temple Ruins Past 1st Barrier", "category": ["Temple Ruins - Looting", "Loot"],
@@ -2132,6 +2241,9 @@
     "requires": []
   },
   { "name": "Loot the closet in the right room of the Umar Inn", "region": "Umar Hills", "category": ["Umar Hills - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Umar Inn", "region": "Umar Hills", "category": ["Umar Hills - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Loot the chest in Valygar's cabin", "region": "Umar Hills", "category": ["Umar Hills - Looting", "Loot"],
@@ -2239,13 +2351,13 @@
   { "name": "Meet with Captain Arat at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
   },
-  { "name": "Find the side entrance at the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
+  { "name": "Find the side entrance to the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
     "requires": []
   },
-  { "name": "Loot the crate by the side extrance of the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
+  { "name": "Loot the crate by the side extrance in the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the barrel by the side extrance of the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
+  { "name": "Loot the barrel by the side extrance in the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
   { "name": "Meet Daleson in the de'Arnise Keep", "region": "deArnise Keep", "category": ["de'Arnise Keep - Misc"],
@@ -2461,10 +2573,10 @@
   { "name": "Loot Tazok's room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Save (or don't) Garren's child", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
+  { "name": "Save (or don't) Garren's child", "region": "Chapel Key", "category": ["Windspear Hills - Misc"],
     "requires": "|Firkraag Prison Key (KEY09)|"
   },
-  { "name": "Save (or don't) Garren's child (Quest Token)", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
+  { "name": "Save (or don't) Garren's child (Quest Token)", "region": "Chapel Key", "category": ["Windspear Hills - Misc"],
     "requires": "|Firkraag Prison Key (KEY09)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Use the well's winch", "region": "Chapel Key", "category": ["Windspear Hills - Misc"],
@@ -2506,64 +2618,100 @@
   { "name": "Defeat Samia and co.", "region": "Chapel Key", "category": ["Windspear Hills - Enemies"],
     "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
   },  
-  { "name": "Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE"],
+  { "name": "Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Defeat the Dangerous Moose", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
+  { "name": "Defeat the Dangerous Moose", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Discover the location of the Twofold Temple", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
+  { "name": "Discover the location of the Twofold Temple", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Enemies", "EE"],
+  { "name": "Deal with the Vagrant Blades", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Encounter Herath", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Deal with the Heretic Guard", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
+  { "name": "Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "EE", "Loot"],
+  { "name": "Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "EE", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
+  { "name": "Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
+  { "name": "Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot"],
+  { "name": "Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "EE", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Undertake the Penance test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Undertake the Penance test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Undertake the Blinding Sun test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Undertake the Pain test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE"],
+  { "name": "Undertake the Pain test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies", "EE"],
+  { "name": "Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple - Enemies", "EE", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot", "EE"],
+  { "name": "Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot", "EE", "EE Companion Quests"],
+    "requires": []
+  },
+  { "name": "Encounter Quaid", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": []
+  },
+  { "name": "Loot Quaid's cart", "region": "Wild Forest", "category": ["Wild Forest - Looting", "EE", "Loot"],
+    "requires": []
+  },
+  { "name": "Encounter the illusionary Ettin", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": []
+  },
+  { "name": "Encounter the speaking snake", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": []
+  },
+  { "name": "Defeat the Greater Wyvern", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": []
+  },
+  { "name": "Encounter the speaking snake", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": []
+  },
+  { "name": "Dispel the illusion on the bridge", "region": "Wild Forest", "category": ["Wild Forest - Misc", "EE"],
+    "requires": "{OptAll(|Neera| OR |Pile of Gravel (???)|}"
+  },
+  { "name": "Defeat Treadsoft", "region": "Resurrection Gorge", "category": ["Resurrection Gorge - Misc", "EE", "EE Companion Quests"],
+    "requires": []
+  },
+  { "name": "Speak with Summerheigh", "region": "Resurrection Gorge", "category": ["Resurrection Gorge - Misc", "EE", "EE Companion Quests"],
+    "requires": []
+  },
+  { "name": "Obtain Fil's summoning stone", "region": "Resurrection Gorge", "category": ["Resurrection Gorge - Misc", "EE", "EE Companion Quests"],
+    "requires": []
+  },
+  { "name": "Obtain Winterbrook's summoning stone", "region": "Resurrection Gorge", "category": ["Resurrection Gorge - Misc", "EE", "EE Companion Quests"],
+    "requires": []
+  },
+  { "name": "Obtain Xachrimos's summoning stone", "region": "Resurrection Gorge", "category": ["Resurrection Gorge - Misc", "EE", "EE Companion Quests"],
     "requires": []
   },
   { "name": "Edwin 1 - Enter the Graveyard District with Edwin in the party", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Edwin 2 - Defeat Nevaziah", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Edwin 2 - Defeat Nevaziah in the Lower Tombs", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
   { "name": "Edwin 3 - Let Edwin translate the Nether Scroll and unleash its magic", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
@@ -2591,9 +2739,48 @@
     "requires": []
   },
   { "name": "Nalia 6 - Deliver all the evidence to Corgeig Axehand", "region": "Nalia's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Isaea's Slavery Document (MISC8P)| AND |Isaea's Financial Statements (MISC8N)|"
+    "requires": []
   },
-  { "name": "Rasaad 1 - Take Rasaad to the City Gates", "region": "Rasaad's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Rasaad 1 - Take Rasaad to the City Gates", "region": "Rasaad's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Rasaad 2 - Visit the Abandoned Amphitheater and learn more about the Twofold Truth", "region": "Rasaad's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Rasaad 3 - Leave the Abandoned Amphitheater and encounter the Tears of Selune Sun Soul monks", "region": "Rasaad's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Rasaad 4 - Enter the Twofold Temple (via deception or violence)", "region": "Rasaad's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Rasaad 5 - Help Rasaad decide whether or not to take over as leader of the Twofold Trust", "region": "Rasaad's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 1 - Meet Dorn in the Temple District", "region": "Dorn's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 2 - Enter the Radiant Hall and get past the doorman", "region": "Dorn's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 3 - Kill Firejaw", "region": "Dorn's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 4 - Interrogate Guardian Telwyn on the location of Terpfen", "region": "Dorn's Companion Quest", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 5 - Destroy the Helmite Camp", "region": "Helmite Camp", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 6 - Deal with Traggor the Hammer after leaving the Helmite Camp", "region": "Helmite Camp", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 7 - Hear Azothet's recommendation", "region": "Helmite Camp", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 8 - Complete the summoning ritual", "region": "Resurrection Gorge", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Dorn 9 - Decide the demons' fates", "region": "Resurrection Gorge", "category": ["Companion Quests", "EE"],
     "requires": []
   },
   { "name": "Jaheira 1 - Meet Baron Ployer with Jaheira in your party", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
@@ -2617,13 +2804,19 @@
   { "name": "Jaheira 7 - Defeat Galvarey & co. at the Harper Hold", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Jaheira 8 - Receive the note from Terminsel", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jaheira 8 - Deal with Reviane & co.", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Jaheira 9 - Rescue Jaheira from the Harper Hold", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jaheira 9 - Receive the note from Terminsel", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jaheira 10 - Rescue Jaheira from the Harper Hold", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },  
-  { "name": "Cernd 1 - Listen to Igarol's conversation with Cernd", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jaheira 11 - Deal with Dermin", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },  
+  { "name": "Cernd 1 - Witness Igarol's conversation with Cernd", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
   { "name": "Cernd 2 - Visit Cernd's former home in search of Galia", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
@@ -2632,7 +2825,10 @@
   { "name": "Cernd 3 - Visit Fennecia's home in search of Galia", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Cernd 4 - Decide Deril's fate on behalf of Cernd", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Cernd 4 - Speak with Fennecia while Cernd is out of her sight", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Cernd 5 - Confront Deril and decide his fate", "region": "Cernd's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },  
   { "name": "Korgan 1 - Bring Korgan to the Graveyard District", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
@@ -2642,10 +2838,157 @@
     "requires": []
   },
   { "name": "Korgan 3 - Take Korgan to the Pimlico Estate", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Unlock|"
+    "requires": "|Temple District Unlock (AR0900)|"
   },
   { "name": "Korgan 4 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Unlock|"
+    "requires": "|Temple District Unlock (AR0900)|"
+  },
+  { "name": "Hexxat 1 - Take 'Hexxat' to Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Companion Quests", "EE"],
+    "requires": []
+  },
+  { "name": "Hexxat 2 - Discover the truth behind Hexxat and the Sleeper", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 3 - Use the Casque to go to Shou Lung", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 4 - Meet the ghostly monks in Shou Lung", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 5 - Defeat the mind flayers", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 6 - Retreive Key of the Master's Crypt from Ki Chin Sang", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 7 - Defeat Nan Kung Chi", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 8 - Travel to the Tomb of the Unproved", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 9 - Pass the trap rooms in the Tomb of the Unproved", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 10 - Defeat the wizards in the library of the Tomb of the Unproved", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 11 - Solve the face's puzzle in the Tomb of the Unproved", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 12 - Obtain the Shroud", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Hexxat 13 - Deliver the Shroud to Cabrina in the Copper Coronet", "region": "Hexxat's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Deal with Reginald", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Deliver the items to Knocktor and have him craft the Talisman", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Find Barad's cats", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Find Mereth's headband", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Bring Mironda the Halfling's Help alcohol from Trademeet", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": "|Trademeet Unlock (AR2000)|"
+  },
+  { "name": "Neera - Talk to Amanis, then return to the Wild forest, then find Kirik and decide his fate", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Find Daxus Taralom on behalf of Telana / give him the Talisman (optional)", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Defeat the Red Wizards after Daxus", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Neera - Destroy the Red Wizard Enclave", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Wilson 1 - Learn of Wilson's existence from Zaviak in the Hidden Refuge", "region": "Neera's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Wilson 2 - Meet Wilson and recruit him", "region": "Wilson's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Wilson 3 - Bring Wilson to Zaviak", "region": "Wilson's Companion Quest", "category": ["EE", "Companion Quests"],
+    "requires": []
+  },
+  { "name": "Anomen 1 - Learn of Anomen's sister's fate", "region": "Wilson's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Anomen 2 - Help Anomen decide his path", "region": "Anomen's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Anomen 3 - Follow through on Anomen's decision to seek justice (through violence or law)", "region": "Anomen's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Keldorn 1 - Visit the Firecam Estate in the Government District", "region": "Keldorn's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Keldorn 2 - Advise Keldorn on a plan of action", "region": "Keldorn's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Keldorn 3 - Reap the results of your advice", "region": "Keldorn's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 1 - Witness Mazzy's argument with Gorf", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 2 - Defeat Gorf in the Copper Coronet arena", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 3 - Learn about what happened to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 4 - Visit the Fentan home in Trademeet and learn the full story of what happened to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 5 - Interrogate Wallace", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 6 - Speak to Renwellyn in the Temple of Waukeen and find proof of Barl's evildoings", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 7 - Survive Barl's attack", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Mazzy 8 - Deliver the antidote to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jan 1 - Hear the news about Lissa from Beelo", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jan 2 - Speak with Lissa", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jan 3 - Hear the news about Lissa", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jan 3 - Talk to Gerhardt and learn the next step", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": []
+  },
+  { "name": "Jan 4 - Speak to Jysstev for advice", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Jan 5 - Speak with the Hidden", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)|"
+  },
+  { "name": "Jan 6 - Speak with the Thumb in the Seas Bounty with the Hidden's codeword", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)|"
+  },
+  { "name": "Jan 7 - Defeat the Hidden's enemies in the Five Flagons Inn", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Jan 8 - Report victory to the Hidden", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Jan 9 - Return to the child", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Earn 5 tokens", "category": [],
     "requires": "|Quest Complete Token: 5|", "victory": true
