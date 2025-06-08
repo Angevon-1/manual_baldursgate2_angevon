@@ -11,6 +11,10 @@
     "hidden": false,
     "yaml_option": ["enable_companion_quests"]
     },
+    "EE Companion Quests": {
+    "hidden": true,
+    "yaml_option": ["enable_companion_quests"]
+    },
     "Companion Quest Items": {
     "hidden": false,
     "yaml_option": ["enable_companion_quests"]
