@@ -623,103 +623,106 @@
   { "name": "Loot the Copper Coronet", "region": "Copper Coronet", "category": ["Slums - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Find the secret exit to the sewers in the Copper Coronet", "region": "Copper Coronet", "category": ["Slums - Misc"],
     "requires": []
   },
-  { "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel in the Slums Sewer near the stairs to the Copper Coronet", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the first barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the barrel near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the second barrel in the Slums Sewer near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel near Quallo", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the table near Quallo", "region": "Slums Sewers", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the crate near Quallo", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Inspect the grate in circular room in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums - Misc"],
+  { "name": "Loot the table near Quallo", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Inspect the skeletons on the wall in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums - Misc"],
+  { "name": "Inspect the grate in circular room in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums Sewers - Misc"],
     "requires": []
   },
-    { "name": "Deal with Quallo and his friend", "region": "Slums Sewers", "category": ["Slums - Misc"],
+  { "name": "Inspect the skeletons on the wall in the Slums Sewer", "region": "Slums Sewers", "category": ["Slums Sewers - Misc"],
     "requires": []
   },
-  { "name": "Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Slums - Misc"],
+    { "name": "Deal with Quallo and his friend", "region": "Slums Sewers", "category": ["Slums Sewers - Misc"],
+    "requires": []
+  },
+  { "name": "Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Slums Sewers - Misc"],
     "requires": "|Hand (MISC5S)| AND |The Lover's Ring (MISC5R)| AND |Shaman's Staff (MISC5T)| AND |Blood of Quallo's Friend (MISC5Q)|"  
   },
-  { "name": "Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Looting", "LootLite"],
+  { "name": "Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Slums Sewers - Looting", "LootLite"],
     "requires": []
   },
-  { "name": "Defeat the Kobolds in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Kobolds in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Myconids in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Myconids in the Slums Sewers", "region": "Slums Sewers", "category": ["Slums Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Defeat Haegan in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Enemies"],
+  { "name": "Defeat Haegan", "region": "Slaver Stockade", "category": ["Slaver Stockade - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Slaver Wizard in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Slaver Wizard", "region": "Slaver Stockade", "category": ["Slaver Stockade - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the Yuan-Ti in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Enemies"],
+  { "name": "Defeat the Yuan-Ti", "region": "Slaver Stockade", "category": ["Slaver Stockade - Enemies"],
     "requires": []
   },
-  { "name": "Defeat the trolls in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Enemies"],
+  { "name": "Defeat the trolls", "region": "Slaver Stockade", "category": ["Slaver Stockade - Enemies"],
     "requires": []
   }, 
-  { "name": "Loot the barrel near the food shelf in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel near the food shelf", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the food shelf in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the food shelf", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the round table near the slaver wizard in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the round table near the slaver wizard", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the rectangular table near the slaver wizard in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the rectangular table near the slaver wizard", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the barrel in the trapped room in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel in the trapped room", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the weapon barrel in the trapped room in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the weapon barrel in the trapped room", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest in the trapped room in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the chest in the trapped room", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest in the Yuan-Ti room in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the chest in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the table in the Yuan-Ti room in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the table in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate near the sewers entrance in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the crate near the sewers entrance", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the barrel near the sewers entrance in the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "Loot"],
+  { "name": "Loot the barrel near the sewers entrance", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slums - Looting", "LootLite"],
+  { "name": "Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Slaver Stockade - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Defeat the first bandit ambush when traveling the city", "region": "City Gates", "category": ["Athkatla - Misc"],
     "requires": []
   },
-  { "name": "Meet Neera", "region": "Bridge", "category": ["Athkatla - Misc", "EE"],
+  { "name": "Encounter Neera after the Mereth cutscene", "region": "Bridge", "category": ["Athkatla - Misc", "EE"],
     "requires": []
   },
-  { "name": "Meet Habib", "region": "Slums", "category": ["Athkatla - Misc"],
+  { "name": "Encounter Habib", "region": "Slums", "category": ["Athkatla - Misc"],
     "requires": []
   },
   { "name": "Speak with Flydian", "region": "City Gates", "category": ["City Gates - Misc"],
@@ -758,7 +761,7 @@
   { "name": "Murders 1 - Meet Lieutenant Aegisfield and learn of the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
-  { "name": "Deal with the muggers (night)", "region": "Bridge", "category": ["Bridge District - Misc"],
+  { "name": "Deal with the muggers at night", "region": "Bridge", "category": ["Bridge District - Misc"],
     "requires": []
   },
   { "name": "Murders 2 - Interrogate Rumpah about the skinner murders", "region": "Bridge", "category": ["Bridge District - Misc"],
@@ -1088,82 +1091,82 @@
   { "name": "Loot the hidden cache by Renal Bloodscalp", "region": "Docks", "category": ["Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the chest by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the left table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the right table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Pick some locks on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Pick some locks on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": []
   },
-  { "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the crate on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "Loot"],
+  { "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Looting", "LootLite"],
+  { "name": "Loot Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Looting", "LootLite"],
     "requires": []
   },
   { "name": "Harpers 1 - Deliver Renfeld to Rylock", "region": "Docks", "category": ["Docks - Misc"],
@@ -1460,40 +1463,40 @@
   { "name": "Loot Rayic Gethras's home", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
     "requires": []
   },  
-  { "name": "Mae'var 1 - Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 1 - Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": []
   },
-  { "name": "Mae'var 2 - Meet Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 2 - Meet Mae'Var", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": []
   },
-  { "name": "Mae'var 3 - Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 3 - Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Mae'var 4 - Meet Edwin", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 4 - Meet Edwin", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Mae'var 5 - Defeat Rayic Gethras (or Edwin)", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 5 - Defeat Rayic Gethras (or Edwin)", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Mae'var 6 - Give Edwin the documents from Marcus (or don't if you chose violence)", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 6 - Give Edwin the documents from Marcus (or don't if you chose violence)", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 7 - Decide Embarl's fate", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 7 - Decide Embarl's fate", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 8 - Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 8 - Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Loot Mae'Var's Strongbox", "region": "Docks", "category": ["Docks - Looting", "LootLite"],
+  { "name": "Loot Mae'Var's Strongbox", "region": "Docks", "category": ["Mae'Var's Guildhall - Looting", "LootLite"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)| AND |Mae'Var's Strongbox Key (EDWINKEY)|"
   },
-  { "name": "Mae'var 9 - Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 9 - Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 10 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Docks - Enemies"],
+  { "name": "Mae'var 10 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Enemies"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 11 - Free Kamuzu from the cell in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Docks - Misc"],
+  { "name": "Mae'var 11 - Free Kamuzu from the cell in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Mae'Var's Guildhall - Misc"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Loot the barrel on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Docks - Looting", "Loot"],
@@ -1647,16 +1650,16 @@
     "requires": []
   },
   { "name": "Fallen Paladins 2 - Meet Reynald de Chatillon", "region": "Temple District", "category": ["Temple District - Misc."],
-    "requires": []
+    "requires": "|Bridge District Unlock (AR0500)|"
   },
   { "name": "Fallen Paladins 3 - Retrieve Anarg's Cup from the High Hall", "region": "Temple District", "category": ["Temple District - Misc."],
-    "requires": []
+    "requires": "|Bridge District Unlock (AR0500)|"
   },
   { "name": "Fallen Paladins 4 - Return to Reynald with Anarg's Cup", "region": "Temple District", "category": ["Temple District - Misc."],
-    "requires": "|Anarg's Cup (MISC6I)|"
+    "requires": "|Anarg's Cup (MISC6I)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Fallen Paladins 5 - Return to Ryan Trawl", "region": "Temple District", "category": ["Temple District - Misc."],
-    "requires": "|Anarg's Cup (MISC6I)|"
+    "requires": "|Anarg's Cup (MISC6I)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Ask Roger the Fence why he's in the sewers", "region": "Temple District Sewers", "category": ["Temple District Sewers - Misc."],
     "requires": []
@@ -1793,10 +1796,10 @@
   { "name": "Defeat the enemies past the rift bridge", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Cult 6 - Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 6 - Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
-  { "name": "Cult 7 - Listen to the Avatar's request", "region": "Lower Reaches", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 7 - Listen to the Avatar's request", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
     "requires": []
   },
   { "name": "Cult 8 - Learn the cult's passphrase", "region": "Lower Reaches", "category": ["Temple District Sewers - Misc."],
@@ -1829,7 +1832,7 @@
   { "name": "Loot the tiny spot left of the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the tiny spot below of the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Looting", "Loot"],
+  { "name": "Loot the tiny spot below the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
   { "name": "Loot Ghoul Town", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Looting", "LootLite"],
@@ -1841,11 +1844,8 @@
   { "name": "Defeat the charmed adventuring party at the center of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
     "requires": []
   },
-  { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
+  { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
-  },
-  { "name": "Defeat the Unseeing Eye (Quest Token)", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Enemies"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Cult 11 - Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
@@ -1855,6 +1855,9 @@
   },
   { "name": "Cult 13 - Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
+  },
+  { "name": "Cult 13 - Report the end of the Cult to your temple leader (Quest Token)", "region": "Pit of the Faithless", "category": ["Temple District Sewers - Misc."],
+    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
   },
   { "name": "Loot the chest in the left room of the Temple of Helm", "region": "Temple District", "category": ["Temple District - Looting", "Loot"],
     "requires": []
@@ -2279,19 +2282,25 @@
   { "name": "Loot table by the Knights of Solamnia", "region": "Planar Zone", "category": ["Planar Sphere - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Defeat the halflings", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
+  { "name": "Defeat the halflings to the left of the knights", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
     "requires": []
   },
   { "name": "Defeat the sahaguins", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
     "requires": []
   },
-  { "name": "Activate the three ovens with coal", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
+  { "name": "Defeat the halflings in the furnace room", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
     "requires": []
   },
-  { "name": "Activate the Guardian Golem", "region": "Planar Zone", "category": ["Planar Sphere - Enemies"],
+  { "name": "Activate the three ovens with coal", "region": "Planar Zone", "category": ["Planar Sphere - Misc."],
+    "requires": []
+  },
+  { "name": "Activate the Guardian Golem", "region": "Planar Zone", "category": ["Planar Sphere - Misc."],
     "requires": "{OptAll(|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|)}"
   },
   { "name": "Defeat the trapped Elder Orb", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Enemies"],
+    "requires": []
+  },
+  { "name": "Solve the floor rune puzzle", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Misc."],
     "requires": []
   },
   { "name": "Loot the skeleton by the Elder Orb", "region": "Planar Zone Past Golem", "category": ["Planar Sphere - Looting", "Loot"],
