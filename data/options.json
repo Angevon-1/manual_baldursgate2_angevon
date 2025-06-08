@@ -7,7 +7,7 @@
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "Goal options",
-            "description": "The goal is to complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) to receive tokens. Collect enough tokens (and gold along the way) to pay off Gaelen Bayle or Bodhi. More required tokens makes for a longer game.",
+            "description": "The goal is to complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) in Chapter 2 to receive tokens. Collect enough tokens (and gold along the way) to pay off Gaelen Bayle or Bodhi. More required tokens makes for a longer game.",
             "aliases": {"easiest": 0},
             "hidden": false
         },
@@ -18,7 +18,17 @@
     "user": {
         "enhanced_edition":{
             "description": [
-                "Set this to true if you're playing the enhanced edition. This will include enhanced edition items, characters, and locations."
+                "Set this to true if you're playing the enhanced edition and would like to include enhanced edition items, characters, and locations to the relevant options below."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_cheat_console":{
+            "description": [
+                "When true, logic will take into account the use of the cheat console's MoveToArea command.",
+                "With this on, much more of the game will be available to play.",
+                "This option is required for the victory conditions that take place after chapter 2 (none yet).",
+                "If you're playing the console or mobile version of the game (Switch, Playstation, Xbox, android, etc), however, this must be off, since the cheat console is not available there."
             ],
             "type": "Toggle",
             "default": true
@@ -26,24 +36,25 @@
         "enable_irenicus_dungeon":{
             "description": [
                 "When this option is true, items and locations related to the Irenicus's Dungeon tutorial will be included in the multiworld.",
-                "When this is false, these items and locations will be removed instead. (Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
-                "When false, it is expected that you're using the Dungeon-Be-Gone mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual."
+                "When this option is false, these items and locations will be removed instead. (Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
+                "When false, it is expected that you're using the Dungeon-Be-Gone or Skip Chateau Irenicus mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual to give yourself these items as needed."
             ],
             "type": "Toggle",
             "default": true
         },
         "enable_companion_quests":{
             "description": [
-                "When this is true, items & locations related to all the NPC companions's quests are added to the multiworld.",
-                "You must not kill any potential party members! Don't let any die before you've done their checks!"
+                "When this option is true, items & locations related to all the companion NPC quests are added to the multiworld.",
+                "You must not kill any potential party members! Don't let any die before you've done their checks!",
+                "These quests can take a long time to activate in the game; speedrunners should keep this set to false."
             ],
             "type": "Toggle",
             "default": false
         },
         "include_npcs":{
             "description": [
-                "When true, this adds the recruitable party member NPCs as unlockable items to be found in the multiworld. You will automatically be given 3 NPCs at random at the start of the game.",
-                "See the 'Characters' section of the left side of the Manual tab in the Manual Client to see who's available.",
+                "When this option is true, the companion NPCs themselves are added as unlockable items to be found in the multiworld. You will automatically be given 3 NPCs at random at the start of the game.",
+                "To see what characters are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Characters' section.",
                 "When used in conjunction with enable_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.",
                 "Without this option, companion quests are instead locked by the region where the companion exists and where the quests take place.",
                 "When true this adds 17 items (22 if enhanced edition is enable)."
@@ -54,8 +65,8 @@
         "loot_checks":{
             "description": [
                 "Set this to true if you want INDIVIDUAL lootable crates/barrels/chests added to the pool as location checks.",
-                "To compensate for check count, this will also add a bunch of filler potions and scrolls to the multiworld.",
-                "Note that your Lockpicking ability is NOT accounted for at this time. Progression may be locked behind a locked chest and it's up to you to get past it."
+                "To compensate for check count, include_consumables and/or include_equipment options should be set to true to add filler.",
+                "Note that your Lockpicking ability is NOT accounted for. Progression may be locked behind a locked chest and it's up to you to get past it."
             ],
             "type": "Toggle",
             "default": false
@@ -82,15 +93,15 @@
                 "You'll need to find the equipment in the game (cheat console or save editing is NOT to be used).",
                 "With the progression system, you can't use +x weapons until you've received the same number of progressives for that weapon type.",
                 "For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.",
-                "This option works well with Item Randomizer and is best for those who'd prefer not to use the cheat console or save editor."
+                "This option works well with the Item Randomizer mod and is best for those who'd prefer not to use the cheat console or save editor."
             ],
             "type": "Toggle",
             "default": false
         },
-        "equipment":{
+        "include_equipment":{
             "description": [
-                "This adds each magical equipment item to the multiworld. It generally should always be set to true.",
-                "However, you may need to set this to false if progressive equipment is on and loot checks are off, or else there may be generation failures due to too many items.",
+                "This adds each magical equipment item to the multiworld. By default is is set to true.",
+                "However, you may need to set this to false if progressive_equipment is on and loot_checks are off, or else there may be generation failures due to too many items.",
                 "This can also be set to false if you don't plan to use the cheat console or save editing and prefer to use items you find directly in the game rather than from the multiworld."
             ],
             "type": "Toggle",
@@ -100,15 +111,15 @@
             "description": [
                 "When this is true, it adds equipment from the BG2 Collector's Edition and Watcher's Keep to the multiworld. When false, they aren't added.",
                 "These items might be considered overpowered; as such this option exists to exclude them.",
-                "Note: watcher's keep location checks are NOT affected, they are not implemented at all at this time, this is purely about the item rewards"
+                "Note: watcher's keep location checks are NOT affected, they are not implemented at all at this time, this is purely about the item rewards."
             ],
             "type": "Toggle",
             "default": false
         },
-        "consumables":{
+        "include_consumables":{
             "description": [
-                "When true, this adds scrolls and potions to the multiworld.",
-                "This should only be on when full loot checks are on, to add filler."
+                "When this is true, scrolls and potions are added as filler to the multiworld.",
+                "This should only be on when full loot_checks are on, to add filler."
             ],
             "type": "Toggle",
             "default": false
