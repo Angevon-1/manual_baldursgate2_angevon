@@ -9,7 +9,7 @@
     "requires": []
   },
   "Irenicus's Dungeon (Past Sewage)": {
-    "connects_to": ["Irenicus's Dungeon (level 2)"],
+    "connects_to": ["Irenicus's Dungeon (Level 2)"],
     "requires": "{OptAll(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)}"
   },
   "Irenicus's Dungeon (Level 2)": {
@@ -30,7 +30,7 @@
     "requires": []
   },
   "Slums": {
-    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest"],
+    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest", "Chapter 2"],
     "requires": []
   },
   "Planar Sphere": {
@@ -54,8 +54,12 @@
     "requires": []
   },
   "Government District": {
-    "connects_to": [],
+    "connects_to": ["Jan's Companion Quest"],
     "requires": "|Government District Unlock (AR1000)|"
+  },
+  "Jan's Companion Quest": {
+    "connects_to": [],
+    "requires": "{OptOne(Jan)}"
   },
   "Temple District": {
     "connects_to": ["Temple District Sewers", "Dorn's Companion Quest"],
@@ -131,7 +135,7 @@
   },
   "Wilson's Companion Quest": {
     "connects_to": [],
-    "requires": "|Abandoned Amphitheater Unlock (OH4000)| AND |Heretic Temple Unlock (OH4100)|"
+    "requires": "{OptAll(|Rasaad| AND |Wilson| AND |Abandoned Amphitheater Unlock (OH4000)| AND |Heretic Temple Unlock (OH4100)|)}"
   },
   "Keep Key": {
     "connects_to": ["Nalia's Companion Quest"],
@@ -167,11 +171,11 @@
   },
   "Rasaad's Companion Quest": {
     "connects_to": ["Abandoned Amphitheater"],
-    "requires": []
+    "requires": "{OptOne(Rasaad)}"
   },
   "Abandoned Amphitheater": {
     "connects_to": ["Heretic Temple"],
-    "requires": "|Abandoned Amphitheater Unlock (OH4000)|"
+    "requires": "{OptAll(|Rasaad| AND |Abandoned Amphitheater Unlock (OH4000)|}"
   },
   "Heretic Temple": {
     "connects_to": [],
@@ -183,11 +187,15 @@
   },
   "Planar Prison": {
     "connects_to": [],
-    "requires": "{OptAll(|Bridge District Unlock (AR0500)| AND |Planar Prison Unlock (AR0516)| AND |Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|)}"
+    "requires": "{OptAll(|Haer'Dalis| AND |Bridge District Unlock (AR0500)| AND |Planar Prison Unlock (AR0516)| AND |Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|)}"
   },
   "Dragomir's Tomb": {
     "connects_to": ["Hexxat's Companion Quest"],
-    "requires": ["|Cloak of Dragomir (OHHCLOAK)|"]
+    "requires": "{OptOne(|Hexxat|)}"
+  },
+  "Hexxat's Companion Quest": {
+    "connects_to": [],
+    "requires": "{OptOne(Cloak of Dragomir (OHHCLOAK)|)}"
   },
   "Temple District Sewers": {
     "connects_to": ["Cult Compound", "Keldorn's Companion Quest"],
@@ -199,18 +207,18 @@
   },
   "Keldorn's Companion Quest": {
     "connects_to": [],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "{OptAll(|Keldorn| AND |Government District Unlock (AR1000)|)}"
   },
   "Anomen's Companion Quest": {
     "connects_to": [],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "{OptAll(|Anomen| AND |Government District Unlock (AR1000)|)}"
   },
   "Lower Reaches": {
     "connects_to": [],
     "requires": "|Gaal's Key (KEY02)|"
   },
   "Pit of the Faithless": {
-    "connects_to": [],
+    "connects_to": ["Sir Sarles Quest"],
     "requires": "|Gaal's Key (KEY02)| AND |Rift Device Part (MISC5A)|"
   },
   "Temple Ruins": {
@@ -227,6 +235,22 @@
   },
   "Mazzy's Companion Quest": {
     "connects_to": [],
-    "requires": "|Symbol of Amaunator (Key23)|"
+    "requires": "{OptAll(|Shadow Prison Key (KEY22)| AND |Mazzy|)}"
+  },
+  "Chapter 2": {
+    "connects_to": ["Chapter 3"],
+    "requires": "|Chapter 2 Completion Token|"
+  },
+  "Chapter 3": {
+    "connects_to": ["Brynnlaw"],
+    "requires": "|Chapter 3 Completion Token|"
+  },
+  "Sir Sarles Quest": {
+    "connects_to": [],
+    "requires": "|Rift Device Part (MISC5B)|"
+  },
+  "Brynnlaw": {
+    "connects_to": [],
+    "requires": []
   }
 }
