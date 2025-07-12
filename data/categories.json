@@ -1,23 +1,43 @@
 {   
     "EE": {
     "hidden": true,
-    "yaml_option": ["enhanced_edition"]
+    "yaml_option": ["include_enhanced_edition"]
     },
     "ID": {
     "hidden": true,
-    "yaml_option": ["enable_irenicus_dungeon"]
+    "yaml_option": ["include_irenicus_dungeon"]
+    },    
+    "Chapter 4": {
+    "hidden": true,
+    "yaml_option": ["include_chapter4"]
+    },
+    "City of Caverns": {
+    "hidden": true,
+    "yaml_option": ["include_city_of_caverns"]
+    },
+    "Chapter 5": {
+    "hidden": true,
+    "yaml_option": ["include_chapter5"]
+    },
+    "Chapter 6": {
+    "hidden": true,
+    "yaml_option": ["include_chapter6"]
+    },
+    "Chapter 7": {
+    "hidden": true,
+    "yaml_option": ["include_chapter7"]
     },
     "Companion Quests": {
     "hidden": false,
-    "yaml_option": ["enable_companion_quests"]
+    "yaml_option": ["include_companion_quests"]
     },
     "EE Companion Quests": {
     "hidden": true,
-    "yaml_option": ["enable_companion_quests"]
+    "yaml_option": ["include_companion_quests"]
     },
     "Companion Quest Items": {
     "hidden": false,
-    "yaml_option": ["enable_companion_quests"]
+    "yaml_option": ["include_companion_quests"]
     },
     "Characters": {
     "hidden": false,
@@ -50,10 +70,14 @@
     "Consumables": {
     "hidden": true,
     "yaml_option": ["include_consumables"]
+    },    
+    "Collector's Edition": {
+    "hidden": true,
+    "yaml_option": ["include_collectors_edition"]
     },
     "Watcher's Keep": {
     "hidden": true,
-    "yaml_option": ["include_watchers_keep_items"]
+    "yaml_option": ["include_watchers_keep"]
     },
     "Cheat Console": {
     "hidden": true,
