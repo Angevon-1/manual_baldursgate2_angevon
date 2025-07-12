@@ -16,33 +16,63 @@
         }
     },
     "user": {
-        "enhanced_edition":{
+        "include_enhanced_edition":{
             "description": [
-                "Set this to true if you're playing the enhanced edition and would like to include enhanced edition items, characters, and locations to the relevant options below."
+                "Set this to true if you would like to include enhanced edition items, characters, and locations to the relevant options below. Obviously, you must be playing the enhanced edition for this to work."
             ],
             "type": "Toggle",
             "default": true
         },
-        "include_cheat_console":{
+        "include_irenicus_dungeon":{
             "description": [
-                "When true, logic will take into account the use of the cheat console's MoveToArea command.",
-                "With this on, much more of the game will be available to play.",
-                "This option is required for the victory conditions that take place after chapter 2 (none yet).",
-                "If you're playing the console or mobile version of the game (Switch, Playstation, Xbox, android, etc), however, this must be off, since the cheat console is not available there."
-            ],
-            "type": "Toggle",
-            "default": true
-        },
-        "enable_irenicus_dungeon":{
-            "description": [
-                "When this option is true, items and locations related to the Irenicus's Dungeon tutorial will be included in the multiworld.",
+                "When this option is true, key items and locations related to the  Chapter 1 (Irenicus's Dungeon) will be included in the multiworld.",
                 "When this option is false, these items and locations will be removed instead. (Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).",
-                "When false, it is expected that you're using the Dungeon-Be-Gone or Skip Chateau Irenicus mod so that you're given the dungeon's goodies before leaving, or using the cheat console or save editing method of playing this manual to give yourself these items as needed."
+                "When false, it is recommended that you use the Skip Chateau Irenicus mod to get out of there easier."
+            ],
+            "type": "Toggle",
+            "default": true
+        },        
+        "include_chapter4":{
+            "description": [
+                "When this option is true, key items and locations related to Chapter 4 (Brynnlaw, Spellhold) will be included in the multiworld.",
+                "It is recommended to add more chapters if you're using the options below that add a lot of items. This option is required for the 'Complete Spellhold' goal. "
             ],
             "type": "Toggle",
             "default": true
         },
-        "enable_companion_quests":{
+        "include_city_of_caverns":{
+            "description": [
+                "When this option is true, key items and locations related to the optional Chapter 4 area, City of Caverns/Sahaguin City will be included in the multiworld.",
+                "When this is on, you'll need to take Saemon's offer to sail away from Spellhold at the end of that questline. If you're not using this option, you can take the portal under Spellhold directly to Chapter 5."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_chapter5":{
+            "description": [
+                "When this option is true, key items and locations related to Chapter 5 (Underdark) will be included in the multiworld.",
+                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_chapter6":{
+            "description": [
+                "When this option is true, key items and locations related to Chapter 6 will be included in the multiworld.",
+                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_chapter7":{
+            "description": [
+                "When this option is true, key items and locations related to the Final Chapter, Chapter 7 (Suldanessellar), will be included in the multiworld.",
+                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_companion_quests":{
             "description": [
                 "When this option is true, items & locations related to all the companion NPC quests are added to the multiworld.",
                 "You must not kill any potential party members! Don't let any die before you've done their checks!",
@@ -55,9 +85,9 @@
             "description": [
                 "When this option is true, the companion NPCs themselves are added as unlockable items to be found in the multiworld. You will automatically be given 3 NPCs at random at the start of the game.",
                 "To see what characters are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Characters' section.",
-                "When used in conjunction with enable_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.",
+                "When used in conjunction with include_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.",
                 "Without this option, companion quests are instead locked by the region where the companion exists and where the quests take place.",
-                "When true this adds 17 items (22 if enhanced edition is enable)."
+                "When true this adds 17 items (22 if enhanced edition is enabled)."
             ],
             "type": "Toggle",
             "default": false
@@ -89,28 +119,30 @@
         },
         "progressive_equipment":{
             "description": [
-                "When this is true, most magical equipment is removed from the multiworld item pool and replaced by a progressive system.",
-                "You'll need to find the equipment in the game (cheat console or save editing is NOT to be used).",
-                "With the progression system, you can't use +x weapons until you've received the same number of progressives for that weapon type.",
-                "For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.",
-                "This option works well with the Item Randomizer mod and is best for those who'd prefer not to use the cheat console or save editor."
+                "When this is true, you can't use +x weapons until you've received the same number of progressives for that weapon type.",
+                "For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it."
             ],
             "type": "Toggle",
             "default": false
         },
         "include_equipment":{
             "description": [
-                "This adds each magical equipment item to the multiworld. By default is is set to true.",
-                "However, you may need to set this to false if progressive_equipment is on and loot_checks are off, or else there may be generation failures due to too many items.",
-                "This can also be set to false if you don't plan to use the cheat console or save editing and prefer to use items you find directly in the game rather than from the multiworld."
+                "This adds each magical equipment item to the multiworld. By default this is set to true."
             ],
             "type": "Toggle",
             "default": true
         },
-        "include_watchers_keep_items":{
+        "include_collectors_edition":{
             "description": [
-                "When this is true, it adds equipment from the BG2 Collector's Edition and Watcher's Keep to the multiworld. When false, they aren't added.",
-                "These items might be considered overpowered; as such this option exists to exclude them.",
+                "When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.",
+                "These items might be considered overpowered; as such this option exists to exclude them."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "include_watchers_keep":{
+            "description": [
+                "When this is true, it adds equipment from Watcher's Keep to the multiworld. When false, they aren't added.",
                 "Note: watcher's keep location checks are NOT affected, they are not implemented at all at this time, this is purely about the item rewards."
             ],
             "type": "Toggle",
@@ -119,7 +151,7 @@
         "include_consumables":{
             "description": [
                 "When this is true, scrolls and potions are added as filler to the multiworld.",
-                "This should only be on when full loot_checks are on, to add filler."
+                "This should mostly only be on when loot_checks is on, to add filler."
             ],
             "type": "Toggle",
             "default": false
