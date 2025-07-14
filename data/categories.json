@@ -79,8 +79,12 @@
     "hidden": true,
     "yaml_option": ["include_watchers_keep"]
     },
-    "Cheat Console": {
+    "Shadow Thieves": {
     "hidden": true,
-    "yaml_option": ["include_cheat_console"]
+    "yaml_option": ["pay_gaelan_bayle"]
+    },
+    "Bodhi": {
+    "hidden": true,
+    "yaml_option": ["!pay_gaelan_bayle"]
     }
 }
