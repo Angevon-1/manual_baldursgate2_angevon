@@ -31,7 +31,16 @@
             ],
             "type": "Toggle",
             "default": true
-        },        
+        }, 
+        "pay_gaelan_bayle":{
+            "description": [
+                "When this option is true, you'll side with Gaelan Bayle and the Shadow Thieves in Chapter 3.",
+                "When false, you'll side with Bodhi instead.",
+                "This affects item and location checks, so please choose the path in the game that matches your option choice here."
+            ],
+            "type": "Toggle",
+            "default": true
+        },       
         "include_chapter4":{
             "description": [
                 "When this option is true, key items and locations related to Chapter 4 (Brynnlaw, Spellhold) will be included in the multiworld.",
