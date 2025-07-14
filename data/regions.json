@@ -10,20 +10,19 @@
   },
   "Irenicus's Dungeon (Past Sewage)": {
     "connects_to": ["Irenicus's Dungeon (Level 2)"],
-    "requires": "{OptAll(|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)}"
+    "requires": []
   },
   "Irenicus's Dungeon (Level 2)": {
     "connects_to": ["Waukeen's Promenade"],
-    "requires": "{OptAll(|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|))}"
+    "requires": []
   },
   "Elemental Plane of Air": {
     "connects_to": [],
-    "requires": "{OptOne(Air Elemental Statue (MISC4C)}"
+    "requires": "|Air Elemental Statue (MISC4C)|"
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
-    "requires": [],
-    "starting": true
+    "requires": []
   },
   "Circus Tent": {
     "connects_to": [],
@@ -239,17 +238,65 @@
   },
   "Chapter 2": {
     "connects_to": ["Chapter 3"],
-    "requires": "|Chapter 2 Completion Token|"
+    "requires": []
   },
   "Chapter 3": {
     "connects_to": ["Brynnlaw"],
-    "requires": "|Chapter 3 Completion Token|"
+    "requires": "|Chapter 2 Completion Token| AND |Graveyard District Unlock (AR0800)| AND |Docks District Unlock (AR0300)|"
   },
   "Sir Sarles Quest": {
     "connects_to": [],
     "requires": "|Rift Device Part (MISC5B)|"
   },
   "Brynnlaw": {
+    "connects_to": ["Spellhold"],
+    "requires": "|Chapter 3 Completion Token| AND |Brynnlaw Unlock (AR1600)|"
+  },
+  "Spellhold": {
+    "connects_to": ["Spellhold Dungeon"],
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|) AND |Spellhold Unlock (AR1500)|"
+  },
+    "Spellhold Dungeon": {
+    "connects_to": ["Spellhold Tests"],
+    "requires": []
+  },
+    "Spellhold Tests": {
+    "connects_to": ["City of Caverns"],
+    "requires": "|Minotaur Horn 1 (MISC9E)| AND |Minotaur Horn 2 (MISC9F)|"
+  },
+    "City of Caverns": {
+    "connects_to": ["Underdark"],
+    "requires": "|City of Caverns Unlock (AR2300)|"
+  },
+    "Underdark": {
+    "connects_to": ["Ust Natha"],
+    "requires": "|Chapter 4 Completion Token|"
+  },
+    "Ust Natha": {
+    "connects_to": ["Chapter 6"],
+    "requires": "|Light Gem (MISC9R)|"
+  },
+    "Chapter 6": {
+    "connects_to": ["Small Teeth Pass"],
+    "requires": "|Chapter 5 Completion Token|"
+  },
+    "Small Teeth Pass": {
+    "connects_to": ["North Forest"],
+    "requires": []
+  },
+    "North Forest": {
+    "connects_to": ["Forest of Tethir"],
+    "requires": []
+  },
+    "Forest of Tethir": {
+    "connects_to": ["Suldanessellar"],
+    "requires": []
+  },
+    "Suldanessellar": {
+    "connects_to": ["Hell"],
+    "requires": "|Rhynn Lanthorn (C6LANTHO)|"
+  },
+    "Hell": {
     "connects_to": [],
     "requires": []
   }
