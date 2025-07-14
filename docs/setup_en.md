@@ -3,18 +3,22 @@
 ## Required Software
 
 - The latest [version of Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases) (not pre-release)
-- Baldur's Gate 2: Shadows of Amn, classic or Enhanced Edition. The PC version is recommended, but there is support for console releases as well.
+- PC version of Baldur's Gate 2: Shadows of Amn, classic or Enhanced Edition.
 - The latest BG2 apworld from this github's releases page. (NONE YET)
-- (optional) The latest version of the [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) apworld.
+- (optional) The latest version of the [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) apworld. 
+- (optional) The latest version of the GO_AP BG2 mod.
+- (optional) The latest version of [Item Randomizer BG2 mod](https://github.com/FredrikLindgren/randomiser/releases)
 
 ## Installation Procedures
 
 1. Install the latest Archipelago version from the link above. 
-2. Install Baldur's Gate 2: Shadows of Amn. Classic or Enhanced Edition will work. Mods can be used, but modded content is not included in randomization at this time.
-3. Download the apworld from this github's releases page. (NONE YET)
-4. Double-click the apworld to automatically install it into Archipelago's custom_worlds folder.
-5. (optional) Download and then double-click the tracker.apworld from the Universal Tracker link.
-6. Open the Archipelago Launcher and click "Generate Template Options". A folder will open. Find the yaml file that corresponds to this game.
+2. Install Baldur's Gate 2: Shadows of Amn. 
+3. (optional) Install the GO_AP BG2 mod and any other mods. Other mods can be used, but modded content is not included in randomization at this time. 
+4. (optional) Install Item Randomizer BG2 mod. See "Ways to play this manual" in the [readme](BG2_readme.md) to help decide if you'll want this or not. Due to how it works, Item Randomizer should be installed AFTER all other BG2 mods. The Mode 1 setting is recommended, just remember to wait a few minutes for the "Squeak" to show up in the BG2 dialogue window after starting a new game to let you know the randomizing has completed.
+5. Download the apworld from this github's releases page. (NONE YET)
+6. Double-click the apworld to automatically install it into Archipelago's custom_worlds folder.
+7. (optional) Download and then double-click the tracker.apworld from the Universal Tracker link.
+8. Open the Archipelago Launcher and click "Generate Template Options". A folder will open. Find the yaml file that corresponds to this game.
 7. Open the yaml in a text editor and change options as needed.
 8. Place the yaml, along with any other yamls to be included in the multiworld, into the "Players" subfolder in the Archipelago folder.
 9. In the Archipelago launcher, click "Generate". If all goes well, the generator will create a zip in the "output" subfolder. This is your multiworld data.
@@ -31,9 +35,12 @@ where Slotname is the Player name you put in the yaml, password is the server pa
 ## Tracking your items and locations
 
 1. Open the Manual tab of the Manual Client. On the left is a list of items you've received, and on the right are all the game's location checks.
-2. Checks that are logically available are highlighted green if Universal Tracker is installed.
+2. Checks that are logically available are highlighted green if Universal Tracker is installed and your BG2 yaml is in the Players folder.
 3. When you've completed a check, click it to send it to the server as complete.
 4. When you've achieved the goal condition, click the GOAL button to mark the world as complete.
+
+Note: Universal Tracker needs to know the exact settings you used to correctly track. If you have any random options in the yaml, be sure to set them to what the generator chose so that the tracker knows.<br/>
+For example, say you had include_npcs at true: 50 and false: 50 (a random 50/50 chance of either being chosen), and the generator chose true. You need to change the false: 50 to false: 0 in the yaml or else the tracker will think it might be false and may highlight locations incorrectly. Options that the generator chose can be seen at the top of the spoiler log.
 
 ## Game Troubleshooting
 
