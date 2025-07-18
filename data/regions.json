@@ -257,8 +257,12 @@
     "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|) AND |Spellhold Unlock (AR1500)|"
   },
     "Spellhold Dungeon": {
-    "connects_to": ["Spellhold Tests"],
+    "connects_to": ["Spellhold Dungeon Past Head"],
     "requires": []
+  },
+    "Spellhold Dungeon Past Head": {
+    "connects_to": ["Spellhold Tests"],
+    "requires": "|Hand of Dace (MISC9A)| AND |Kurtulmak's Crystal Shard (MISC8Z)|"
   },
     "Spellhold Tests": {
     "connects_to": ["City of Caverns"],
