@@ -142,6 +142,9 @@ Brynnlaw
 
 Spellhold
 - Minotaur Horn - need both to get to the apparition's tests
+- Sapphire Stone (MISC8Y), Opal Stone (MISC8W), Ruby Stone (MISC8X) - use these on the portal to summon enemies for some checks  
+- Hand of Dace (MISC9A), Kurtulmak's Crystal Shard (MISC8Z) - needed to get deeper into Spellhold
+- Mind Flayer Painting (MISCAO), Troll Painting (MISCAQ), Umberhulk Painting (MISCAP), Djinni Painting (MISCAR) - opens some doors in Spellhold
 
 City of Caverns
 - Magical Rope - needed to leave
