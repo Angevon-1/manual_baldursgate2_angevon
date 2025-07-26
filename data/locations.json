@@ -104,7 +104,7 @@
   { "name": "Decide Rielev's fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "Loot the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "Loot the library (Irenicus's Dungeon)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
   { "name": "Defeat the enemies in the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
@@ -2060,6 +2060,15 @@
   { "name": "Cult 13 - Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
   },
+  { "name": "Loot the cache by the Temple of Lathander", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left plant pot at the District's far exit", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right plant pot at the District's far exit", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
   { "name": "Loot the chest in the left room of the Temple of Helm", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
     "requires": []
   },
@@ -2105,7 +2114,31 @@
   { "name": "Loot the shelf in the Pimlico Estate kitchen", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the Pimlico Estate kitchen", "region": "Temple District", "category": ["Athkatla - Temple District", "LootLite"],
+  { "name": "Loot the Pimlico Estate", "region": "Temple District", "category": ["Athkatla - Temple District", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot Prelate Wessalen's table in the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the smaller sack in the storage room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the larger sack in the storage room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate in the storage room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the smaller barrel in the stable room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the larger barrel in the stable room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the sack in the storage room of the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Radiant Heart", "region": "Temple District", "category": ["Athkatla - Temple District", "LootLite"],
     "requires": []
   },
   { "name": "Enter Trademeet and witness the animal ambush", "region": "Trademeet", "category": ["Trademeet"],
@@ -3170,19 +3203,19 @@
   { "name": "Mazzy 2 - Defeat Gorf in the Copper Coronet arena", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Mazzy 3 - Learn what happened to Mazzy's sister from Dalo Longfoot", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Mazzy 3 - Learn what happened to Mazzy's sister from Danno Fairfoot", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Mazzy 4 - Visit the Fentan home in Trademeet and learn the full story of what happened to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Mazzy 4 - Visit the Fentan home in Trademeet", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
   { "name": "Mazzy 5 - Interrogate Wallace", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Mazzy 6 - Speak to Renwellyn in the Temple of Waukeen and find proof of Barl's evildoings", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Mazzy 6 - Speak to Renwellyn in the Temple of Waukeen", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Mazzy 7 - Survive Barl's attack", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Mazzy 7 - Defeat Barl", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
   { "name": "Mazzy 8 - Deliver the antidote to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
@@ -3222,43 +3255,88 @@
     "requires": "|Quest Complete Token: 1| AND |Graveyard District Unlock (AR0800)|", "place_item": ["Chapter 2 Completion Token"]
   },
   { "name": "Meet with Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptOne(|Shadow Thief Cellar Key (MISC4S)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Meet the traitor theif in the Shadow Thief Cellar dining area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the general Shadow Thief Cellar area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "LootLite"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the Shadow Thief Cellar dining area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the starting room in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the archery training area in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the coat check room in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot the torture chamber in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Loot Aran Linvail's room", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
   { "name": "Meet Mook", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptOne(|Shadow Thief Cellar Key (MISC4S)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
-  { "name": "Defeat Lassal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptOne(|Shadow Thief Cellar Key (MISC4S)|)}"
+  { "name": "Defeat Lassal at the docks", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+  },
+  { "name": "Report Mook's end to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
   { "name": "Meet the traitor thieves in the Five Flagons Inn", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Defeat Gracen", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Report the end of the traitors to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Meet Haz in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Defeat the grimwards", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Defeat Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },  
+  { "name": "Stake Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },  
+  { "name": "Defeat Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Stake Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
-  },
-  { "name": "Stake Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Defeat Tanova", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Search the blood pool", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Loot Bodhi's inner sanctum", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "LootLite"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+  },
+  { "name": "Defeat Lassal in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Stake Lassal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Defeat Bodhi", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}"
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Report victory to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|)}", "place_item": ["Chapter 3 Completion Token"]
+    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|", "place_item": ["Chapter 3 Completion Token"]
   },
   { "name": "Meet with Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": []
@@ -3267,25 +3345,25 @@
     "requires": []
   },
   { "name": "Deliver the shipment to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptOne(|Smuggled Shipment (MISC6V)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)|"
   },
   { "name": "Complete Bodhi's 'good' or 'evil' task", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
   },
   { "name": "Defeat Gaelan Bayle", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
   },
   { "name": "Kill Booter", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)|"
   },
   { "name": "Free Tizzak from the prison", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
   },
   { "name": "Defeat Aran Linvail", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|)}"
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
   },
   { "name": "Report victory to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "{OptAll(|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|)}", "place_item": ["Chapter 3 Completion Token"]
+    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|", "place_item": ["Chapter 3 Completion Token"]
   },
   { "name": "Sail to Brynnlaw", "region": "Brynnlaw", "category": ["Chapter 3"],
     "requires": []
@@ -3293,37 +3371,124 @@
   { "name": "Survive the vampire ambush", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Shadow Thieves"],
     "requires": []
   },
-  { "name": "Speak with Sime", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Shadow Thieves"],
-    "requires": []
-  },
   { "name": "Speak with Saemon Havarian", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Bodhi"],
     "requires": []
   },
-  { "name": "Defeat Sanic's murderer", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+  { "name": "Watch the duel between Andante and Dirbish ", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Meet Sanic", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Loot the Vulgar Monkey", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the barrel outside the Vulgar Monkey", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the hidden wall cache by Ginia", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate by Ginia", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the barrel by Ginia", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Defeat the assassin in the Vulgar Monkey", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Meet & defeat Perth the Adept", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Loot Perth the Adept's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the chest in Perth's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the table in Perth's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate in Perth's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Gain entry to Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Loot Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the locked painting in Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the barrel in Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the nightstand in Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the dresser in Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate outside Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the barrel outside Desharik's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the table in Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the closet in Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the chest in Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate outside Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the barrel outside Cayia's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate by Calihan", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw - Looting", "Chapter 4", "Loot"],
     "requires": []
   },
   { "name": "Encounter Ason", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
     "requires": []
   },
+  { "name": "Decide Ginia's fate", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Decide Chremy's fate", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Watch the duel between Andar and Olben", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+    "requires": []
+  },
   { "name": "Find a way into Lady Galvena's Festhall", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|"
+    "requires": []
   },
   { "name": "Find a way past the guards to Lady Galvena's chambers", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|"
+    "requires": "|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|"
   },
   { "name": "Defeat Galvena and Videk", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
   },
   { "name": "Speak with Claire", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
   },
   { "name": "Speak with Captain Golin", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
   },
   { "name": "Find a way into Spellhold", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
   },
-  { "name": "Meet the Coordinator or Lonk", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Meet the Coordinator or Lonk the Sane", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
   { "name": "Meet the inmates", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
@@ -3338,37 +3503,61 @@
   { "name": "Enter the Candlekeep dream sequence", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Help Imoen defeat the instinct in the dream sequence", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Make a sacrifice to the demon in the dream sequence", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Encounter Bhaal in the dream sequence", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Bring Bhaal to Imoen in the dream sequence", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Solve the cupped hand statue puzzles", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Defeat the ruhk and mephits in the portal room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Interact with the portal with the Sapphire Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Sapphire Stone (MISC8Y)|"
+  },
+  { "name": "Interact with the portal with the Opal Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Opal Stone (MISC8W)|"
+  },
+  { "name": "Interact with the portal with the Ruby Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Ruby Stone (MISC8X)|"
+  },
+  { "name": "Answer all the Statue of Riddles' riddles", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Loot the pot near the stone face", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
     "requires": []
   },
   { "name": "Defeat the clay golem in the storage room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
+  { "name": "Loot the clay golem storage room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
   { "name": "Defeat the gibberlings in the storage room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },  
-  { "name": "Answer the stone face's riddles", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Defeat the rakshasa mage in the portal room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Defeat the enemies created by the tome", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Defeat the kobolds and mephits in the crystal room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Defeat the umber hulks in the halved chamber", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Defeat the trolls in the storage room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Loot the gibberling storage room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
     "requires": []
   },  
-  { "name": "Defeat the minotaurs", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Defeat the enemies created by the ancient tome", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Defeat the Yuan-ti in the painting room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Loot the pots in the room to the right of the ancient tome", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Loot the pots by the library", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Loot the library (Spellhold)", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Defeat the kobolds and mephits in the crystal room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
   { "name": "Defeat Dace", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
@@ -3377,7 +3566,55 @@
   { "name": "Stake Dace", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Scare Bodhi away with your Slayer form", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Defeat the umber hulks in the halved chamber", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Bring the giant talking head statue the hand and crystal", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Defeat the minotaurs on the left path of level 3", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Loot the pot in the minotaurs room", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Loot the pool attached to the minotaurs room", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Take the paintings from the statues in the pool room", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  }, 
+  { "name": "Defeat the trolls in the secret alcove on level 3", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },  
+  { "name": "Loot the pot in the secret alcove guarded by teh trolls", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": []
+  }, 
+  { "name": "Defeat the Yuan-ti in the painting room", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
+  { "name": "Defeat the enemy behind the mind flayer painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Mind Flayer Painting (MISCAO)|"
+  },
+  { "name": "Defeat the enemy behind the troll painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Troll Painting (MISCAQ)|"
+  },  
+  { "name": "Defeat the enemy behind the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Umberhulk Painting (MISCAP)|"
+  },
+  { "name": "Defeat the enemy behind the djinni painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Djinni Painting (MISCAR)|"
+  },
+  { "name": "Defeat the golem(s) in the room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": "|Umberhulk Painting (MISCAP)|"
+  },
+  { "name": "Loot the pot in the golem room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": "|Umberhulk Painting (MISCAP)|"
+  },
+  { "name": "Loot the chest in the golem room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
+    "requires": "|Umberhulk Painting (MISCAP)|"
+  },
+  { "name": "Scare Bodhi away with your Slayer form", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
   { "name": "Answer the apparition's request for you to take the tests of madness", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
@@ -3392,6 +3629,9 @@
   { "name": "Take the 3rd test of madness", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
+  { "name": "Be judged by the apparition", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": []
+  },
   { "name": "Deal with Lonk the Sane", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
@@ -3401,10 +3641,14 @@
   { "name": "Survive the murderers", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Obtain Yoshimo's heart", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Accept or reject Saemon's offer", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Accept or reject Saemon's offer", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Escape Spellhold", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": [],
+    "victory": true
+  },
+  { "name": "Watch the Chapter 4 dream sequence", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
   { "name": "Reach the City of Caverns", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
@@ -3413,7 +3657,13 @@
   { "name": "Defeat the ettin", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
     "requires": []
   },
+  { "name": "Defeat the bone golem in the drow zone", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+    "requires": []
+  },
   { "name": "Solve the imps' puzzle", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+    "requires": []
+  },  
+  { "name": "Convince the Spectator to let you open the chest (or use Violence)", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
     "requires": []
   },
   { "name": "Defeat the sea zombie lord", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
@@ -3422,31 +3672,79 @@
   { "name": "Defeat the rebel ambush", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
     "requires": []
   },
-  { "name": "Convince the Spectator to let you open the chest (or use Violence)", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
-    "requires": []
-  },
-  { "name": "Meet the rebel prince", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Meet the rebel prince Villynaty", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
     "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
   },
   { "name": "Deal with the Sahaguin drama however you like", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
     "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
   },
   { "name": "Loot the Sahaguin Treasury", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
-    "requires": "|Sahaguin Treasury Key (KEY24)|"
+    "requires": "|Sahuagin Treasury Key (KEY24)|"
   },
   { "name": "Reach the Underdark", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "{OptOne(Magical Rope (MISC4V))}", "place_item": ["Chapter 4 Completion Token"]
+    "requires": "|Magical Rope (MISC4V)|", "place_item": ["Chapter 4 Completion Token"]
   },
   { "name": "Free Vithal", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": []
+    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
   { "name": "Deliver the Book of Rituals to Vithal", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Book of Rituals (MISCA3)|"
+    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND |Book of Rituals (MISCA3)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
   { "name": "Defeat the elementals freed by Vithal during the ritual", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Book of Rituals (MISCA3)|"
+    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND |Book of Rituals (MISCA3)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
-  { "name": "Meet the githyanki Simyaz", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+  { "name": "Western Tunnels - Defeat the beholders in the upper left room", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Western Tunnels - Defeat the kuo-toan in the center room", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Western Tunnels - Make a sacrifice to Demogorgon", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Western Tunnels - Defeat Demogorgon's Demon Knights", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Western Tunnels - Defeat the kuo-toan prince", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Western Tunnels - Deal with the drow guarding the gate", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Survive the first room", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Defeat the drow vs. beholders", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Defeat the mind flayers vs. beholders", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 1st cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 2nd cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 3rd cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 4th cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 5th cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Southern Tunnels - Loot the 6th cache", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the table by Carlig", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the crate by Finderlig", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the table by Uder Mordin", "region": "Underdark", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
     "requires": []
   },
   { "name": "Defeat the Kuo-toan on the bridge", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
@@ -3470,6 +3768,9 @@
   { "name": "Release Bedlen Daglefodd from the crystal prison", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
+  { "name": "Report to Therndle Daglefodd that you freed his child", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
   { "name": "Release Gont of Riatavin from the crystal prison", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
@@ -3479,7 +3780,7 @@
   { "name": "Defeat the balor on behalf of Goldander Blackenrock", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
-  { "name": "Defeat the drow on the bridge", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+  { "name": "Defeat the drow ambush on the bridge to Ust Natha", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Meet Adalon", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
@@ -3488,10 +3789,52 @@
   { "name": "Enter Ust Natha as Veldrin", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
+  { "name": "Loot the container at the entrance to Ust Natha by the githyanki", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left container at the entrance to Ust Natha by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right container at the entrance to Ust Natha by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left table in the Ust Natha tavern", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right table in the Ust Natha tavern", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the lower cache of the Female Fighters' Society building", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the upper cache of the Female Fighters' Society building", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the lower cache of the Male Fighters' Society building", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the upper cache of the Male Fighters' Society building", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the overall Ust Natha area", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "LootLite"],
+    "requires": []
+  },
   { "name": "Meet Solaufein at the Male Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
-  { "name": "Meet Imrae the handmaiden", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+  { "name": "Loot the left bedroom of the Male Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the living room of the Male Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right bedroom of the Male Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Male Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "LootLite"],
+    "requires": []
+  },
+  { "name": "Meet Handmaiden Imrae at the city entrance", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Defeat the adventuring party on the way to the mind flayer tunnels", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
@@ -3500,13 +3843,22 @@
   { "name": "Rescue Phaere from the mind flayers", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
-  { "name": "Return to Imrae after rescuing Phaere", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+  { "name": "Return to Solaufein/Imrae after rescuing Phaere", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Meet Aboleth in the tank", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Defeat Qilue for Aboleth, or threaten him", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Loot the changing room of Qilue's home", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the living room of Qilue's home", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot Qilue's bedroom", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
     "requires": []
   },
   { "name": "Defeat the beholder smuggler", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
@@ -3518,10 +3870,25 @@
   { "name": "Meet Phaere alone at the Female Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
+  { "name": "Loot the changing room of the Female Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the living room of the Female Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot Phaere's bedroom", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Female Fighters' Society", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "LootLite"],
+    "requires": []
+  },
   { "name": "Decide Solaufein's fate", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Deliver Solaufein's cloak to Phaere", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Meet Visaj", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
   { "name": "Defeat the followers of Ghaunadaur", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
@@ -3539,6 +3906,12 @@
   { "name": "Decide what to do with Adalon's eggs", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": "|Elder Brain Blood (MISCBV)| OR |Eyestalk of an Elder Orb (MISCA8)| OR |Kuo-toa's Blood (MISCA7)|"
   },
+  { "name": "Defeat the drow at the exit to the Underdark", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
+    "requires": []
+  },
+  { "name": "Loot the body at the exit to the Underdark", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+    "requires": []
+  },
   { "name": "Leave the Underdark", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": [], "place_item": ["Chapter 5 Completion Token"] 
   },
@@ -3546,6 +3919,12 @@
     "requires": [] 
   },
   { "name": "Meet Drizzt", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Watch the Chapter 6 dream sequence", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Meet Bodhi in the Graveyard District", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
   { "name": "Defeat Bodhi once and for all", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
@@ -3560,13 +3939,13 @@
   { "name": "Explore North Forest", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "Meet Coran", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "Forest of Tethir - Meet Coran", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "Survive Safana's trap", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "Forest of Tethir - Survive Safana's trap", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "Defeat the Kuo-toan in the cave", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "Forest of Tethir - Defeat the Kuo-toan in the  cave", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
   { "name": "Earn 5 tokens", "category": [],
