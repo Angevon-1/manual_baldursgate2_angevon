@@ -254,7 +254,7 @@
   },
   "Spellhold": {
     "connects_to": ["Spellhold Dungeon"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guildhouse Key (KEY27)| OR |Galvena's Medallion (MISCAN)|) AND |Spellhold Unlock (AR1500)|"
+    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|) AND |Spellhold Unlock (AR1500)|"
   },
     "Spellhold Dungeon": {
     "connects_to": ["Spellhold Dungeon Past Head"],
