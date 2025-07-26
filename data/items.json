@@ -906,6 +906,7 @@
   { "count": 1, "name": "Scroll of Abi-Dalzim's Horrid Wilting (SCRL9G)", "category": ["Consumables", "Consumables - Scrolls"], "filler": true},
   { "count": 1, "name": "Scroll of Maze (SCRL9H)", "category": ["Consumables", "Consumables - Scrolls"], "filler": true},
   { "count": 1, "name": "Scroll of Power Word Blind (SCRL9J)", "category": ["Consumables", "Consumables - Scrolls"], "filler": true},
+  { "count": 1, "name": "Scroll of Freedom (SCRL9Z)", "category": ["Consumables", "Consumables - Scrolls"], "progression": true},
 
   { "count": 1, "name": "Scroll of Wizard Eye (SCRLA1)", "category": ["Consumables", "Consumables - Scrolls"], "filler": true},
   { "count": 1, "name": "Scroll of Deafness (SCRLA2)", "category": ["Consumables", "Consumables - Scrolls"], "filler": true},
