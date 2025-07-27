@@ -3927,8 +3927,38 @@
   { "name": "Meet Bodhi in the Graveyard District", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
+  { "name": "Defeat Hareishan", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Defeat Tanova (chapter 6)", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Defeat Meredath", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Stake 1 vampire", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Stake 2 vampires", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Stake 3 vampires", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
   { "name": "Defeat Bodhi once and for all", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
+  },
+  { "name": "Stake Bodhi", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Pour Holy Water into the blood pool", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [] 
+  },
+  { "name": "Defeat Red Dragon Firkraag", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [], "victory": true
+  },
+  { "name": "Defeat Kangaxx the demilich", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": "|Golden Arm and Leg (MISCAW)| AND |Golden Torso (MISCAY)|", "victory": true
   },
   { "name": "Give Elhan the Rhynn Lanthorn", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": "|Rhynn Lanthorn (C6LANTHO)|"
@@ -3947,6 +3977,153 @@
   },
   { "name": "Forest of Tethir - Defeat the Kuo-toan in the  cave", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
+  },
+  { "name": "Have Elhan open the way to the elven city", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": "|Rhynn Lanthorn (C6LANTHO)|", "place_item": ["Chapter 6 Completion Token"]
+  },
+  { "name": "Solve the puzzle in the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Loot the table in the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the shelf in the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the round table in the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the bench in the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the bookshelf in the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left small shelf in the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right small shelf in the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the tree cache outside the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Defeat Raamilat", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Rescue Priestess Demin", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Loot the shelf in Demin's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the table in Demin's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot Demin's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the bench in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the table in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left small shelf in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right small shelf in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the mantle in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the bookshelf in the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the Harpist's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Loot the cache outside the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Watch the elf fight the Balor in the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Loot the table in the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the small shelf in the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the long shelf in the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Defeat Suneer in the Temple of Rillifane", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Rescue the elves in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Loot the bench cache in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the left shelf in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the right shelf in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the bookshelf in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "Loot"],
+    "requires": []
+  },
+  { "name": "Loot the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
+    "requires": []
+  },
+  { "name": "Convince the guard to let you past the gate (or pick the lock)", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Deal with the black dragon Nizidramanii'yt", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Summon the Avatar of Rillifane", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": "|Talisman of Rillifane (MISCB1)| AND |Golden Goblet of Life (MISCB2)| AND |Moonblade (MISCB3)|"
+  },
+  { "name": "Interact with the tree and receive nuts", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Place the stone harp on the statue in the palace", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": "|Stone Harp (MISCBR)|"
+  },
+  { "name": "Place the stone horn on the statue in the palace", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": "|Stone Horn (MISCBS)|"
+  },
+  { "name": "Meet Ellisime's projection", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Defeat parasite 1", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Defeat parasite 2", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Defeat parasite 3", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": []
+  },
+  { "name": "Defeat Jon Irenicus", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": [], "victory": true
+  },  
+  { "name": "Earn 6 tokens", "category": [],
+    "requires": "|Quest Complete Token: 6|", "victory": true
   },
   { "name": "Earn 5 tokens", "category": [],
     "requires": "|Quest Complete Token: 5|", "victory": true
