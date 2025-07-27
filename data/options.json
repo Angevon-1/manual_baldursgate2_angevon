@@ -7,7 +7,7 @@
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "Goal options",
-            "description": "There are several goal options:\n1. Complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) in Chapter 2 to receive tokens. Collect enough tokens to goal. More required tokens makes for a longer game.\nComplete Spellhold - Reach Chapter 4 and complete it (excludes City of Caverns).\nDefeat Firkraag - Reach Chapter 6 and defeat Firkraag. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped.\nDefeat Kangaxx - Reach Chapter 6 and defeat Kangaxx. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped.\nDefeat Irenicus - Reach Chapter 7 and defeat it. Basically, beat the game (excludes Hell)",
+            "description": "There are several goal options:\n1. Complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) to receive tokens. Collect enough tokens to goal. More required tokens makes for a longer game. Any chapter amount can be used with this goal.\nEscape Spellhold - Reach Chapter 4 and complete it (excludes City of Caverns).\nDefeat Red Dragon Firkraag - Reach Chapter 6 and defeat Firkraag. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped.\nDefeat Kangaxx the Demilich - Reach Chapter 6 and defeat Kangaxx. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped.\nDefeat Jon Irenicus - Reach Chapter 7 and defeat Irenicus at the Tree of Life\nPlease ensure you have the required chapters enabled below if you're choosing a late chapter goal or it won't generate.",
             "aliases": {"easiest": 0},
             "hidden": false
         },
@@ -16,18 +16,11 @@
         }
     },
     "user": {
-        "include_enhanced_edition":{
-            "description": [
-                "Set this to true if you would like to include enhanced edition items, characters, and locations to the relevant options below. Obviously, you must be playing the enhanced edition for this to work."
-            ],
-            "type": "Toggle",
-            "default": true
-        },
         "include_irenicus_dungeon":{
             "description": [
-                "When this option is true, key items and locations related to the  Chapter 1 (Irenicus's Dungeon) will be included in the multiworld.\n",
+                "When this option is true, key items and locations related to Chapter 1 (Irenicus's Dungeon) will be included in the multiworld.\n",
                 "When this option is false, these items and locations will be removed instead. (Equipment like the Sword of Chaos and Key Items used outside of the dungeon like the dryad acorns are not removed).\n",
-                "When false, it is recommended that you use the Skip Chateau Irenicus mod to get out of there easier."
+                "When false, it is recommended that you use the Skip Chateau Irenicus mod to get out of there easier after starting a new game."
             ],
             "type": "Toggle",
             "default": true
@@ -44,7 +37,7 @@
         "include_chapter4":{
             "description": [
                 "When this option is true, key items and locations related to Chapter 4 (Brynnlaw, Spellhold) will be included in the multiworld.\n",
-                "It is recommended to add more chapters if you're using the options below that add a lot of items. This option is required for the 'Complete Spellhold' goal. "
+                "This option is required for the 'Complete Spellhold' goal."
             ],
             "type": "Toggle",
             "default": true
@@ -60,7 +53,7 @@
         "include_chapter5":{
             "description": [
                 "When this option is true, key items and locations related to Chapter 5 (Underdark) will be included in the multiworld.\n",
-                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+                "It is recommended to include more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
             ],
             "type": "Toggle",
             "default": true
@@ -68,7 +61,8 @@
         "include_chapter6":{
             "description": [
                 "When this option is true, key items and locations related to Chapter 6 will be included in the multiworld.\n",
-                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+                "This option is required to be true for the 'Defeat Red Dragon Firkraag' and 'Defeat Kangaxx the Demilich' goals.\n",
+                "If this is true, the previous chapters must also be true."
             ],
             "type": "Toggle",
             "default": true
@@ -76,10 +70,34 @@
         "include_chapter7":{
             "description": [
                 "When this option is true, key items and locations related to the Final Chapter, Chapter 7 (Suldanessellar), will be included in the multiworld.\n",
-                "It is recommended to add more chapters if you're using the options below that add a lot of items. If this is true, the previous chapters must also be true."
+                "This option is required to be true for the 'Defeat Jon Irenicus' goal.\n",
+                "If this is true, the previous chapters must also be true."
             ],
             "type": "Toggle",
             "default": true
+        },        
+        "include_equipment":{
+            "description": [
+                "This adds each magical equipment item to the multiworld. By default this is set to true.\n",
+                "This adds A LOT OF ITEMS. When using this option, you should include more chapters in the options above or else items will be lost in generation."
+            ],
+            "type": "Toggle",
+            "default": true
+        },        
+        "include_enhanced_edition":{
+            "description": [
+                "Set this to true if you would like to include enhanced edition items, characters, and locations to the relevant options. Obviously, you must be playing the enhanced edition for this to work."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "include_collectors_edition":{
+            "description": [
+                "When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.\n",
+                "These items might be considered overpowered; as such this option exists to exclude them."
+            ],
+            "type": "Toggle",
+            "default": false
         },
         "include_companion_quests":{
             "description": [
@@ -133,21 +151,6 @@
             ],
             "type": "Toggle",
             "default": false
-        },
-        "include_equipment":{
-            "description": [
-                "This adds each magical equipment item to the multiworld. By default this is set to true."
-            ],
-            "type": "Toggle",
-            "default": true
-        },
-        "include_collectors_edition":{
-            "description": [
-                "When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.\n",
-                "These items might be considered overpowered; as such this option exists to exclude them."
-            ],
-            "type": "Toggle",
-            "default": true
         },
         "include_watchers_keep":{
             "description": [
