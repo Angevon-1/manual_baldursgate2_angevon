@@ -3365,7 +3365,7 @@
   { "name": "Report victory to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|", "place_item": ["Chapter 3 Completion Token"]
   },
-  { "name": "Sail to Brynnlaw", "region": "Brynnlaw", "category": ["Chapter 3"],
+  { "name": "Sail to Brynnlaw", "region": "Brynnlaw", "category": ["Chapter 3 - Thieves vs. Vampires"],
     "requires": []
   },
   { "name": "Survive the vampire ambush", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Shadow Thieves"],
@@ -3682,7 +3682,7 @@
     "requires": "|Sahuagin Treasury Key (KEY24)|"
   },
   { "name": "Reach the Underdark", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Magical Rope (MISC4V)|", "place_item": ["Chapter 4 Completion Token"]
+    "requires": "{OptOne(|Magical Rope (MISC4V)|)}", "place_item": ["Chapter 4 Completion Token"]
   },
   { "name": "Free Vithal", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
