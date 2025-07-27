@@ -293,15 +293,19 @@
     "requires": []
   },
     "Forest of Tethir": {
-    "connects_to": ["Suldanessellar"],
+    "connects_to": ["Chapter 7"],
     "requires": []
   },
-    "Suldanessellar": {
-    "connects_to": ["Hell"],
-    "requires": "|Rhynn Lanthorn (C6LANTHO)|"
+    "Chapter 7": {
+    "connects_to": ["Elven Palace"],
+    "requires": "|Chapter 6 Completion Token|"
   },
-    "Hell": {
+    "Elven Palace": {
+    "connects_to": ["Ellisime"],
+    "requires": "|Talisman of Rillifane (MISCB1)| AND |Golden Goblet of Life (MISCB2)| AND |Moonblade (MISCB3)|"
+  },
+    "Ellisime": {
     "connects_to": [],
-    "requires": []
+    "requires": "|Stone Horn (MISCBS)| AND |Stone Harp (MISCBR)|"
   }
 }
