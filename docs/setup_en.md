@@ -27,10 +27,10 @@
 ## Joining a MultiWorld Game
 
 1. In the Archipelago launcher, launch the Manual Client.
-2. Use the dropdown next to Manual Game ID to choose what manual you are using.
+2. In the Manual Client, use the dropdown next to Manual Game ID to choose what manual you are using (Manual_BaldursGate2_Angevon).
 3. Use the Server box to input your connection info. The format is Slotname:<span>password</span>@archipelago.gg:#####
 where Slotname is the Player name you put in the yaml, password is the server password ("None" if the server doesn't have one), and ##### is the port. If you're using a localhost, use "localhost" instead of archipelago.gg. In this case, ##### is your localhost port.
-4. If everything is right, press Connect and you'll be connected.
+4. When everything is right, press Connect and you'll be connected.
 
 ## Tracking your items and locations
 
@@ -40,7 +40,7 @@ where Slotname is the Player name you put in the yaml, password is the server pa
 4. When you've achieved the goal condition, click the GOAL button to mark the world as complete.
 
 Note: Universal Tracker needs to know the exact settings you used to correctly track. If you have any random options in the yaml, be sure to set them to what the generator chose so that the tracker knows.<br/>
-For example, say you had include_npcs at true: 50 and false: 50 (a random 50/50 chance of either being chosen), and the generator chose true. You need to change the false: 50 to false: 0 in the yaml or else the tracker will think it might be false and may highlight locations incorrectly. Options that the generator chose can be seen at the top of the spoiler log.
+For example, say you had include_npcs at true: 50 and false: 50 (a random 50/50 chance of either being chosen), and the generator chose true. You need to change the false: 50 to false: 0 in the yaml or else the tracker will think it might be false and may highlight locations incorrectly. Options that the generator chose can be seen at the top of the spoiler log. These options are also listed in the Archipelago tab of the Manual Client when you first connect. A 0 next to the option means false and 1 means true.
 
 ## Game Troubleshooting
 
