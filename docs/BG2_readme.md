@@ -5,10 +5,14 @@ Baldur's Gate 2: Shadows of Amn currently does not have an Archipelago implement
 
 Conveniently, BG2 has randomizers available, and an extensive, easy to use cheat console. This manual will require use of the cheat console and/or save editing and/or the GO_AP BG2 mod that I've made. The randomizers, however, are optional.
 
+## How to Install
+See [setup_en](setup_en.md) for instructions.
+
 ## About this manual
 <u>Items distributed in the multiworld include:</u><br/>
 Key items (e.g. keys, quest items like the dryads’ acorns)<br/>
-Location unlocks (e.g. Bridge District, Windspear Hills)<br/>
+Area unlocks (e.g. Bridge District, Windspear Hills)<br/>
+Companion characters (e.g. Minsc) (optional)<br/>
 Magical Equipment (e.g. Dagger +1, Helm of Balduran, Mail of the Dead +2) (optional)<br/>
 Forgeable equipment pieces (e.g. Pommel Jewel of the Equalizer) (optional)<br/>
 Potions and scrolls (optional)<br/>
