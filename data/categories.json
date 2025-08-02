@@ -7,6 +7,9 @@
     "hidden": true,
     "yaml_option": ["include_irenicus_dungeon"]
     },    
+    "Chapter 3": {
+    "hidden": true
+    },    
     "Chapter 4": {
     "hidden": true,
     "yaml_option": ["include_chapter4"]
@@ -39,7 +42,7 @@
     "hidden": false,
     "yaml_option": ["include_companion_quests"]
     },
-    "Characters": {
+    "Companions": {
     "hidden": false,
     "yaml_option": ["include_npcs"]
     },
