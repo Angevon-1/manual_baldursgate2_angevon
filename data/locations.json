@@ -3,13 +3,13 @@
     "requires": "|Ankheg Shell (MISC12)|"
   },
   { "name": "Forge Crom Faeyr +5", "region": "Docks", "category": ["Forging"],
-    "requires": "|Crom Faeyr Scroll (SCRLAG)| AND |Gauntlets of Ogre Power (BRAC06)| AND |Girdle of Frost Giant Strength (BELT08)| AND |Hammer of Thunderbolts +3 (HAMM07)|"
+    "requires": "|Crom Faeyr Scroll (SCRLAG)| AND |Gauntlets of Ogre Power (BRAC06) (forging)| AND |Girdle of Frost Giant Strength (BELT08) (forging)| AND |Hammer of Thunderbolts +3 (HAMM07)|"
   },
   { "name": "Forge The Equalizer", "region": "Docks", "category": ["Forging"],
     "requires": "|Hilt of the Equalizer (SW1H54A)| AND |Blade of the Equalizer (SW1H54B)| AND |Pommel Jewel of the Equalizer (SW1H54C)|"
   },
   { "name": "Forge Mace of Disruption +2", "region": "Docks", "category": ["Forging"],
-    "requires": "|Illithium Ore (MISC5K)| AND |Mace of Disruption +1 (BLUN12)|"
+    "requires": "|Illithium Ore (MISC5K)| AND |Mace of Disruption +1 (BLUN12) (forging)|"
   },
   { "name": "Forge Red Dragon Scale", "region": "Docks", "category": ["Forging"],
     "requires": "|Red Dragon Scales (SCALER)|"
