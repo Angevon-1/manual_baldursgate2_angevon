@@ -5,7 +5,7 @@ Yes.
 
 ## How do you progress the game in this manual?
 
-Regions in the game are locked by “unlock” items created by the manual system. For example, you can’t go to the Graveyard District until you’ve received “Graveyard District Unlock.” These items are not actual in-game items; keep an eye on the received items side of the Manual Client to see which unlocks you have received from the multiworld.
+Areas in the game are locked by “unlock” items created by the manual system. For example, you can’t go to the Graveyard District until you’ve received “Graveyard District Unlock.” These items are not actual in-game items; keep an eye on the received items side of the Manual Client to see which area unlocks you have received from the multiworld.
 Note: Irenicus’s Dungeon and Waukeen’s Promenade are considered always available and don’t have associated unlock items.
 
 ## What are the recommeneded yaml options?
@@ -21,7 +21,7 @@ Generally, non-magical equipment, ammunition, gems, gold, potions, and scrolls a
 
 ## How do I know what I've received since I last played?
 
-There are a couple of ways. You can type /received in the Manual Client to see a full list of everything received. Or, if the multiworld was hosted on archipelago.gg, go to the room page. Open the tracker for the BG2 slot. The tracker page has a big table showing all the items received. You can sort the columns. Sort "Last Order Received" to see what you've received in order. At the end of a session, note the number in this column so you can remember where it stopped at for your next session.
+There are a couple of ways. You can type /received in the Archipelago tab of the Manual Client to see a full list of everything received in order from first to latest. Or, if the multiworld was hosted on archipelago.gg, go to the room page. Open the tracker for the BG2 slot. The tracker page has a big table showing all the items received. You can sort the columns. Sort "Last Order Received" to see what you've received in order. At the end of a session, note the number in this column so you can remember where it stopped at for your next session.
 
 ## When can I move onto Chapter 3?
 
@@ -60,6 +60,10 @@ The item requested by Mae'Var depends on your party reputation. Since we can't k
 ## I can't get the Trademeet Luraxxol vs. Alibakkar quests since I poisoned the druids at the Druid Grove.
 
 Go ahead and mark those quest checks as complete.
+
+## What do you mean by "violence is an alternative" or "if you chose violence"?
+
+Some quest can be optionally "completed" by killing the NPCs involved. e.g. you can kill the Trademeet genies instead of finding their Ihtafeer. Violence tends to lock you out of quests and is not recommended. If you choose the path of violence, you should mark the checks as if you completed the quest without violence.
 
 ## Which key items have been added to the multiworld, and what are they used for?
 Irenicus's Dungeon
@@ -142,27 +146,31 @@ Brynnlaw
 
 Spellhold
 - Minotaur Horn - need both to get to the apparition's tests
-- Sapphire Stone (MISC8Y), Opal Stone (MISC8W), Ruby Stone (MISC8X) - use these on the portal to summon enemies for some checks  
-- Hand of Dace (MISC9A), Kurtulmak's Crystal Shard (MISC8Z) - needed to get deeper into Spellhold
-- Mind Flayer Painting (MISCAO), Troll Painting (MISCAQ), Umberhulk Painting (MISCAP), Djinni Painting (MISCAR) - opens some doors in Spellhold
+- Sapphire Stone, Opal Stone, Ruby Stone - use these on the portal to summon enemies for some checks  
+- Hand of Dace, Kurtulmak's Crystal Shard - needed to get deeper into Spellhold
+- Mind Flayer Painting, Troll Painting, Umberhulk Painting, Djinni Painting - opens some doors in Spellhold
 
 City of Caverns
-- Magical Rope - needed to leave
+- Magical Rope - needed to leave for the Underdark
 - Sekolah's Tooth - optionally used for quests, needed to speak with the rebels
 - Rebel's Orb - optionally used for quests, needed to speak with the rebels
-- Sahuagin Treasury Key - Open Sahuagin treasury in the Royal Throne Room
+- Sahuagin Treasury Key - Opens the locked cache in the Royal Throne Room
 
 Underdark
 - Book of Rituals - needed for Vithal to do his rituals
 - Light Gem - needed to reach Adalon
 - Elder Brain Blood, Eyestalk of an Elder Orb, Kuo-toa's Blood - need one of the three for Ardulace
 
-*Due to the time-locked nature of the Ust Natha quests, the Despana Treasury Key and Dragon Eggs are not in the multiworld so get them & use them the vanilla way
+*Due to the time-locked nature of the Ust Natha quests, the Despana Treasury Key and Dragon Eggs are not in the multiworld so get them & use them the vanilla way.
 
 Chapter 6
 - Rhynn Lanthorn - to unlock chapter 7
 
-## What do you mean by "violence is an alternative" or "if you chose violence"?
+Chapter 7
+- Talisman of Rillifane, Golden Goblet of Life, Moonblade - put all 3 on the altar in the Temple of Rillifane to summon the avatar
+- Stone Harp & Stone Horn - need these to interact with the statues in the palace to proceed to the Tree of Life
 
-Some quest can be optionally "completed" by killing the NPCs involved. e.g. you can kill the Trademeet genies instead of finding their Ihtafeer. Violence tends to lock you out of quests and is not recommended. If you choose the path of violence, you should mark the checks as if you completed the quest without violence.
+*the Tree's acorns are not in the multiworld so get them & use them the vanilla way.
+
+
 
