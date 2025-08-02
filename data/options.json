@@ -29,7 +29,7 @@
             "description": [
                 "When this option is true, you'll side with Gaelan Bayle and the Shadow Thieves in Chapter 3.\n",
                 "When false, you'll side with Bodhi instead.\n",
-                "This affects item and location checks, so please choose the path in the game that matches your option choice here."
+                "This affects the names of item and location checks, so please choose the path in the game that matches your option choice here."
             ],
             "type": "Toggle",
             "default": true
