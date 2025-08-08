@@ -270,7 +270,7 @@
   },
     "City of Caverns": {
     "connects_to": ["Underdark"],
-    "requires": "|City of Caverns Unlock (AR2300)|"
+    "requires": "{OptOne(|City of Caverns Unlock (AR2300)|)}"
   },
     "Underdark": {
     "connects_to": ["Ust Natha"],
