@@ -1,8 +1,5 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-  "game": "BaldursGate2",
-  "creator": "Angevon",
-  "filler_item_name": "100 Gold",
   "starting_items": [
     {
       "item_categories": ["Companions"],
