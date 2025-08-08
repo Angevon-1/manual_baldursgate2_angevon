@@ -4,8 +4,7 @@
     "yaml_option": ["include_enhanced_edition"]
     },
     "ID": {
-    "hidden": true,
-    "yaml_option": ["include_irenicus_dungeon"]
+    "hidden": true
     },    
     "Chapter 3": {
     "hidden": true
@@ -52,11 +51,11 @@
     },
     "Loot": {
     "hidden": true,
-    "yaml_option": ["loot_checks"]
+    "yaml_option": ["loot_checks_by_lootable"]
     },
     "LootLite": {
     "hidden": true,
-    "yaml_option": ["loot_checks_lite"]
+    "yaml_option": ["loot_checks_by_room"]
     },
     "Forging Items": {
     "hidden": false,
@@ -83,11 +82,9 @@
     "yaml_option": ["include_watchers_keep"]
     },
     "Shadow Thieves": {
-    "hidden": true,
-    "yaml_option": ["pay_gaelan_bayle"]
+    "hidden": true
     },
     "Bodhi": {
-    "hidden": true,
-    "yaml_option": ["!pay_gaelan_bayle"]
+    "hidden": true
     }
 }
