@@ -45,13 +45,29 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
+    #setting option names with their results for ease of use
+    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
+    pay_gaelan_bayle = get_option_value(multiworld, player, "pay_gaelan_bayle")
+    #include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+    #include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+
     # Add your code here to calculate which locations to remove
+    if include_irenicus_dungeon == 0:
+        locationNamesToRemove += world.location_name_groups["ID"]
+    if pay_gaelan_bayle == 0:
+        locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
+    if pay_gaelan_bayle == 1:
+        locationNamesToRemove += world.location_name_groups["Bodhi"]
+
+
 
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
-                    region.locations.remove(location)
+                    region.locations.remove(location)        
+    if hasattr(multiworld, "clear_location_cache"):
+        multiworld.clear_location_cache()
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
@@ -66,12 +82,31 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    #if not get_option_value(multiworld, player, "include_equipment") == 2:
+    #    itemNamesToRemove.append("Progressive Equipment")
+    
+    
+    
+    
+    
+    
+    
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
+
+    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
+    pay_gaelan_bayle = get_option_value(multiworld, player, "pay_gaelan_bayle")
+
+    if include_irenicus_dungeon == 0:
+        itemNamesToRemove += world.item_name_groups["ID"]
+    if pay_gaelan_bayle == 0:
+        itemNamesToRemove += world.item_name_groups["Shadow Thieves"]
+    if pay_gaelan_bayle == 1:
+        itemNamesToRemove += world.item_name_groups["Bodhi"]
 
     # Add your code here to calculate which items to remove.
     #
