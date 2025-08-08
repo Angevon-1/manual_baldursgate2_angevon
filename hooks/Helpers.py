@@ -1,5 +1,7 @@
 from typing import Optional, TYPE_CHECKING
 from BaseClasses import MultiWorld, Item, Location
+from .. import Data
+from .. import Helpers
 
 if TYPE_CHECKING:
     from ..Items import ManualItem
