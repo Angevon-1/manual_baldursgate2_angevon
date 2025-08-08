@@ -4137,7 +4137,7 @@
   { "name": "Earn 2 tokens", "category": [],
     "requires": "|Quest Complete Token: 2|", "victory": true
   },
-  { "name": "Earn at least one token", "category": [],
+  { "name": "Earn at least 1 token", "category": [],
     "requires": "|Quest Complete Token: 1|", "victory": true
   }
 ]
