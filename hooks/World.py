@@ -108,6 +108,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
+    equipment = get_option_value(multiworld, player, "equipment") #0 - no equips, 1 = magical eq, 2 = prog, 3 = both mag and prog
 
     if include_irenicus_dungeon == 0:
         itemNamesToRemove += [item.name for item in item_pool if "ID" in world.item_name_to_item[item.name].get("category", [])]
@@ -116,6 +117,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if gaelan_or_bodhi == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Bodhi" in world.item_name_to_item[item.name].get("category", [])]
     if include_enhanced_edition == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "EE Areas" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "EE" in world.item_name_to_item[item.name].get("category", [])]
     if include_city_of_caverns == 0:
         itemNamesToRemove += [item.name for item in item_pool if "City of Caverns" in world.item_name_to_item[item.name].get("category", [])]      
@@ -134,6 +136,15 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
     if final_chapter == 3:
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
+    if equipment == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "Magical Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
+    if equipment == 1:
+        itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
+    if equipment == 2:
+        itemNamesToRemove += [item.name for item in item_pool if "Magical Equipment" in world.item_name_to_item[item.name].get("category", [])]
+
+
     
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
