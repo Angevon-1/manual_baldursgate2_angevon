@@ -10,24 +10,19 @@
     "hidden": true
     },    
     "Chapter 4": {
-    "hidden": true,
-    "yaml_option": ["include_chapter4"]
+    "hidden": true
     },
     "City of Caverns": {
-    "hidden": true,
-    "yaml_option": ["include_city_of_caverns"]
+    "hidden": true
     },
     "Chapter 5": {
-    "hidden": true,
-    "yaml_option": ["include_chapter5"]
+    "hidden": true
     },
     "Chapter 6": {
-    "hidden": true,
-    "yaml_option": ["include_chapter6"]
+    "hidden": true
     },
     "Chapter 7": {
-    "hidden": true,
-    "yaml_option": ["include_chapter7"]
+    "hidden": true
     },
     "Companion Quests": {
     "hidden": false,
