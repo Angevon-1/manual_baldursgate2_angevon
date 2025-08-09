@@ -84,28 +84,18 @@ class IncludeEnhancedEdition(Toggle):
     display_name = "Include Enhanced Edition"
     default = False
 
-class IncludeEquipment(Toggle):
-    """This adds each magical equipment item to the multiworld. By default this is set to true.
-    This adds A LOT OF ITEMS. When using this option, you should include more chapters in the options above or else items will be lost in generation."""
-    display_name = "Add Magical Equipment"
-    default = True
-
-class ProgressiveEquipment(Toggle):
-    """When this is true, you can't use +x weapons until you've received the same number of progressives for that weapon type.
-    For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it."""
-    display_name = "Make Equipment Progressive"
-    default = False
-
-#class Equipment(Choice):
-#    """Choose how you'd like equipment in the item pool. 
-#    No Equipment - No equipment is in the pool. This works best with the item randomizer mod.
-#    Magical Equipment - Each individual magical equipment item is added to the pool.
-#    Progressive Equipment - Equipment is progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.
-#    Both Magical and Progressive - Adds a lot of items, so be sure to add more chapters to accomade them, else some items will be lost."""
-#    option_no_equipment = 0
-#    option_magical_equipment = 1
-#    option_progressive_equipment = 2
-#    option_magical_and_progressive = 3
+class Equipment(Choice):
+    """Choose how you'd like equipment in the item pool. 
+    No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
+    Magical Equipment - Each individual magical equipment item is added to the pool.
+    Progressive Equipment - Equipment is progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.
+    Both Magical and Progressive - Adds a lot of items, so be sure to add more chapters to accomade them, or some items will be lost."""
+    option_no_equipment = 0
+    option_magical_equipment = 1
+    option_progressive_equipment = 2
+    option_magical_and_progressive = 3
+    default = 1
+    display_name = "Equipment in pool"
 
 class IncludeCollectorsEdition(Toggle):
     """When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.
@@ -168,15 +158,13 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_enhanced_edition"] = IncludeEnhancedEdition
     options["include_city_of_caverns"] = IncludeCoC
     options["final_chapter"] = ChapterToFinish
-#    options["include_equipment"] = Equipment
-    options["include_equipment"] = IncludeEquipment
+    options["equipment"] = Equipment
     options["include_collectors_edition"] = IncludeCollectorsEdition
     options["include_companion_quests"] = IncludeCompanionQuests
     options["include_npcs"] = IncludeNPCs
     options["loot_checks_by_lootable"] = LootChecks
     options["loot_checks_by_room"] = LootChecksLite
     options["forging_checks"] = ForgingChecks
-    options["progressive_equipment"] = ProgressiveEquipment
     options["include_watchers_keep"] = IncludeWatchersKeep
     options["include_consumables"] = Consumables
 
