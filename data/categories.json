@@ -1,7 +1,6 @@
 {   
     "EE": {
-    "hidden": true,
-    "yaml_option": ["include_enhanced_edition"]
+    "hidden": true
     },
     "ID": {
     "hidden": true
@@ -41,8 +40,7 @@
     "yaml_option": ["include_npcs"]
     },
     "Progressive Equipment": {
-    "hidden": false,
-    "yaml_option": ["progressive_equipment"]
+    "hidden": false
     },
     "Loot": {
     "hidden": true,
@@ -60,9 +58,8 @@
     "hidden": false,
     "yaml_option": ["forging_checks"]
     },
-    "Equipment": {
-    "hidden": true,
-    "yaml_option": ["include_equipment"]
+    "Magical Equipment": {
+    "hidden": true
     },
     "Consumables": {
     "hidden": true,
