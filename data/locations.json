@@ -3365,7 +3365,7 @@
   { "name": "Report victory to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|", "place_item": ["Chapter 3 Completion Token"]
   },
-  { "name": "Sail to Brynnlaw", "region": "Brynnlaw", "category": ["Chapter 3 - Thieves vs. Vampires"],
+  { "name": "Sail to Brynnlaw", "region": "Chapter 3", "category": ["Chapter 3 - Thieves vs. Vampires"],
     "requires": []
   },
   { "name": "Survive the vampire ambush", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Shadow Thieves"],
@@ -3651,34 +3651,34 @@
   { "name": "Watch the Chapter 4 dream sequence", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Reach the City of Caverns", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Reach the City of Caverns", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Defeat the ettin", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Defeat the ettin", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Defeat the bone golem in the drow zone", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Defeat the bone golem in the drow zone", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Solve the imps' puzzle", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Solve the imps' puzzle", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },  
-  { "name": "Convince the Spectator to let you open the chest (or use Violence)", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Convince the Spectator to let you open the chest (or use Violence)", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Defeat the sea zombie lord", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Defeat the sea zombie lord", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Defeat the rebel ambush", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Defeat the rebel ambush", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": []
   },
-  { "name": "Meet the rebel prince Villynaty", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Meet the rebel prince Villynaty", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
   },
-  { "name": "Deal with the Sahaguin drama however you like", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Deal with the Sahaguin drama however you like", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
   },
-  { "name": "Loot the Sahaguin Treasury", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns",  "Chapter 4"],
+  { "name": "Loot the Sahaguin Treasury", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
     "requires": "|Sahuagin Treasury Key (KEY24)|"
   },
   { "name": "Reach the Underdark", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
@@ -3975,7 +3975,7 @@
   { "name": "Forest of Tethir - Survive Safana's trap", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "Forest of Tethir - Defeat the Kuo-toan in the  cave", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "Forest of Tethir - Defeat the Kuo-toan in the cave", "region": "Forest of Tethir", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
   { "name": "Have Elhan open the way to the elven city", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
