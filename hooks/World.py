@@ -47,17 +47,36 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     #setting option names with their results for ease of use
     include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
-    pay_gaelan_bayle = get_option_value(multiworld, player, "pay_gaelan_bayle")
-    #include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
-    #include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+    gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
+    include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+    include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
+    final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
 
     # Add your code here to calculate which locations to remove
     if include_irenicus_dungeon == 0:
         locationNamesToRemove += world.location_name_groups["ID"]
-    if pay_gaelan_bayle == 0:
+    if gaelan_or_bodhi == 1:
         locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
-    if pay_gaelan_bayle == 1:
+    if gaelan_or_bodhi == 0:
         locationNamesToRemove += world.location_name_groups["Bodhi"]
+    if include_enhanced_edition == 0:
+        locationNamesToRemove += world.location_name_groups["EE"]    
+    if include_city_of_caverns == 0:
+        locationNamesToRemove += world.location_name_groups["City of Caverns"]
+    if final_chapter == 0:
+        locationNamesToRemove += world.location_name_groups["Chapter 4"]
+        locationNamesToRemove += world.location_name_groups["Chapter 5"]
+        locationNamesToRemove += world.location_name_groups["Chapter 6"]
+        locationNamesToRemove += world.location_name_groups["Chapter 7"]
+    if final_chapter == 1:
+        locationNamesToRemove += world.location_name_groups["Chapter 5"]
+        locationNamesToRemove += world.location_name_groups["Chapter 6"]
+        locationNamesToRemove += world.location_name_groups["Chapter 7"]
+    if final_chapter == 2:
+        locationNamesToRemove += world.location_name_groups["Chapter 6"]
+        locationNamesToRemove += world.location_name_groups["Chapter 7"]
+    if final_chapter == 3:
+        locationNamesToRemove += world.location_name_groups["Chapter 7"]
 
 
 
@@ -82,31 +101,50 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    #if not get_option_value(multiworld, player, "include_equipment") == 2:
-    #    itemNamesToRemove.append("Progressive Equipment")
+    itemNamesToRemove = []
     
+    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
+    gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
+    include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+    include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
+    final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
+
+    if include_irenicus_dungeon == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "ID" in world.item_name_to_item[item.name].get("category", [])]
+    if gaelan_or_bodhi == 1:
+        itemNamesToRemove += [item.name for item in item_pool if "Shadow Thieves" in world.item_name_to_item[item.name].get("category", [])]
+    if gaelan_or_bodhi == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "Bodhi" in world.item_name_to_item[item.name].get("category", [])]
+    if include_enhanced_edition == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "EE" in world.item_name_to_item[item.name].get("category", [])]
+    if include_city_of_caverns == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "City of Caverns" in world.item_name_to_item[item.name].get("category", [])]      
+    if final_chapter == 0:        
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Brynnlaw" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Spellhold" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Underdark" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 6" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
+    if final_chapter == 1:
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Underdark" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 6" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
+    if final_chapter == 2:
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 6" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
+    if final_chapter == 3:
+        itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
     
-    
-    
-    
-    
-    
+    for itemName in itemNamesToRemove:
+        item = next(i for i in item_pool if i.name == itemName)
+        item_pool.remove(item)
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
-
-    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
-    pay_gaelan_bayle = get_option_value(multiworld, player, "pay_gaelan_bayle")
-
-    if include_irenicus_dungeon == 0:
-        itemNamesToRemove += world.item_name_groups["ID"]
-    if pay_gaelan_bayle == 0:
-        itemNamesToRemove += world.item_name_groups["Shadow Thieves"]
-    if pay_gaelan_bayle == 1:
-        itemNamesToRemove += world.item_name_groups["Bodhi"]
 
     # Add your code here to calculate which items to remove.
     #
