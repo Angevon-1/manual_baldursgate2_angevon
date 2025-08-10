@@ -24,54 +24,40 @@
     "hidden": true
     },
     "Companion Quests": {
-    "hidden": false,
-    "yaml_option": ["include_companion_quests"]
+    "hidden": false
     },
     "EE Companion Quests": {
-    "hidden": true,
-    "yaml_option": ["include_companion_quests"]
-    },
-    "Companion Quest Items": {
-    "hidden": false,
-    "yaml_option": ["include_companion_quests"]
+    "hidden": true
     },
     "Companions": {
-    "hidden": false,
-    "yaml_option": ["include_npcs"]
+    "hidden": false
     },
     "Progressive Equipment": {
     "hidden": false
     },
     "Loot": {
-    "hidden": true,
-    "yaml_option": ["loot_checks_by_lootable"]
+    "hidden": true
     },
     "LootLite": {
-    "hidden": true,
-    "yaml_option": ["loot_checks_by_room"]
+    "hidden": true
     },
     "Forging Items": {
-    "hidden": false,
-    "yaml_option": ["forging_checks"]
+    "hidden": false
     },
     "Forging": {
-    "hidden": false,
-    "yaml_option": ["forging_checks"]
+    "hidden": false
     },
     "Magical Equipment": {
     "hidden": true
     },
     "Consumables": {
-    "hidden": true,
-    "yaml_option": ["include_consumables"]
+    "hidden": true
     },    
     "Collector's Edition": {
-    "hidden": true,
-    "yaml_option": ["include_collectors_edition"]
+    "hidden": true
     },
     "Watcher's Keep": {
-    "hidden": true,
-    "yaml_option": ["include_watchers_keep"]
+    "hidden": true
     },
     "Shadow Thieves": {
     "hidden": true
