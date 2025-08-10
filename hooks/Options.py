@@ -109,25 +109,25 @@ class IncludeWatchersKeep(Toggle):
     display_name = "Add Watcher's Keep Items"
     default = False
 
-class NPCs(Choice):
+class Companions(Choice):
     """Choose how you'd like the companion NPCs & their quests randomized. 
     None - Companions and their quests are not included in the multiworld. 
     Companions Only - Each individual companion is an item in the pool. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
     Companion Quests Only - Adds checks for the companion quests. These quests can take a long time to activate in the game; speedrunners should not use this.
     Both Companions and quests - Adds both chacters and their quests."""
     option_none = 0
-    option_companions_only = 1
-    option_companion_quests_only = 2
+    option_companion_quests_only = 1
+    option_companions_only = 2
     option_companions_and_quests = 3
     default = 0
     display_name = "Companion Option"
 
-#class NPCAmount(Range):
-#    """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them."""
-#    display_name = "Starting Companion Amount"
-#    range_start = 0
-#    range_end = 15
-#    default = 3
+class StartingCompanionAmount(Range):
+    """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them."""
+    display_name = "Starting Companion Amount"
+    range_start = 0
+    range_end = 15
+    default = 3
 
 class LootChecks(Choice):
     """Choose how you want loot checks to work.
@@ -157,8 +157,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_enhanced_edition"] = IncludeEnhancedEdition
     options["include_collectors_edition"] = IncludeCollectorsEdition
     options["include_watchers_keep"] = IncludeWatchersKeep
-    options["npcs"] = NPCs
-#    options["npc_amount"] = NPCAmount
+    options["companions"] = Companions
+    options["starting_companion_amount"] = StartingCompanionAmount
     options["loot_checks"] = LootChecks
     options["forging_checks"] = ForgingChecks
 
