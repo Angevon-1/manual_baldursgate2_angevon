@@ -72,7 +72,7 @@ class IncludeCoC(Toggle):
     default = False
 
 class PayGaelanBayle(Choice):
-    """Choose whether you will side with Gaelan Bayle and the Shadow Thieves, or with Bodhi, in Chapter 3.
+    """Choose whether you will side with Gaelan Bayle and the Shadow Thieves, or with Bodhi and the vampires, in Chapter 3.
     This affects the names of item and location checks, so be sure to match this with your choice in the game."""
     display_name = "Side in Chapter 3"
     option_shadow_thieves = 0    
@@ -89,7 +89,7 @@ class Equipment(Choice):
     No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
     Magical Equipment - Each individual magical equipment item is added to the pool.
     Progressive Equipment - Equipment is progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.
-    Both Magical and Progressive - Adds a lot of items, so be sure to add more chapters to accomade them, or some items will be lost."""
+    Both Magical and Progressive - Adds a lot of items, so be sure to add more chapters, or some items will be lost."""
     option_no_equipment = 0
     option_magical_equipment = 1
     option_progressive_equipment = 2
@@ -100,7 +100,7 @@ class Equipment(Choice):
 class IncludeCollectorsEdition(Toggle):
     """When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.
     These items might be considered overpowered; as such this option exists to exclude them."""
-    display_name = "Add Collector's Edition Equipment"
+    display_name = "Add Collector's Edition Items"
     default = False
 
 class IncludeWatchersKeep(Toggle):
@@ -109,64 +109,58 @@ class IncludeWatchersKeep(Toggle):
     display_name = "Add Watcher's Keep Items"
     default = False
 
-class IncludeCompanionQuests(Toggle):
-    """When this option is true, items & locations related to all the companion NPC quests are added to the multiworld.
-    You must not kill any potential party members! Don't let any die before you've done their checks!
-    These quests can take a long time to activate in the game; speedrunners should keep this set to false."""
-    display_name = "Add Companion quests"
-    default = False
+class NPCs(Choice):
+    """Choose how you'd like the companion NPCs & their quests randomized. 
+    None - Companions and their quests are not included in the multiworld. 
+    Companions Only - Each individual companion is an item in the pool. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
+    Companion Quests Only - Adds checks for the companion quests. These quests can take a long time to activate in the game; speedrunners should not use this.
+    Both Companions and quests - Adds both chacters and their quests."""
+    option_none = 0
+    option_companions_only = 1
+    option_companion_quests_only = 2
+    option_companions_and_quests = 3
+    default = 0
+    display_name = "Companion Option"
 
-class IncludeNPCs(Toggle):
-    """When this option is true, the companion NPCs themselves are added as unlockable items to be found in the multiworld. You will automatically be given 3 NPCs at random at the start of the game.
-    To see what characters are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Characters' section.
-    When used in conjunction with include_companion_quests, this option adds more logical access rules based on your available NPCs. You won't be expected to complete a companion quest until you have received the corresponding NPC.
-    Without this option, companion quests are instead locked by the region where the companion exists and where the quests take place.
-    When true this adds 17 items (22 if enhanced edition is enabled)."""
-    display_name = "Add npc companions"
-    default = False
+#class NPCAmount(Range):
+#    """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them."""
+#    display_name = "Starting Companion Amount"
+#    range_start = 0
+#    range_end = 15
+#    default = 3
 
-class LootChecks(Toggle):
-    """Set this to true if you want INDIVIDUAL lootable crates/barrels/chests added to the pool as location checks.
-    To compensate for check count, include_consumables and/or include_equipment options should be set to true to add filler.
-    Note that your Lockpicking ability is NOT accounted for. Progression may be locked behind a locked chest and it's up to you to get past it."""
-    display_name = "Add individual lootables"
-    default = False
-
-class LootChecksLite(Toggle):
-    """Set this to true to have general 'loot x room' as checks instead of every individual lootable as a check.
-    This is more balanced than the full loot checks option and easier to track. Lockpicking ability is not required.
-    This is the recommended loot setting."""
-    display_name = "Add looting by room"
-    default = True
+class LootChecks(Choice):
+    """Choose how you want loot checks to work.
+    None - No loot checks.
+    Rooms - Adds general "loot x room" checks. This is the recommended setting. Lockpicking ability is not required.
+    Containers - Adds every INDIVIDUAL lootable crate/barrel/chest as location checks. To compensate for check count, consumable potions and scrolls will be added to the item pool to add filler. Lockpicking is required and NOT accounted for. Progression may be locked behind a locked chest and it's up to you to get past it."""
+    display_name = "Loot checks type"
+    option_none = 0
+    option_rooms = 1
+    option_containers = 2
+    option_rooms_and_containers = 3
+    default = 1
 
 class ForgingChecks(Toggle):
     """Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 20 items."""
     display_name = "Include Forging Checks"
     default = False
 
-class Consumables(Toggle):
-    """When this is true, scrolls and potions are added as filler to the multiworld.
-    This should mostly only be on when loot_checks_by_lootable is on, to add filler."""
-    display_name = "Add consumables"
-    default = False
-
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["goal"] = Goal
-    options["include_irenicus_dungeon"] = IncludeIrenicusDungeon
-    options["gaelan_or_bodhi"] = PayGaelanBayle    
-    options["include_enhanced_edition"] = IncludeEnhancedEdition
-    options["include_city_of_caverns"] = IncludeCoC
     options["final_chapter"] = ChapterToFinish
-    options["equipment"] = Equipment
+    options["include_irenicus_dungeon"] = IncludeIrenicusDungeon
+    options["gaelan_or_bodhi"] = PayGaelanBayle
+    options["include_city_of_caverns"] = IncludeCoC
+    options["equipment"] = Equipment    
+    options["include_enhanced_edition"] = IncludeEnhancedEdition
     options["include_collectors_edition"] = IncludeCollectorsEdition
-    options["include_companion_quests"] = IncludeCompanionQuests
-    options["include_npcs"] = IncludeNPCs
-    options["loot_checks_by_lootable"] = LootChecks
-    options["loot_checks_by_room"] = LootChecksLite
-    options["forging_checks"] = ForgingChecks
     options["include_watchers_keep"] = IncludeWatchersKeep
-    options["include_consumables"] = Consumables
+    options["npcs"] = NPCs
+#    options["npc_amount"] = NPCAmount
+    options["loot_checks"] = LootChecks
+    options["forging_checks"] = ForgingChecks
 
     return options
 
