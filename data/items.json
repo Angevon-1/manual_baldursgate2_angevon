@@ -699,7 +699,7 @@
   { "count": 1, "name": "Wand of the Heavens (WAND11)", "category": ["Consumables", "Resource - Consumable - Wands"], "filler": true},
   { "count": 1, "name": "Wand of Wonder (WAND12)", "category": ["Consumables", "Resource - Consumable - Wands"], "filler": true},
   { "count": 1, "name": "Wand of Cloudkill (WAND13)", "category": ["Consumables", "Resource - Consumable - Wands"], "filler": true},
-  { "count": 1, "name": "Wand of Glitterdust (ohdwand1)", "category": ["Consumables", "EE", "Resource - Consumable - Wands"], "filler": true},
+  { "count": 1, "name": "Wand of Glitterdust (ohdwand1)", "category": ["EE Consumables", "Resource - Consumable - Wands"], "filler": true},
   { "count": 1, "name": "Wand of Spell Striking (WAND18)", "category": ["Consumables", "Resource - Consumable - Wands"], "filler": true},
   { "count": 1, "name": "Wand of Cursing (WAND19)", "category": ["Consumables", "Resource - Consumable - Wands"], "filler": true},
 
