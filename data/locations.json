@@ -32,6 +32,21 @@
   { "name": "Forge the complete Flail of the Ages +3", "region": "deArnise Keep", "category": ["Forging"],
     "requires": "|Flail Head Cold (BLUN14A)| AND |Flail Head Fire (BLUN14B)| AND |Flail Head Acid (BLUN14C)|"
   },
+  { "name": "Starting Companion 1", "category": ["Starting Companions"],
+    "place_item_category": ["Companions"]
+  },
+  { "name": "Starting Companion 2", "category": ["Starting Companions"],
+    "place_item_category": ["Companions"]
+  },
+  { "name": "Starting Companion 3", "category": ["Starting Companions"],
+    "place_item_category": ["Companions"]
+  },
+  { "name": "Starting Companion 4", "category": ["Starting Companions"],
+    "place_item_category": ["Companions"]
+  },
+  { "name": "Starting Companion 5", "category": ["Starting Companions"],
+    "place_item_category": ["Companions"]
+  },
   { "name": "Survive Irenicus's 'experiments' (opening cutscene)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
     "requires": []
   },
