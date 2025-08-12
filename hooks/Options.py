@@ -79,29 +79,36 @@ class PayGaelanBayle(Choice):
     option_bodhi = 1
     default = 0
 
-class IncludeEnhancedEdition(Toggle):
-    """Adds enhanced edition items, characters, and locations to the relevant options."""
+class EnhancedEdition(Choice):
+    """Do you want to include Enhanced Edition Companions and their areas? This choice mostly affects the Companions option further below.
+    No - do not include EE.
+    Yes - include EE."""
     display_name = "Include Enhanced Edition"
-    default = False
+    option_no = 0
+    option_yes = 1
+    default = 0
 
 class Equipment(Choice):
-    """Choose how you'd like equipment in the item pool. 
+    """Choose how you'd like equipment in the item pool. Please note the more equipment you add, the more chapters you should include too, else items will be lost during generation.
     No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
-    Magical Equipment - Each individual magical equipment item is added to the pool.
-    Progressive Equipment - Equipment is progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it.
-    Both Magical and Progressive - Adds a lot of items, so be sure to add more chapters, or some items will be lost."""
+    Base Game Magical Equipment Only - Each individual magical equipment item from the base game is added to the pool. Does not include Collector's Edition or Enhanced Edition items. 
+    Base Game Magical Equipment and Collector's Edition - Each individual magical equipment item from the base game is added to the pool, including Collector's Edition items. These items might be considered overpowered.
+    Base Game Magical Equipment and Enhanced Edition - Each individual magical equipment item from the base game is added to the pool, including Enhanced Edition items.
+    Base Game Magical Equipment, Collector's Edition, and Enhanced Edition - Each individual magical equipment item from the base game is added to the pool, including Collector's Edition and Enhanced Edition items.
+    """
     option_no_equipment = 0
-    option_magical_equipment = 1
-    option_progressive_equipment = 2
-    option_magical_and_progressive = 3
+    option_base_game_only = 1
+    option_base_game_and_ce = 2
+    option_base_game_and_ee = 3
+    option_base_game_ce_and_ee = 4
     default = 1
     display_name = "Equipment in pool"
 
-class IncludeCollectorsEdition(Toggle):
-    """When this is true, it adds equipment from the BG2 Collector's Edition to the multiworld. When false, they aren't added.
-    These items might be considered overpowered; as such this option exists to exclude them."""
-    display_name = "Add Collector's Edition Items"
-    default = False
+class ProgressiveEquipment(Toggle):
+    """Use this option to make equipment progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it. Works well with the Gibberlings 3 Item Randomizer mod.
+    This CAN be combined with the equipment option choice above, however items will likely be lost during generation."""
+    default = 0
+    display_name = "Progressive Equipment"
 
 class IncludeWatchersKeep(Toggle):
     """When this is true, it adds equipment from Watcher's Keep to the multiworld. When false, they aren't added.
@@ -114,7 +121,7 @@ class Companions(Choice):
     None - Companions and their quests are not included in the multiworld. 
     Companions Only - Each individual companion is an item in the pool. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
     Companion Quests Only - Adds checks for the companion quests. These quests can take a long time to activate in the game; speedrunners should not use this.
-    Both Companions and quests - Adds both chacters and their quests."""
+    Both Companions and quests - Adds both companions and their quests."""
     option_none = 0
     option_companion_quests_only = 1
     option_companions_only = 2
@@ -123,11 +130,12 @@ class Companions(Choice):
     display_name = "Companion Option"
 
 class StartingCompanionAmount(Range):
-    """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them."""
+    """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them.
+    Leave this at 0 if you're not randomizing the companions.""" 
     display_name = "Starting Companion Amount"
     range_start = 0
-    range_end = 15
-    default = 3
+    range_end = 5
+    default = 0
 
 class LootChecks(Choice):
     """Choose how you want loot checks to work.
@@ -153,14 +161,14 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_irenicus_dungeon"] = IncludeIrenicusDungeon
     options["gaelan_or_bodhi"] = PayGaelanBayle
     options["include_city_of_caverns"] = IncludeCoC
-    options["equipment"] = Equipment    
-    options["include_enhanced_edition"] = IncludeEnhancedEdition
-    options["include_collectors_edition"] = IncludeCollectorsEdition
-    options["include_watchers_keep"] = IncludeWatchersKeep
+    options["equipment"] = Equipment
+    options["progressive_equipment"] = ProgressiveEquipment        
+    options["enhanced_edition"] = EnhancedEdition
     options["companions"] = Companions
     options["starting_companion_amount"] = StartingCompanionAmount
     options["loot_checks"] = LootChecks
     options["forging_checks"] = ForgingChecks
+    options["include_watchers_keep"] = IncludeWatchersKeep
 
     return options
 
