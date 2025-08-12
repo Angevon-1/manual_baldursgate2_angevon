@@ -48,10 +48,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     #setting option names with their results for ease of use
     include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
     gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
-    include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
+    enhanced_edition = get_option_value(multiworld, player, "enhanced_edition") #0 none, 1 companions, 2 equips, 3 both
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
-    npcs = get_option_value(multiworld, player, "npcs") #0 - no npcs, 1 = npcs, 2 = quest only, 3 = both
+    companions = get_option_value(multiworld, player, "companions") #0 - no npcs, 1 = quests, 2 = npcs, 3 = both
+    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount") # defaults to 3
     loot_checks = get_option_value(multiworld, player, "loot_checks") #0 - none, 1 = by room, 2 = by container, 3 = both
     forging = get_option_value(multiworld, player, "forging_checks")
 
@@ -62,8 +63,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
     if gaelan_or_bodhi == 0:
         locationNamesToRemove += world.location_name_groups["Bodhi"]
-    if include_enhanced_edition == 0:
-        locationNamesToRemove += world.location_name_groups["EE"]    
+    if enhanced_edition == 0:
+        locationNamesToRemove += world.location_name_groups["EE"]       
     if include_city_of_caverns == 0:
         locationNamesToRemove += world.location_name_groups["City of Caverns"]
     if final_chapter == 0:
@@ -80,9 +81,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         locationNamesToRemove += world.location_name_groups["Chapter 7"]
     if final_chapter == 3:
         locationNamesToRemove += world.location_name_groups["Chapter 7"]
-    if npcs == 0:
+    if companions == 0:
         locationNamesToRemove += world.location_name_groups["Companion Quests"]
-    if npcs == 1:
+    if companions == 2:
         locationNamesToRemove += world.location_name_groups["Companion Quests"]
     if loot_checks == 0:
         locationNamesToRemove += world.location_name_groups["Loot"]
@@ -94,7 +95,16 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if forging == 0:
         locationNamesToRemove += world.location_name_groups["Forging"]
 
-
+    if starting_companion_amount < 5:
+        locationNamesToRemove.append("Starting Companion 5")
+        if starting_companion_amount < 4:
+            locationNamesToRemove.append("Starting Companion 4")
+            if starting_companion_amount < 3:
+                locationNamesToRemove.append("Starting Companion 3")
+                if starting_companion_amount < 2:
+                    locationNamesToRemove.append("Starting Companion 2")
+                    if starting_companion_amount < 1:
+                        locationNamesToRemove.append("Starting Companion 1")
 
     for region in multiworld.regions:
         if region.player == player:
@@ -121,13 +131,12 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     
     include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
     gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
-    include_enhanced_edition = get_option_value(multiworld, player, "include_enhanced_edition")
-    include_collectors_edition = get_option_value(multiworld, player, "include_collectors_edition")
+    enhanced_edition = get_option_value(multiworld, player, "enhanced_edition") #0 none, 1 companions, 2 equips, 3 both
     include_watchers_keep = get_option_value(multiworld, player, "include_watchers_keep")
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
     equipment = get_option_value(multiworld, player, "equipment") #0 - no equips, 1 = magical eq, 2 = prog, 3 = both mag and prog
-    npcs = get_option_value(multiworld, player, "npcs") #0 - no npcs, 1 = npcs, 2 = quest only, 3 = both
+    progressive_equipment = get_option_value(multiworld, player, "progressive_equipment") # toggle
     loot_checks = get_option_value(multiworld, player, "loot_checks") #0 - none, 1 = by room, 2 = by container, 3 = both
     forging = get_option_value(multiworld, player, "forging_checks")
 
@@ -137,14 +146,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         itemNamesToRemove += [item.name for item in item_pool if "Shadow Thieves" in world.item_name_to_item[item.name].get("category", [])]
     if gaelan_or_bodhi == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Bodhi" in world.item_name_to_item[item.name].get("category", [])]
-    if include_enhanced_edition == 0:
+    if enhanced_edition == 0:
         itemNamesToRemove += [item.name for item in item_pool if "EE Areas" in world.item_name_to_item[item.name].get("category", [])]
-        itemNamesToRemove += [item.name for item in item_pool if "EE" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "EE Companions" in world.item_name_to_item[item.name].get("category", [])]
-    if include_collectors_edition == 0:
-        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Consumables" in world.item_name_to_item[item.name].get("category", [])]
     if include_watchers_keep == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Watcher's Keep" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Watcher's Keep Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if include_city_of_caverns == 0:
         itemNamesToRemove += [item.name for item in item_pool if "City of Caverns" in world.item_name_to_item[item.name].get("category", [])]      
     if final_chapter == 0:        
@@ -164,20 +172,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Suldanessellar" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Magical Equipment" in world.item_name_to_item[item.name].get("category", [])]
-        itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 1:
-        itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 2:
-        itemNamesToRemove += [item.name for item in item_pool if "Magical Equipment" in world.item_name_to_item[item.name].get("category", [])]
-    if npcs == 0:
-        itemNamesToRemove += [item.name for item in item_pool if "NPCs" in world.item_name_to_item[item.name].get("category", [])]
-    if npcs == 2:
-        itemNamesToRemove += [item.name for item in item_pool if "NPCs" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
+    if equipment == 3:
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
+    if progressive_equipment == 1:
+        itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if loot_checks <= 1:
         itemNamesToRemove += [item.name for item in item_pool if "Consumables" in world.item_name_to_item[item.name].get("category", [])]
     if forging == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Forging Items" in world.item_name_to_item[item.name].get("category", [])]
-
 
     
     for itemName in itemNamesToRemove:
@@ -195,6 +204,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
+
+    companions = get_option_value(multiworld, player, "companions") #0 - no npcs, 1 = npcs, 2 = quest only, 3 = both
+    if companions <= 1:
+        itemNamesToRemove += [item.name for item in item_pool if "NPCs" in world.item_name_to_item[item.name].get("category", [])]
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
