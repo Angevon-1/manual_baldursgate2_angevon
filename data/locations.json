@@ -1160,37 +1160,37 @@
   { "name": "Deliver the gem to Raelis Shai", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
+  { "name": "PP - Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Defeat Aawill the bounty hunter", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Defeat Aawill the bounty hunter", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Defeat the Wyvern", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Defeat the Wyvern", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Defeat the Master of Thralls", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Defeat the Master of Thralls", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Defeat the air elementals", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Defeat the air elementals", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Defeat the Warden", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Defeat the Warden", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": "{OptOne(|Planar Prison Cell Key (KEY11)|)}"
   },
-  { "name": "Destroy (or don't) the Mastery Orb", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison"],
+  { "name": "PP - Destroy (or don't) the Mastery Orb", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },  
-  { "name": "Loot the alcove in the 'room' to the right of the starting zone in the Planar Prison", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison - Looting", "Loot"],
+  { "name": "PP - Loot the alcove in the 'room' to the right of the starting zone", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the alcove in the Master of Thralls room", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison - Looting", "Loot"],
+  { "name": "PP - Loot the alcove in the Master of Thralls room", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },  
-  { "name": "Loot the alcove in the Warden's room", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Planar Prison - Looting", "Loot"],
+  { "name": "PP - Loot the alcove in the Warden's room", "region": "Planar Prison", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
   { "name": "Deal with the beggar", "region": "Docks", "category": ["Athkatla - Docks"],
