@@ -1,5 +1,5 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions, Visibility
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
@@ -26,34 +26,13 @@ from typing import Type, Any
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 
-class Goal(Choice):
-    """There are several goal options: 
-    1. Complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) to receive tokens. Collect enough tokens to goal. More required tokens makes for a longer game. Any chapter amount can be used with this goal. 
-    2. Escape Spellhold - Reach Chapter 4 and complete it (excludes City of Caverns). 
-    3. Defeat Red Dragon Firkraag - Reach Chapter 6 and defeat Firkraag. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped. 
-    4. Defeat Kangaxx the Demilich - Reach Chapter 6 and defeat Kangaxx. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped.
-    5. Defeat Jon Irenicus - Reach Chapter 7 and defeat Irenicus at the Tree of Life 
-    Please ensure you have the required chapters enabled below if you're choosing a late chapter goal or it won't generate."""
-    display_name = "Goal condition"
-    option_earn_at_least_1_token = 0
-    option_earn_2_tokens = 1
-    option_earn_3_tokens = 2
-    option_earn_4_tokens = 3
-    option_earn_5_tokens = 4
-    option_earn_6_tokens = 5
-    option_escape_spellhold = 6
-    option_defeat_firkraag = 7
-    option_defeat_kangaxx = 8
-    option_defeat_irenicus = 9
-    default = 2
-
-class IncludeIrenicusDungeon(Toggle):
+class include_irenicus_dungeon(Toggle):
     """Adds key items and locations related to Chapter 1 (Irenicus's Dungeon).
     When false, it is recommended that you use the Skip Chateau Irenicus mod to get out of there easier after starting a new game."""
     display_name = "Include Irenicus's Dungeon"
     default = True
 
-class ChapterToFinish(Choice):
+class final_chapter(Choice):
     """Select which chapter to finish the game in. When you choose a later chapter, the previous chapters are automatically enabled. 
     Later chapter = longer game, more items, and more locations.
     Some goal options override this choice."""
@@ -65,13 +44,13 @@ class ChapterToFinish(Choice):
     display_name = "Final Chapter"
     default = 0
 
-class IncludeCoC(Toggle):
+class include_city_of_caverns(Toggle):
     """When this option is true, key items and locations related to the optional Chapter 4 area, City of Caverns/Sahaguin City will be included in the multiworld.
     When this is on, you'll need to take Saemon's offer to sail away from Spellhold at the end of that questline. If you're not using this option, you can take the portal under Spellhold directly to Chapter 5."""
     display_name = "Include City of Caverns"
     default = False
 
-class PayGaelanBayle(Choice):
+class gaelan_or_bodhi(Choice):
     """Choose whether you will side with Gaelan Bayle and the Shadow Thieves, or with Bodhi and the vampires, in Chapter 3.
     This affects the names of item and location checks, so be sure to match this with your choice in the game."""
     display_name = "Side in Chapter 3"
@@ -79,8 +58,8 @@ class PayGaelanBayle(Choice):
     option_bodhi = 1
     default = 0
 
-class EnhancedEdition(Choice):
-    """Do you want to include Enhanced Edition Companions and their areas? This choice mostly affects the Companions option further below.
+class enhanced_edition(Choice):
+    """Do you want to include Enhanced Edition Companions and their areas? This choice only affects the Companions option.
     No - do not include EE.
     Yes - include EE."""
     display_name = "Include Enhanced Edition"
@@ -88,7 +67,7 @@ class EnhancedEdition(Choice):
     option_yes = 1
     default = 0
 
-class Equipment(Choice):
+class equipment(Choice):
     """Choose how you'd like equipment in the item pool. Please note the more equipment you add, the more chapters you should include too, else items will be lost during generation.
     No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
     Base Game Magical Equipment Only - Each individual magical equipment item from the base game is added to the pool. Does not include Collector's Edition or Enhanced Edition items. 
@@ -101,22 +80,22 @@ class Equipment(Choice):
     option_base_game_and_ce = 2
     option_base_game_and_ee = 3
     option_base_game_ce_and_ee = 4
-    default = 1
+    default = 0
     display_name = "Equipment in pool"
 
-class ProgressiveEquipment(Toggle):
+class progressive_equipment(Toggle):
     """Use this option to make equipment progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it. Works well with the Gibberlings 3 Item Randomizer mod.
     This CAN be combined with the equipment option choice above, however items will likely be lost during generation."""
-    default = 0
+    default = 1
     display_name = "Progressive Equipment"
 
-class IncludeWatchersKeep(Toggle):
+class include_watchers_keep(Toggle):
     """When this is true, it adds equipment from Watcher's Keep to the multiworld. When false, they aren't added.
     Note: watcher's keep location checks are NOT affected, they are not implemented at all at this time, this is purely about the item rewards."""
     display_name = "Add Watcher's Keep Items"
     default = False
 
-class Companions(Choice):
+class companions(Choice):
     """Choose how you'd like the companion NPCs & their quests randomized. 
     None - Companions and their quests are not included in the multiworld. 
     Companions Only - Each individual companion is an item in the pool. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
@@ -129,7 +108,7 @@ class Companions(Choice):
     default = 0
     display_name = "Companion Option"
 
-class StartingCompanionAmount(Range):
+class starting_companion_amount(Range):
     """When companions are randomized, use this option to set how many companions you'll already have at the start of the game. They will be added at random to your starting inventory. You'll still have to go and recruit them.
     Leave this at 0 if you're not randomizing the companions.""" 
     display_name = "Starting Companion Amount"
@@ -137,7 +116,7 @@ class StartingCompanionAmount(Range):
     range_end = 5
     default = 0
 
-class LootChecks(Choice):
+class loot_checks(Choice):
     """Choose how you want loot checks to work.
     None - No loot checks.
     Rooms - Adds general "loot x room" checks. This is the recommended setting. Lockpicking ability is not required.
@@ -149,26 +128,25 @@ class LootChecks(Choice):
     option_rooms_and_containers = 3
     default = 1
 
-class ForgingChecks(Toggle):
+class forging_checks(Toggle):
     """Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 20 items."""
     display_name = "Include Forging Checks"
     default = False
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
-    options["goal"] = Goal
-    options["final_chapter"] = ChapterToFinish
-    options["include_irenicus_dungeon"] = IncludeIrenicusDungeon
-    options["gaelan_or_bodhi"] = PayGaelanBayle
-    options["include_city_of_caverns"] = IncludeCoC
-    options["equipment"] = Equipment
-    options["progressive_equipment"] = ProgressiveEquipment        
-    options["enhanced_edition"] = EnhancedEdition
-    options["companions"] = Companions
-    options["starting_companion_amount"] = StartingCompanionAmount
-    options["loot_checks"] = LootChecks
-    options["forging_checks"] = ForgingChecks
-    options["include_watchers_keep"] = IncludeWatchersKeep
+    options["final_chapter"] = final_chapter
+    options["include_irenicus_dungeon"] = include_irenicus_dungeon
+    options["gaelan_or_bodhi"] = gaelan_or_bodhi
+    options["include_city_of_caverns"] = include_city_of_caverns
+    options["equipment"] = equipment
+    options["progressive_equipment"] = progressive_equipment
+    options["companions"] = companions
+    options["starting_companion_amount"] = starting_companion_amount        
+    options["enhanced_edition"] = enhanced_edition
+    options["loot_checks"] = loot_checks
+    options["forging_checks"] = forging_checks
+    options["include_watchers_keep"] = include_watchers_keep
 
     return options
 
