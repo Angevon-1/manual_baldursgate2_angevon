@@ -38,7 +38,36 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    pass
+
+    #checking goal vs. final chapter option and setting the correct final chapter if neccesary
+    goal = get_option_value(multiworld, player, "goal") # 0 = spellhold, 1 & 2 firkraag / kangaxx, 3 = irenicus, beyond that are the tokens
+    final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
+    include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
+    companions = get_option_value(multiworld, player, "companions") 
+    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount") 
+    if goal == 0:
+        if final_chapter == 0:
+            world.options.final_chapter.value = 1
+    elif goal == 1:
+        if final_chapter <= 3:
+            world.options.final_chapter.value = 3
+    elif goal == 2:
+        if final_chapter <= 3:
+            world.options.final_chapter.value = 3
+    elif goal == 3:
+        if final_chapter <= 4:
+            world.options.final_chapter.value = 4
+    #check for city of caverns being included but not setting a final chapter past 3, or spellhold goal, then change to disable city of caverns
+    elif include_city_of_caverns == 1:
+        if final_chapter == 0:
+            world.options.include_city_of_caverns.value = 0
+        if goal == 0:
+            world.options.include_city_of_caverns.value = 0
+    elif companions <= 1:
+        if starting_companion_amount >= 1:
+            world.options.starting_companion_amount.value = 0
+    else:
+        pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -51,9 +80,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     enhanced_edition = get_option_value(multiworld, player, "enhanced_edition") #0 none, 1 companions, 2 equips, 3 both
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
-    companions = get_option_value(multiworld, player, "companions") #0 - no npcs, 1 = quests, 2 = npcs, 3 = both
-    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount") # defaults to 3
     loot_checks = get_option_value(multiworld, player, "loot_checks") #0 - none, 1 = by room, 2 = by container, 3 = both
+    companions = get_option_value(multiworld, player, "companions")        
+    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount")   
     forging = get_option_value(multiworld, player, "forging_checks")
 
     # Add your code here to calculate which locations to remove
@@ -181,7 +210,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 3:
         itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
-    if progressive_equipment == 1:
+    if progressive_equipment == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if loot_checks <= 1:
         itemNamesToRemove += [item.name for item in item_pool if "Consumables" in world.item_name_to_item[item.name].get("category", [])]
