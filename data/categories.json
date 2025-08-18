@@ -13,7 +13,16 @@
     },
     "City of Caverns": {
     "hidden": true
+    },    
+    "Chapter 5 Token": {
+    "hidden": true
     },
+    "Chapter 6 Token": {
+    "hidden": true
+    },
+    "Chapter 4 Token": {
+    "hidden": true
+    },    
     "Chapter 5": {
     "hidden": true
     },
@@ -31,6 +40,9 @@
     },
     "Companions": {
     "hidden": false
+    },
+    "EE Companions": {
+    "hidden": true
     },
     "Progressive Equipment": {
     "hidden": false
@@ -63,6 +75,21 @@
     "hidden": true
     },
     "Bodhi": {
+    "hidden": true
+    },
+    "Collector's Edition Equipment": {
+    "hidden": true
+    },
+    "EE Areas": {
+    "hidden": true
+    },
+    "EE Consumables": {
+    "hidden": true
+    },
+    "EE Equipment": {
+    "hidden": true
+    },
+    "NPCs": {
     "hidden": true
     }
 }
