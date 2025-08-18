@@ -58,15 +58,6 @@ class gaelan_or_bodhi(Choice):
     option_bodhi = 1
     default = 0
 
-class enhanced_edition(Choice):
-    """Do you want to include Enhanced Edition Companions and their areas? This choice only affects the Companions option.
-    No - do not include EE.
-    Yes - include EE."""
-    display_name = "Include Enhanced Edition"
-    option_no = 0
-    option_yes = 1
-    default = 0
-
 class equipment(Choice):
     """Choose how you'd like equipment in the item pool. Please note the more equipment you add, the more chapters you should include too, else items will be lost during generation.
     No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
@@ -96,15 +87,22 @@ class include_watchers_keep(Toggle):
     default = False
 
 class companions(Choice):
-    """Choose how you'd like the companion NPCs & their quests randomized. 
+    """Choose how you'd like the companion NPCs (items) & their quests (locations) randomized. 
     None - Companions and their quests are not included in the multiworld. 
-    Companions Only - Each individual companion is an item in the pool. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
-    Companion Quests Only - Adds checks for the companion quests. These quests can take a long time to activate in the game; speedrunners should not use this.
-    Both Companions and quests - Adds both companions and their quests."""
+    Companions Only - Each individual non-EE companion is an item. To see what companions are available to you, open the Manual Client and connect to your room. Then open the Manual tab. Then expand the 'Companions' section.
+    Companions Only Including Enhanced Edition - as above, but includes the Enhanced Edition companions.
+    Quests Only - Adds location checks for the non-EE companion quests. These quests can take a long time to activate in the game; speedrunners should not use any option that includes quests.  
+    Quests Only Including Enhanced Edition - as above, but includes the Enhanced Editions companions and their quests and areas.
+    Companions and Quests - Adds non-EE companions and their quests. 
+    Companions and Quests Including Enhanced Edition - Adds all companions and quests and areas, including Enhanced Edition.
+    """
     option_none = 0
-    option_companion_quests_only = 1
-    option_companions_only = 2
-    option_companions_and_quests = 3
+    option_companions_only = 1
+    option_companions_only_including_ee = 2
+    option_quests_only = 3
+    option_quests_only_including_ee = 4
+    option_companions_and_quests = 5
+    option_companions_and_quests_including_ee = 6
     default = 0
     display_name = "Companion Option"
 
@@ -142,8 +140,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["equipment"] = equipment
     options["progressive_equipment"] = progressive_equipment
     options["companions"] = companions
-    options["starting_companion_amount"] = starting_companion_amount        
-    options["enhanced_edition"] = enhanced_edition
+    options["starting_companion_amount"] = starting_companion_amount  
     options["loot_checks"] = loot_checks
     options["forging_checks"] = forging_checks
     options["include_watchers_keep"] = include_watchers_keep
