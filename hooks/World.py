@@ -87,7 +87,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     # Add your code here to calculate which locations to remove
     if include_irenicus_dungeon == 0:
-        locationNamesToRemove += world.location_name_groups["ID"]
+        locationNamesToRemove += world.location_name_groups["ID"]    
+    if include_irenicus_dungeon == 1:
+        locationNamesToRemove += world.location_name_groups["Free Portal Key"]
     if gaelan_or_bodhi == 1:
         locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
     if gaelan_or_bodhi == 0:
