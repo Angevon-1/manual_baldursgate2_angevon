@@ -22,7 +22,7 @@
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
-    "requires": []
+    "requires": "|Portal Key (MISC4G)|"
   },
   "Circus Tent": {
     "connects_to": [],
@@ -174,7 +174,7 @@
   },
   "Abandoned Amphitheater": {
     "connects_to": ["Heretic Temple"],
-    "requires": "{OptAll(|Rasaad| AND |Abandoned Amphitheater Unlock (OH4000)|}"
+    "requires": "|Abandoned Amphitheater Unlock (OH4000)|"
   },
   "Heretic Temple": {
     "connects_to": [],
@@ -194,7 +194,7 @@
   },
   "Hexxat's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptOne(Cloak of Dragomir (OHHCLOAK)|)}"
+    "requires": []
   },
   "Temple District Sewers": {
     "connects_to": ["Cult Compound", "Keldorn's Companion Quest"],
