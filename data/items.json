@@ -85,7 +85,7 @@
   { "count": 1, "name": "Sewage Golem Key (MISC4O)", "category": ["Key Items - Irenicus's Dungeon", "ID"], "progression": true},
   { "count": 1, "name": "Acorns (MISC4N)", "category": ["Key Items - Windspear Hills"], "progression": true},
   { "count": 1, "name": "Air Elemental Statue (MISC4C)", "category": ["Key Items - Irenicus's Dungeon", "ID"], "progression": true},
-  { "count": 1, "name": "Portal Key (MISC4G)", "category": ["Key Items - Irenicus's Dungeon", "ID"], "progression": true},
+  { "count": 1, "name": "Portal Key (MISC4G)", "category": ["Key Items - Irenicus's Dungeon"], "progression": true},
   { "count": 1, "name": "Key to Frennedan's Room (MISC4P)", "category": ["Key Items - Irenicus's Dungeon", "ID"], "progression": true},
   { "count": 1, "name": "Hand (MISC5S)", "category": ["Key Items - Slums & Planar Sphere"], "progression": true},
   { "count": 1, "name": "The Lover's Ring (MISC5R)", "category": ["Key Items - Slums & Planar Sphere"], "progression": true},
