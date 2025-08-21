@@ -47,295 +47,298 @@
   { "name": "Starting Companion 5", "category": ["Starting Companions"],
     "place_item_category": ["Companions"]
   },
-  { "name": "ID - Survive Irenicus's 'experiments' (opening cutscene)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
+  { "name": "Free Portal Key", "category": ["Free Portal Key"],
+    "place_item": ["Portal Key (MISC4G)"]
+  },
+  { "name": "C1 - Survive Irenicus's 'experiments' (opening cutscene)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
     "requires": []
   },
-  { "name": "ID - Meet Imoen", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
+  { "name": "C1 - Meet Imoen", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
     "requires": []
   },
-  { "name": "ID - Free Minsc from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Free Minsc from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Meet Jaheira", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
+  { "name": "C1 - Meet Jaheira", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
     "requires": []
   },
-  { "name": "ID - Free Jaheira from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Free Jaheira from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Jail Cell Key (MISC4B)|"
   },
-  { "name": "ID - Loot the table near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the chest near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the picture on the wall near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the picture on the wall near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the Jailkeep Golem's room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Jailkeep Golem's room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "ID - Hit the switch to stop the Lightning Mephits", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Hit the switch to stop the Lightning Mephits", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Answer (or not) Genie Aataqah's question in the crystal room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Answer (or not) Genie Aataqah's question in the crystal room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Defeat the enemies in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the enemies in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Loot the unlocked crate in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the unlocked crate in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the locked crate in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the locked crate in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the barrel in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the barrel in the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the tank room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "ID - Loot the large table near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the large table near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the small table near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the small table near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the cabinet near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the cabinet near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the chest near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest near the Sewage Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the Sewage Golem's room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Sewage Golem's room", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "ID - Loot the barrel near Rielev", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the barrel near Rielev", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the table near Rielev", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table near Rielev", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Decide Rielev's fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Decide Rielev's fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Loot the library (Irenicus's Dungeon)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the library (Irenicus's Dungeon)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "ID - Defeat the enemies in the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the enemies in the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Defeat Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Loot the barrel near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the barrel near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the first table near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first table near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the second table near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second table near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the crate near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the crate near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the chest near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Loot the room Ilyich was in", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the room Ilyich was in", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": []
   },
-  { "name": "ID - Decide the Cambion's Fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Decide the Cambion's Fate", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Defeat the Otyugh in the Sewage Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the Otyugh in the Sewage Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the large locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the large locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the small locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the small locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the small unlocked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the small unlocked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the first bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the second bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the chest in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the nightstand in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the nightstand in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the first vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the second vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the nightstand in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the nightstand in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the chest in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },  
-  { "name": "ID - Loot the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the bookshelf in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the bookshelf in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the table in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Meet the Dryads", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Meet the Dryads", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Bring the Dryads their acorns", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Bring the Dryads their acorns", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "{OptAll((|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND |Acorns (MISC4N)|)}"
   },  
-  { "name": "ID - Defeat the goblins guarding the portal to the 2nd floor", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the goblins guarding the portal to the 2nd floor", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Loot the location on the left side of Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the location on the left side of Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
   },
-  { "name": "ID - Defeat the mephits in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the mephits in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Decide the Genie Malaaq's fate in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Decide the Genie Malaaq's fate in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|The Genie's Flask (MISC4D)|"
   },
-  { "name": "ID - Meet Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Meet Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Find Khalid", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Find Khalid", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the Mephit Portals", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the Mephit Portals", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the crate near Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the crate near Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the table near the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table near the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the table near Khalid in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table near Khalid in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the barrel in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the barrel in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the first chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the second chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the clone and/or assassin in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the clone and/or assassin in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the first barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the second barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the assassin and/or mephit after the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the assassin and/or mephit after the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the Duergar crossbowman in the throne room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the Duergar crossbowman in the throne room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the throne", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the throne", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },  
-  { "name": "ID - Loot the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the crate in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the crate in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the first chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the first chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the second chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the second chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the table in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the table in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the bookshelf in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the bookshelf in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the unlocked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the unlocked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the locked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the locked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the left bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the left bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the right bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the right bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the first table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
+  { "name": "C1 - Loot the first table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the second table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
+  { "name": "C1 - Loot the second table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot the chest in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
+  { "name": "C1 - Loot the chest in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Loot Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
+  { "name": "C1 - Loot Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Decide Frennedan's fate", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],    
+  { "name": "C1 - Decide Frennedan's fate", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],    
     "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the duergar in the room behind the smithy", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the duergar in the room behind the smithy", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Defeat the assassins near the dungeon exit", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the assassins near the dungeon exit", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "ID - Listen to Genie Malaaq's request", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Listen to Genie Malaaq's request", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "ID - Talk to (or deal with) the Dryads on behalf of the Genie Malaaq", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Talk to (or deal with) the Dryads on behalf of the Genie Malaaq", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Air Elemental Statue (MISC4C)|"
   },
-  { "name": "ID - Defeat the Lesser Clay Golems that guard the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat the Lesser Clay Golems that guard the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
   },
-  { "name": "ID - Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
   { "name": "WP - Loot the enemies that Irenicus defeated", "region": "Waukeen's Promenade", "category": ["Athkatla - Waukeen's Promenade", "LootLite"],
@@ -506,10 +509,10 @@
   { "name": "CT - Answer the Genie's riddle", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade"],
     "requires": []
   },
-  { "name": "CT - Loot the left vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Circus Tent", "Loot"],
+  { "name": "CT - Loot the left vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
-  { "name": "CT - Loot the right vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Circus Tent", "Loot"],
+  { "name": "CT - Loot the right vase in the 2nd room of the circus tent", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade - Looting", "Loot"],
     "requires": []
   },
   { "name": "CT - Loot the overall circus tent", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade", "LootLite"],
@@ -545,7 +548,7 @@
   { "name": "Slums - Loot the leftmost stall in front of the Copper Coronet", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the middle stall in front of the Copper Coronet", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "Slums - Loot the middle stall in front of the Copper Coronet", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
   { "name": "Slums - Loot the rightmost stall in front of the Copper Coronet", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
@@ -581,7 +584,7 @@
   { "name": "Slums - Loot the right stall by the Temple of Ilmater", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the Temple of Ilmater (Slums)", "region": "Slums", "category": ["Athkatla - Slums", "LootLite"],
+  { "name": "Slums - Loot the Temple of Ilmater", "region": "Slums", "category": ["Athkatla - Slums", "LootLite"],
     "requires": []
   },
   { "name": "Slums - Loot the barrel by the left entrance to the Copper Coronet", "region": "Slums", "category": ["Athkatla - Slums - Looting", "Loot"],
@@ -701,181 +704,181 @@
   { "name": "Slums - Defeat Cohrvale and Bregg", "region": "Slums", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Korgan", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet Korgan", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Anomen", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet Anomen", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Nalia", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet Nalia", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Lord Jierdan", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet Lord Jierdan", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Hexxat", "region": "Copper Coronet", "category": ["Athkatla - Slums", "EE Companion Quests"],
+  { "name": "CC - Meet Hexxat", "region": "Copper Coronet", "category": ["Athkatla - Slums", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "Slums - Deal with Amalas", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Deal with Amalas", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Deal with Tiana", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Deal with Tiana", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Convince Lehtinan to let you in the back", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Convince Lehtinan to let you in the back", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Defeat the guards in the very back of the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Defeat the guards in the very back", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet Hendak", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet Hendak", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Meet the Beastmaster", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Meet the Beastmaster", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Defeat the Winter Wolf in the back of the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Defeat the Winter Wolf", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Loot the sack in the Copper Coronet kitchen", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the sack in the kitchen", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the shelf in the Copper Coronet kitchen", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the shelf in the kitchen", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot Unger Hilldark's table in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot Unger Hilldark's table", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the table near Tiana in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the table near Tiana", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the chest near Anomen in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the chest near Anomen", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the barrel near Rumar and Priss in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the barrel near Rumar and Priss", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the table near Yarin in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the table near Yarin", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the table near Llynis in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the table near Llynis", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the crate behind Madame Nin in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the crate behind Madame Nin", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the drawer near Zaviera in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the drawer near Zaviera", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the table in the empty pleasure room in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the table in the empty pleasure room", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the barrel before entering the back area in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the barrel before entering the back area", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums - Loot the barrel in the back of the slave cells in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
+  { "name": "CC - Loot the barrel in the back of the slave cells", "region": "Copper Coronet", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
   { "name": "Slums - Loot the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums", "LootLite"],
     "requires": []
   },
-  { "name": "Slums - Find the secret exit to the sewers in the Copper Coronet", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
+  { "name": "CC - Find the secret exit to the sewers", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the barrel near the stairs to the Copper Coronet", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the barrel near the stairs to the Copper Coronet", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the first barrel near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the first barrel near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the second barrel near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the second barrel near the stairs to the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the barrel near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the barrel near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the crate near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the crate near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Loot the table near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
+  { "name": "SS - Loot the table near Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slums Sewers - Inspect the grate in circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Inspect the grate in circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Inspect the skeletons on the wall", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Inspect the skeletons on the wall", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Meet Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Meet Quallo", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Deal with Quallo's friend", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Deal with Quallo's friend", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": "|Hand (MISC5S)| AND |The Lover's Ring (MISC5R)| AND |Shaman's Staff (MISC5T)| AND |Blood of Quallo's Friend (MISC5Q)|"  
   },
-  { "name": "Slums Sewers - Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers", "LootLite"],
+  { "name": "SS - Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers", "LootLite"],
     "requires": []
   },
-  { "name": "Slums Sewers - Defeat the hobgoblins", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Defeat the hobgoblins", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Defeat the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Defeat the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slums Sewers - Defeat the Kobolds", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Defeat the Kobolds", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Defeat Haegan", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade"],
+  { "name": "Stockade - Defeat Haegan", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Defeat the Slaver Wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade"],
+  { "name": "Stockade - Defeat the Slaver Wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Defeat the Yuan-Ti", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade"],
+  { "name": "Stockade - Defeat the Yuan-Ti", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Defeat the trolls", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade"],
+  { "name": "Stockade - Defeat the trolls", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
     "requires": []
   }, 
-  { "name": "Slaver Stockade - Loot the barrel near the food shelf", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the barrel near the food shelf", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the food shelf", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the food shelf", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the round table near the slaver wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the round table near the slaver wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the rectangular table near the slaver wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the rectangular table near the slaver wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the barrel in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the barrel in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the weapon barrel in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the weapon barrel in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the chest in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the chest in the trapped room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the chest in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the chest in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the table in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the table in the Yuan-Ti room", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the crate near the sewers entrance", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the crate near the sewers entrance", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the barrel near the sewers entrance", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade - Looting", "Loot"],
+  { "name": "Stockade - Loot the barrel near the sewers entrance", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Slaver Stockade - Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Athkatla - Slums - Slaver Stockade", "LootLite"],
+  { "name": "Stockade - Loot the Slaver Stockade", "region": "Slaver Stockade", "category": ["Athkatla - Slums", "LootLite"],
     "requires": []
   },
   { "name": "Defeat the first bandit ambush when traveling the city", "region": "City Gates", "category": ["Athkatla - Misc"],
@@ -926,7 +929,7 @@
   { "name": "BD - Loot the crate near Aegisfield", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the barrel behind the Five Flagons inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the barrel behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
   { "name": "BD - Loot the overall Bridge District area", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
@@ -947,7 +950,7 @@
   { "name": "Murders 4 - Interrogate Bel Dalemark about the murders", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "Murders 5 - Interrogate Faraji and or Mrs. Cragmoon about the murders", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "Murders 5 - Interrogate Faraji about the murders", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
   { "name": "Murders 6 - Have Bel Dalemark identify the Exotic Hide", "region": "Bridge", "category": ["Athkatla - Bridge District"],
@@ -992,28 +995,28 @@
   { "name": "BD - Loot the tanner's house", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },
-  { "name": "BD - Loot the table in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the table in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the left bookshelf in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the left bookshelf in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the right bookshelf in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the right bookshelf in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the left barrel in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the left barrel in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the right barrel in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the right barrel in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the sack in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the sack in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the crate in the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the crate in the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the unmarked house behind the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
+  { "name": "BD - Loot the unmarked house behind the FFI", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },
   { "name": "BD - Witness the attempted kidnapping of Mereth", "region": "Bridge", "category": ["Athkatla - Bridge District", "EE"],
@@ -1028,16 +1031,16 @@
   { "name": "BD - Decide Captain Dennis's fate", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "BD - Watch the play at the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "FFI - Watch the play", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "BD - Meet Raelis Shai and hear her out", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "FFI - Meet Raelis Shai and hear her out", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "BD - Speak with Samuel Thunderburp with Mazzy in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "FFI - Speak with Samuel Thunderburp with Mazzy in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": "{OptAll(|Mazzy| AND |Shadow Prison Key (KEY22)| AND |Temple Ruins Unlock (AR1400)| AND |Umar Hills Unlock (AR1100)|)}"
   },
-  { "name": "BD - Speak with Samuel Thunderburp with Haer'dalis in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "FFI - Speak with Samuel Thunderburp with Haer'dalis in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": "{OptAll(|Haer'Dalis| AND |Temple District Unlock (AR0900)|)}"
   },
   { "name": "BD - Speak with Stivan with Aerie in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
@@ -1055,55 +1058,55 @@
   { "name": "BD - Loot the lich house", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },
-  { "name": "BD - Loot the first table in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the first table", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the second table in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the second table", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the third table in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the third table", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the fourth table in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the fourth table", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the table in the kitchen in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the table in the kitchen", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the crate in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the crate", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the chest upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the chest upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the table upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the table upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the vanity upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the vanity upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the first crate upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the first crate upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the second crate upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the second crate upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the chest way in the back upstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the chest way in the back upstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the chest downstairs behind the receptionist in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the chest downstairs behind the receptionist", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the closet in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the closet", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the actors' tables downstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the actors' tables downstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the barrel in the props room downstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the barrel in the props room downstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the crate in the props room downstairs in the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "FFI - Loot the crate in the props room downstairs", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
   { "name": "BD - Loot the Five Flagons Inn", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
@@ -1142,22 +1145,22 @@
   { "name": "BD - Loot the house by Reedle", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },
-  { "name": "BD - Defeat Dracandros, Falahar, Pitre, and Valeria", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "BD - Defeat mercenaries Dracandros, Falahar, Pitre, and Valeria", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "BD - Loot the chest in the house Dracandros, Falahar, Pitre, and Valeria were in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the chest in the mercenaries' house", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the basket in the house Dracandros, Falahar, Pitre, and Valeria were in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the basket in the mercenaries' house", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the cabinet in the house Dracandros, Falahar, Pitre, and Valeria were in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
+  { "name": "BD - Loot the cabinet in the mercenaries' house", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "BD - Loot the house Dracandros, Falahar, Pitre, and Valeria were in", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
+  { "name": "BD - Loot the mercenaries' house", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },  
-  { "name": "BD - Deliver the gem to Raelis Shai", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "FFI - Deliver the gem to Raelis Shai", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "PP - Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
@@ -1211,139 +1214,139 @@
   { "name": "Docks - Listen to Renal Bloodscalp's request", "region": "Docks", "category": ["Athkatla - Docks"],
     "requires": []
   },
-  { "name": "Docks - Loot the left table of goods in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the left table of goods", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the center table of goods in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the center table of goods", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the right table of goods in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the right table of goods", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the first chest in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the first chest", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the second chest in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the second chest", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the third chest in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the third chest", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the crate in the back Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the crate in the back", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the table in the back Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the table in the back", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the bookshelves in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the bookshelves", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the chest by the bedroom door in the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the chest by the bedroom door", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the dresser in the bedroom of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the dresser in the bedroom", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the left chest in the bedroom of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the left chest in the bedroom", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the right chest in the bedroom of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the right chest in the bedroom", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the table in the bedroom of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the table in the bedroom", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the larger table on the 2nd floor of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the larger table on the 2nd floor", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the smaller table on the 2nd floor of the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the smaller table on the 2nd floor", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
+  { "name": "Loot the Shadow Thief Guildhall", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
     "requires": []
   },
-  { "name": "Docks - Loot the left chest by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the left chest by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the right chest by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the right chest by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the hidden cache by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "STGH - Loot the hidden cache by Renal Bloodscalp", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the chest by Gorch", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the shelf behind Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the shelf behind Gorch", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelf by Gorch in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the bookshelf by Gorch", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelf by Zyntris in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the bookshelf by Zyntris", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the left table by Gorvin", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right table by Gorvin in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the right table by Gorvin", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Pick some locks on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
+  { "name": "MVGH - Pick some locks on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": []
   },
-  { "name": "Loot the barrel by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the barrel by Anishai on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the round table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the round table on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the rectangular table on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the rectangular table on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the chest on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the large closet on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the chest by the large closet on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the chest by the large closet on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the table on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the table on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bookshelves on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the bookshelves on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the left chest by the beds on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right chest by the beds on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the right chest by the beds on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the bedstand on the 3rd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the bedstand on the 3rd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the left round table on the basement floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right round table on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the right round table on the basement floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the crate on the basement floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the left barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the left barrel on the basement floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the right barrel on the basement floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the right barrel on the basement floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the normal nightstand on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the normal nightstand on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Loot the crate by Anishai on the 2nd floor of Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks  - Looting", "Loot"],
+  { "name": "MVGH - Loot the crate by Anishai on the 2nd floor", "region": "Maevar Guildhall", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
   { "name": "Loot Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks", "LootLite"],
@@ -1367,10 +1370,10 @@
   { "name": "Harpers 6 - Deliver the bird to Xzar", "region": "Harper Hold", "category": ["Athkatla - Docks"],
     "requires": "|Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
   },
-  { "name": "GY - Loot the sarcophagus behind Arenthis", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the sarcophagus behind Arenthis", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Deal with Nester and Uncle Lester", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Deal with Nester and Uncle Lester", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
   { "name": "Wellyn 1 - Meet Wellyn's parents", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
@@ -1385,7 +1388,7 @@
   { "name": "Wellyn 4 - Deliver Littleman to Wellyn", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": "|Littleman The Stuffed Bear (MISC5L)|"
   },
-  { "name": "GY - Decide Stein's fate (night time)", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Decide Stein's fate (night time)", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },  
   { "name": "Buried Alive 1 - Rescue Tirdir from the grave", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
@@ -1406,16 +1409,16 @@
   { "name": "Kamir 4 - Watch Kamir speak to Arenthis", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GY - Defeat the Crypt King", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Defeat the Crypt King", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GY - Loot the sarcophagus in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the sarcophagus in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Loot the chest in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the chest in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "DT - Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District - Enemies", "EE Companion Quests"],
+  { "name": "DT - Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests"],
     "requires": []
   },
   { "name": "DT - Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District - Looting", "Loot", "EE Companion Quests"],
@@ -1451,28 +1454,28 @@
   { "name": "DT - Loot Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District - Looting", "EE", "LootLite", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "GY - Loot the tomb directly southwest of the right entrance to the Lower Tombs", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the tomb directly southwest of the right entrance to the Lower Tombs", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Defeat the enemies in the tomb behind Sethle", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Defeat the enemies in the tomb behind Sethle", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GY - Loot the tomb behind Sethle", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the tomb behind Sethle", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Defeat the enemies in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Defeat the enemies in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GY - Loot the sarcophagus in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the sarcophagus in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Loot the chest in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the chest in the central tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GY - Defeat the enemies in the tomb by Stein", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Defeat the enemies in the tomb by Stein", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GY - Loot the tomb by Stein", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
+  { "name": "GYD - Loot the tomb by Stein", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
   { "name": "Loot the overall Graveyard District", "region": "Graveyard", "category": ["Athkatla - Graveyard District", "LootLite"],
@@ -1700,109 +1703,109 @@
   { "name": "Mae'var 12 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 13 - Free Kamuzu from the cell in Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
+  { "name": "Mae'var 13 - Free Kamuzu from the cell", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Mae'var 14 - Return to Renal Bloodscalp once Mae'var is dead", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Docks - Loot the barrel on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the barrel on the roof", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the table on the roof of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table on the roof", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the small table on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the small table on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the sack near the small table on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the sack near the small table on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the first chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the first chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the second chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the second chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the third chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the third chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the fourth chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the fourth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the fifth chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the fifth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the sixth chest in the communal bedroom on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the sixth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the table in the dining room on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table in the dining room on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the barrel near the aviary on the second floor of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the barrel near the aviary on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks", "LootLite"],
+  { "name": "Loot the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks", "LootLite"],
     "requires": "|Harper Amulet (MISC5E)|"
   },
-  { "name": "Docks - Loot the table in the first room of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table in the first room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the pile of books in the first room of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the pile of books in the first room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the table in the second room of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table in the second room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the eye picture on the wall in the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the eye picture on the wall in the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the table in the third room of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table in the third room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
-  { "name": "Docks - Loot the table in the fourth room of the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
+  { "name": "HH - Loot the table in the fourth room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
   },
   { "name": "Loot the overall Docks area", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
     "requires": []
   },
-  { "name": "GD - Meet Viconia", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Meet Viconia", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Meet Jan", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Meet Jan", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Lie for Jan (or don't)", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Lie for Jan (or don't)", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Listen to Madeen's request", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Listen to Madeen's request", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Listen to Tolgerias's request", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Listen to Tolgerias's request", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Listen to Delon's request", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Listen to Delon's request", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Purchase a license to cast magic from Corneil", "region": "Government District", "category": ["Athkatla - Government District"],
+  { "name": "GovD - Purchase a license to cast magic from Corneil", "region": "Government District", "category": ["Athkatla - Government District"],
     "requires": []
   },
-  { "name": "GD - Loot the chest in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
+  { "name": "GovD - Loot the chest in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GD - Loot the table in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
+  { "name": "GovD - Loot the table in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GD - Loot the sack in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
+  { "name": "GovD - Loot the sack in the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GD - Loot the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District", "LootLite"],
+  { "name": "GovD - Loot the Firecam estate", "region": "Government District", "category": ["Athkatla - Government District", "LootLite"],
     "requires": []
   },
-  { "name": "GD - Loot the fountain in the Voluva estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
+  { "name": "GovD - Loot the fountain in the Voluva estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "GD - Loot the chest in the Voluva estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
+  { "name": "GovD - Loot the chest in the Voluva estate", "region": "Government District", "category": ["Athkatla - Government District - Looting", "Loot"],
     "requires": []
   },
   { "name": "Sarles 1 - Speak with the relevant leader priest to start the Sir Sarles quest", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
@@ -2027,40 +2030,40 @@
   { "name": "Cult 9 - Tell Tad the cult's passphrase", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
     "requires": "|Rift Device Part (MISC5A)|"
   },
-  { "name": "TDS - Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "PotF - Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
-  { "name": "TDS - Defeat Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "PotF - Defeat Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
-  { "name": "TDS - Loot the pile of bodies in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the pile of bodies in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the barrel behind the mayor in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the barrel behind the mayor in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the pulsating mass at the entrance to the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the pulsating mass at the entrance", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the pulsating mass at the south area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the pulsating mass at the south area", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the pulsating mass at the north area", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the tiny spot left of the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the tiny spot left of the pulsating mass at the north area", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot the tiny spot below the pulsating mass at the north area of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
+  { "name": "PotF - Loot the tiny spot below the pulsating mass at the north area", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TDS - Loot Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "LootLite"],
+  { "name": "PotF - Loot Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "LootLite"],
     "requires": []
   },
-  { "name": "TDS - Loot the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "LootLite"],
+  { "name": "PotF - Loot the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "LootLite"],
     "requires": []
   },
-  { "name": "TDS - Defeat the charmed adventuring party at the center of the Pit of the Faithless", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "PotF - Defeat the charmed adventuring party at the center", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
   { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
@@ -2396,10 +2399,10 @@
   { "name": "TR - Loot the pond in Anath's cave", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
     "requires": []
   },
-  { "name": "TR - Turn the polished glass mirror outside entrance to the temple", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
+  { "name": "TR - Turn the polished glass mirror outside", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
     "requires": []
   },
-  { "name": "TR - Loot the sarcophagus in the room north of the temple entrance", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
+  { "name": "TR - Loot the sarcophagus in the north room", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   { "name": "TR - Meet Mazzy", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
@@ -2441,7 +2444,7 @@
   { "name": "TR - Sneak past (or defeat) the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Temple Ruins"],
     "requires": "|Amuana's Bones (MISC6Q)| AND |Shadow Dragon Wardstone (MISC6P)|"
   },
-  { "name": "TR - Loot the statue with her arms outstretched", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
+  { "name": "TR - Loot the statue with its arms outstretched", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
     "requires": []
   },
   { "name": "TR - Help (or don't) the Shadow across the word puzzle floor", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins"],
@@ -2541,7 +2544,7 @@
     "requires": []
   },
   { "name": "PS - Activate the Guardian Golem", "region": "Planar Zone", "category": ["Athkatla - Slums - Planar Sphere"],
-    "requires": "{OptAll(|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|)}"
+    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
   },
   { "name": "PS - Defeat the trapped Elder Orb", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
     "requires": []
@@ -2915,19 +2918,19 @@
   { "name": "HT - Meet Wilson", "region": "Heretic Temple", "category": ["Heretic Temple", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the left bedroom", "region": "Heretic Temple", "category": ["Heretic Temple", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the right bedroom", "region": "Heretic Temple", "category": ["Heretic Temple", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the big bedroom closet", "region": "Heretic Temple", "category": ["Heretic Temple", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the big bedroom chest", "region": "Heretic Temple", "category": ["Heretic Temple", "Loot", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the Room of Pain chest", "region": "Heretic Temple", "category": ["Heretic Temple", "Loot", "EE Companion Quests"],
     "requires": []
   },
   { "name": "HT - Undertake the Bright Moon test (or don't if you chose Violence)", "region": "Heretic Temple", "category": ["Heretic Temple", "EE Companion Quests"],
@@ -2945,13 +2948,13 @@
   { "name": "HT - Defeat the Dark Order", "region": "Heretic Temple", "category": ["Heretic Temple", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "HT - Loot the temple ruins altar with the bears around it on the right path", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater - Looting", "Loot", "EE Companion Quests"],
+  { "name": "HT - Loot the temple ruins altar with the bears around it", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater", "Loot", "EE Companion Quests"],
     "requires": []
   },
   { "name": "WF - Encounter Quaid", "region": "Wild Forest", "category": ["Wild Forest", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "WF - Loot Quaid's cart", "region": "Wild Forest", "category": ["Wild Forest - Looting", "Loot", "EE Companion Quests"],
+  { "name": "WF - Loot Quaid's cart", "region": "Wild Forest", "category": ["Wild Forest", "Loot", "EE Companion Quests"],
     "requires": []
   },
   { "name": "WF - Encounter the illusionary Ettin", "region": "Wild Forest", "category": ["Wild Forest", "EE Companion Quests"],
@@ -3254,7 +3257,7 @@
   { "name": "Jan 6 - Speak with the Thumb in the Seas Bounty with the Hidden's codeword", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
     "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)|"
   },
-  { "name": "Jan 7 - Defeat the Hidden's enemies in the Five Flagons Inn", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jan 7 - Defeat the Hidden's enemies", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
     "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "Jan 8 - Report victory to the Hidden", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
@@ -3302,7 +3305,7 @@
   { "name": "C3 - Report Mook's end to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
-  { "name": "C3 - Meet the traitor thieves in the Five Flagons Inn", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Meet the traitor thieves", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Defeat Gracen", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
@@ -3656,7 +3659,7 @@
   { "name": "SH - Accept or reject Saemon's offer", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "SH - Escape Spellhold", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "Escape Spellhold", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": [],
     "victory": true
   },
@@ -3801,13 +3804,13 @@
   { "name": "UN - Enter Ust Natha as Veldrin", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
   },
-  { "name": "UN - Loot the container at the entrance to Ust Natha by the githyanki", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+  { "name": "UN - Loot the container at the entrance by the githyanki", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
     "requires": []
   },
-  { "name": "UN - Loot the left container at the entrance to Ust Natha by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+  { "name": "UN - Loot the left container at the entrance by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
     "requires": []
   },
-  { "name": "UN - Loot the right container at the entrance to Ust Natha by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
+  { "name": "UN - Loot the right container at the entrance by the drow torturer", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
     "requires": []
   },
   { "name": "UN - Loot the left table in the Ust Natha tavern", "region": "Ust Natha", "category": ["Chapter 5 - Underdark - Looting", "Chapter 5", "Loot"],
