@@ -22,7 +22,7 @@
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
-    "requires": "|Portal Key (MISC4G)|"
+    "requires": "|Waukeen's Promenade Unlock (AR0700)|"
   },
   "Circus Tent": {
     "connects_to": [],
