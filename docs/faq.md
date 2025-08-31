@@ -6,14 +6,14 @@ Yes.
 ## How do you progress the game in this manual?
 
 Areas in the game are locked by “unlock” items created by the manual system. For example, you can’t go to the Graveyard District until you’ve received “Graveyard District Unlock.” These items are not actual in-game items; keep an eye on the received items side of the Manual Client to see which area unlocks you have received from the multiworld.
-Note: Irenicus’s Dungeon and Waukeen’s Promenade are considered always available and don’t have associated unlock items.
+Note: Irenicus’s Dungeon doesn’t have an associated unlock.
 
 ## What are the recommeneded yaml options?
 The default yaml options are the recommended options. If you'd like to tweak these options, please note:<br/>
-The progressive_equipment option is meant to be used with Item Randomizer mod from the Gibberlings 3 website.<br/>
-The include_equipment option is NOT meant for use with Item Randomizer (because in this case, the multiworld does the randomizing for you instead!).<br/>
+The "progressive_equipment" option is generally meant to be used with Item Randomizer mod from the Gibberlings 3 website.<br/>
+The "equipment" option is NOT meant for use with Item Randomizer (because in this case, the multiworld does the randomizing for you instead!).<br/>
 You CAN combine the two but may have issues with too many items, and not enough locations when generating.<br/>
-Full loot checks adds a bunch of filler items, so if you're using that, you should also enable the optional filler options as well.
+Generally speaking, more included chapters will add more items and locations and make for a longer game.
 
 ## What loot can I pick up in the game?
 
@@ -36,11 +36,11 @@ For areas like Windspear Hills, you'll need to unlock the area as normal (ie. Ta
 To prevent script/quest bugs, you won't logically be expected to go to Druid Grove before Trademeet, or Temple Ruins before Umar Hills, etc. (Do so at your own risk!)
 
 ## I left Irenicus’s Dungeon too early! I missed some location checks! 
-If you left too early, you’ll need to use the cheat console to MoveToArea back there and finish. The area code is AR0602. So you'd use<br/>
+In fact, you might be expected to leave early. You’ll need to use the cheat console to MoveToArea back there and finish. The area code is AR0602. So you'd use<br/>
 CLUAConsole:MovetoArea('AR0602')<br/>
 or C:MovetoArea('AR0602') for enhanced edition (or just click it in the area list that pops up in the EE's cheat console menu).<br/>
 Alternatively, the GO_AP mod menu has a teleport option.<br/>
-To leave the dungeon, use the same command but 'AR0700' to go to Waukeen's Promenade.
+To leave the dungeon, use the same command but 'AR0700' to go to Waukeen's Promenade. Area codes are included the name of the area unlock.
 
 ## I'm stuck or softlocked in Planar Sphere / Planar Prison / Chapter 4 / Chapter 5!
 See the answer to the previous question. You can teleport in/out with the cheat console or GO_AP mod.
@@ -91,7 +91,6 @@ Docks
 Graveyard District
 - Piece of Red Cloth (MISC5N), for the buried alive quest
 - Littleman The Stuffed Bear (MISC5L), for the child's ghost quest
-- Cloak of Dragomir (OHHCLOAK), for Hexxat's companion quest
 
 de'Arnise Keep
 - Keep Key (KEY10), used for many doors on the 2nd level
@@ -107,7 +106,7 @@ Windspear Hills
 - Acorns (MISC4N) - give these to the dryads for a check
 - Chapel Key (KEY07) - opens some areas in the ruins
 - Firkraag Prison Key (KEY09) - required to save the child from the cell
-- Samia's Key (KEY21) - opens the tomb of King Strom III
+- Samia's Key (KEY21) - opens the tomb of King Strohm III
 - Mask of King Strohm III (KEY20) - needed to see and defeat the invisible enemy in the tomb
 
 Umar Hills
