@@ -1,5 +1,5 @@
 ## Introduction
-<b>This readme expects you to have knowledge of both Archipelago and Manual.<br/>If you don't, please see [the Archipelago readme](Archipelago_README.md) first!</b>
+<b>This readme expects you to have knowledge of both Archipelago and Manual.<br/>If you don't, please see [the Archipelago readme](docs/Archipelago_README.md) first!</b>
 
 Baldur's Gate 2: Shadows of Amn currently does not have an Archipelago implementation. Since I don't have the programming knowledge to make that happen, this is a manual implementation instead.
 
