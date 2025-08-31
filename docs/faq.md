@@ -17,7 +17,7 @@ Generally speaking, more included chapters will add more items and locations and
 
 ## What loot can I pick up in the game?
 
-Generally, non-magical equipment, ammunition, gems, gold, potions, and scrolls are free for all. Pick them up as you see fit. Key items and magical equipment depend on your "Ways to play this manual" choice in the [readme](../BG2_readme.md).
+Generally, non-magical equipment, ammunition, gems, gold, potions, and scrolls are free for all. Pick them up as you see fit. Key items and magical equipment depend on your "Ways to play this manual" choice in the [readme](../readme.md).
 
 ## How do I know what I've received since I last played?
 
