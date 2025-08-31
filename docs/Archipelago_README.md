@@ -25,7 +25,7 @@ As with Archipelago, there's a lot more that Manual can do, but that's the basic
 
 ## How does this particular manual work?
 
-Please see the [BG2 Readme](BG2_readme.md) for details!
+Please see the [BG2 Readme](../README.md) for details!
 
 ## Important Terminology
 
