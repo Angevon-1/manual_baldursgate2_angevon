@@ -166,7 +166,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     include_watchers_keep = get_option_value(multiworld, player, "include_watchers_keep")
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
-    equipment = get_option_value(multiworld, player, "equipment") #0 - no equips, 1 = magical eq, 2 = prog, 3 = both mag and prog
+    equipment = get_option_value(multiworld, player, "equipment") #0 - no equips, 1 = base game magical eq, 2 = base game magical eq + ce, 3 = base and ee, 4 all
+    misc_items = get_option_value(multiworld, player, "misc_items") #0 - no misc., 1 = base game, 2 = base game + ce, 3 = base game + ee, 4 = all
     progressive_equipment = get_option_value(multiworld, player, "progressive_equipment") # toggle
     loot_checks = get_option_value(multiworld, player, "loot_checks") #0 - none, 1 = by room, 2 = by container, 3 = both
     forging = get_option_value(multiworld, player, "forging_checks")
@@ -196,17 +197,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if include_watchers_keep == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Watcher's Keep" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Watcher's Keep Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Watcher's Keep Misc." in world.item_name_to_item[item.name].get("category", [])]
     if include_city_of_caverns == 0:
         itemNamesToRemove += [item.name for item in item_pool if "City of Caverns" in world.item_name_to_item[item.name].get("category", [])]      
     if final_chapter == 0:        
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 4" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Chapter 4 Token" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 5" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Chapter 4" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Chapter 5" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Chapter 5 Token" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Chapter 6 Token" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 7" in world.item_name_to_item[item.name].get("category", [])]
     if final_chapter == 1:
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 5" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Chapter 5" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Chapter 5 Token" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Chapter 6 Token" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "Key Items - Chapter 7" in world.item_name_to_item[item.name].get("category", [])]
@@ -221,11 +226,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     if equipment == 1:
         itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
         itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
-        itemNamesToRemove += [item.name for item in item_pool if "EE" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 2:
         itemNamesToRemove += [item.name for item in item_pool if "EE Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if equipment == 3:
-        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Equipment" in world.item_name_to_item[item.name].get("category", [])]    
+    if misc_items == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "Misc." in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Misc." in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Misc." in world.item_name_to_item[item.name].get("category", [])]
+    if misc_items == 1:
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Misc." in world.item_name_to_item[item.name].get("category", [])]
+        itemNamesToRemove += [item.name for item in item_pool if "EE Misc." in world.item_name_to_item[item.name].get("category", [])]
+    if misc_items == 2:
+        itemNamesToRemove += [item.name for item in item_pool if "EE Misc." in world.item_name_to_item[item.name].get("category", [])]
+    if misc_items == 3:
+        itemNamesToRemove += [item.name for item in item_pool if "Collector's Edition Misc." in world.item_name_to_item[item.name].get("category", [])]
     if progressive_equipment == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Progressive Equipment" in world.item_name_to_item[item.name].get("category", [])]
     if loot_checks <= 1:
