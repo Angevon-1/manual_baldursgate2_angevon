@@ -58,6 +58,22 @@ class gaelan_or_bodhi(Choice):
     option_bodhi = 1
     default = 0
 
+class misc_items(Choice):
+    """Choose how you'd like miscellaneous items in the item pool. Miscellaneous items are things like the spider figurine and the harp of discord.
+    No Misc. Items- No miscellaneous items are in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
+    Base Game Misc. Items Only - Miscellaneous items from the base game are added to the pool. Does not include Collector's Edition or Enhanced Edition items. 
+    Base Game Misc. Items and Collector's Edition - Miscellaneous items from the base game are added to the pool, including Collector's Edition items. 
+    Base Game Misc. Items and Enhanced Edition - Miscellaneous items from the base game are added to the pool, including Enhanced Edition items.
+    Base Game Misc. Items, Collector's Edition, and Enhanced Edition - Miscellaneous items from the base game are added to the pool, including Collector's Edition and Enhanced Edition items.
+    """
+    option_no_misc_items = 0
+    option_base_game_only = 1
+    option_base_game_and_ce = 2
+    option_base_game_and_ee = 3
+    option_base_game_ce_and_ee = 4
+    default = 0
+    display_name = "Misc. Items in pool"
+
 class equipment(Choice):
     """Choose how you'd like equipment in the item pool. Please note the more equipment you add, the more chapters you should include too, else items will be lost during generation.
     No Equipment - No equipment is in the pool. This works best with the Gibberlings 3 Item Randomizer mod. 
@@ -76,7 +92,8 @@ class equipment(Choice):
 
 class progressive_equipment(Toggle):
     """Use this option to make equipment progressive. You can't use +x weapons until you've received the same number of progressives for that weapon type. For example, the Namarra short sword is a +2 short sword. You'll need two “Progressive Short Sword” items in order to be able to use it. Works well with the Gibberlings 3 Item Randomizer mod.
-    This CAN be combined with the equipment option choice above, however items will likely be lost during generation."""
+    This CAN be combined with the equipment option choice above, however items will likely be lost during generation.
+    Be aware that currently the logic does not account for whether you've received enough progressives to defeat enemies that require certain +x's (golems, jellies, etc.)."""
     default = 1
     display_name = "Progressive Equipment"
 
@@ -117,14 +134,14 @@ class starting_companion_amount(Range):
 class loot_checks(Choice):
     """Choose how you want loot checks to work.
     None - No loot checks.
-    Rooms - Adds general "loot x room" checks. This is the recommended setting. Lockpicking ability is not required.
+    Rooms - Adds general "loot x room" checks. Lockpicking ability is not necessarily required.
     Containers - Adds every INDIVIDUAL lootable crate/barrel/chest as location checks. To compensate for check count, consumable potions and scrolls will be added to the item pool to add filler. Lockpicking is required and NOT accounted for. Progression may be locked behind a locked chest and it's up to you to get past it."""
     display_name = "Loot checks type"
     option_none = 0
     option_rooms = 1
     option_containers = 2
     option_rooms_and_containers = 3
-    default = 1
+    default = 0
 
 class forging_checks(Toggle):
     """Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 20 items."""
@@ -138,6 +155,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["gaelan_or_bodhi"] = gaelan_or_bodhi
     options["include_city_of_caverns"] = include_city_of_caverns
     options["equipment"] = equipment
+    options["misc_items"] = misc_items
     options["progressive_equipment"] = progressive_equipment
     options["companions"] = companions
     options["starting_companion_amount"] = starting_companion_amount  
