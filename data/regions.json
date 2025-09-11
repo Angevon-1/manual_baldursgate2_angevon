@@ -29,7 +29,7 @@
     "requires": []
   },
   "Slums": {
-    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest", "Chapter 2"],
+    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest", "Chapter 2","deArnise Keep", "Windspear Hills", "Umar Hills", "Trademeet", "Wild Forest"],
     "requires": []
   },
   "Planar Sphere": {
@@ -109,7 +109,7 @@
     "requires": "|Letter of Transfer (MISC4T)|"
   },
   "City Gates": {
-    "connects_to": ["deArnise Keep", "Windspear Hills", "Umar Hills", "Trademeet", "Wild Forest"],
+    "connects_to": [],
     "requires": "|City Gates Unlock (AR0020)|"
   },
   "Wild Forest": {
