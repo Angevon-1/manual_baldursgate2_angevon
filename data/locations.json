@@ -1647,22 +1647,22 @@
     "requires": []
   },
   { "name": "Docks - Loot the round table on the first floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Docks - Loot the bookshelf on the first floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Docks - Loot the bed on the 2nd floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Docks - Loot the round table on the top floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Docks - Loot the brazier on the top floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Docks - Loot Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
-    "requires": []
+    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },  
   { "name": "Mae'var 1 - Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": []
