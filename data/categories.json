@@ -80,6 +80,9 @@
     "Collector's Edition Equipment": {
     "hidden": true
     },
+    "Collector's Edition Misc.": {
+    "hidden": true
+    },
     "EE Areas": {
     "hidden": true
     },
@@ -89,7 +92,16 @@
     "EE Equipment": {
     "hidden": true
     },
+    "EE Misc.": {
+    "hidden": true
+    },
     "NPCs": {
+    "hidden": true
+    },
+    "Key Items": {
+    "hidden": true
+    },
+    "Named Enemies": {
     "hidden": true
     }
 }
