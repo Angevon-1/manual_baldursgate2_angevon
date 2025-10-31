@@ -40,23 +40,23 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     #checking goal vs. final chapter option and setting the correct final chapter if neccesary
-    goal = get_option_value(multiworld, player, "goal") # 0 = spellhold, 1 & 2 firkraag / kangaxx, 3 = irenicus, beyond that are the tokens
+    goal = get_option_value(multiworld, player, "goal") # 6 = spellhold, 7 & 28 firkraag / kangaxx, 9 = irenicus, before that are the tokens
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     companions = get_option_value(multiworld, player, "companions") 
     starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount") 
-    if goal == 0:
+    if goal == 6:
         if final_chapter == 0:
             world.options.final_chapter.value = 1
         if include_city_of_caverns == 1:
             world.options.include_city_of_caverns.value = 0            
-    elif goal == 1:
+    elif goal == 7:
         if final_chapter <= 3:
             world.options.final_chapter.value = 3
-    elif goal == 2:
+    elif goal == 8:
         if final_chapter <= 3:
             world.options.final_chapter.value = 3
-    elif goal == 3:
+    elif goal == 9:
         if final_chapter <= 4:
             world.options.final_chapter.value = 4
     #check for city of caverns being included but not setting a final chapter past 3, or spellhold goal, then change to disable city of caverns
@@ -88,8 +88,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Add your code here to calculate which locations to remove
     if include_irenicus_dungeon == 0:
         locationNamesToRemove += world.location_name_groups["ID"]    
-    if include_irenicus_dungeon == 1:
-        locationNamesToRemove += world.location_name_groups["Free Portal Key"]
     if gaelan_or_bodhi == 1:
         locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
     if gaelan_or_bodhi == 0:
