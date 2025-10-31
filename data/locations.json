@@ -1,4 +1,35 @@
-[
+[  
+  { "name": "Earn at least 1 token", "category": [],
+    "requires": "|Quest Complete Token: 1|", "victory": true
+  },
+  { "name": "Earn 2 tokens", "category": [],
+    "requires": "|Quest Complete Token: 2|", "victory": true
+  },
+  { "name": "Earn 3 tokens", "category": [],
+    "requires": "|Quest Complete Token: 3|", "victory": true
+  },
+  { "name": "Earn 4 tokens", "category": [],
+    "requires": "|Quest Complete Token: 4|", "victory": true
+  },
+  { "name": "Earn 5 tokens", "category": [],
+    "requires": "|Quest Complete Token: 5|", "victory": true
+  },
+  { "name": "Earn 6 tokens", "category": [],
+    "requires": "|Quest Complete Token: 6|", "victory": true
+  },
+  { "name": "Escape Spellhold", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+    "requires": [],
+    "victory": true
+  },    
+  { "name": "Defeat Red Dragon Firkraag", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": [], "victory": true
+  },
+  { "name": "Defeat Kangaxx the demilich", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+    "requires": "|Golden Arm and Leg (MISCAW)| AND |Golden Torso (MISCAY)|", "victory": true
+  },
+  { "name": "Defeat Jon Irenicus", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+    "requires": [], "victory": true
+  },    
   { "name": "Forge Ankheg Plate Mail", "region": "Docks", "category": ["Forging"],
     "requires": "|Ankheg Shell (MISC12)|"
   },
@@ -46,9 +77,6 @@
   },
   { "name": "Starting Companion 5", "category": ["Starting Companions"],
     "place_item_category": ["Companions"]
-  },
-  { "name": "Waukeen's Promenade Unlock", "category": ["Free Portal Key"],
-    "place_item": ["Waukeen's Promenade Unlock (AR0700)"]
   },
   { "name": "C1 - Survive Irenicus's 'experiments' (opening cutscene)", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID" ],
     "requires": []
@@ -128,7 +156,7 @@
   { "name": "C1 - Defeat the enemies in the library", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
-  { "name": "C1 - Defeat Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID", "Named Enemies"],
     "requires": []
   },
   { "name": "C1 - Loot the barrel near Ilyich", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
@@ -287,7 +315,7 @@
   { "name": "C1 - Loot the table in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
-  { "name": "C1 - Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
+  { "name": "C1 - Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID", "Named Enemies"],
     "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
   },
   { "name": "C1 - Loot the bookshelf in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
@@ -527,7 +555,7 @@
   { "name": "CT - Defeat the werewolves in the circus tent", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade"],
     "requires": []
   },
-  { "name": "CT - Defeat Kalah", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade"],
+  { "name": "CT - Defeat Kalah", "region": "Circus Tent", "category": ["Athkatla - Waukeen's Promenade", "Named Enemies"],
     "requires": []
   },
   { "name": "WP - Deal with Mencar Pebblecrusher in the Den of the Seven Vales", "region": "Waukeen's Promenade", "category": ["Athkatla - Waukeen's Promenade"],
@@ -701,7 +729,7 @@
   { "name": "Slums - Meet Gaelan Bayle", "region": "Slums", "category": ["Athkatla - Slums"],
     "requires": []
   },
-  { "name": "Slums - Defeat Cohrvale and Bregg", "region": "Slums", "category": ["Athkatla - Slums"],
+  { "name": "Slums - Defeat Cohrvale and Bregg", "region": "Slums", "category": ["Athkatla - Slums", "Named Enemies"],
     "requires": []
   },
   { "name": "CC - Meet Korgan", "region": "Copper Coronet", "category": ["Athkatla - Slums"],
@@ -833,7 +861,7 @@
   { "name": "SS - Defeat the Kobolds", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "Stockade - Defeat Haegan", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
+  { "name": "Stockade - Defeat Haegan", "region": "Slaver Stockade", "category": ["Athkatla - Slums", "Named Enemies"],
     "requires": []
   },
   { "name": "Stockade - Defeat the Slaver Wizard", "region": "Slaver Stockade", "category": ["Athkatla - Slums"],
@@ -1145,7 +1173,7 @@
   { "name": "BD - Loot the house by Reedle", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
     "requires": []
   },
-  { "name": "BD - Defeat mercenaries Dracandros, Falahar, Pitre, and Valeria", "region": "Bridge", "category": ["Athkatla - Bridge District"],
+  { "name": "BD - Defeat mercenaries Dracandros, Falahar, Pitre, and Valeria", "region": "Bridge", "category": ["Athkatla - Bridge District", "Named Enemies"],
     "requires": []
   },
   { "name": "BD - Loot the chest in the mercenaries' house", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
@@ -1166,19 +1194,19 @@
   { "name": "PP - Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "PP - Defeat Aawill the bounty hunter", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
+  { "name": "PP - Defeat Aawill the bounty hunter", "region": "Planar Prison", "category": ["Athkatla - Bridge District", "Named Enemies"],
     "requires": []
   },
   { "name": "PP - Defeat the Wyvern", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "PP - Defeat the Master of Thralls", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
+  { "name": "PP - Defeat the Master of Thralls", "region": "Planar Prison", "category": ["Athkatla - Bridge District", "Named Enemies"],
     "requires": []
   },
   { "name": "PP - Defeat the air elementals", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
   },
-  { "name": "PP - Defeat the Warden", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
+  { "name": "PP - Defeat the Warden", "region": "Planar Prison", "category": ["Athkatla - Bridge District", "Named Enemies"],
     "requires": []
   },
   { "name": "PP - Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
@@ -1409,7 +1437,7 @@
   { "name": "Kamir 4 - Watch Kamir speak to Arenthis", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "GYD - Defeat the Crypt King", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "GYD - Defeat the Crypt King", "region": "Graveyard", "category": ["Athkatla - Graveyard District", "Named Enemies"],
     "requires": []
   },
   { "name": "GYD - Loot the sarcophagus in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
@@ -1418,7 +1446,7 @@
   { "name": "GYD - Loot the chest in the Crypt King's tomb", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
   },
-  { "name": "DT - Defeat the theives in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests"],
+  { "name": "DT - Defeat the thieves in front of Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests"],
     "requires": []
   },
   { "name": "DT - Loot the antechamber to Dragomir's tomb", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District - Looting", "Loot", "EE Companion Quests"],
@@ -1433,7 +1461,7 @@
   { "name": "DT - Deal with Burich the Unyielding", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "DT - Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests"],
+  { "name": "DT - Defeat Dragomir", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District", "EE Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "DT - Loot sarcophagus 1", "region": "Dragomir's Tomb", "category": ["Athkatla - Graveyard District - Looting", "Loot", "EE Companion Quests"],
@@ -1496,7 +1524,7 @@
   { "name": "LT - Defeat the spiders by the spider nest in the Lower Tombs", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
   },
-  { "name": "LT - Defeat Pai'Na in the spider nest", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
+  { "name": "LT - Defeat Pai'Na in the spider nest", "region": "Graveyard", "category": ["Athkatla - Graveyard District", "Named Enemies"],
     "requires": []
   },
   { "name": "LT - Defeat the undead ambush in the Southern Tombs", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
@@ -1529,7 +1557,7 @@
   { "name": "Buried Alive 3 - Confront Am-Si on behalf of Tirdir", "region": "Bridge", "category": ["Athkatla - Graveyard District"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
-  { "name": "Buried Alive 4 - Defeat Reti and Camitis", "region": "Bridge", "category": ["Athkatla - Graveyard District"],
+  { "name": "Buried Alive 4 - Defeat Reti and Camitis", "region": "Bridge", "category": ["Athkatla - Graveyard District", "Named Enemies"],
     "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
   },
   { "name": "Buried Alive - Loot the sack in Reti and Camitis's base", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
@@ -1682,7 +1710,7 @@
   { "name": "Mae'var 6 - Defeat the golems in Rayic Gethras's house", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
-  { "name": "Mae'var 7 - Defeat Rayic Gethras", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
+  { "name": "Mae'var 7 - Defeat Rayic Gethras", "region": "Maevar Guildhall", "category": ["Athkatla - Docks", "Named Enemies"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
   },
   { "name": "Mae'var 8 - Give Edwin the documents from Marcus", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
@@ -1700,7 +1728,7 @@
   { "name": "Mae'var 11 - Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
-  { "name": "Mae'var 12 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
+  { "name": "Mae'var 12 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks", "Named Enemies"],
     "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
   },
   { "name": "Mae'var 13 - Free Kamuzu from the cell", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
@@ -2018,7 +2046,7 @@
   { "name": "TDS - Defeat the enemies past the rift bridge", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
-  { "name": "Cult 6 - Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "Cult 6 - Defeat the Empathic Manifestation", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
     "requires": []
   },
   { "name": "Cult 7 - Listen to the Avatar's request", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
@@ -2033,7 +2061,7 @@
   { "name": "PotF - Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
-  { "name": "PotF - Defeat Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "PotF - Defeat Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
     "requires": []
   },
   { "name": "PotF - Loot the pile of bodies in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers - Looting", "Loot"],
@@ -2066,13 +2094,13 @@
   { "name": "PotF - Defeat the charmed adventuring party at the center", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
   },
-  { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   { "name": "Cult 11 - Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
-  { "name": "Cult 12 - Defeat Gaal", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
+  { "name": "Cult 12 - Defeat Gaal", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
     "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
   },
   { "name": "Cult 13 - Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
@@ -2186,7 +2214,7 @@
   { "name": "DG - Defeat the druids and trolls fighting each other", "region": "Druid Grove", "category": ["Trademeet"],
     "requires": []
   },
-  { "name": "DG - Defeat Kyland Lind", "region": "Druid Grove", "category": ["Trademeet"],
+  { "name": "DG - Defeat Kyland Lind", "region": "Druid Grove", "category": ["Trademeet", "Named Enemies"],
     "requires": []
   },
   { "name": "DG - Loot the chest in the witch's house", "region": "Druid Grove", "category": ["Trademeet", "Loot"],
@@ -2195,10 +2223,10 @@
   { "name": "DG - Loot Ogre's Tower", "region": "Druid Grove", "category": ["Trademeet", "Loot"],
     "requires": []
   },
-  { "name": "DG - Defeat Dalok", "region": "Druid Grove", "category": ["Trademeet"],
+  { "name": "DG - Defeat Dalok", "region": "Druid Grove", "category": ["Trademeet", "Named Enemies"],
     "requires": []
   },
-  { "name": "DG - Defeat Faldorn", "region": "Druid Grove", "category": ["Trademeet"],
+  { "name": "DG - Defeat Faldorn", "region": "Druid Grove", "category": ["Trademeet", "Named Enemies"],
     "requires": "{OptAll(|Cernd| or |Jaheira|)}"
   },
   { "name": "TM - Return to Logan Coprith for your reward after defeating Faldorn", "region": "Druid Grove", "category": ["Trademeet"],
@@ -2432,13 +2460,13 @@
   { "name": "TR - Give Amuana's Bones to the ghosts", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins"],
     "requires": "|Amuana's Bones (MISC6Q)|"
   },
-  { "name": "TR - Defeat the Shadow Jailer", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
+  { "name": "TR - Defeat the Shadow Jailer", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins", "Named Enemies"],
     "requires": []
   },
   { "name": "TR - Defeat the Bone Golem", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins"],
     "requires": []
   },
-  { "name": "TR - Defeat the Shade Lord", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Temple Ruins"],
+  { "name": "TR - Defeat the Shade Lord", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Temple Ruins", "Named Enemies"],
     "requires": []
   },
   { "name": "TR - Sneak past (or defeat) the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Temple Ruins"],
@@ -2555,7 +2583,7 @@
   { "name": "PS - Loot the skeleton by the Elder Orb", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere - Looting", "Loot"],
     "requires": []
   },
-  { "name": "PS - Defeat Lavok", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
+  { "name": "PS - Defeat Lavok", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere", "Named Enemies"],
     "requires": []
   },
   { "name": "PS - Loot the pipe by Lavok", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere - Looting", "Loot"],
@@ -2576,7 +2604,7 @@
   { "name": "PS - Defeat a demon in the Abyss", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
     "requires": []
   },
-  { "name": "PS - Defeat Tolgerias", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
+  { "name": "PS - Defeat Tolgerias", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere", "Named Enemies"],
     "requires": []
   },
   { "name": "PS - Defeat the enemies in the ice room", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
@@ -2762,11 +2790,11 @@
   { "name": "DK - Loot the umber hulk room", "region": "Keep Key", "category": ["de'Arnise Keep", "LootLite"],
     "requires": []
   },
-  { "name": "DK - Defeat TorGal", "region": "Keep Key", "category": ["de'Arnise Keep"],
-    "requires": [], "place_item": ["Quest Complete Token"]
+  { "name": "DK - Defeat TorGal", "region": "Keep Key", "category": ["de'Arnise Keep", "Named Enemies"],
+    "requires": []
   },
   { "name": "DK - Speak with Nalia to receive your reward for defeating TorGal", "region": "Keep Key", "category": ["de'Arnise Keep"],
-    "requires": []
+    "requires": [], "place_item": ["Quest Complete Token"]
   },
   { "name": "DK - Loot the statue behind TorGal", "region": "Keep Key", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
@@ -2774,7 +2802,7 @@
   { "name": "WH - Defeat the 'Ogre' & crew upon entering the area", "region": "Windspear Hills", "category": ["Windspear Hills"],
     "requires": []
   },
-  { "name": "WH - Defeat Plath Rededge & crew", "region": "Windspear Hills", "category": ["Windspear Hills"],
+  { "name": "WH - Defeat Plath Rededge & crew", "region": "Windspear Hills", "category": ["Windspear Hills", "Named Enemies"],
     "requires": []
   },
   { "name": "WH - Deliver the acorns to the dryads", "region": "Windspear Hills", "category": ["Windspear Hills"],
@@ -2828,7 +2856,7 @@
   { "name": "WH - Loot the cache behind the master's precious golems", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
     "requires": []
   },
-  { "name": "WH - Defeat Tazok", "region": "Chapel Key", "category": ["Windspear Hills"],
+  { "name": "WH - Defeat Tazok", "region": "Chapel Key", "category": ["Windspear Hills", "Named Enemies"],
     "requires": []
   },
   { "name": "WH - Loot the table in Tazok's room", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
@@ -2894,7 +2922,7 @@
   { "name": "WH - Loot the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills", "LootLite"],
     "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
   },
-  { "name": "WH - Defeat Samia and co.", "region": "Chapel Key", "category": ["Windspear Hills"],
+  { "name": "WH - Defeat Samia and co.", "region": "Chapel Key", "category": ["Windspear Hills", "Named Enemies"],
     "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
   },  
   { "name": "AA - Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater", "EE Companion Quests"],
@@ -2969,7 +2997,7 @@
   { "name": "WF - Dispel the illusion on the bridge", "region": "Wild Forest", "category": ["Wild Forest", "EE Companion Quests"],
     "requires": []
   },
-  { "name": "RG - Defeat Treadsoft", "region": "Resurrection Gorge", "category": ["Resurrection Gorge", "EE Companion Quests"],
+  { "name": "RG - Defeat Treadsoft", "region": "Resurrection Gorge", "category": ["Resurrection Gorge", "EE Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "RG - Speak with Summerheigh", "region": "Resurrection Gorge", "category": ["Resurrection Gorge", "EE Companion Quests"],
@@ -2987,7 +3015,7 @@
   { "name": "Edwin 1 - Enter the Graveyard District with Edwin in the party", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Edwin 2 - Defeat Nevaziah in the Lower Tombs", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Edwin 2 - Defeat Nevaziah in the Lower Tombs", "region": "Edwin's Companion Quest", "category": ["Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "Edwin 3 - Let Edwin translate the Nether Scroll and unleash its magic", "region": "Edwin's Companion Quest", "category": ["Companion Quests"],
@@ -3068,7 +3096,7 @@
   { "name": "Jaheira 3 - Deal with Terrence", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },  
-  { "name": "Jaheira 4 - Find and defeat Baron Ployer", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jaheira 4 - Find and defeat Baron Ployer", "region": "Jaheira's Companion Quest", "category": ["Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "Jaheira 5 - Let Jaheira go with Meronia", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
@@ -3077,7 +3105,7 @@
   { "name": "Jaheira 6 - Return to the Harper Hold at Jaheira's request", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Jaheira 7 - Defeat Galvarey & co. at the Harper Hold", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Jaheira 7 - Defeat Galvarey & co. at the Harper Hold", "region": "Jaheira's Companion Quest", "category": ["Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "Jaheira 8 - Deal with Reviane & co.", "region": "Jaheira's Companion Quest", "category": ["Companion Quests"],
@@ -3137,7 +3165,7 @@
   { "name": "Hexxat 6 - Retreive Key of the Master's Crypt from Ki Chin Sang", "region": "Hexxat's Companion Quest", "category": ["EE Companion Quests"],
     "requires": []
   },
-  { "name": "Hexxat 7 - Defeat Nan Kung Chi", "region": "Hexxat's Companion Quest", "category": ["EE Companion Quests"],
+  { "name": "Hexxat 7 - Defeat Nan Kung Chi", "region": "Hexxat's Companion Quest", "category": ["EE Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "Hexxat 8 - Travel to the Tomb of the Unproved", "region": "Hexxat's Companion Quest", "category": ["EE Companion Quests"],
@@ -3230,7 +3258,7 @@
   { "name": "Mazzy 6 - Speak to Renwellyn in the Temple of Waukeen", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
     "requires": []
   },
-  { "name": "Mazzy 7 - Defeat Barl", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
+  { "name": "Mazzy 7 - Defeat Barl", "region": "Mazzy's Companion Quest", "category": ["Companion Quests", "Named Enemies"],
     "requires": []
   },
   { "name": "Mazzy 8 - Deliver the antidote to Mazzy's sister", "region": "Mazzy's Companion Quest", "category": ["Companion Quests"],
@@ -3299,7 +3327,7 @@
   { "name": "C3 - Meet Mook", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
-  { "name": "C3 - Defeat Lassal at the docks", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Lassal at the docks", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)|"
   },
   { "name": "C3 - Report Mook's end to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
@@ -3308,7 +3336,7 @@
   { "name": "C3 - Meet the traitor thieves", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
-  { "name": "C3 - Defeat Gracen", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Gracen", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Report the end of the traitors to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
@@ -3320,19 +3348,19 @@
   { "name": "C3 - Defeat the grimwards", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
-  { "name": "C3 - Defeat Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },  
   { "name": "C3 - Stake Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },  
-  { "name": "C3 - Defeat Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Stake Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
-  { "name": "C3 - Defeat Tanova", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Tanova", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Search the blood pool", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
@@ -3341,13 +3369,13 @@
   { "name": "C3 - Loot Bodhi's inner sanctum", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "LootLite"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
-  { "name": "C3 - Defeat Lassal in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Lassal in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Stake Lassal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
-  { "name": "C3 - Defeat Bodhi", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Bodhi", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
   },
   { "name": "C3 - Report victory to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
@@ -3356,7 +3384,7 @@
   { "name": "C3 - Meet with Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": []
   },
-  { "name": "C3 - Defeat Mook and Arkanis Gath", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Mook and Arkanis Gath", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": []
   },
   { "name": "C3 - Deliver the shipment to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
@@ -3365,7 +3393,7 @@
   { "name": "C3 - Complete Bodhi's 'good' or 'evil' task", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
   },
-  { "name": "C3 - Defeat Gaelan Bayle", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Gaelan Bayle", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
   },
   { "name": "C3 - Kill Booter", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
@@ -3374,7 +3402,7 @@
   { "name": "C3 - Free Tizzak from the prison", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
   },
-  { "name": "C3 - Defeat Aran Linvail", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
+  { "name": "C3 - Defeat Aran Linvail", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
     "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
   },
   { "name": "C3 - Report victory to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
@@ -3413,7 +3441,7 @@
   { "name": "BL - Defeat the assassin in the Vulgar Monkey", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
     "requires": []
   },
-  { "name": "BL - Meet & defeat Perth the Adept", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+  { "name": "BL - Meet & defeat Perth the Adept", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Named Enemies"],
     "requires": []
   },
   { "name": "BL - Loot Perth the Adept's home", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "LootLite"],
@@ -3491,7 +3519,7 @@
   { "name": "BL - Find a way past the guards to Lady Galvena's chambers", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
     "requires": "|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|"
   },
-  { "name": "BL - Defeat Galvena and Videk", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
+  { "name": "BL - Defeat Galvena and Videk", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Named Enemies"],
     "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
   },
   { "name": "BL - Speak with Claire", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
@@ -3575,7 +3603,7 @@
   { "name": "SH - Defeat the kobolds and mephits in the crystal room", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "SH - Defeat Dace", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
+  { "name": "SH - Defeat Dace", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4", "Named Enemies"],
     "requires": []
   },
   { "name": "SH - Stake Dace", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
@@ -3659,10 +3687,7 @@
   { "name": "SH - Accept or reject Saemon's offer", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
-  { "name": "Escape Spellhold", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": [],
-    "victory": true
-  },
+
   { "name": "SH - Watch the Chapter 4 dream sequence", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
   },
@@ -3942,13 +3967,13 @@
   { "name": "C6 - Meet Bodhi in the Graveyard District", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "C6 - Defeat Hareishan", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "C6 - Defeat Hareishan", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6", "Named Enemies"],
     "requires": [] 
   },
-  { "name": "C6 - Defeat Tanova", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "C6 - Defeat Tanova", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6", "Named Enemies"],
     "requires": [] 
   },
-  { "name": "C6 - Defeat Meredath", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "C6 - Defeat Meredath", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6", "Named Enemies"],
     "requires": [] 
   },
   { "name": "C6 - Stake 1 vampire", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
@@ -3960,7 +3985,7 @@
   { "name": "C6 - Stake 3 vampires", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
   },
-  { "name": "C6 - Defeat Bodhi once and for all", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
+  { "name": "C6 - Defeat Bodhi once and for all", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6", "Named Enemies"],
     "requires": [] 
   },
   { "name": "C6 - Stake Bodhi", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
@@ -3968,12 +3993,6 @@
   },
   { "name": "C6 - Pour Holy Water into the blood pool", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
-  },
-  { "name": "Defeat Red Dragon Firkraag", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
-    "requires": [], "victory": true
-  },
-  { "name": "Defeat Kangaxx the demilich", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
-    "requires": "|Golden Arm and Leg (MISCAW)| AND |Golden Torso (MISCAY)|", "victory": true
   },
   { "name": "C6 - Give Elhan the Rhynn Lanthorn", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": "|Rhynn Lanthorn (C6LANTHO)|"
@@ -4029,7 +4048,7 @@
   { "name": "C7 - Loot the Priest's House", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
     "requires": []
   },
-  { "name": "C7 - Defeat Raamilat", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+  { "name": "C7 - Defeat Raamilat", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7", "Named Enemies"],
     "requires": []
   },
   { "name": "C7 - Rescue Priestess Demin", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
@@ -4083,7 +4102,7 @@
   { "name": "C7 - Loot the House of the Moon", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar - Looting", "Chapter 7", "LootLite"],
     "requires": []
   },
-  { "name": "C7 - Defeat Suneer in the Temple of Rillifane", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
+  { "name": "C7 - Defeat Suneer in the Temple of Rillifane", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7", "Named Enemies"],
     "requires": []
   },
   { "name": "C7 - Rescue the elves in the House of the Horn", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
@@ -4133,26 +4152,5 @@
   },
   { "name": "C7 - Defeat parasite 3", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
     "requires": []
-  },
-  { "name": "Defeat Jon Irenicus", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
-    "requires": [], "victory": true
-  },  
-  { "name": "Earn 6 tokens", "category": [],
-    "requires": "|Quest Complete Token: 6|", "victory": true
-  },
-  { "name": "Earn 5 tokens", "category": [],
-    "requires": "|Quest Complete Token: 5|", "victory": true
-  },
-  { "name": "Earn 4 tokens", "category": [],
-    "requires": "|Quest Complete Token: 4|", "victory": true
-  },
-  { "name": "Earn 3 tokens", "category": [],
-    "requires": "|Quest Complete Token: 3|", "victory": true
-  },
-  { "name": "Earn 2 tokens", "category": [],
-    "requires": "|Quest Complete Token: 2|", "victory": true
-  },
-  { "name": "Earn at least 1 token", "category": [],
-    "requires": "|Quest Complete Token: 1|", "victory": true
   }
 ]
