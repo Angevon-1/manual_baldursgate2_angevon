@@ -1,12 +1,5 @@
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
-    
-    # you can assign all of the keys below to this inside the {}, but demonstrating assigning single key-values at a time
-    game_table = {}
-    game_table['game'] = 'BaldursGate2'
-    game_table['creator'] = 'Angevon'
-    game_table['filler_item_name'] = '100 Gold' 
-    
     return game_table
 
 # called after the items.json file has been loaded, before any item loading or processing has occurred
