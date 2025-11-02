@@ -10,7 +10,7 @@
             "description": "1. Complete major sidequest(s) (deArnise Keep, Cult of the Eyeless, Trademeet, Windspear Hills, Planar Sphere, Shade Lord) to earn tokens. Collect enough tokens to goal. More required tokens makes for a longer game. Any chapter amount can be used with this goal. \n 2. Escape Spellhold - Reach Chapter 4 and complete it (excludes City of Caverns). \n 3. Defeat Firkraag or Kangaxx - Reach Chapter 6 and defeat Firkraag or Kangaxx. You can complete this sooner but the logic expects Chapter 6 to ensure you're properly equipped. \n 4. Defeat Jon Irenicus - Reach Chapter 7 and defeat Irenicus at the Tree of Life.",
             "aliases": {"easiest": 0},
             "hidden": false,
-            "default": 7
+            "default": 2
         },
         "death_link": {
             "default": false
