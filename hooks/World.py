@@ -76,6 +76,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
 
     #setting option names with their results for ease of use
+    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
     gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
@@ -85,7 +86,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     forging = get_option_value(multiworld, player, "forging_checks")
 
     # Add your code here to calculate which locations to remove
-  
+    if include_irenicus_dungeon == 0:
+        locationNamesToRemove += world.location_name_groups["ID"]    
     if gaelan_or_bodhi == 1:
         locationNamesToRemove += world.location_name_groups["Shadow Thieves"]
     if gaelan_or_bodhi == 0:
@@ -157,6 +159,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     itemNamesToRemove = []
     
+    include_irenicus_dungeon = get_option_value(multiworld, player, "include_irenicus_dungeon")
     gaelan_or_bodhi = get_option_value(multiworld, player, "gaelan_or_bodhi")
     include_watchers_keep = get_option_value(multiworld, player, "include_watchers_keep")
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
@@ -168,6 +171,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     forging = get_option_value(multiworld, player, "forging_checks")
     companions = get_option_value(multiworld, player, "companions") #0 none, 1 vanilla companions, 2 v + ee companions, 3 vanilla quests, 4 v & ee quests, 5 vanilla c & q, 6 all       
     
+    if include_irenicus_dungeon == 0:
+        itemNamesToRemove += [item.name for item in item_pool if "ID" in world.item_name_to_item[item.name].get("category", [])]
     if gaelan_or_bodhi == 1:
         itemNamesToRemove += [item.name for item in item_pool if "Shadow Thieves" in world.item_name_to_item[item.name].get("category", [])]
     if gaelan_or_bodhi == 0:
