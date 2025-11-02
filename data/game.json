@@ -1,0 +1,16 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+    "game": "BaldursGate2",
+    "creator": "Angevon",
+
+    "filler_item_name": "100 Gold",
+
+    "starting_items": [
+        {
+            "items": ["Portal Key (MISC4G)", "Waukeen's Promenade Unlock (AR0700)"],
+            "yaml_option": ["!include_irenicus_dungeon"]
+        }
+    ],
+    "death_link": false,
+    "starting_index": 1
+}
