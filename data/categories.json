@@ -3,8 +3,7 @@
     "hidden": true
     },
     "ID": {
-    "hidden": true,
-    "yaml_option": ["include_irenicus_dungeon"]
+    "hidden": true
     },    
     "Chapter 3": {
     "hidden": true
