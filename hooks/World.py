@@ -44,7 +44,37 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     final_chapter = get_option_value(multiworld, player, "final_chapter") #0 = c3, 1 = c4, 2 = c5, 3 = c6, 4 = c7
     include_city_of_caverns = get_option_value(multiworld, player, "include_city_of_caverns")
     companions = get_option_value(multiworld, player, "companions") 
-    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount") 
+    starting_companion_amount = get_option_value(multiworld, player, "starting_companion_amount")
+    adrian_mod_npc = get_option_value(multiworld, player, "adrian_mod_npc")  
+    ajantis_mod_npc = get_option_value(multiworld, player, "ajantis_mod_npc")  
+    angelo_mod_npc = get_option_value(multiworld, player, "angelo_mod_npc")
+    arath_mod_npc = get_option_value(multiworld, player, "arath_mod_npc")     
+    auren_aseph_mod_npc = get_option_value(multiworld, player, "auren_aseph_mod_npc")
+    branwen_mod_npc = get_option_value(multiworld, player, "branwen_mod_npc") 
+    chloe_mod_npc = get_option_value(multiworld, player, "chloe_mod_npc") 
+    coran_mod_npc = get_option_value(multiworld, player, "coran_mod_npc") 
+    dace_mod_npc = get_option_value(multiworld, player, "dace_mod_npc")
+    darian_mod_npc = get_option_value(multiworld, player, "darian_mod_npc")    
+    drake_mod_npc = get_option_value(multiworld, player, "drake_mod_npc")    
+    dvaradime_mod_npc = get_option_value(multiworld, player, "dvaradime_mod_npc")   
+    evandra_mod_npc = get_option_value(multiworld, player, "evandra_mod_npc")  
+    fade_mod_npc = get_option_value(multiworld, player, "fade_mod_npc")
+    faren_mod_npc = get_option_value(multiworld, player, "faren_mod_npc")              
+    gavin_mod_npc = get_option_value(multiworld, player, "gavin_mod_npc")            
+    hubelpot_mod_npc = get_option_value(multiworld, player, "hubelpot_mod_npc")   
+    isra_mod_npc = get_option_value(multiworld, player, "isra_mod_npc")
+    kelsey_mod_npc = get_option_value(multiworld, player, "kelsey_mod_npc") 
+    keto_mod_npc = get_option_value(multiworld, player, "keto_mod_npc") 
+    nathaniel_mod_npc = get_option_value(multiworld, player, "nathaniel_mod_npc") 
+    nephele_mod_npc = get_option_value(multiworld, player, "nephele_mod_npc") 
+    ninde_mod_npc = get_option_value(multiworld, player, "ninde_mod_npc") 
+    paina_mod_npc = get_option_value(multiworld, player, "paina_mod_npc")
+    sirene_mod_npc = get_option_value(multiworld, player, "sirene_mod_npc")  
+    tashia_mod_npc = get_option_value(multiworld, player, "tashia_mod_npc") 
+    xan_mod_npc = get_option_value(multiworld, player, "xan_mod_npc")  
+    xulaye_mod_npc = get_option_value(multiworld, player, "xulaye_mod_npc")   
+    yeslick_mod_npc = get_option_value(multiworld, player, "yeslick_mod_npc")  
+
     if goal == 6:
         if final_chapter == 0:
             world.options.final_chapter.value = 1
@@ -67,6 +97,64 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if companions == 0 or companions == 3 or companions == 4:
         if starting_companion_amount >= 1:
             world.options.starting_companion_amount.value = 0
+        if adrian_mod_npc == 1:
+            world.options.adrian_mod_npc.value = 0
+        if ajantis_mod_npc == 1:
+            world.options.ajantis_mod_npc.value = 0
+        if angelo_mod_npc == 1:
+            world.options.angelo_mod_npc.value = 0
+        if arath_mod_npc == 1:
+            world.options.arath_mod_npc.value = 0
+        if auren_aseph_mod_npc == 1:
+            world.options.auren_aseph_mod_npc.value = 0 
+        if branwen_mod_npc == 1:
+            world.options.branwen_mod_npc.value = 0
+        if chloe_mod_npc == 1:
+            world.options.chloe_mod_npc.value = 0
+        if coran_mod_npc == 1:
+            world.options.coran_mod_npc.value = 0
+        if dace_mod_npc == 1:
+            world.options.dace_mod_npc.value = 0
+        if darian_mod_npc == 1:
+            world.options.darian_mod_npc.value = 0
+        if drake_mod_npc == 1:
+            world.options.drake_mod_npc.value = 0
+        if dvaradime_mod_npc == 1:
+            world.options.dvaradime_mod_npc.value = 0
+        if evandra_mod_npc == 1:
+            world.options.evandra_mod_npc.value = 0 
+        if fade_mod_npc == 1:
+            world.options.fade_mod_npc.value = 0 
+        if faren_mod_npc == 1:
+            world.options.faren_mod_npc.value = 0
+        if gavin_mod_npc == 1:
+            world.options.gavin_mod_npc.value = 0
+        if hubelpot_mod_npc == 1:
+            world.options.hubelpot_mod_npc.value = 0
+        if isra_mod_npc == 1:
+            world.options.isra_mod_npc.value = 0 
+        if kelsey_mod_npc == 1:
+            world.options.kelsey_mod_npc.value = 0
+        if keto_mod_npc == 1:
+            world.options.keto_mod_npc.value = 0   
+        if nathaniel_mod_npc == 1:
+            world.options.nathaniel_mod_npc.value = 0
+        if nephele_mod_npc == 1:
+            world.options.nephele_mod_npc.value = 0 
+        if ninde_mod_npc == 1:
+            world.options.ninde_mod_npc.value = 0 
+        if paina_mod_npc == 1:
+            world.options.paina_mod_npc.value = 0
+        if sirene_mod_npc == 1:
+            world.options.sirene_mod_npc.value = 0    
+        if tashia_mod_npc == 1:
+            world.options.tashia_mod_npc.value = 0
+        if xan_mod_npc == 1:
+            world.options.xan_mod_npc.value = 0
+        if xulaye_mod_npc == 1:
+            world.options.xulaye_mod_npc.value = 0
+        if yeslick_mod_npc == 1:
+            world.options.yeslick_mod_npc.value = 0
     else:
         pass
 
@@ -170,7 +258,36 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     loot_checks = get_option_value(multiworld, player, "loot_checks") #0 - none, 1 = by room, 2 = by container, 3 = both
     forging = get_option_value(multiworld, player, "forging_checks")
     companions = get_option_value(multiworld, player, "companions") #0 none, 1 vanilla companions, 2 v + ee companions, 3 vanilla quests, 4 v & ee quests, 5 vanilla c & q, 6 all       
-    
+    adrian_mod_npc = get_option_value(multiworld, player, "adrian_mod_npc")
+    ajantis_mod_npc = get_option_value(multiworld, player, "ajantis_mod_npc") 
+    angelo_mod_npc = get_option_value(multiworld, player, "angelo_mod_npc") 
+    arath_mod_npc = get_option_value(multiworld, player, "arath_mod_npc")
+    auren_aseph_mod_npc = get_option_value(multiworld, player, "auren_aseph_mod_npc")  
+    branwen_mod_npc = get_option_value(multiworld, player, "branwen_mod_npc") 
+    chloe_mod_npc = get_option_value(multiworld, player, "chloe_mod_npc") 
+    coran_mod_npc = get_option_value(multiworld, player, "coran_mod_npc")   
+    dace_mod_npc = get_option_value(multiworld, player, "dace_mod_npc")
+    darian_mod_npc = get_option_value(multiworld, player, "darian_mod_npc")                
+    drake_mod_npc = get_option_value(multiworld, player, "drake_mod_npc")  
+    dvaradime_mod_npc = get_option_value(multiworld, player, "dvaradime_mod_npc")   
+    evandra_mod_npc = get_option_value(multiworld, player, "evandra_mod_npc")
+    fade_mod_npc = get_option_value(multiworld, player, "fade_mod_npc") 
+    faren_mod_npc = get_option_value(multiworld, player, "faren_mod_npc")  
+    gavin_mod_npc = get_option_value(multiworld, player, "gavin_mod_npc")     
+    hubelpot_mod_npc = get_option_value(multiworld, player, "hubelpot_mod_npc")    
+    isra_mod_npc = get_option_value(multiworld, player, "isra_mod_npc")       
+    kelsey_mod_npc = get_option_value(multiworld, player, "kelsey_mod_npc")
+    keto_mod_npc = get_option_value(multiworld, player, "keto_mod_npc")  
+    nathaniel_mod_npc = get_option_value(multiworld, player, "nathaniel_mod_npc")
+    nephele_mod_npc = get_option_value(multiworld, player, "nephele_mod_npc")
+    ninde_mod_npc = get_option_value(multiworld, player, "ninde_mod_npc") 
+    paina_mod_npc = get_option_value(multiworld, player, "paina_mod_npc")
+    sirene_mod_npc = get_option_value(multiworld, player, "sirene_mod_npc")
+    tashia_mod_npc = get_option_value(multiworld, player, "tashia_mod_npc") 
+    xan_mod_npc = get_option_value(multiworld, player, "xan_mod_npc")  
+    xulaye_mod_npc = get_option_value(multiworld, player, "xulaye_mod_npc")  
+    yeslick_mod_npc = get_option_value(multiworld, player, "yeslick_mod_npc")  
+       
     if include_irenicus_dungeon == 0:
         itemNamesToRemove += [item.name for item in item_pool if "ID" in world.item_name_to_item[item.name].get("category", [])]
     if gaelan_or_bodhi == 1:
@@ -245,6 +362,64 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         itemNamesToRemove += [item.name for item in item_pool if "Consumables" in world.item_name_to_item[item.name].get("category", [])]
     if forging == 0:
         itemNamesToRemove += [item.name for item in item_pool if "Forging Items" in world.item_name_to_item[item.name].get("category", [])]
+    if adrian_mod_npc == 0:
+        itemNamesToRemove += ["Adrian"]
+    if ajantis_mod_npc == 0:
+        itemNamesToRemove += ["Ajantis"]
+    if angelo_mod_npc == 0:
+        itemNamesToRemove += ["Angelo"]
+    if arath_mod_npc == 0:
+        itemNamesToRemove += ["Arath"]
+    if auren_aseph_mod_npc == 0:
+        itemNamesToRemove += ["Auren Aseph"]
+    if branwen_mod_npc == 0:
+        itemNamesToRemove += ["Branwen"]
+    if chloe_mod_npc == 0:
+        itemNamesToRemove += ["Chloe"]
+    if coran_mod_npc == 0:
+        itemNamesToRemove += ["Coran"]
+    if dace_mod_npc == 0:
+        itemNamesToRemove += ["Dace Linton"]
+    if darian_mod_npc == 0:
+        itemNamesToRemove += ["Darian"]
+    if drake_mod_npc == 0:
+        itemNamesToRemove += ["Drake"]
+    if dvaradime_mod_npc == 0:
+        itemNamesToRemove += ["Dvaradime"]
+    if evandra_mod_npc == 0:
+        itemNamesToRemove += ["Evandra"]  
+    if fade_mod_npc == 0:
+        itemNamesToRemove += ["Fade"]
+    if faren_mod_npc == 0:
+        itemNamesToRemove += ["Faren"]
+    if gavin_mod_npc == 0:
+        itemNamesToRemove += ["Gavin"]
+    if hubelpot_mod_npc == 0:
+        itemNamesToRemove += ["Hubelpot"]
+    if isra_mod_npc == 0:
+        itemNamesToRemove += ["Isra"]  
+    if kelsey_mod_npc == 0:
+        itemNamesToRemove += ["Kelsey"]  
+    if keto_mod_npc == 0:
+        itemNamesToRemove += ["Keto"] 
+    if sirene_mod_npc == 0:
+        itemNamesToRemove += ["Sirene"]
+    if nathaniel_mod_npc == 0:
+        itemNamesToRemove += ["Nathaniel"]
+    if nephele_mod_npc == 0:
+        itemNamesToRemove += ["Nephele"]
+    if ninde_mod_npc == 0:
+        itemNamesToRemove += ["Ninde"]
+    if paina_mod_npc == 0:
+        itemNamesToRemove += ["Pai'Na"]
+    if tashia_mod_npc == 0:
+        itemNamesToRemove += ["Tashia"]
+    if xan_mod_npc == 0:
+        itemNamesToRemove += ["Xan"]
+    if xulaye_mod_npc == 0:
+        itemNamesToRemove += ["Xulaye"]
+    if yeslick_mod_npc == 0:
+        itemNamesToRemove += ["Yeslick"]
 
     
     for itemName in itemNamesToRemove:
