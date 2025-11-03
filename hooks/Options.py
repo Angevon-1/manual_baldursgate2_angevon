@@ -147,6 +147,151 @@ class forging_checks(Toggle):
     """Set this to true if you'd like to earn a check for forging items like Crom Faeyr, Flail of the Ages, etc. Adds 11 checks and 20 items."""
     display_name = "Include Forging Checks"
     default = False
+    
+class adrian_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Adrian NPC Mod"
+    default = False
+
+class ajantis_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Ajantis for BG2 NPC Mod"
+    default = False
+
+class angelo_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Angelo NPC Mod"
+    default = False
+
+class arath_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Arath NPC Mod"
+    default = False
+
+class auren_aseph_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Auren Aseph NPC Mod"
+    default = False
+
+class branwen_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Branwen for BG2 NPC Mod"
+    default = False
+
+class chloe_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Chloe NPC Mod"
+    default = False
+
+class coran_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Coran for BG2 NPC Mod"
+    default = False
+
+class dace_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Dace Linton NPC Mod"
+    default = False
+
+class darian_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Darian NPC Mod"
+    default = False
+
+class drake_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Drake NPC Mod"
+    default = False
+
+class dvaradime_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Dvaradime NPC Mod"
+    default = False
+
+class evandra_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Evandra NPC Mod"
+    default = False
+
+class fade_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Fade NPC Mod"
+    default = False
+
+class faren_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Faren NPC Mod"
+    default = False
+
+class gavin_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Gavin NPC Mod"
+    default = False
+
+class hubelpot_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Hubelpot NPC Mod"
+    default = False
+    
+class isra_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Isra NPC Mod"
+    default = False
+
+class kelsey_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Kelsey NPC Mod"
+    default = False
+
+class keto_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Keto NPC Mod"
+    default = False
+
+class nathaniel_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Nathaniel NPC Mod"
+    default = False
+   
+class nephele_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Nephele NPC Mod"
+    default = False
+
+class ninde_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Ninde NPC Mod"
+    default = False
+
+class paina_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Pai'Na NPC Mod"
+    default = False
+
+class sirene_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Sirene NPC Mod"
+    default = False
+
+class tashia_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Tashia NPC Mod"
+    default = False
+
+class xan_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Xan for BG2 NPC Mod"
+    default = False
+
+class xulaye_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Xulaye NPC Mod"
+    default = False
+
+class yeslick_mod_npc(Toggle):
+    """Set this to true if you're using this companion mod. This adds the npc as a receivable item if the companions have been randomized."""
+    display_name = "Yeslick for BG2 NPC Mod"
+    default = False
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -156,12 +301,42 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_city_of_caverns"] = include_city_of_caverns
     options["equipment"] = equipment
     options["misc_items"] = misc_items
-    options["progressive_equipment"] = progressive_equipment
-    options["companions"] = companions
-    options["starting_companion_amount"] = starting_companion_amount  
+    options["progressive_equipment"] = progressive_equipment    
     options["loot_checks"] = loot_checks
     options["forging_checks"] = forging_checks
     options["include_watchers_keep"] = include_watchers_keep
+    options["companions"] = companions
+    options["starting_companion_amount"] = starting_companion_amount 
+    options["adrian_mod_npc"] = adrian_mod_npc  
+    options["ajantis_mod_npc"] = ajantis_mod_npc 
+    options["angelo_mod_npc"] = angelo_mod_npc  
+    options["arath_mod_npc"] = arath_mod_npc
+    options["auren_aseph_mod_npc"] = auren_aseph_mod_npc
+    options["branwen_mod_npc"] = branwen_mod_npc
+    options["chloe_mod_npc"] = chloe_mod_npc 
+    options["coran_mod_npc"] = coran_mod_npc 
+    options["dace_mod_npc"] = dace_mod_npc 
+    options["darian_mod_npc"] = darian_mod_npc 
+    options["drake_mod_npc"] = drake_mod_npc 
+    options["dvaradime_mod_npc"] = dvaradime_mod_npc 
+    options["evandra_mod_npc"] = evandra_mod_npc  
+    options["fade_mod_npc"] = fade_mod_npc
+    options["faren_mod_npc"] = faren_mod_npc
+    options["gavin_mod_npc"] = gavin_mod_npc
+    options["hubelpot_mod_npc"] = hubelpot_mod_npc
+    options["isra_mod_npc"] = isra_mod_npc
+    options["kelsey_mod_npc"] = kelsey_mod_npc 
+    options["keto_mod_npc"] = keto_mod_npc 
+    options["nathaniel_mod_npc"] = nathaniel_mod_npc 
+    options["nephele_mod_npc"] = nephele_mod_npc 
+    options["ninde_mod_npc"] = ninde_mod_npc   
+    options["paina_mod_npc"] = paina_mod_npc  
+    options["sirene_mod_npc"] = sirene_mod_npc   
+    options["tashia_mod_npc"] = tashia_mod_npc
+    options["xan_mod_npc"] = xan_mod_npc  
+    options["xulaye_mod_npc"] = xulaye_mod_npc  
+    options["yeslick_mod_npc"] = yeslick_mod_npc 
+
 
     return options
 
