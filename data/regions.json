@@ -18,31 +18,31 @@
   },
   "Elemental Plane of Air": {
     "connects_to": [],
-    "requires": "|Air Elemental Statue (MISC4C)|"
+    "requires": "|Air Elemental Statue|"
   },
   "Waukeen's Promenade": {
     "connects_to": ["Slums", "Circus Tent"],
-    "requires": "|Waukeen's Promenade Unlock (AR0700)|"
+    "requires": "|Waukeen's Promenade Unlock|"
   },
   "Circus Tent": {
     "connects_to": [],
     "requires": []
   },
   "Slums": {
-    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest", "Chapter 2","deArnise Keep", "Windspear Hills", "Umar Hills", "Trademeet", "Wild Forest"],
+    "connects_to": ["Slaver Stockade", "Planar Sphere", "Copper Coronet", "Government District", "Temple District", "Graveyard", "Bridge", "Docks", "City Gates", "Anomen's Companion Quest", "Chapter 2"],
     "requires": []
   },
   "Planar Sphere": {
     "connects_to": ["Planar Zone"],
-    "requires": "{OptAll((|Valygar| OR |Valygar's Body (MISC7L)|) AND |Umar Hills Unlock (AR1100)| AND |Planar Sphere Unlock (AR0410)|}"
+    "requires": "{OptAll((|Valygar| OR |Valygar's Body|) AND |Umar Hills Unlock| AND |Planar Sphere Unlock|}"
   },
   "Planar Zone": {
     "connects_to": ["Planar Zone Past Golem"],
-    "requires": "|Planar Key (KEY03)|"
+    "requires": "|Planar Key|"
   },
   "Planar Zone Past Golem": {
     "connects_to": [],
-    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    "requires": "|Golem Arm| AND |Golem Head|"
     },
   "Copper Coronet": {
     "connects_to": ["Slums Sewers"],
@@ -54,7 +54,7 @@
   },
   "Government District": {
     "connects_to": ["Jan's Companion Quest"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   "Jan's Companion Quest": {
     "connects_to": [],
@@ -62,11 +62,11 @@
   },
   "Temple District": {
     "connects_to": ["Temple District Sewers", "Dorn's Companion Quest"],
-    "requires": "|Temple District Unlock (AR0900)|"
+    "requires": "|Temple District Unlock|"
   },
   "Graveyard": {
     "connects_to": ["Dragomir's Tomb", "Korgan's Companion Quest"],
-    "requires": "|Graveyard District Unlock (AR0800)|"
+    "requires": "|Graveyard District Unlock|"
   },
   "Korgan's Companion Quest": {
     "connects_to": [],
@@ -78,43 +78,43 @@
   },
   "Helmite Camp": {
     "connects_to": ["Resurrection Gorge"],
-    "requires": "|Helmite Camp Unlock (OH5300)|"
+    "requires": "|Helmite Camp Unlock|"
   },
   "Resurrection Gorge": {
     "connects_to": [],
-    "requires": "|Resurrection Gorge Unlock (OH5100)|"
+    "requires": "|Resurrection Gorge Unlock|"
   },
   "Edwin's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Edwin| AND |Graveyard District Unlock (AR0800)| AND |Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|)}"
+    "requires": "{OptAll(|Edwin| AND |Graveyard District Unlock| AND |Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Embarl's Dagger| AND |Edwin's Documents|)}"
   },
   "Bridge": {
     "connects_to": ["Planar Prison"],
-    "requires": "|Bridge District Unlock (AR0500)|"
+    "requires": "|Bridge District Unlock|"
   },
   "Docks": {
     "connects_to": ["Maevar Guildhall", "Harper Hold", "Edwin's Companion Quest"],
-    "requires": "|Docks District Unlock (AR0300)|"
+    "requires": "|Docks District Unlock|"
   },
   "Harper Hold": {
     "connects_to": ["Jaheira's Companion Quest"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": "|Renfeld's Body|"
   },
   "Jaheira's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Jaheira| AND |Government District Unlock (AR1000)| AND |Harper Bird (MISC5D)| AND |Harper Amulet (MISC5E)|)}"
+    "requires": "{OptAll(|Jaheira| AND |Government District Unlock| AND |Harper Bird| AND |Harper Amulet|)}"
   },
   "Maevar Guildhall": {
     "connects_to": [],
-    "requires": "|Letter of Transfer (MISC4T)|"
+    "requires": "|Letter of Transfer|"
   },
   "City Gates": {
-    "connects_to": [],
-    "requires": "|City Gates Unlock (AR0020)|"
+    "connects_to": ["deArnise Keep", "Windspear Hills", "Umar Hills", "Trademeet", "Wild Forest"],
+    "requires": "|City Gates Unlock|"
   },
   "Wild Forest": {
     "connects_to": ["Hidden Refuge"],
-    "requires": "|Bridge District Unlock (AR0500)| AND |Wild Forest Unlock (OH6000)|"
+    "requires": "|Bridge District Unlock| AND |Wild Forest Unlock|"
   },
   "Neera's Companion Quest": {
     "connects_to": ["Neera's Companion Quest", "Wilson's Companion Quest"],
@@ -126,47 +126,47 @@
   },
   "Hidden Refuge": {
     "connects_to": ["Neera's Companion Quest"],
-    "requires": "|Hidden Refuge Unlock (OH6100)|"
+    "requires": "|Hidden Refuge Unlock|"
   },
   "deArnise Keep": {
     "connects_to": ["Keep Key"],
-    "requires": "|de'Arnise Keep Unlock (AR1300)|"
+    "requires": "|de'Arnise Keep Unlock|"
   },
   "Wilson's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Rasaad| AND |Wilson| AND |Abandoned Amphitheater Unlock (OH4000)| AND |Heretic Temple Unlock (OH4100)|)}"
+    "requires": "{OptAll(|Rasaad| AND |Wilson| AND |Abandoned Amphitheater Unlock| AND |Heretic Temple Unlock|)}"
   },
   "Keep Key": {
     "connects_to": ["Nalia's Companion Quest"],
-    "requires": "|Keep Key (KEY10)|"
+    "requires": "|Keep Key|"
   },
   "Nalia's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Docks District Unlock (AR0300)| AND |Government District Unlock (AR1000)| AND |Nalia|)}"
+    "requires": "{OptAll(|Docks District Unlock| AND |Government District Unlock| AND |Nalia|)}"
   },
   "Windspear Hills": {
     "connects_to": ["Chapel Key"],
-    "requires": "|Windspear Hills Unlock (AR1200)|"
+    "requires": "|Windspear Hills Unlock|"
   },
   "Chapel Key": {
     "connects_to": ["Samia's Key"],
-    "requires": "|Chapel Key (KEY07)|"
+    "requires": "|Chapel Key|"
   },
   "Samia's Key": {
     "connects_to": [],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   "Umar Hills": {
     "connects_to": ["Temple Ruins"],
-    "requires": "|Umar Hills Unlock (AR1100)|"
+    "requires": "|Umar Hills Unlock|"
   },
   "Trademeet": {
     "connects_to": ["Druid Grove", "Rasaad's Companion Quest", "Cernd's Companion Quest"],
-    "requires": "|Trademeet Unlock (AR2000)|"
+    "requires": "|Trademeet Unlock|"
   },
   "Cernd's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Cernd| AND |Government District Unlock (AR1000)|)}"
+    "requires": "{OptAll(|Cernd| AND |Government District Unlock|)}"
   },
   "Rasaad's Companion Quest": {
     "connects_to": ["Abandoned Amphitheater"],
@@ -174,19 +174,19 @@
   },
   "Abandoned Amphitheater": {
     "connects_to": ["Heretic Temple"],
-    "requires": "|Abandoned Amphitheater Unlock (OH4000)|"
+    "requires": "|Abandoned Amphitheater Unlock|"
   },
   "Heretic Temple": {
     "connects_to": [],
-    "requires": "|Heretic Temple Unlock (OH4100)|"
+    "requires": "|Heretic Temple Unlock|"
   },
   "Druid Grove": {
     "connects_to": [],
-    "requires": "|Druid Grove Unlock (AR1900)|"
+    "requires": "|Druid Grove Unlock|"
   },
   "Planar Prison": {
     "connects_to": [],
-    "requires": "{OptAll(|Haer'Dalis| AND |Bridge District Unlock (AR0500)| AND |Planar Prison Unlock (AR0516)| AND |Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|)}"
+    "requires": "{OptAll(|Haer'Dalis| AND |Bridge District Unlock| AND |Planar Prison Unlock| AND |Portal Gem| AND |Temple District Unlock|)}"
   },
   "Dragomir's Tomb": {
     "connects_to": ["Hexxat's Companion Quest"],
@@ -206,23 +206,23 @@
   },
   "Keldorn's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Keldorn| AND |Government District Unlock (AR1000)|)}"
+    "requires": "{OptAll(|Keldorn| AND |Government District Unlock|)}"
   },
   "Anomen's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Anomen| AND |Government District Unlock (AR1000)|)}"
+    "requires": "{OptAll(|Anomen| AND |Government District Unlock|)}"
   },
   "Lower Reaches": {
     "connects_to": [],
-    "requires": "|Gaal's Key (KEY02)|"
+    "requires": "|Gaal's Key|"
   },
   "Pit of the Faithless": {
     "connects_to": ["Sir Sarles Quest"],
-    "requires": "|Gaal's Key (KEY02)| AND |Rift Device Part (MISC5A)|"
+    "requires": "|Gaal's Key| AND |Rift Device Part A|"
   },
   "Temple Ruins": {
     "connects_to": ["Temple Ruins Past 1st Barrier", "Mazzy's Companion Quest"],
-    "requires": "|Temple Ruins Unlock (AR1400)|"
+    "requires": "|Temple Ruins Unlock|"
   },
   "Temple Ruins Past 1st Barrier": {
     "connects_to": ["Temple Ruins Past 2nd Barrier"],
@@ -230,11 +230,11 @@
   },
   "Temple Ruins Past 2nd Barrier": {
     "connects_to": [],
-    "requires": "|Symbol of Amaunator (Key23)|"
+    "requires": "|Symbol of Amaunator|"
   },
   "Mazzy's Companion Quest": {
     "connects_to": [],
-    "requires": "{OptAll(|Shadow Prison Key (KEY22)| AND |Mazzy|)}"
+    "requires": "{OptAll(|Shadow Prison Key| AND |Mazzy|)}"
   },
   "Chapter 2": {
     "connects_to": ["Chapter 3"],
@@ -242,19 +242,19 @@
   },
   "Chapter 3": {
     "connects_to": ["Brynnlaw"],
-    "requires": "|Chapter 2 Completion Token| AND |Graveyard District Unlock (AR0800)| AND |Docks District Unlock (AR0300)|"
+    "requires": "|Chapter 2 Completion Token| AND |Graveyard District Unlock| AND |Docks District Unlock|"
   },
   "Sir Sarles Quest": {
     "connects_to": [],
-    "requires": "|Rift Device Part (MISC5B)|"
+    "requires": "|Rift Device Part B|"
   },
   "Brynnlaw": {
     "connects_to": ["Spellhold"],
-    "requires": "|Chapter 3 Completion Token| AND |Brynnlaw Unlock (AR1600)|"
+    "requires": "|Chapter 3 Completion Token| AND |Brynnlaw Unlock|"
   },
   "Spellhold": {
     "connects_to": ["Spellhold Dungeon"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|) AND |Spellhold Unlock (AR1500)|"
+    "requires": "|Galvena's Key| AND (|Guild House Key| OR |Galvena's Medallion|) AND |Spellhold Unlock|"
   },
     "Spellhold Dungeon": {
     "connects_to": ["Spellhold Dungeon Past Head"],
@@ -262,15 +262,15 @@
   },
     "Spellhold Dungeon Past Head": {
     "connects_to": ["Spellhold Tests"],
-    "requires": "|Hand of Dace (MISC9A)| AND |Kurtulmak's Crystal Shard (MISC8Z)|"
+    "requires": "|Hand of Dace| AND |Kurtulmak's Crystal Shard|"
   },
     "Spellhold Tests": {
     "connects_to": ["City of Caverns"],
-    "requires": "|Minotaur Horn 1 (MISC9E)| AND |Minotaur Horn 2 (MISC9F)|"
+    "requires": "|Minotaur Horn 1| AND |Minotaur Horn 2|"
   },
     "City of Caverns": {
     "connects_to": ["Underdark"],
-    "requires": "{OptOne(|City of Caverns Unlock (AR2300)|)}"
+    "requires": "{OptOne(|City of Caverns Unlock|)}"
   },
     "Underdark": {
     "connects_to": ["Ust Natha"],
@@ -278,7 +278,7 @@
   },
     "Ust Natha": {
     "connects_to": ["Chapter 6"],
-    "requires": "|Light Gem (MISC9R)|"
+    "requires": "|Light Gem|"
   },
     "Chapter 6": {
     "connects_to": ["Small Teeth Pass"],
@@ -302,10 +302,10 @@
   },
     "Elven Palace": {
     "connects_to": ["Ellisime"],
-    "requires": "|Talisman of Rillifane (MISCB1)| AND |Golden Goblet of Life (MISCB2)| AND |Moonblade (MISCB3)|"
+    "requires": "|Talisman of Rillifane| AND |Golden Goblet of Life| AND |Moonblade|"
   },
     "Ellisime": {
     "connects_to": [],
-    "requires": "|Stone Horn (MISCBS)| AND |Stone Harp (MISCBR)|"
+    "requires": "|Stone Horn| AND |Stone Harp|"
   }
 }
