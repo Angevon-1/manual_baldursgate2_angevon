@@ -14,16 +14,25 @@ def overfishedAnywhere(world: World, state: CollectionState, player: int):
             return True
     return False
 
-# You can also pass an argument to your function, like {function_name(15)}
-# Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
-def anyClassLevel(state: CollectionState, player: int, level: str):
-    """Has the player reached the given level in any class?"""
-    for item in ["Figher Level", "Black Belt Level", "Thief Level", "Red Mage Level", "White Mage Level", "Black Mage Level"]:
-        if state.count(item, player) >= int(level):
-            return True
-    return False
+def requiresCrushSlashPlus1():
+    """Returns a requires string that checks if the player has a magical crushing or slashing weapon, for defeating mustard jellies."""
+    return "{OptAll((|Progressive Club:1| AND |@Weapons - Clubs:1|) OR (|Progressive Flail:1| AND |@Weapons - Flails:1|) OR (|Progressive Mace:1| AND |@Weapons - Maces:1|) OR (|Progressive War Hammer:1| AND |@Weapons - War Hammers:1|) OR (|Progressive Morning Star:1| AND |@Weapons - Morning Stars:1|) OR (|Progressive Staff:1| AND |@Weapons - Staves & Rods:1|) OR (|Progressive Axe:1| AND |@Weapons - Axes:1|) OR (|Progressive Bastard Sword:1| AND |@Weapons - Bastard Swords:1|) OR (|Progressive Katana:1| AND |@Weapons - Katanas:1|) OR (|Progressive Long Sword:1| AND |@Weapons - Long Swords:1|) OR (|Progressive Two Handed Sword:1| AND |@Weapons - Two Handed Swords:1|))}"
 
-# You can also return a string from your function, and it will be evaluated as a requires string.
-def requiresMelee():
-    """Returns a requires string that checks if the player has unlocked the tank."""
-    return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+def requiresCrushPlus1():
+    """Returns a requires string that checks if the player has a magical crushing weapon, for defeating clay golems."""
+    return "{OptAll((|Progressive Club:1| AND |@Weapons - Clubs:1|) OR (|Progressive Flail:1| AND |@Weapons - Flails:1|) OR (|Progressive Mace:1| AND |@Weapons - Maces:1|) OR (|Progressive War Hammer:1| AND |@Weapons - War Hammers:1|) OR (|Progressive Morning Star:1| AND |@Weapons - Morning Stars:1|) OR (|Progressive Staff:1| AND |@Weapons - Staves & Rods:1|))}"
+
+#def requiresPlus3():
+#    """Returns a requires string that checks if the player has at least one +3 weapon and/or Progressive Weapon up to a count of 3. 
+#    This to evaluate whether an enemy (e.g. a golem) can be defeated by the player based on their available equipment"""
+#    return "{OptAll(|Progressive Club:3| OR |Progressive Flail:3| OR |Progressive Mace:3| OR |Progressive Morning Star:3| OR |Progressive War Hammer:3| OR |Progressive Staff:3| OR |Progressive Axe:3| OR |Progressive Bastard Sword:3| OR |Progressive Katana:3| OR |Progressive Long Sword:3| OR |Progressive Scimitar, Wakizashi, Ninja-To:3| OR |Progressive Two Handed Sword:3| OR |Progressive Dagger:3| OR |Progressive Halberd:3| OR |Progressive Spear:3| OR |Progressive Short Sword:3|)}"
+
+def requiresPlus4():
+    """Returns a requires string that checks if the player has at least one +4 weapon and/or Progressive Weapon up to a count of 4. 
+    This to evaluate whether an enemy (e.g. a golem) can be defeated by the player based on their available equipment"""
+    return "{OptAll(((|@+4 Crushing Weapons:1| OR |@+5 Crushing Weapons:1|) AND (|Progressive Club:4| OR |Progressive Flail:4| OR |Progressive Mace:4| OR |Progressive Morning Star:4| OR |Progressive War Hammer:4| OR |Progressive Staff:4|)) OR ((|@+4 Slashing Weapons:1| OR |@+5 Slashing Weapons:1|) AND (|Progressive Axe:4| OR |Progressive Bastard Sword:4| OR |Progressive Katana:4| OR |Progressive Long Sword:4| OR |Progressive Two Handed Sword:4|)) OR (|@+4 Piercing Weapons:1| AND (|Progressive Dagger:4| OR |Progressive Halberd:4| OR |Progressive Spear:4| OR |Progressive Short Sword:4|)))}"
+
+def requiresPlus3():
+    """Returns a requires string that checks if the player has at least one +3 weapon and/or Progressive Weapon up to a count of 3. 
+    This to evaluate whether an enemy (e.g. a golem) can be defeated by the player based on their available equipment"""
+    return "{OptAll(((|@+3 Crushing Weapons:1| OR |@+4 Crushing Weapons:1| OR |@+5 Crushing Weapons:1|) AND (|Progressive Club:3| OR |Progressive Flail:3| OR |Progressive Mace:3| OR |Progressive Morning Star:3| OR |Progressive War Hammer:3| OR |Progressive Staff:3|)) OR ((|@+3 Slashing Weapons:1| OR |@+4 Slashing Weapons:1| OR |@+5 Slashing Weapons:1|) AND (|Progressive Axe:3| OR |Progressive Bastard Sword:3| OR |Progressive Katana:3| OR |Progressive Long Sword:3| OR |Progressive Two Handed Sword:3|)) OR ((|@+3 Piercing Weapons:1| OR |@+4 Piercing Weapons:1|) AND (|Progressive Dagger:3| OR |Progressive Halberd:3| OR |Progressive Spear:3| OR |Progressive Short Sword:3|)))}"
