@@ -5,21 +5,20 @@
 - The latest [version of Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases) (not pre-release)
 - PC version of Baldur's Gate 2: Shadows of Amn, classic or Enhanced Edition.
 - The latest BG2 apworld from [this github's releases page](https://github.com/Angevon-1/manual_baldursgate2_angevon/releases). 
-- (optional) The latest version of the [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) apworld. 
-- (optional) The latest version of the GO_AP BG2 mod from this github's releases page.
+- The latest version of the [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) apworld. 
+- The latest version of the GO_AP BG2 mod from this github's releases page.
 - (optional) The latest version of [Gibberlings 3 Item Randomizer BG2 mod](https://github.com/FredrikLindgren/randomiser/releases)
 
 ## Installation Procedures
 
 1. Install the latest Archipelago version from the link above. 
 2. Install Baldur's Gate 2: Shadows of Amn. 
-3. (optional) Install the GO_AP BG2 mod and any other mods. Other mods can be used, but modded content is not included in randomization at this time. To install, extract the GO_AP zip into your BG2 installation folder, then run the setup-GO_AP.exe and follow the instructions there to install. The GO_AP mod adds an item you can right-click and Converse with to open a dialogue menu that you can use to receive items and to easily teleport to various places. The item can be found in Imoen's inventory at the start of the game or for sale at the Adventurer's Mart in Waukeen's Promenade.
+3. Install the GO_AP BG2 mod and any other mods. Other mods can be used, but most modded content is not included in randomization at this time. To install, extract the GO_AP zip into your BG2 installation folder, then run the setup-GO_AP.exe and follow the instructions there to install. The GO_AP mod adds an item you can right-click and Converse with to open a dialogue menu that you can use to receive items and to easily teleport to various places. The item can be found in Imoen's inventory at the start of the game or for sale at the Adventurer's Mart in Waukeen's Promenade.
 4. (optional) Install Item Randomizer BG2 mod. See "Ways to play this manual" in the [readme](BG2_readme.md) to help decide if you'll want this or not. Due to how it works, Item Randomizer should be installed AFTER all other BG2 mods. The Mode 1 setting is recommended, just remember to wait a few minutes for the "Squeak" to show up in the BG2 dialogue window after starting a new game to let you know the randomizing has completed.
 5. Download the apworld from this github's releases page. 
 6. Double-click the apworld to automatically install it into Archipelago's custom_worlds folder.
-7. (optional) Download and then double-click the tracker.apworld from the Universal Tracker link.
-8. Open the Archipelago Launcher and click "Generate Template Options". A folder will open. Find the yaml file that corresponds to this game.
-7. Open the yaml in a text editor and change options as needed.
+7. Download and then double-click the tracker.apworld from the Universal Tracker link.
+8. Open the Archipelago Launcher and click "Generate Template Options". A folder will open. Find the yaml file that corresponds to this game. Open the yaml in a text editor and change options as needed. Alternatively, use the Options Creator under the Tools section in the Launcher and use it to export a yaml file. 
 8. Place the yaml, along with any other yamls to be included in the multiworld, into the "Players" subfolder in the Archipelago folder.
 9. In the Archipelago launcher, click "Generate". If all goes well, the generator will create a zip in the "output" subfolder. This is your multiworld data.
 10. Upload the zip to [Archipelago](https://archipelago.gg/uploads) for hosting, or set up a localhost.
