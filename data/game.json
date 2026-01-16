@@ -7,7 +7,7 @@
 
     "starting_items": [
         {
-            "items": ["Portal Key (MISC4G)", "Waukeen's Promenade Unlock (AR0700)"],
+            "items": ["Portal Key", "Waukeen's Promenade Unlock"],
             "yaml_option": ["!include_irenicus_dungeon"]
         }
     ],
