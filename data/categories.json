@@ -106,5 +106,14 @@
     },
     "Mod NPCs": {
     "hidden": true
+    },
+    "+3 Weapons": {
+    "hidden": true
+    },
+    "+4 Weapons": {
+    "hidden": true
+    },
+    "+5 Weapons": {
+    "hidden": true
     }
 }
