@@ -40,7 +40,7 @@ In fact, you might be expected to leave early. You’ll need to use the cheat co
 CLUAConsole:MovetoArea('AR0602')<br/>
 or C:MovetoArea('AR0602') for enhanced edition (or just click it in the area list that pops up in the EE's cheat console menu).<br/>
 Alternatively, the GO_AP mod menu has a teleport option.<br/>
-To leave the dungeon, use the same command but 'AR0700' to go to Waukeen's Promenade. Area codes are included the name of the area unlock.
+To leave the dungeon, use the same command but 'AR0700' to go to Waukeen's Promenade. 
 
 ## I'm stuck or softlocked in Planar Sphere / Planar Prison / Chapter 4 / Chapter 5!
 See the answer to the previous question. You can teleport in/out with the cheat console or GO_AP mod.
@@ -134,40 +134,40 @@ Planar Prison
 - Planar Prison Cell Key (KEY11), to free Haer'dalis and friends. 
 
 Chapter 3
-- Shadow Thief Cellar Key - used in the Shadow Thief base in the Docks to reach Aran Linvail. Both sides have this item.
-- Smuggled Shipment - item requested by Bodhi when siding with her
-- Shadow Thief Prison Key - opens a jail cell in the Shadow Thief base, when siding with Bodhi
+- Shadow Thief Cellar Key (MISC4S) - used in the Shadow Thief base in the Docks to reach Aran Linvail. Both sides have this item.
+- Smuggled Shipment (MISC6V)- item requested by Bodhi when siding with her
+- Shadow Thief Prison Key (KEY13) - opens a jail cell in the Shadow Thief base, when siding with Bodhi
 
 Brynnlaw
-- Galvena's Key - to access some areas of Galvena's Festhall
-- Guild House Key - to access the lower areas of Galvena's Festhall
-- Galvena's Medallion - an alternate way to get into Galvena's Festhall
+- Galvena's Key (MISCAM) - to access some areas of Galvena's Festhall
+- Guild House Key (KEY27)- to access the lower areas of Galvena's Festhall
+- Galvena's Medallion (MISCAN)- an alternate way to get into Galvena's Festhall
 
 Spellhold
-- Minotaur Horn - need both to get to the apparition's tests
-- Sapphire Stone, Opal Stone, Ruby Stone - use these on the portal to summon enemies for some checks  
-- Hand of Dace, Kurtulmak's Crystal Shard - needed to get deeper into Spellhold
-- Mind Flayer Painting, Troll Painting, Umberhulk Painting, Djinni Painting - opens some doors in Spellhold
+- Minotaur Horn (MISC9E & (MISC9F))- need both to get to the apparition's tests
+- Sapphire Stone (MISC8Y), Opal Stone (MISC8W), Ruby Stone (MISC8X) - use these on the portal to summon enemies for some checks  
+- Hand of Dace (MISC9A), Kurtulmak's Crystal Shard (MISC8Z) - needed to get deeper into Spellhold
+- Mind Flayer Painting (MISCAO), Troll Painting (MISCAQ), Umberhulk Painting (MISCAP), Djinni Painting (MISCAR)- opens some doors in Spellhold
 
 City of Caverns
-- Magical Rope - needed to leave for the Underdark
-- Sekolah's Tooth - optionally used for quests, needed to speak with the rebels
-- Rebel's Orb - optionally used for quests, needed to speak with the rebels
-- Sahuagin Treasury Key - Opens the locked cache in the Royal Throne Room
+- Magical Rope (MISC4V) - needed to leave for the Underdark
+- Sekolah's Tooth (KEY26) - optionally used for quests, needed to speak with the rebels
+- Rebel's Orb (MISC8Q) - optionally used for quests, needed to speak with the rebels
+- Sahuagin Treasury Key (KEY24) - Opens the locked cache in the Royal Throne Room
 
 Underdark
-- Book of Rituals - needed for Vithal to do his rituals
-- Light Gem - needed to reach Adalon
-- Elder Brain Blood, Eyestalk of an Elder Orb, Kuo-toa's Blood - need one of the three for Ardulace
+- Book of Rituals (MISCA3) - needed for Vithal to do his rituals
+- Light Gem (MISC9R) - needed to reach Adalon
+- Elder Brain Blood (MISCBV), Eyestalk of an Elder Orb (MISCA8), Kuo-toa's Blood (MISCA7) - need one of the three for Ardulace
 
 *Due to the time-locked nature of the Ust Natha quests, the Despana Treasury Key and Dragon Eggs are not in the multiworld so get them & use them the vanilla way.
 
 Chapter 6
-- Rhynn Lanthorn - to unlock chapter 7
+- Rhynn Lanthorn (C6LANTHO) - to unlock chapter 7
 
 Chapter 7
-- Talisman of Rillifane, Golden Goblet of Life, Moonblade - put all 3 on the altar in the Temple of Rillifane to summon the avatar
-- Stone Harp & Stone Horn - need these to interact with the statues in the palace to proceed to the Tree of Life
+- Talisman of Rillifane (MISCB1), Golden Goblet of Life (MISCB2), Moonblade (MISCB3) - put all 3 on the altar in the Temple of Rillifane to summon the avatar
+- Stone Harp (MISCBR) & Stone Horn (MISCBS)- need these to interact with the statues in the palace to proceed to the Tree of Life
 
 *the Tree's acorns are not in the multiworld so get them & use them the vanilla way.
 
