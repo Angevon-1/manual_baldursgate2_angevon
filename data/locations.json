@@ -25,43 +25,43 @@
     "requires": [], "victory": true
   },
   { "name": "Defeat Kangaxx the demilich", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
-    "requires": "|Golden Arm and Leg (MISCAW)| AND |Golden Torso (MISCAY)|", "victory": true
+    "requires": "{requiresPlus4()}", "victory": true
   },
   { "name": "Defeat Jon Irenicus", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
     "requires": [], "victory": true
   },    
   { "name": "Forge Ankheg Plate Mail", "region": "Docks", "category": ["Forging"],
-    "requires": "|Ankheg Shell (MISC12)|"
+    "requires": "|Ankheg Shell|"
   },
   { "name": "Forge Crom Faeyr +5", "region": "Docks", "category": ["Forging"],
-    "requires": "|Crom Faeyr Scroll (SCRLAG)| AND |Gauntlets of Ogre Power (BRAC06) (forging)| AND |Girdle of Frost Giant Strength (BELT08) (forging)| AND |Hammer of Thunderbolts +3 (HAMM07) (forging)|"
+    "requires": "|Crom Faeyr Scroll| AND |Gauntlets of Ogre Power (forging)| AND |Girdle of Frost Giant Strength (forging)| AND |Hammer of Thunderbolts +3 (forging)|"
   },
   { "name": "Forge The Equalizer", "region": "Docks", "category": ["Forging"],
-    "requires": "|Hilt of the Equalizer (SW1H54A)| AND |Blade of the Equalizer (SW1H54B)| AND |Pommel Jewel of the Equalizer (SW1H54C)|"
+    "requires": "|Hilt of the Equalizer| AND |Blade of the Equalizer| AND |Pommel Jewel of the Equalizer|"
   },
   { "name": "Forge Mace of Disruption +2", "region": "Docks", "category": ["Forging"],
-    "requires": "|Illithium Ore (MISC5K)| AND |Mace of Disruption +1 (BLUN12) (forging)|"
+    "requires": "|Illithium Ore| AND |Mace of Disruption +1 (forging)|"
   },
   { "name": "Forge Red Dragon Scale", "region": "Docks", "category": ["Forging"],
-    "requires": "|Red Dragon Scales (SCALER)|"
+    "requires": "|Red Dragon Scales|"
   },
   { "name": "Forge Shadow Dragon Scale", "region": "Docks", "category": ["Forging"],
-    "requires": "|Shadow Dragon Scales (SCALEB)|"
+    "requires": "|Shadow Dragon Scales|"
   },
   { "name": "Forge Shortbow of Gesen", "region": "Docks", "category": ["Forging"],
-    "requires": "|Gesen Bow Shaft (BOW19A)| AND |Gesen Bow String (BOW19B)|"
+    "requires": "|Gesen Bow Shaft| AND |Gesen Bow String|"
   },
   { "name": "Forge Silver Sword", "region": "Docks", "category": ["Forging"],
-    "requires": "|Silver Blade (MISC8U)| AND |Silver Hilt (SW2H15A)|"
+    "requires": "|Silver Blade| AND |Silver Hilt|"
   },
   { "name": "Forge Wave +4", "region": "Docks", "category": ["Forging"],
-    "requires": "|Wave Shaft (HALB09A)| AND |Wave Blade (HALB09B)|"
+    "requires": "|Wave Shaft| AND |Wave Blade|"
   },
   { "name": "Forge Bronze Horn of Valhalla", "region": "Waukeen's Promenade", "category": ["Forging"],
-    "requires": "|Silver Horn of Valhalla (MISC3I)| AND |Diamond (MISC42)|"
+    "requires": "|Silver Horn of Valhalla| AND |Diamond|"
   },
   { "name": "Forge the complete Flail of the Ages +3", "region": "deArnise Keep", "category": ["Forging"],
-    "requires": "|Flail Head Cold (BLUN14A)| AND |Flail Head Fire (BLUN14B)| AND |Flail Head Acid (BLUN14C)|"
+    "requires": "|Flail Head Cold| AND |Flail Head Fire| AND |Flail Head Acid|"
   },
   { "name": "Starting Companion 1", "category": ["Starting Companions"],
     "place_item_category": ["Companions"]
@@ -91,7 +91,7 @@
     "requires": []
   },
   { "name": "C1 - Free Jaheira from the cell", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Jail Cell Key (MISC4B)|"
+    "requires": "|Jail Cell Key|"
   },
   { "name": "C1 - Loot the table near the Jailkeep Golem", "region": "Irenicus's Dungeon (Level 1)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
@@ -181,64 +181,64 @@
     "requires": []
   },
   { "name": "C1 - Defeat the Otyugh in the Sewage Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the large locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the small locked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the small unlocked chest in the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the Sewage room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the first bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the second bookshelf in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the chest in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the nightstand in the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the first vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the second vase to the left of Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the Master's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the nightstand in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the chest in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },  
   { "name": "C1 - Loot the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the bookshelf in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the table in the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Meet the Dryads", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Bring the Dryads their acorns", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "{OptAll((|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|) AND |Acorns (MISC4N)|)}"
+    "requires": "{OptAll((|Sewage Golem Key| OR |Activation Stone|) AND |Acorns|)}"
   },  
   { "name": "C1 - Defeat the goblins guarding the portal to the 2nd floor", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Loot the location on the left side of Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
     "requires": []
@@ -247,127 +247,127 @@
     "requires": []
   },
   { "name": "C1 - Decide the Genie Malaaq's fate in the Elemental Plane of Air", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|The Genie's Flask (MISC4D)|"
+    "requires": "|The Genie's Flask|"
   },
   { "name": "C1 - Meet Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Find Khalid", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the Mephit Portals", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the crate near Yoshimo", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the table near the bookshelf in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the table near Khalid in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the barrel in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the first chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the second chest in the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the clone and/or assassin in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the first barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the second barrel in the clone room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the assassin and/or mephit after the Mephit Portal Room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the Duergar crossbowman in the throne room", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the throne", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },  
   { "name": "C1 - Loot the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the crate in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the first chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the second chest in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the table in the Duergar Room (behind the smithy)", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat vampire Ulvaryl and/or the assassins", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID", "Named Enemies"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the bookshelf in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the unlocked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the locked chest in the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the room before Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the left bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the right bookshelf in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the first table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the second table in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot the chest in Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "Loot"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Loot Frennedan's cell", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon - Looting", "ID", "LootLite"],
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Decide Frennedan's fate", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],    
-    "requires": "|Key to Frennedan's Room (MISC4P)| AND |Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Key to Frennedan's Room| AND |Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the duergar in the room behind the smithy", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Defeat the assassins near the dungeon exit", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "C1 - Listen to Genie Malaaq's request", "region": "Elemental Plane of Air", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
     "requires": []
   },
   { "name": "C1 - Talk to (or deal with) the Dryads on behalf of the Genie Malaaq", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Air Elemental Statue (MISC4C)|"
+    "requires": "|Air Elemental Statue|"
   },
   { "name": "C1 - Defeat the Lesser Clay Golems that guard the Mistress's Room", "region": "Irenicus's Dungeon (Past Sewage)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|"
+    "requires": "|Sewage Golem Key| OR |Activation Stone|"
   },
   { "name": "C1 - Escape Irenicus's Dungeon", "region": "Irenicus's Dungeon (Level 2)", "category": ["Chapter 1 - Irenicus's Dungeon", "ID"],
-    "requires": "|Portal Key (MISC4G)| AND (|Sewage Golem Key (MISC4O)| OR |Activation Stone (MISC4A)|)"
+    "requires": "|Portal Key| AND (|Sewage Golem Key| OR |Activation Stone|)"
   },
   { "name": "WP - Loot the enemies that Irenicus defeated", "region": "Waukeen's Promenade", "category": ["Athkatla - Waukeen's Promenade", "LootLite"],
     "requires": []
@@ -844,7 +844,7 @@
     "requires": []
   },
   { "name": "SS - Solve the mysterious voice's puzzle in the sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
-    "requires": "|Hand (MISC5S)| AND |The Lover's Ring (MISC5R)| AND |Shaman's Staff (MISC5T)| AND |Blood of Quallo's Friend (MISC5Q)|"  
+    "requires": "|Hand| AND |The Lover's Ring| AND |Shaman's Staff| AND |Blood of Quallo's Friend|"  
   },
   { "name": "SS - Loot the Slums Sewers", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers", "LootLite"],
     "requires": []
@@ -852,8 +852,14 @@
   { "name": "SS - Defeat the hobgoblins", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
   },
-  { "name": "SS - Defeat the Otyugh, Ochre Jelly, and Mustard Jelly in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+  { "name": "SS - Defeat the Otyugh in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
+  },
+  { "name": "SS - Defeat the Ochre Jelly in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+    "requires": []
+  },  
+  { "name": "SS - Defeat the Mustard Jelly in the circular room", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
+    "requires": "{requiresCrushSlashPlus1()}"
   },
   { "name": "SS - Defeat the Myconids", "region": "Slums Sewers", "category": ["Athkatla - Slums - Sewers"],
     "requires": []
@@ -994,7 +1000,7 @@
     "requires": []
   },
   { "name": "Murders 10 - Inform the authorities that the murderer escaped", "region": "Bridge", "category": ["Athkatla - Bridge District"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "BD - Loot the table in the tanner's house", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
     "requires": []
@@ -1066,10 +1072,10 @@
     "requires": []
   },
   { "name": "FFI - Speak with Samuel Thunderburp with Mazzy in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
-    "requires": "{OptAll(|Mazzy| AND |Shadow Prison Key (KEY22)| AND |Temple Ruins Unlock (AR1400)| AND |Umar Hills Unlock (AR1100)|)}"
+    "requires": "{OptAll(|Mazzy| AND |Shadow Prison Key| AND |Temple Ruins Unlock| AND |Umar Hills Unlock|)}"
   },
   { "name": "FFI - Speak with Samuel Thunderburp with Haer'dalis in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
-    "requires": "{OptAll(|Haer'Dalis| AND |Temple District Unlock (AR0900)|)}"
+    "requires": "{OptAll(|Haer'Dalis| AND |Temple District Unlock|)}"
   },
   { "name": "BD - Speak with Stivan with Aerie in the party", "region": "Bridge", "category": ["Athkatla - Bridge District"],
     "requires": "{OptOne(|Aerie|)}"
@@ -1189,7 +1195,7 @@
     "requires": []
   },  
   { "name": "FFI - Deliver the gem to Raelis Shai", "region": "Bridge", "category": ["Athkatla - Bridge District"],
-    "requires": "|Portal Gem (MISC6X)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Portal Gem| AND |Temple District Unlock|"
   },
   { "name": "PP - Guard the actors while they open the interdimensional portal", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
@@ -1210,7 +1216,7 @@
     "requires": []
   },
   { "name": "PP - Rescue Haer'dalis and friends in the Planar Prison", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
-    "requires": "{OptOne(|Planar Prison Cell Key (KEY11)|)}"
+    "requires": "{OptOne(|Planar Prison Cell Key|)}"
   },
   { "name": "PP - Destroy (or don't) the Mastery Orb", "region": "Planar Prison", "category": ["Athkatla - Bridge District"],
     "requires": []
@@ -1381,22 +1387,22 @@
     "requires": []
   },
   { "name": "Harpers 1 - Deliver Renfeld to Rylock", "region": "Docks", "category": ["Athkatla - Docks"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": "|Renfeld's Body|"
   },
   { "name": "Harpers 2 - Meet Xzar", "region": "Docks", "category": ["Athkatla - Docks"],
-    "requires": "|Renfeld's Body (MISC5F)|"
+    "requires": "|Renfeld's Body|"
   },
   { "name": "Harpers 3 - Deal with Prebek and Sanasha", "region": "Harper Hold", "category": ["Athkatla - Docks"],
     "requires": []
   },
   { "name": "Harpers 4 - Deal with the Spectral Harpists", "region": "Harper Hold", "category": ["Athkatla - Docks"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "Harpers 5 - Find the bird in the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "Harpers 6 - Deliver the bird to Xzar", "region": "Harper Hold", "category": ["Athkatla - Docks"],
-    "requires": "|Harper Amulet (MISC5E)| AND |Harper Bird (MISC5D)|"
+    "requires": "|Harper Amulet| AND |Harper Bird|"
   },
   { "name": "GYD - Loot the sarcophagus behind Arenthis", "region": "Graveyard", "category": ["Athkatla - Graveyard District - Looting", "Loot"],
     "requires": []
@@ -1414,7 +1420,7 @@
     "requires": []
   },
   { "name": "Wellyn 4 - Deliver Littleman to Wellyn", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
-    "requires": "|Littleman The Stuffed Bear (MISC5L)|"
+    "requires": "|Littleman The Stuffed Bear|"
   },
   { "name": "GYD - Decide Stein's fate (night time)", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
@@ -1423,7 +1429,7 @@
     "requires": []
   },
   { "name": "Buried Alive 2 - Interrogate Sethle on behalf of Tirdir", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
-    "requires": "|Piece of Red Cloth (MISC5N)|"
+    "requires": "|Piece of Red Cloth|"
   },  
   { "name": "Kamir 1 - Meet Arenthis and Risa", "region": "Graveyard", "category": ["Athkatla - Graveyard District"],
     "requires": []
@@ -1555,37 +1561,37 @@
     "requires": []
   },
   { "name": "Buried Alive 3 - Confront Am-Si on behalf of Tirdir", "region": "Bridge", "category": ["Athkatla - Graveyard District"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive 4 - Defeat Reti and Camitis", "region": "Bridge", "category": ["Athkatla - Graveyard District", "Named Enemies"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the sack in Reti and Camitis's base", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the table in Reti and Camitis's base", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the chest in Reti and Camitis's base", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive 5 - Deal with Lady Elgea", "region": "Bridge", "category": ["Athkatla - Graveyard District"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the left chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the right chest in the room Lady Elgea is held in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the dresser in the room Lady Elgea is held in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot the table in the room Lady Elgea is held in", "region": "Bridge", "category": ["Athkatla - Bridge District - Looting", "Loot"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Buried Alive - Loot Reti and Camitis's base", "region": "Bridge", "category": ["Athkatla - Bridge District", "LootLite"],
-    "requires": "|Piece of Red Cloth (MISC5N)| AND |Graveyard District Unlock (AR0800)|"
+    "requires": "|Piece of Red Cloth| AND |Graveyard District Unlock|"
   },
   { "name": "Docks - Loot the first bookshelf in the Temple of Oghma", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
@@ -1675,22 +1681,22 @@
     "requires": []
   },
   { "name": "Docks - Loot the round table on the first floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Docks - Loot the bookshelf on the first floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Docks - Loot the bed on the 2nd floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Docks - Loot the round table on the top floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Docks - Loot the brazier on the top floor in Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Docks - Loot Rayic Gethras's home", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },  
   { "name": "Mae'var 1 - Gain access to Mae'Var's Guildhall", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
     "requires": []
@@ -1699,82 +1705,82 @@
     "requires": []
   },
   { "name": "Mae'var 3 - Deliver the necklace or statuette to Mae'Var", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Mae'var 4 - Meet Edwin", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Mae'var 5 - Defeat the mephits in Rayic Gethras's house", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Mae'var 6 - Defeat the golems in Rayic Gethras's house", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Mae'var 7 - Defeat Rayic Gethras", "region": "Maevar Guildhall", "category": ["Athkatla - Docks", "Named Enemies"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock|"
   },
   { "name": "Mae'var 8 - Give Edwin the documents from Marcus", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Edwin's Documents|"
   },
   { "name": "Mae'var 9 - Decide Embarl's fate", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "Mae'var 10 - Bring Embarl's dagger to Mae'Var", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "Loot Mae'Var's Strongbox", "region": "Docks", "category": ["Athkatla - Docks", "LootLite"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)| AND |Mae'Var's Strongbox Key (EDWINKEY)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Embarl's Dagger| AND |Edwin's Documents| AND |Mae'Var's Strongbox Key|"
   },
   { "name": "Mae'var 11 - Bring the letter of proof of Mae'Var's treachery to Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Mae'Var's Letter| AND |Mae'Var's Strongbox Key| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "Mae'var 12 - Defeat Mae'Var on behalf of Renal Bloodscalp", "region": "Maevar Guildhall", "category": ["Athkatla - Docks", "Named Enemies"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Mae'Var's Letter| AND |Mae'Var's Strongbox Key| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "Mae'var 13 - Free Kamuzu from the cell", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Mae'Var's Letter| AND |Mae'Var's Strongbox Key| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "Mae'var 14 - Return to Renal Bloodscalp once Mae'var is dead", "region": "Maevar Guildhall", "category": ["Athkatla - Docks"],
-    "requires": "|Statuette of Lathander (MISC4X)| AND |Necklace of Talos (MISC4Y)| AND |Temple District Unlock (AR0900)| AND |Mae'Var's Letter (MISC4V)| AND |Mae'Var's Strongbox Key (EDWINKEY)| AND |Embarl's Dagger (MISC4U)| AND |Edwin's Documents (MISC4W)|"
+    "requires": "|Statuette of Lathander| AND |Necklace of Talos| AND |Temple District Unlock| AND |Mae'Var's Letter| AND |Mae'Var's Strongbox Key| AND |Embarl's Dagger| AND |Edwin's Documents|"
   },
   { "name": "HH - Loot the barrel on the roof", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the table on the roof", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the small table on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the sack near the small table on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the first chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the second chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the third chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the fourth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the fifth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the sixth chest in the communal bedroom on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the table in the dining room on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the barrel near the aviary on the second floor", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "Loot the Harper Hold", "region": "Harper Hold", "category": ["Athkatla - Docks", "LootLite"],
-    "requires": "|Harper Amulet (MISC5E)|"
+    "requires": "|Harper Amulet|"
   },
   { "name": "HH - Loot the table in the first room", "region": "Harper Hold", "category": ["Athkatla - Docks - Looting", "Loot"],
     "requires": []
@@ -1840,40 +1846,40 @@
     "requires": []
   },
   { "name": "Sarles 2 - Visit the Jysstev estate and ask for Sir Sarles", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Sarles 3 - Speak with Jerlia at Waukeen's Promenade about illithium", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Sarles 4 - Speak with Jerlia the ore merchant about illithium", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Sarles 5 - Speak with Unger Hilldark in the Copper Coronet about illithium", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Sarles 6 - Confront Neb in his home in the Bridge District", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Sarles 7 - Turn Neb's head in to Inspector Brega", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)| AND |Neb's Head (MISC9H)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock| AND |Neb's Head|"
   },
   { "name": "Sarles 8 - Deliver Illithium Ore or the alloy to Sir Sarles", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Sarles 9 - Report on the success or failure of the Sir Sarles quest to the leader priest", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Dawn Ring 1 - Learn that the Lathandrite's Dawn Ring has been stolen", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Dawn Ring 2 - Confront Travin about the Dawn Ring", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Dawn Ring 3 - Confront Borinall about the Dawn Ring", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Dawn Ring 4 - Deliver the Dawn Ring to the leader priest", "region": "Sir Sarles Quest", "category": ["Athkatla - Temple District"],
-    "requires": "|Government District Unlock (AR1000)| AND |Bridge District Unlock (AR0500)| AND |Dawn Ring (RING38)|"
+    "requires": "|Government District Unlock| AND |Bridge District Unlock| AND |Dawn Ring|"
   },
   { "name": "Cult 1 - Listen to Gaal's speech", "region": "Temple District", "category": ["Athkatla - Temple District"],
     "requires": []
@@ -1891,16 +1897,16 @@
     "requires": []
   },
   { "name": "Fallen Paladins 2 - Meet Reynald de Chatillon", "region": "Temple District", "category": ["Athkatla - Temple District"],
-    "requires": "|Bridge District Unlock (AR0500)|"
+    "requires": "|Bridge District Unlock|"
   },
   { "name": "Fallen Paladins 3 - Retrieve Anarg's Cup from the High Hall", "region": "Temple District", "category": ["Athkatla - Temple District"],
-    "requires": "|Bridge District Unlock (AR0500)|"
+    "requires": "|Bridge District Unlock|"
   },
   { "name": "Fallen Paladins 4 - Return to Reynald with Anarg's Cup", "region": "Temple District", "category": ["Athkatla - Temple District"],
-    "requires": "|Anarg's Cup (MISC6I)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Anarg's Cup| AND |Bridge District Unlock|"
   },
   { "name": "Fallen Paladins 5 - Return to Ryan Trawl", "region": "Temple District", "category": ["Athkatla - Temple District"],
-    "requires": "|Anarg's Cup (MISC6I)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Anarg's Cup| AND |Bridge District Unlock|"
   },
   { "name": "TDS - Ask Roger the Fence why he's in the sewers", "region": "Temple District Sewers", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
@@ -2053,10 +2059,10 @@
     "requires": []
   },
   { "name": "Cult 8 - Learn the cult's passphrase", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
-    "requires": "|Rift Device Part (MISC5A)|"
+    "requires": "|Rift Device Part A|"
   },
   { "name": "Cult 9 - Tell Tad the cult's passphrase", "region": "Lower Reaches", "category": ["Athkatla - Temple District Sewers"],
-    "requires": "|Rift Device Part (MISC5A)|"
+    "requires": "|Rift Device Part A|"
   },
   { "name": "PotF - Meet Theshel, the mayor of the undead in Ghoul Town", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
     "requires": []
@@ -2095,16 +2101,16 @@
     "requires": []
   },
   { "name": "Cult 10 - Defeat the Unseeing Eye", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
+    "requires": "|Rift Device Part B| AND |Rift Device Part A|"
   },
   { "name": "Cult 11 - Return the Rift Device to the Avatar", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
+    "requires": "|Rift Device Part B| AND |Rift Device Part A|"
   },
   { "name": "Cult 12 - Defeat Gaal", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers", "Named Enemies"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|"
+    "requires": "|Rift Device Part B| AND |Rift Device Part A|"
   },
   { "name": "Cult 13 - Report the end of the Cult to your temple leader", "region": "Pit of the Faithless", "category": ["Athkatla - Temple District Sewers"],
-    "requires": "|Rift Device Part (MISC5B)| AND |Rift Device Part (MISC5A)|", "place_item": ["Quest Complete Token"]
+    "requires": "|Rift Device Part B| AND |Rift Device Part A|", "place_item": ["Quest Complete Token"]
   },
   { "name": "TD - Loot the cache by the Temple of Lathander", "region": "Temple District", "category": ["Athkatla - Temple District - Looting", "Loot"],
     "requires": []
@@ -2236,19 +2242,19 @@
     "requires": []
   },
   { "name": "TM - Deal with Genie Khan Zahraa", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)|"
+    "requires": "|Ihtafeer's Head|"
   },
   { "name": "TM - Become the heroes of Trademeet (or don't if you poisoned the druids)", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)|", "place_item": ["Quest Complete Token"]
+    "requires": "|Ihtafeer's Head|", "place_item": ["Quest Complete Token"]
   },
   { "name": "TM - Listen to Tiris's Request", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Ihtafeer's Head| AND |Bridge District Unlock|"
   },
   { "name": "TM - Meet with Darsidian Moor", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Ihtafeer's Head| AND |Bridge District Unlock|"
   },
   { "name": "TM - Decide Raissa's fate", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Ihtafeer's Head| AND |Bridge District Unlock|"
   },
   { "name": "TM - Meet Viekang in Vyatri's pub", "region": "Trademeet", "category": ["Trademeet"],
     "requires": []
@@ -2350,13 +2356,13 @@
     "requires": []
   },
   { "name": "TM - Accept the quest from Luraxxol or Alibakkar", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)|"
+    "requires": "|Ihtafeer's Head|"
   },
   { "name": "TM - Defeat the enemies in the Trademeet crypt", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Trademeet Tomb Key (MISC8M)|"
+    "requires": "|Ihtafeer's Head| AND |Trademeet Tomb Key|"
   },
   { "name": "TM - Decide what to do with the Mantle of Waukeen", "region": "Druid Grove", "category": ["Trademeet"],
-    "requires": "|Ihtafeer's Head (MISC8K)| AND |Trademeet Tomb Key (MISC8M)| AND |Mantle of Waukeen (MISC8L)|"
+    "requires": "|Ihtafeer's Head| AND |Trademeet Tomb Key| AND |Mantle of Waukeen|"
   },
   { "name": "TM - Loot the chest in the Alibakkar estate", "region": "Trademeet", "category": ["Trademeet - Looting", "Loot"],
     "requires": []
@@ -2434,7 +2440,7 @@
     "requires": []
   },
   { "name": "TR - Meet Mazzy", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
-    "requires": "|Shadow Prison Key (KEY22)|"
+    "requires": "|Shadow Prison Key|"
   },
   { "name": "TR - Satisfy the statue with your knowledge of the rituals", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins"],
     "requires": []
@@ -2458,7 +2464,7 @@
     "requires": []
   },
   { "name": "TR - Give Amuana's Bones to the ghosts", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins"],
-    "requires": "|Amuana's Bones (MISC6Q)|"
+    "requires": "|Amuana's Bones|"
   },
   { "name": "TR - Defeat the Shadow Jailer", "region": "Temple Ruins", "category": ["Umar Hills - Temple Ruins", "Named Enemies"],
     "requires": []
@@ -2470,7 +2476,7 @@
     "requires": []
   },
   { "name": "TR - Sneak past (or defeat) the Shadow Dragon", "region": "Temple Ruins Past 2nd Barrier", "category": ["Umar Hills - Temple Ruins"],
-    "requires": "|Amuana's Bones (MISC6Q)| AND |Shadow Dragon Wardstone (MISC6P)|"
+    "requires": "|Amuana's Bones| AND |Shadow Dragon Wardstone|"
   },
   { "name": "TR - Loot the statue with its arms outstretched", "region": "Temple Ruins Past 1st Barrier", "category": ["Umar Hills - Temple Ruins - Looting", "Loot"],
     "requires": []
@@ -2485,10 +2491,10 @@
     "requires": [], "place_item": ["Quest Complete Token"]
   },
   { "name": "UH - Deliver mimic blood to Jermien", "region": "Umar Hills", "category": ["Umar Hills"],
-    "requires": "|Mimic's Blood (MISC6Y)|"
+    "requires": "|Mimic's Blood|"
   },
   { "name": "UH - Save (or don't) Jermien from the Golem", "region": "Umar Hills", "category": ["Umar Hills"],
-    "requires": "|Mimic's Blood (MISC6Y)|"
+    "requires": "|Mimic's Blood|"
   },
   { "name": "UH - Loot the shelf in Jermien's home", "region": "Umar Hills", "category": ["Umar Hills - Looting", "Loot"],
     "requires": []
@@ -2572,7 +2578,7 @@
     "requires": []
   },
   { "name": "PS - Activate the Guardian Golem", "region": "Planar Zone", "category": ["Athkatla - Slums - Planar Sphere"],
-    "requires": "|Golem Arm (MISC6K)| AND |Golem Head (MISC6J)|"
+    "requires": "|Golem Arm| AND |Golem Head|"
   },
   { "name": "PS - Defeat the trapped Elder Orb", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
     "requires": []
@@ -2623,10 +2629,10 @@
     "requires": []
   },
   { "name": "PS - Put the demon heart in the device", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
-    "requires": "|Demon Heart (MISC6M)|"
+    "requires": "|Demon Heart|"
   },
   { "name": "PS - Decide whether to let Lavok die inside or outside the Sphere", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere"],
-    "requires": "|Demon Heart (MISC6M)|", "place_item": ["Quest Complete Token"]
+    "requires": "|Demon Heart|", "place_item": ["Quest Complete Token"]
   },
   { "name": "PS - Loot the overall Planar Sphere", "region": "Planar Zone Past Golem", "category": ["Athkatla - Slums - Planar Sphere", "LootLite"],
     "requires": []
@@ -2730,6 +2736,9 @@
   { "name": "DK - Defeat the troll(s) in the library", "region": "deArnise Keep", "category": ["de'Arnise Keep"],
     "requires": []
   },
+  { "name": "DK - Defeat the golem(s) guarding the cache", "region": "deArnise Keep", "category": ["de'Arnise Keep"],
+    "requires": "{requiresPlus3()}"
+  },
   { "name": "DK - Loot the left bookshelf in the library", "region": "deArnise Keep", "category": ["de'Arnise Keep - Looting", "Loot"],
     "requires": []
   },
@@ -2806,7 +2815,7 @@
     "requires": []
   },
   { "name": "WH - Deliver the acorns to the dryads", "region": "Windspear Hills", "category": ["Windspear Hills"],
-    "requires": "|Acorns (MISC4N)|"
+    "requires": "|Acorns|"
   },
   { "name": "WH - Defeat the werewolves & gnolls in the center of the map", "region": "Windspear Hills", "category": ["Windspear Hills"],
     "requires": []
@@ -2869,7 +2878,7 @@
     "requires": []
   },
   { "name": "WH - Save (or don't) Garren's child", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Firkraag Prison Key (KEY09)|", "place_item": ["Quest Complete Token"]
+    "requires": "|Firkraag Prison Key|", "place_item": ["Quest Complete Token"]
   },
   { "name": "WH - Use the well's winch", "region": "Chapel Key", "category": ["Windspear Hills"],
     "requires": []
@@ -2896,34 +2905,34 @@
     "requires": []
   },
   { "name": "WH - Loot the book pile in the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills - Looting", "Loot"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 1st guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 2nd guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 3rd guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 4th guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 5th guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the 6th guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)|"
+    "requires": "|Samia's Key|"
   },
   { "name": "WH - Defeat the invisible guardian of the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills"],
-    "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
+    "requires": "|Samia's Key| AND |Mask of King Strohm III|"
   },
   { "name": "WH - Loot the Tomb of King Strohm III", "region": "Chapel Key", "category": ["Windspear Hills", "LootLite"],
-    "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
+    "requires": "|Samia's Key| AND |Mask of King Strohm III|"
   },
   { "name": "WH - Defeat Samia and co.", "region": "Chapel Key", "category": ["Windspear Hills", "Named Enemies"],
-    "requires": "|Samia's Key (KEY21)| AND |Mask of King Strohm III (KEY20)|"
+    "requires": "|Samia's Key| AND |Mask of King Strohm III|"
   },  
   { "name": "AA - Deal with Geld Quickblade", "region": "Abandoned Amphitheater", "category": ["Abandoned Amphitheater", "EE Companion Quests"],
     "requires": []
@@ -3142,10 +3151,10 @@
     "requires": []
   },
   { "name": "Korgan 3 - Take Korgan to the Pimlico Estate", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Unlock (AR0900)|"
+    "requires": "|Temple District Unlock|"
   },
   { "name": "Korgan 4 - Take Korgan to the roof of the Copper Coronet to confront Shagbag", "region": "Korgan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Temple District Unlock (AR0900)|"
+    "requires": "|Temple District Unlock|"
   },
   { "name": "Hexxat 1 - Take 'Hexxat' to Dragomir's Tomb", "region": "Dragomir's Tomb", "category": ["EE Companion Quests"],
     "requires": []
@@ -3199,7 +3208,7 @@
     "requires": []
   },
   { "name": "Neera - Bring Mironda the Halfling's Help alcohol from Trademeet", "region": "Neera's Companion Quest", "category": ["EE Companion Quests"],
-    "requires": "|Trademeet Unlock (AR2000)|"
+    "requires": "|Trademeet Unlock|"
   },
   { "name": "Neera - Talk to Amanis, then return to the Wild forest, then find Kirik and decide his fate", "region": "Neera's Companion Quest", "category": ["EE Companion Quests"],
     "requires": []
@@ -3277,109 +3286,109 @@
     "requires": []
   },
   { "name": "Jan 4 - Speak to Jysstev for advice", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Jan 5 - Speak with the Hidden", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)|"
+    "requires": "|Government District Unlock|"
   },
   { "name": "Jan 6 - Speak with the Thumb in the Seas Bounty with the Hidden's codeword", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)|"
+    "requires": "|Government District Unlock| AND |Docks District Unlock|"
   },
   { "name": "Jan 7 - Defeat the Hidden's enemies", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Docks District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Jan 8 - Report victory to the Hidden", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Docks District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Jan 9 - Return to the child", "region": "Jan's Companion Quest", "category": ["Companion Quests"],
-    "requires": "|Government District Unlock (AR1000)| AND |Docks District Unlock (AR0300)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Government District Unlock| AND |Docks District Unlock| AND |Bridge District Unlock|"
   },
   { "name": "Pay the fee to Gaelan Bayle or Bodhi", "region": "Slums", "category": ["Athkatla - Slums"],
-    "requires": "|Quest Complete Token: 1| AND |Graveyard District Unlock (AR0800)|", "place_item": ["Chapter 2 Completion Token"]
+    "requires": "|Quest Complete Token: 1| AND |Graveyard District Unlock|", "place_item": ["Chapter 2 Completion Token"]
   },
   { "name": "C3 - Meet with Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Meet the traitor thief in the Shadow Thief Cellar dining area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the general Shadow Thief Cellar area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "LootLite"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the Shadow Thief Cellar dining area", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the starting room in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the archery training area in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the coat check room in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot the torture chamber in the Shadow Thief Cellar", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Loot Aran Linvail's room", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Looting", "Loot"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Meet Mook", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Defeat Lassal at the docks", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Report Mook's end to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Meet the traitor thieves", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat Gracen", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Report the end of the traitors to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Meet Haz in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat the grimwards", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },  
   { "name": "C3 - Stake Gellal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },  
   { "name": "C3 - Defeat Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Stake Durst", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat Tanova", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Search the blood pool", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Loot Bodhi's inner sanctum", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "LootLite"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat Lassal in the Lower Tombs", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Stake Lassal", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Defeat Bodhi", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|"
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|"
   },
   { "name": "C3 - Report victory to Aran Linvail", "region": "Chapter 3", "category": ["Shadow Thieves", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Shadow Thief Cellar Key (MISC4S)| AND |Bridge District Unlock (AR0500)|", "place_item": ["Chapter 3 Completion Token"]
+    "requires": "|Shadow Thief Cellar Key| AND |Bridge District Unlock|", "place_item": ["Chapter 3 Completion Token"]
   },
   { "name": "C3 - Meet with Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
     "requires": []
@@ -3388,25 +3397,25 @@
     "requires": []
   },
   { "name": "C3 - Deliver the shipment to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Smuggled Shipment (MISC6V)|"
+    "requires": "|Smuggled Shipment|"
   },
   { "name": "C3 - Complete Bodhi's 'good' or 'evil' task", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
+    "requires": "|Smuggled Shipment| AND |Government District Unlock|"
   },
   { "name": "C3 - Defeat Gaelan Bayle", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)|"
+    "requires": "|Smuggled Shipment| AND |Government District Unlock|"
   },
   { "name": "C3 - Kill Booter", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)|"
+    "requires": "|Smuggled Shipment| AND |Government District Unlock| AND |Shadow Thief Cellar Key|"
   },
   { "name": "C3 - Free Tizzak from the prison", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
+    "requires": "|Smuggled Shipment| AND |Government District Unlock| AND |Shadow Thief Cellar Key| AND |Shadow Thief Prison Key|"
   },
   { "name": "C3 - Defeat Aran Linvail", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires", "Named Enemies"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|"
+    "requires": "|Smuggled Shipment| AND |Government District Unlock| AND |Shadow Thief Cellar Key| AND |Shadow Thief Prison Key|"
   },
   { "name": "C3 - Report victory to Bodhi", "region": "Chapter 3", "category": ["Bodhi", "Chapter 3 - Thieves vs. Vampires"],
-    "requires": "|Smuggled Shipment (MISC6V)| AND |Government District Unlock (AR1000)| AND |Shadow Thief Cellar Key (MISC4S)| AND |Shadow Thief Prison Key (KEY13)|", "place_item": ["Chapter 3 Completion Token"]
+    "requires": "|Smuggled Shipment| AND |Government District Unlock| AND |Shadow Thief Cellar Key| AND |Shadow Thief Prison Key|", "place_item": ["Chapter 3 Completion Token"]
   },
   { "name": "C3 - Sail to Brynnlaw", "region": "Chapter 3", "category": ["Chapter 3 - Thieves vs. Vampires"],
     "requires": "|Chapter 3 Completion Token|"
@@ -3517,19 +3526,19 @@
     "requires": []
   },
   { "name": "BL - Find a way past the guards to Lady Galvena's chambers", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|"
+    "requires": "|Guild House Key| OR |Galvena's Medallion|"
   },
   { "name": "BL - Defeat Galvena and Videk", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4", "Named Enemies"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key| AND (|Guild House Key| OR |Galvena's Medallion|)"
   },
   { "name": "BL - Speak with Claire", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key| AND (|Guild House Key| OR |Galvena's Medallion|)"
   },
   { "name": "BL - Speak with Captain Golin", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key| AND (|Guild House Key| OR |Galvena's Medallion|)"
   },
   { "name": "BL - Find a way into Spellhold", "region": "Brynnlaw", "category": ["Chapter 4 - Brynnlaw", "Chapter 4"],
-    "requires": "|Galvena's Key (MISCAM)| AND (|Guild House Key (KEY27)| OR |Galvena's Medallion (MISCAN)|)"
+    "requires": "|Galvena's Key| AND (|Guild House Key| OR |Galvena's Medallion|)"
   },
   { "name": "SH - Meet the Coordinator or Lonk the Sane", "region": "Spellhold", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
@@ -3562,13 +3571,13 @@
     "requires": []
   },
   { "name": "SH - Interact with the portal with the Sapphire Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Sapphire Stone (MISC8Y)|"
+    "requires": "|Sapphire Stone|"
   },
   { "name": "SH - Interact with the portal with the Opal Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Opal Stone (MISC8W)|"
+    "requires": "|Opal Stone|"
   },
   { "name": "SH - Interact with the portal with the Ruby Stone", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Ruby Stone (MISC8X)|"
+    "requires": "|Ruby Stone|"
   },
   { "name": "SH - Answer all the Statue of Riddles' riddles", "region": "Spellhold Dungeon", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
@@ -3637,25 +3646,25 @@
     "requires": []
   },
   { "name": "SH - Defeat the enemy behind the mind flayer painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Mind Flayer Painting (MISCAO)|"
+    "requires": "|Mind Flayer Painting|"
   },
   { "name": "SH - Defeat the enemy behind the troll painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Troll Painting (MISCAQ)|"
+    "requires": "|Troll Painting|"
   },  
   { "name": "SH - Defeat the enemy behind the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Umberhulk Painting (MISCAP)|"
+    "requires": "|Umberhulk Painting|"
   },
   { "name": "SH - Defeat the enemy behind the djinni painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Djinni Painting (MISCAR)|"
+    "requires": "|Djinni Painting|"
   },
   { "name": "SH - Defeat the golem(s) in the room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "|Umberhulk Painting (MISCAP)|"
+    "requires": "|Umberhulk Painting|"
   },
   { "name": "SH - Loot the pot in the golem room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
-    "requires": "|Umberhulk Painting (MISCAP)|"
+    "requires": "|Umberhulk Painting|"
   },
   { "name": "SH - Loot the chest in the golem room past the umber hulk painting", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold - Looting", "Chapter 4", "Loot"],
-    "requires": "|Umberhulk Painting (MISCAP)|"
+    "requires": "|Umberhulk Painting|"
   },
   { "name": "SH - Scare Bodhi away with your Slayer form", "region": "Spellhold Dungeon Past Head", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
     "requires": []
@@ -3713,25 +3722,25 @@
     "requires": []
   },
   { "name": "CoC - Meet the rebel prince Villynaty", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
-    "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
+    "requires": "|Sekolah's Tooth| AND |Rebel's Orb|"
   },
   { "name": "CoC - Deal with the Sahaguin drama however you like", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
-    "requires": "|Sekolah's Tooth (KEY26)| AND |Rebel's Orb (MISC8Q)|"
+    "requires": "|Sekolah's Tooth| AND |Rebel's Orb|"
   },
   { "name": "CoC - Loot the Sahaguin Treasury", "region": "City of Caverns", "category": ["Chapter 4 - City of Caverns", "City of Caverns"],
-    "requires": "|Sahuagin Treasury Key (KEY24)|"
+    "requires": "|Sahuagin Treasury Key|"
   },
   { "name": "Reach the Underdark", "region": "Spellhold Tests", "category": ["Chapter 4 - Spellhold", "Chapter 4"],
-    "requires": "{OptOne(|Magical Rope (MISC4V)|)}", "place_item": ["Chapter 4 Completion Token"]
+    "requires": "{OptOne(|Magical Rope|)}", "place_item": ["Chapter 4 Completion Token"]
   },
   { "name": "UD - Free Vithal", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
+    "requires": "{OptAll(|Scroll of Freedom| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
   { "name": "UD - Deliver the Book of Rituals to Vithal", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND |Book of Rituals (MISCA3)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
+    "requires": "{OptAll(|Scroll of Freedom| AND |Book of Rituals| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
   { "name": "UD - Defeat the elementals freed by Vithal during the ritual", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "{OptAll(|Scroll of Freedom (SCRL9Z)| AND |Book of Rituals (MISCA3)| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
+    "requires": "{OptAll(|Scroll of Freedom| AND |Book of Rituals| AND (|Jan| OR |Imoen| OR |Edwin| OR |Nalia| OR |Aerie| OR |Haer'Dalis| OR |Neera|))}"
   },
   { "name": "Western Tunnels - Defeat the beholders in the upper left room", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
@@ -3824,7 +3833,7 @@
     "requires": []
   },
   { "name": "UD - Meet Adalon", "region": "Underdark", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Light Gem (MISC9R)|"
+    "requires": "|Light Gem|"
   },
   { "name": "UN - Enter Ust Natha as Veldrin", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
@@ -3935,16 +3944,16 @@
     "requires": []
   },
   { "name": "UN - Deliver noble blood to Ardulace", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Elder Brain Blood (MISCBV)| OR |Eyestalk of an Elder Orb (MISCA8)| OR |Kuo-toa's Blood (MISCA7)|"
+    "requires": "|Elder Brain Blood| OR |Eyestalk of an Elder Orb| OR |Kuo-toa's Blood|"
   },
   { "name": "UN - Obtain Adalon's eggs", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Elder Brain Blood (MISCBV)| OR |Eyestalk of an Elder Orb (MISCA8)| OR |Kuo-toa's Blood (MISCA7)|"
+    "requires": "|Elder Brain Blood| OR |Eyestalk of an Elder Orb| OR |Kuo-toa's Blood|"
   },
   { "name": "UN - Witness Ardulace's demon summoning ritual", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Elder Brain Blood (MISCBV)| OR |Eyestalk of an Elder Orb (MISCA8)| OR |Kuo-toa's Blood (MISCA7)|"
+    "requires": "|Elder Brain Blood| OR |Eyestalk of an Elder Orb| OR |Kuo-toa's Blood|"
   },
   { "name": "UN - Decide what to do with Adalon's eggs", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
-    "requires": "|Elder Brain Blood (MISCBV)| OR |Eyestalk of an Elder Orb (MISCA8)| OR |Kuo-toa's Blood (MISCA7)|"
+    "requires": "|Elder Brain Blood| OR |Eyestalk of an Elder Orb| OR |Kuo-toa's Blood|"
   },
   { "name": "UD - Defeat the drow at the exit to the Underdark", "region": "Ust Natha", "category": ["Chapter 5 - Underdark", "Chapter 5"],
     "requires": []
@@ -3995,7 +4004,7 @@
     "requires": [] 
   },
   { "name": "C6 - Give Elhan the Rhynn Lanthorn", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
-    "requires": "|Rhynn Lanthorn (C6LANTHO)|"
+    "requires": "|Rhynn Lanthorn|"
   },
   { "name": "Explore Small Teeth Pass", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
     "requires": [] 
@@ -4013,7 +4022,7 @@
     "requires": [] 
   },
   { "name": "C7 - Have Elhan open the way to the elven city", "region": "Chapter 6", "category": ["Chapter 6 - Rhynn Lanthorn", "Chapter 6"],
-    "requires": "|Rhynn Lanthorn (C6LANTHO)|", "place_item": ["Chapter 6 Completion Token"]
+    "requires": "|Rhynn Lanthorn|", "place_item": ["Chapter 6 Completion Token"]
   },
   { "name": "C7 - Solve the puzzle in the House of the Talisman", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
     "requires": []
@@ -4130,16 +4139,16 @@
     "requires": []
   },
   { "name": "C7 - Summon the Avatar of Rillifane", "region": "Chapter 7", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
-    "requires": "|Talisman of Rillifane (MISCB1)| AND |Golden Goblet of Life (MISCB2)| AND |Moonblade (MISCB3)|"
+    "requires": "|Talisman of Rillifane| AND |Golden Goblet of Life| AND |Moonblade|"
   },
   { "name": "C7 - Interact with the tree and receive nuts", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
     "requires": []
   },
   { "name": "C7 - Place the stone harp on the statue in the palace", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
-    "requires": "|Stone Harp (MISCBR)|"
+    "requires": "|Stone Harp|"
   },
   { "name": "C7 - Place the stone horn on the statue in the palace", "region": "Elven Palace", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
-    "requires": "|Stone Horn (MISCBS)|"
+    "requires": "|Stone Horn|"
   },
   { "name": "C7 - Meet Ellisime's projection", "region": "Ellisime", "category": ["Chapter 7 - Suldanessellar", "Chapter 7"],
     "requires": []
